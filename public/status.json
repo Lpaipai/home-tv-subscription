@@ -1,0 +1,894 @@
+{
+  "updated_at": "2026-10-24T08:46:02+08:00",
+  "base_url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public",
+  "live": [
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "04971f66ecef21f918d88c66fc6b8139698f469f7ea6e58100260c472bb36b94",
+      "cached": false,
+      "id": "cn",
+      "name": "中国大陆",
+      "entries": 149
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "17962d89d223a71a997b4b489c4583c63af9fe85139e756080a7e5477c8b1f54",
+      "cached": false,
+      "id": "lightconer",
+      "name": "国内备用",
+      "entries": 194
+    },
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "bac7b179c16c389a369434e79db21770bfd2f680ebc094cfa3f9453cdedb493c",
+      "cached": false,
+      "id": "hk",
+      "name": "香港",
+      "entries": 17
+    },
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "46f74ba1d6a54c70dbf5fe9aeae5d9c94b27219c407f9f94b7c870c5fd0bd08f",
+      "cached": false,
+      "id": "tw",
+      "name": "台湾",
+      "entries": 31
+    },
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "d4140472fec3dc93fd486ab98e9fd3cc73760a42efeb036cef1f3d7049bae0ff",
+      "cached": false,
+      "id": "us",
+      "name": "美国",
+      "entries": 1483
+    },
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "790052ef395898f3ddefce5ee521ca3fff4cee374c6d756a3dfef8bce87b3081",
+      "cached": false,
+      "id": "jp",
+      "name": "日本",
+      "entries": 10
+    },
+    {
+      "url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "resolved_url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "4deee9004932027d22f034fab0bec8a27e006109a817498ea1eaa90c79d75f46",
+      "cached": false,
+      "id": "kr",
+      "name": "韩国",
+      "entries": 72
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "d5f54aa4475742a5f7679037c3d1a9ebaa2967d6224ce1a5a080da39f1e745e8",
+      "cached": false,
+      "id": "nexus-cn",
+      "name": "Nexus 中国大陆",
+      "entries": 301
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "f2e67339b081cc589c72198cf331e3eb76f6ee8ce74abf060476e73bc702af5a",
+      "cached": false,
+      "id": "nexus-hk",
+      "name": "Nexus 香港",
+      "entries": 32
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "3ce674d4ae9b7535ec2bd6d3fe72c5aaaa6e1d0453cb06f5777a4028320776ec",
+      "cached": false,
+      "id": "nexus-tw",
+      "name": "Nexus 台湾",
+      "entries": 32
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "edbe562d5bd4463b08d99702557c0d1aacc9409498d43975dbf789b8494c715a",
+      "cached": false,
+      "id": "nexus-us",
+      "name": "Nexus 美国",
+      "entries": 2800
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "e5f3e7d03497526dea87bb08f3deefd0115bce7eec8bb3af5d7dfe224228168d",
+      "cached": false,
+      "id": "nexus-jp",
+      "name": "Nexus 日本",
+      "entries": 18
+    },
+    {
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json",
+      "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json",
+      "fetched_at": "2026-10-24T08:46:02+08:00",
+      "sha256": "e64739f17b26662f0a7659f3eac8a1d31d16d81fddac4366d75bd3afe2914af1",
+      "cached": false,
+      "id": "nexus-kr",
+      "name": "Nexus 韩国",
+      "entries": 86
+    }
+  ],
+  "vod": [
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json",
+      "fetched_at": "2026-10-22T19:52:09+08:00",
+      "sha256": "1235b5bd0bc4d3b7447f7a5505db5b130a6f47161c1684008fcf05f0ab86ea9c",
+      "cached": true,
+      "name": "王二小",
+      "kind": "single",
+      "count": 63,
+      "origin": "https://d.kstore.dev/download/9280/wex.json",
+      "output": "vod/2e21fc30f01a.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json",
+      "fetched_at": "2026-10-22T19:52:12+08:00",
+      "sha256": "23588087368f92fdddb39701f906e5555a7279d17c056e8a9e6c54b0ebc3357c",
+      "cached": true,
+      "name": "小马",
+      "kind": "single",
+      "count": 62,
+      "origin": "https://szyyds.cn/tv/x.json",
+      "output": "vod/acacee3d6ab4.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json",
+      "fetched_at": "2026-10-22T19:52:10+08:00",
+      "sha256": "7b26d7925c1cd9f0c3778e9353f49692c6fede7311ae60b455104a3a11f6ba99",
+      "cached": true,
+      "name": "老刘备",
+      "kind": "single",
+      "count": 234,
+      "origin": "https://raw.liucn.cc/box/m.json",
+      "output": "vod/bc23394efac6.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json",
+      "fetched_at": "2026-10-22T19:52:07+08:00",
+      "sha256": "d3ce89ed23147a13f8fe0e5cf88d3db927c08111d1a774a8f1c634724a9ddaf0",
+      "cached": true,
+      "name": "肥猫",
+      "kind": "single",
+      "count": 40,
+      "origin": "http://肥猫.net/tv",
+      "output": "vod/aa9e15287a28.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json",
+      "fetched_at": "2026-10-22T19:52:13+08:00",
+      "sha256": "f6710da9864e5401b5176b3ecfe5814a32c39f0e510f027befeb5a4e8b238641",
+      "cached": true,
+      "name": "讴歌",
+      "kind": "single",
+      "count": 12,
+      "origin": "http://tv.nxog.top/m/",
+      "output": "vod/e467cfb7f27d.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json",
+      "fetched_at": "2026-10-22T19:52:15+08:00",
+      "sha256": "35fe6927060dec7616a6378465032f741e5d3e049ec3d79f2b6d458d4467874d",
+      "cached": true,
+      "name": "4K小盒子",
+      "kind": "single",
+      "count": 53,
+      "origin": "http://xhztv.top/4k.json",
+      "output": "vod/967b6b2257a7.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaohezi.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaohezi.json",
+      "fetched_at": "2026-10-22T19:52:16+08:00",
+      "sha256": "a5d80ce4d920952aa4aaf7182a7518e81bb49e7157b54e491179f3eece681c26",
+      "cached": true,
+      "name": "小盒子单仓",
+      "kind": "single",
+      "count": 54,
+      "origin": "http://xhztv.top/xhz",
+      "output": "vod/c057232ff562.json"
+    },
+    {
+      "name": "SVIP📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+      "error": "https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "备用📚在线",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json",
+      "error": "https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "VIP📚在线",
+      "url": "https://jiekou.netlify.app/svip.json",
+      "error": "https://jiekou.netlify.app/svip.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "小米📚在线",
+      "url": "http://miqk.cc/小米/DEMO.json",
+      "error": "http://miqk.cc/小米/DEMO.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://www.yingm.cc/dm/dm.json",
+      "resolved_url": "https://www.yingm.cc/dm/dm.json",
+      "fetched_at": "2026-10-22T19:52:30+08:00",
+      "sha256": "4cd6fd0b453b02a809901aed5325173e8308a301e972ffaa4e2895e380efe698",
+      "cached": true,
+      "name": "拾光多仓 / 动漫城📚在线",
+      "kind": "single",
+      "count": 27,
+      "origin": "https://www.yingm.cc/dm/dm.json",
+      "output": "vod/c6dbba9e167d.json"
+    },
+    {
+      "name": "喵影视📚在线",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+      "error": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "小脑斧📚在线",
+      "url": "https://6492.kstore.space/xnf/xnf.json",
+      "error": "https://6492.kstore.space/xnf/xnf.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "小虎斑📚在线",
+      "url": "http://hb.小虎斑.site:25252/仅供测试",
+      "error": "http://hb.小虎斑.site:25252/仅供测试: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "潇洒📚在线",
+      "url": "https://9877.kstore.space/AnotherD/api.json",
+      "error": "https://9877.kstore.space/AnotherD/api.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "肥猫📚在线",
+      "url": "http://肥猫.com",
+      "error": "http://肥猫.com: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "欧歌📚在线",
+      "url": "https://欧歌.v.nxog.top/m/",
+      "error": "https://欧歌.v.nxog.top/m/: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "乐哥📚在线",
+      "url": "https://乐哥.xyz/TV/Zy.json",
+      "error": "https://乐哥.xyz/TV/Zy.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "老虎📚在线",
+      "url": "http://tv.laohu.cool/tvbox.json",
+      "error": "http://tv.laohu.cool/tvbox.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "Clun📚在线",
+      "url": "https://clun.top/box.json",
+      "error": "https://clun.top/box.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "O  K📚在线",
+      "url": "http://ok321.top/ok",
+      "error": "http://ok321.top/ok: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "resolved_url": "http://home.jundie.top:81/top98.json",
+      "fetched_at": "2026-10-22T19:52:54+08:00",
+      "sha256": "9e3411a57300a0f80f3c248c48b6e8f0ae8bbaa42c9288908068fe34eb9fa489",
+      "cached": true,
+      "name": "拾光多仓 / 俊佬📚在线",
+      "kind": "single",
+      "count": 24,
+      "origin": "http://home.jundie.top:81/top98.json",
+      "output": "vod/b914f19a1946.json"
+    },
+    {
+      "name": "短剧📚在线",
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+      "error": "http://74.120.175.78/JK/XYQTVBox/dj.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "驸马📚在线",
+      "url": "http://fmys.top/fmys.json",
+      "error": "http://fmys.top/fmys.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "南风📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "error": "https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "二小📚在线",
+      "url": "http://tvbox.王二小放牛娃.top",
+      "error": "http://tvbox.王二小放牛娃.top: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "毒盒📚在线",
+      "url": "https://xn--8owq8u.com/tv/",
+      "error": "https://xn--8owq8u.com/tv/: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "resolved_url": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "fetched_at": "2026-10-22T19:53:12+08:00",
+      "sha256": "e3b73fd47fdcf3d68874a6e617514f6b8395fbf780558fa05bf6b3ff34ae2b1b",
+      "cached": true,
+      "name": "拾光多仓 / 心魔📚在线",
+      "kind": "single",
+      "count": 151,
+      "origin": "https://gh-proxy.com/raw.githubusercontent.com/yw88075/tvbox/main/yw.json",
+      "output": "vod/c0ac13dd12c9.json"
+    },
+    {
+      "name": "D佬📚在线",
+      "url": "http://2883.kstore.space/nzk/nzk0722.json",
+      "error": "http://2883.kstore.space/nzk/nzk0722.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "http://szyyds.cn/tv/x.json",
+      "resolved_url": "https://szyyds.cn/tv/x.json",
+      "fetched_at": "2026-10-22T19:53:14+08:00",
+      "sha256": "6ad54de8458333a1e5420062d84f7a6ba02f386cb3427ec49f24fd598ac138ad",
+      "cached": true,
+      "name": "拾光多仓 / 小马📚在线",
+      "kind": "single",
+      "count": 62,
+      "origin": "https://szyyds.cn/tv/x.json",
+      "output": "vod/a6707c24b2df.json"
+    },
+    {
+      "name": "星辰📚在线",
+      "url": "https://fmbox.cc",
+      "error": "https://fmbox.cc: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "龙伊📚在线",
+      "url": "https://龙伊.top",
+      "error": "https://龙伊.top: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "resolved_url": "https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "fetched_at": "2026-10-22T19:53:16+08:00",
+      "sha256": "bcbf0ca06264a3c747171f3c5d04a6d0578fb0bd0b5fc7be3fc2e5026aa0c22e",
+      "cached": true,
+      "name": "拾光多仓 / 寳盒📚在线",
+      "kind": "single",
+      "count": 77,
+      "origin": "https://raw.githubusercontent.com/guot55/yg/main/pg/bh.json",
+      "output": "vod/a17c1fda1d77.json"
+    },
+    {
+      "url": "https://ztha.top/TVBox/thdjk.json",
+      "resolved_url": "https://ztha.top/TVBox/thdjk.json",
+      "fetched_at": "2026-10-22T19:53:17+08:00",
+      "sha256": "aebec31ee34dac308d38650067334303e8f1f19af6fa80a9a8cb7e624765aa04",
+      "cached": true,
+      "name": "拾光多仓 / 挺好📚在线",
+      "kind": "single",
+      "count": 46,
+      "origin": "https://ztha.top/TVBox/thdjk.json",
+      "output": "vod/66962c74ee81.json"
+    },
+    {
+      "name": "传说📚在线",
+      "url": "https://chuanshuo.77blog.cn/tv.json",
+      "error": "https://chuanshuo.77blog.cn/tv.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "多多📚在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/leevi0709/one/main/jsm.json",
+      "error": "https://gh-proxy.com/raw.githubusercontent.com/leevi0709/one/main/jsm.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "分享📚在线",
+      "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+      "error": "http://hucongrong.web3v.work/风水/fxz/fxz.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "蓝天📚在线",
+      "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
+      "error": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "青龙📚在线",
+      "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
+      "error": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "黄金📚在线",
+      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json",
+      "error": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "道长📚在线",
+      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
+      "error": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "PG📚在线",
+      "url": "https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json",
+      "error": "https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "真訫📚在线",
+      "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json",
+      "error": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "琉芸📚在线",
+      "url": "https://git.acwing.com/999/tvbox/-/raw/main/%E5%BD%B1%E8%A7%86.json",
+      "error": "https://git.acwing.com/999/tvbox/-/raw/main/%E5%BD%B1%E8%A7%86.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "resolved_url": "https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "fetched_at": "2026-10-22T19:53:31+08:00",
+      "sha256": "c6ba928152e49628cde8d64a223df91b09c86c7386d1416bcef73d4edcb355ee",
+      "cached": true,
+      "name": "拾光多仓 / 月光📚在线",
+      "kind": "single",
+      "count": 77,
+      "origin": "https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "output": "vod/86b6407e6185.json"
+    },
+    {
+      "name": "雷霆📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lemj.json",
+      "error": "https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lemj.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+      "resolved_url": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+      "fetched_at": "2026-10-22T19:53:38+08:00",
+      "sha256": "6507a05f0e5bc6e1fbdd56009f1062fc95d862a10bb6dd414a627a1d9b346d9e",
+      "cached": true,
+      "name": "拾光多仓 / 小凯📚在线",
+      "kind": "single",
+      "count": 28,
+      "origin": "https://jihulab.com/jyqhkd/kd/-/raw/main/kai.json",
+      "output": "vod/79b95eb7cef2.json"
+    },
+    {
+      "name": "公子📚在线",
+      "url": "http://xn--b9w.l5.ca/",
+      "error": "http://xn--b9w.l5.ca/: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "短剧📚在线",
+      "url": "http://jiduo.3116598.xyz",
+      "error": "http://jiduo.3116598.xyz: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "特别📚在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/drpys/jsm.json",
+      "error": "https://gh-proxy.com/raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/drpys/jsm.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "蜂蜜📚在线",
+      "url": "https://qu.ax/uanw.json",
+      "error": "https://qu.ax/uanw.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "传说📚在线",
+      "url": "http://tjf1100.serv00.net/",
+      "error": "http://tjf1100.serv00.net/: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "多多📚在线",
+      "url": "https://yydsys.top/duo",
+      "error": "https://yydsys.top/duo: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "刺刺📚在线",
+      "url": "https://d.kstore.dev/download/8975/刺刺专用音乐接口.json",
+      "error": "https://d.kstore.dev/download/8975/刺刺专用音乐接口.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "剧场📚在线",
+      "url": "https://乐哥.xyz/dj.json",
+      "error": "https://乐哥.xyz/dj.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "听书📚在线",
+      "url": "https://乐哥.xyz/Ting/Tshu.json",
+      "error": "https://乐哥.xyz/Ting/Tshu.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "resolved_url": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "fetched_at": "2026-10-22T19:54:28+08:00",
+      "sha256": "0108c4461cae5034a2f2e2d3dc7b55c9286b5a141f24256ad5153e1a2e64fa5f",
+      "cached": true,
+      "name": "拾光多仓 / CandyMu📚在线",
+      "kind": "single",
+      "count": 64,
+      "origin": "https://gitlab.com/noimank/tvbox/-/raw/main/tvbox1.json",
+      "output": "vod/99ec6431ba95.json"
+    },
+    {
+      "name": "欧歌备用📚在线",
+      "url": "https://xn--biib-rp5imh.v.nxog.top/apitv.php",
+      "error": "https://xn--biib-rp5imh.v.nxog.top/apitv.php: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "各种网盘📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
+      "error": "https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "http://zhangqun1818.serv00.net/zq/api.json",
+      "resolved_url": "http://zhangqun1818.serv00.net/zq/api.json",
+      "fetched_at": "2026-10-22T19:54:30+08:00",
+      "sha256": "d4f3737adacec6d29d05bb04fbe17c0c76ecf3bfed4f950dcaad8b93d04a9116",
+      "cached": true,
+      "name": "拾光多仓 / 请勿贩卖📚在线",
+      "kind": "single",
+      "count": 19,
+      "origin": "http://zhangqun1818.serv00.net/zq/api.json",
+      "output": "vod/661df4638e63.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json",
+      "fetched_at": "2026-10-22T19:52:17+08:00",
+      "sha256": "1594a672cf5e7daba3ad4c3e354cce441b9e20e816b78dac43645ed9f7ec44fc",
+      "cached": true,
+      "name": "拾光多仓",
+      "kind": "multi",
+      "count": 54,
+      "origin": "http://xmbjm.fh4u.org/dc.txt",
+      "output": "vod/256f88b6066d.json"
+    },
+    {
+      "name": "🍳挺好丨讴歌线路",
+      "url": "http://tv.nxog.top/m",
+      "error": "http://tv.nxog.top/m: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🐯小虎斑线路",
+      "url": "http://hb.小虎斑.site:25252/仅供测试",
+      "error": "http://hb.小虎斑.site:25252/仅供测试: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀One线路",
+      "url": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json",
+      "error": "https://ghproxy.cn/https://raw.githubusercontent.com/leevi0709/one/main/jsm.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀南风线路",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json",
+      "error": "https://github.moeyy.xyz/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀刘伟线路",
+      "url": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json",
+      "error": "https://git.acwing.com/lw0704/66/-/raw/master/jjzx.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀剪影线路",
+      "url": "https://git.acwing.com/lkq0379/zjys/-/raw/main/zjys.json",
+      "error": "https://git.acwing.com/lkq0379/zjys/-/raw/main/zjys.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀讴歌线路",
+      "url": "http://tv.nxog.top/m/111.php?ou=公众号欧歌",
+      "error": "http://tv.nxog.top/m/111.php?ou=公众号欧歌: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀小虎斑线",
+      "url": "https://hb.xyyh.online/tvbox",
+      "error": "https://hb.xyyh.online/tvbox: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀小米线路",
+      "url": "http://www.mpanso.com/小米/DEMO.json",
+      "error": "http://www.mpanso.com/小米/DEMO.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀王二小线",
+      "url": "http://tvbox.王二小放牛娃.top",
+      "error": "http://tvbox.王二小放牛娃.top: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀潇洒专线",
+      "url": "https://9877.kstore.space/AnotherD/api.json",
+      "error": "https://9877.kstore.space/AnotherD/api.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀摸鱼线路",
+      "url": "http://我不是.摸鱼儿.com",
+      "error": "http://我不是.摸鱼儿.com: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀环宇轩线",
+      "url": "https://6492.kstore.space/xnf/xnf.json",
+      "error": "https://6492.kstore.space/xnf/xnf.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀小苹果线",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json",
+      "error": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀驸马线路",
+      "url": "http://fmys.top/fmys.json",
+      "error": "http://fmys.top/fmys.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀拾光线路",
+      "url": "https://4708.kstore.space/svip/svip.json",
+      "error": "https://4708.kstore.space/svip/svip.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀宝盒线路",
+      "url": "http://mzjk.top/禁止贩卖",
+      "error": "http://mzjk.top/禁止贩卖: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://szyyds.cn/tv/x.json",
+      "resolved_url": "https://szyyds.cn/tv/x.json",
+      "fetched_at": "2026-10-22T19:54:44+08:00",
+      "sha256": "6ad54de8458333a1e5420062d84f7a6ba02f386cb3427ec49f24fd598ac138ad",
+      "cached": true,
+      "name": "挺好分享多仓 / 🚀小马线路",
+      "kind": "single",
+      "count": 62,
+      "origin": "https://szyyds.cn/tv/x.json",
+      "output": "vod/0e02e701fd83.json"
+    },
+    {
+      "name": "🚀分享者线",
+      "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json",
+      "error": "http://hucongrong.web3v.work/风水/fxz/fxz.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀老刘线路",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json",
+      "error": "https://github.moeyy.xyz/https://raw.githubusercontent.com/liu673cn/box/main/m.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀传说线路",
+      "url": "https://chuanshuo.77blog.cn/tv.json",
+      "error": "https://chuanshuo.77blog.cn/tv.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀蓝天线路",
+      "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json",
+      "error": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "resolved_url": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "fetched_at": "2026-10-22T19:54:50+08:00",
+      "sha256": "3f30881d24582ed7e8061ecfd26ab5f32342ca4a65e5a22e30fd6abf48359c16",
+      "cached": true,
+      "name": "挺好分享多仓 / 🚀高天流云",
+      "kind": "single",
+      "count": 298,
+      "origin": "https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json",
+      "output": "vod/958e188c8910.json"
+    },
+    {
+      "name": "🚀毒盒线路",
+      "url": "https://xn--8owq8u.com/tv/",
+      "error": "https://xn--8owq8u.com/tv/: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "📛公众号丨挺好分享",
+      "url": "https://zthaa.top/th/api.json",
+      "error": "https://zthaa.top/th/api.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🌠公众号丨挺好专享",
+      "url": "https://zthaa.top/thzx/th.json",
+      "error": "https://zthaa.top/thzx/th.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀青龙影线",
+      "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json",
+      "error": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🍨饭硬专线",
+      "url": "http://www.饭太硬.cc/tv",
+      "error": "http://www.饭太硬.cc/tv: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "name": "🚀短剧大全",
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json",
+      "error": "http://74.120.175.78/JK/XYQTVBox/dj.json: 没有可用缓存，保留原入口",
+      "external_fallback": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/tinghao.json",
+      "resolved_url": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/tinghao.json",
+      "fetched_at": "2026-10-22T19:54:31+08:00",
+      "sha256": "5f6e12710004a909dd27748e0930890e11fe9b573ea9737944ad241f6f0592c2",
+      "cached": true,
+      "name": "挺好分享多仓",
+      "kind": "multi",
+      "count": 32,
+      "origin": "http://ztha.top/TVBox/GYCK.json",
+      "output": "vod/ecf85885d536.json"
+    }
+  ],
+  "verification": "目录解析与依赖路径处理；不代表频道或点播实播通过",
+  "auto_additions": 115,
+  "auto_additions_ipv6_unverified": 55,
+  "live_exclusions": [
+    {
+      "name": "CCTV-13 (720p)",
+      "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8",
+      "reason": "2026-10-22 投影仪实测此线路播放购物广告，与 CCTV-13 新闻频道标注不符"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://207.56.13.146:81/cdnlive/cctv4.m3u8",
+      "reason": "2026-10-22 电脑和投影仪均播购物广告；与同期央视域名 CCTV-4 正常节目不符"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
+      "reason": "2026-10-23 电脑及投影仪画面均为花垣综合，频道误标"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "reason": "2026-10-23 连续测试50秒仅推进约16秒视频，替换为本次通过连续解码的线路"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://69.30.245.50/live/cctv1.m3u8",
+      "reason": "2026-10-23 连接重置且视频解码失败，替换为本轮验证线路"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://198.204.240.250:82/live/cctv1.m3u8",
+      "reason": "2026-10-23 连接重置及5XX错误，替换为本轮验证线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
+      "reason": "2026-10-23 返回HTTP 500，解码失败"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://198.204.228.26/live/cctv6hd.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://69.30.245.50/live/cctv6.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://198.204.240.250:82/live/cctv6.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    }
+  ],
+  "live_excluded_entries": 12,
+  "nexus_unique_lines": 1647,
+  "live_groups": 11,
+  "live_channels": 2367,
+  "live_multi_line_channels": 543,
+  "live_entries": 3674,
+  "live_network_types": {
+    "ipv4_literal": 675,
+    "ipv6_literal": 55,
+    "hostname_unresolved": 2943,
+    "other_protocol": 1,
+    "invalid": 0
+  },
+  "family_lines": 33,
+  "family_channels": 33,
+  "published_live_groups": 12,
+  "published_live_entries": 3707,
+  "txt_omitted_special_headers": 105,
+  "vod_updated_at": "2026-10-22T22:43:03+08:00",
+  "update_scope": "仅直播；点播沿用此前发布版本",
+  "auto_additions_updated_at": "2026-10-24T00:46:51+00:00",
+  "auto_suspended": 0,
+  "auto_recheck_at": "2026-10-24T00:47:28+00:00"
+}

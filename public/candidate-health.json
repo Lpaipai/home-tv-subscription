@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-10-24T00:46:51+00:00",
+  "mode": "candidate_decode_then_publish",
+  "sampled": 12,
+  "attempts": 16,
+  "counts": {
+    "failed": 4,
+    "decoded": 8
+  },
+  "visual_checked": 3,
+  "visual_counts": {
+    "unsupported": 5,
+    "unknown": 3
+  },
+  "visual_holds_total": 0,
+  "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
+  "eligible_for_auto_publish": 8,
+  "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
+  "results": [
+    {
+      "id": "f0c624145f07ddcf",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "f1f99c31c9bd23bc",
+      "name": "广东新闻",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "f587807d50945539",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "f8cab55e360d1900",
+      "name": "广东新闻",
+      "group": "地方",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    },
+    {
+      "id": "015617a254d6664c",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    },
+    {
+      "id": "1dc13c3fcbddb0b0",
+      "name": "大湾区卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    },
+    {
+      "id": "c6f76fb9c32bf5d2",
+      "name": "吉林卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "c6ffe8bba63b44bd",
+      "name": "CCTV-15",
+      "group": "央视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "c90b1aeeeeeeed72",
+      "name": "厦门卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    },
+    {
+      "id": "c91411bdf6cd2fdf",
+      "name": "广西卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "2b4f2da47656cb6c",
+      "name": "南京十八",
+      "group": "其他",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "2b5083e02f6a39eb",
+      "name": "中国蓝新闻",
+      "group": "其他",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    }
+  ],
+  "promoted": 8,
+  "promoted_decoded": 8,
+  "promoted_ipv6_unverified": 0,
+  "promoted_ids": [
+    "f8cab55e360d1900",
+    "015617a254d6664c",
+    "1dc13c3fcbddb0b0",
+    "c6f76fb9c32bf5d2",
+    "c6ffe8bba63b44bd",
+    "c90b1aeeeeeeed72",
+    "c91411bdf6cd2fdf",
+    "2b5083e02f6a39eb"
+  ],
+  "visual_mismatch_blocked": 0
+}

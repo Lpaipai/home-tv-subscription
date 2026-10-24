@@ -1,0 +1,1849 @@
+{
+  "fetched_at": "2026-10-24T08:46:04+08:00",
+  "mode": "discovery_before_decode",
+  "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
+  "source_summaries": [
+    {
+      "id": "fanmingming-index",
+      "items": 94,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/fanmingming/live"
+    },
+    {
+      "id": "fanmingming-ipv6",
+      "items": 82,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/fanmingming/live"
+    },
+    {
+      "id": "guovin-gd",
+      "items": 1619,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/Guovin/iptv-api"
+    },
+    {
+      "id": "htv-guangdong-loong",
+      "items": 312,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/danteswx/loong"
+    },
+    {
+      "id": "htv-guangdong-yuhong",
+      "items": 597,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/yuhong126/iptv"
+    },
+    {
+      "id": "htv-guangdong-tvm",
+      "items": 1909,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/chuanzhuo/blog"
+    },
+    {
+      "id": "guangxi-provincial-list",
+      "items": 1356,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/linqingping/M3U8-player"
+    },
+    {
+      "id": "guilin-guanyang-regional-list",
+      "items": 1409,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/zhyzjkpa/iptv"
+    },
+    {
+      "id": "guanyang-backup-list",
+      "items": 1783,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/doubwing/iptv-5"
+    }
+  ],
+  "failures": [],
+  "total_unique": 1787,
+  "not_in_main": 1604,
+  "ipv6_literal": 115,
+  "priority_unlisted": 406,
+  "preview": [
+    {
+      "line_id": "47e4e9fbd5f8b767",
+      "name": "灌阳新闻综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "featured_local_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guanyang-backup-list"
+      ]
+    },
+    {
+      "line_id": "cb0ec7ff3ea88aa8",
+      "name": "灌阳新闻综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "featured_local_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "f094194116d89332",
+      "name": "灌阳新闻综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "featured_local_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "0a7b816b062c6568",
+      "name": "广西卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "616a890282baa5ac",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "65d15d8ba5891121",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "87567468d5724fe7",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guangxi-provincial-list"
+      ]
+    },
+    {
+      "line_id": "ade9d9dfbd9b8cb1",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "c91411bdf6cd2fdf",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "fc58ecdd18d53753",
+      "name": "广西卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "25a1b500d45ff384",
+      "name": "广西国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "431db5e8caae666b",
+      "name": "广西国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "ade1f7bc256216a7",
+      "name": "广西国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "f17f0fb163d270fd",
+      "name": "广西国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "f92716e1eca4d5e0",
+      "name": "广西国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "1a14bc7bf9e3eaee",
+      "name": "广西影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guangxi-provincial-list",
+        "guanyang-backup-list"
+      ]
+    },
+    {
+      "line_id": "c75fb130ee210f1e",
+      "name": "广西影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "31743a3432fb331f",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "7239ef823340d311",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guangxi-provincial-list",
+        "guanyang-backup-list"
+      ]
+    },
+    {
+      "line_id": "8f183bd5e3680554",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "919da5a0d65d25b7",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "bc7373b095dc9068",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "d74c1aeae3938e9d",
+      "name": "广西新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "b12e6e8cff363858",
+      "name": "广西综艺旅游",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guangxi-provincial-list",
+        "guanyang-backup-list"
+      ]
+    },
+    {
+      "line_id": "eb28aebfa8a6e597",
+      "name": "广西综艺旅游",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "d3296a2d65b2e587",
+      "name": "广西都市",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "f38551a5e2fa10bf",
+      "name": "广西都市",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guangxi-provincial-list"
+      ]
+    },
+    {
+      "line_id": "07609e27bb44af19",
+      "name": "桂林新闻综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "e017118cf6f9abee",
+      "name": "桂林新闻综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "regional_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guilin-guanyang-regional-list"
+      ]
+    },
+    {
+      "line_id": "0daaae523ad8cd73",
+      "name": "CCTV-16 4K",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "e3fdb60dab45a95b",
+      "name": "CCTV-16 4K",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "1dc13c3fcbddb0b0",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "1dd3893415a51757",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "20c8dd9d42ddef98",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "211e977d779c5fac",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "21b3ba0fd0cae9a0",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "5ef6ca5f4a2e66f9",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "5f29836261bd7ca7",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "71e6d646cbeaf0bf",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "8ce66c6df8962c70",
+      "name": "大湾区卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "cb3217a3e1d1c0b0",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "d381d3c9caa0b4ee",
+      "name": "大湾区卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "12a5d177f70fab51",
+      "name": "广东少儿",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "425b406e95c5d23a",
+      "name": "广东少儿",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "dc96936075ef1a4b",
+      "name": "广东少儿",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "edbae6bb490301ea",
+      "name": "广东少儿",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "83cb3baf9370d739",
+      "name": "广东影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "88706c94b227139d",
+      "name": "广东影视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "a75a6c93e78676fe",
+      "name": "广东影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "e940d1f13d2ff7f3",
+      "name": "广东影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "8bb3e9ba95bff6ae",
+      "name": "广东新闻",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "9d829c70595f4d2f",
+      "name": "广东新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "dc88e596269f3f1b",
+      "name": "广东新闻",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e187f9b0d499d31a",
+      "name": "广东新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "f1f99c31c9bd23bc",
+      "name": "广东新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "f8cab55e360d1900",
+      "name": "广东新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "241cc695093291f9",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3dd65a32f83e0f21",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "5a78c867dd8e7365",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "8fe973236723dc45",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "a296729e1729edb1",
+      "name": "广东民生",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "015617a254d6664c",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "1548c5a2bd3b73fb",
+      "name": "广东珠江",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "1b1946c73250837b",
+      "name": "广东珠江",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "1bc4ce53cbd70dd0",
+      "name": "广东珠江",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "30624c63b7dc5a13",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "6c09f916468ab58b",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "7d9e1b83f25adf12",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "982ad274ecbd53db",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "c82ce25cb37eca7d",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "de9347793e804bd5",
+      "name": "广东珠江",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e014e9cb5a1fd45e",
+      "name": "广东珠江",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "f587807d50945539",
+      "name": "广东珠江",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "28037e926a0cafab",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "4fa1fdcad2618d85",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "5acdc253b4512d2b",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "84389090f5d26361",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "846700acf0ae8d4d",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8e0120ea5932dd7c",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "9666c98af7cc19cf",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "a7ea4a7928689192",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "af8c6e15fcf39192",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "d503e10be9be010e",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "e403490dda50fae4",
+      "name": "海南卫视",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "f0c624145f07ddcf",
+      "name": "海南卫视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "b0c16b53b82e37f9",
+      "name": "深圳少儿",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "e5012f7f93604189",
+      "name": "深圳少儿",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "300b911962d03115",
+      "name": "深圳电视剧",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "30b5db94718b3c87",
+      "name": "深圳电视剧",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "70434fff3b5e03df",
+      "name": "深圳电视剧",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "942d05bf0133ae66",
+      "name": "深圳电视剧",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "3b6161b457e1eb5c",
+      "name": "深圳都市",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "66462c9fe3ce66da",
+      "name": "深圳都市",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "67187b5449a54c85",
+      "name": "深圳都市",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-tvm"
+      ]
+    },
+    {
+      "line_id": "940575f2e20ee64d",
+      "name": "深圳都市",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "615d3bdacfcc956d",
+      "name": "大湾区卫视",
+      "network": "ipv6_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "836052f472ad1f91",
+      "name": "大湾区卫视",
+      "network": "ipv6_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "cfe6510e73a12a26",
+      "name": "海南卫视",
+      "network": "ipv6_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "e6ca8ed4099de216",
+      "name": "海南卫视",
+      "network": "ipv6_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "9a37502e282ca893",
+      "name": "CCTV-1 综合",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "e0531c0a3f22744d",
+      "name": "CCTV-1 综合",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "1830f776672ee177",
+      "name": "CCTV-10",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "94bcb4b670245d7f",
+      "name": "CCTV-10",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e080b222d8125463",
+      "name": "CCTV-10",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3e362061801ec5ff",
+      "name": "CCTV-10 科教",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "b662092317d278d2",
+      "name": "CCTV-10 科教",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "4004385dd3e840a6",
+      "name": "CCTV-11",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8ece017646a91043",
+      "name": "CCTV-11",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "ef555d4f5cad6c5f",
+      "name": "CCTV-11",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "f749d22c55d7ce07",
+      "name": "CCTV-11",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "08f55755cd652ec7",
+      "name": "CCTV-11 戏曲",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "185c6e5c39129e0f",
+      "name": "CCTV-11 戏曲",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "022f7d1d1f9d9d98",
+      "name": "CCTV-12",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "13ecf77b45106c86",
+      "name": "CCTV-12",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "2397d50ca6852386",
+      "name": "CCTV-12 社会与法",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "ff881bc6b59f3f70",
+      "name": "CCTV-12 社会与法",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "16a250dcf37537d4",
+      "name": "CCTV-13",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "aade915538f09d88",
+      "name": "CCTV-13",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "b237b8f02ee61655",
+      "name": "CCTV-13",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "afa6d78dbcb96173",
+      "name": "CCTV-13 新闻",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "f754a1f1f07186fe",
+      "name": "CCTV-13 新闻",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "80f74d3d5dc105c5",
+      "name": "CCTV-14 少儿",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "d9d94a20bea21839",
+      "name": "CCTV-14 少儿",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "0eb45d3effb89cc7",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "2b6287e0d1402833",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "36015695aca99c6d",
+      "name": "CCTV-15",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "52abf9356f571289",
+      "name": "CCTV-15",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8c3e293f6418c953",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "c6ffe8bba63b44bd",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "f3a6b1ff733fb7b0",
+      "name": "CCTV-15",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3e6f0a29620503f8",
+      "name": "CCTV-15 音乐",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "4b0797429c6ada61",
+      "name": "CCTV-15 音乐",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "5c6972a0940cf814",
+      "name": "CCTV-16",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "92440263128be561",
+      "name": "CCTV-16",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e24078836db9ce83",
+      "name": "CCTV-16",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "ef2598155f42a1b9",
+      "name": "CCTV-16 奥林匹克",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "6b39b1492500554f",
+      "name": "CCTV-17",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "a3ff49295f7909f6",
+      "name": "CCTV-17",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e6eaa57b6c738089",
+      "name": "CCTV-17",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "9c3c46cc3f29fd9b",
+      "name": "CCTV-17 农业农村",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "89fdcc431a1f953d",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8bb1548292a1c661",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "ae7e80a3c935e9ca",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "c3590c8de7c0a63c",
+      "name": "CCTV-2",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "68971cab04dd8bec",
+      "name": "CCTV-2 财经",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "dac41dc05fb18d13",
+      "name": "CCTV-2 财经",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "350834cd033ed76a",
+      "name": "CCTV-3",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "4e3aa14c5b5d6f55",
+      "name": "CCTV-3",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "a1f90b6ae2e216b8",
+      "name": "CCTV-3",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "9adc75b2e4fcde17",
+      "name": "CCTV-3 综艺",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "e54f3221482cef21",
+      "name": "CCTV-3 综艺",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "071279b161b8cc2a",
+      "name": "CCTV-4",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "89756f856f9b3b51",
+      "name": "CCTV-4",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "743c7b433ae9bc04",
+      "name": "CCTV-4 中文国际",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "e856bbe0ad184691",
+      "name": "CCTV-4 中文国际",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "4250e1d275c0456c",
+      "name": "CCTV-4K 超高清",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "33834fc82554b54a",
+      "name": "CCTV-5",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3b3160a5cc3810a9",
+      "name": "CCTV-5",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "62342d4b28986c48",
+      "name": "CCTV-5",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8085bded078de45b",
+      "name": "CCTV-5",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    }
+  ]
+}

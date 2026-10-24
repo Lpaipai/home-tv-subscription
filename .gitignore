@@ -1,0 +1,10 @@
+cache/
+state/
+build/
+backups/
+device/
+__pycache__/
+*.log
+device_control.py
+serve-local.ps1
+local-*.json

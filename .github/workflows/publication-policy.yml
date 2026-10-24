@@ -1,0 +1,25 @@
+# 2026/10/24 13:28:44 by liaoweipeng1
+name: 公开发布策略检查
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  publication-policy:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          fetch-depth: 0
+      - name: 检查公开文件、暂存区和历史
+        env:
+          PUBLICATION_POLICY: ${{ secrets.PUBLICATION_POLICY }}
+        run: python3 -B publication_guard.py
+      - name: 验证检查器
+        run: python3 -B -m unittest -v test_publication_guard

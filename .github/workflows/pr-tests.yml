@@ -1,0 +1,35 @@
+name: 订阅维护回归测试
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/**'
+      - 'scan_live.py'
+      - 'health_tracking.py'
+      - 'update.py'
+      - 'test_*.py'
+      - 'curation.py'
+      - 'network_policy.py'
+      - 'source_review.py'
+      - 'candidate_scan.py'
+      - 'auto_additions.py'
+      - 'auto_maintenance.py'
+      - 'visual_check.py'
+      - 'candidate_sources.json'
+      - 'family_selection.json'
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, windows-2022]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - name: Python 回归测试（关闭 UTF-8 模式，覆盖系统默认编码）
+        run: python -X utf8=0 -B -m unittest -v

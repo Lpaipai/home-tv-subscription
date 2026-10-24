@@ -1,0 +1,40 @@
+{
+  "urls": [
+    {
+      "name": "王二小",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/2e21fc30f01a.json"
+    },
+    {
+      "name": "小马",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/acacee3d6ab4.json"
+    },
+    {
+      "name": "老刘备",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/bc23394efac6.json"
+    },
+    {
+      "name": "肥猫",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/aa9e15287a28.json"
+    },
+    {
+      "name": "讴歌",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/e467cfb7f27d.json"
+    },
+    {
+      "name": "4K小盒子",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/967b6b2257a7.json"
+    },
+    {
+      "name": "小盒子单仓",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/c057232ff562.json"
+    },
+    {
+      "name": "拾光多仓",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/256f88b6066d.json"
+    },
+    {
+      "name": "挺好分享多仓",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/ecf85885d536.json"
+    }
+  ]
+}

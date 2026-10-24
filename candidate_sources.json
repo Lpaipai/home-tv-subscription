@@ -1,0 +1,188 @@
+{
+  "policy": "decode_then_publish_with_opt_in_ipv6_provisional",
+  "notes": "HTTP(S) 普通候选需视频解码通过；仅来源显式允许的公网 IPv6 字面量可作为未验证备用线路进入正式订阅，云端跳过不算失败，不代表家庭可播、节目身份或转播授权已验证。",
+  "sources": [
+    {
+      "id": "fanmingming-index",
+      "name": "fanmingming 社区直播列表",
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/index.m3u",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/fanmingming/live"
+    },
+    {
+      "id": "fanmingming-ipv6",
+      "name": "fanmingming IPv6 社区列表",
+      "ipv6_direct_publish": true,
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/fanmingming/live"
+    },
+    {
+      "id": "guovin-gd",
+      "name": "Guovin IPTV API 社区输出（更新时效待核对）",
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/Guovin/iptv-api",
+      "note": "示例分支可能较旧；仅收录本次解码通过的地址，不代表节目身份已核验。"
+    },
+    {
+      "id": "htv-guangdong-loong",
+      "name": "广东本地候选 loong",
+      "url": "https://raw.githubusercontent.com/danteswx/loong/main/all.txt",
+      "homepage": "https://github.com/danteswx/loong",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "include_channels": [
+        "CCTV-16 4K",
+        "国学频道",
+        "海南卫视",
+        "亚洲新闻",
+        "广东珠江",
+        "广东新闻",
+        "广东影视",
+        "广东民生",
+        "广东少儿",
+        "大湾区卫视",
+        "深圳都市",
+        "深圳电视剧",
+        "深圳少儿"
+      ],
+      "note": "仅发现 HTV 缺口频道。视频解码通过后自动纳入原订阅；节目身份与版权许可仍未核验。"
+    },
+    {
+      "id": "htv-guangdong-yuhong",
+      "name": "广东深圳候选 smtv",
+      "url": "https://raw.githubusercontent.com/yuhong126/iptv/main/smtv.txt",
+      "homepage": "https://github.com/yuhong126/iptv",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "include_channels": [
+        "CCTV-16 4K",
+        "国学频道",
+        "海南卫视",
+        "亚洲新闻",
+        "广东珠江",
+        "广东新闻",
+        "广东影视",
+        "广东民生",
+        "广东少儿",
+        "大湾区卫视",
+        "深圳都市",
+        "深圳电视剧",
+        "深圳少儿"
+      ],
+      "note": "仅发现 HTV 缺口频道。视频解码通过后自动纳入原订阅；节目身份与版权许可仍未核验。"
+    },
+    {
+      "id": "htv-guangdong-tvm",
+      "name": "广东深圳候选 tvm",
+      "url": "https://raw.githubusercontent.com/chuanzhuo/blog/main/tvm.txt",
+      "homepage": "https://github.com/chuanzhuo/blog",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "include_channels": [
+        "CCTV-16 4K",
+        "国学频道",
+        "海南卫视",
+        "亚洲新闻",
+        "广东珠江",
+        "广东新闻",
+        "广东影视",
+        "广东民生",
+        "广东少儿",
+        "大湾区卫视",
+        "深圳都市",
+        "深圳电视剧",
+        "深圳少儿"
+      ],
+      "note": "仅发现 HTV 缺口频道。视频解码通过后自动纳入原订阅；节目身份与版权许可仍未核验。"
+    },
+    {
+      "id": "guangxi-provincial-list",
+      "name": "地方频道公开列表 A",
+      "url": "https://raw.githubusercontent.com/linqingping/M3U8-player/master/sources.m3u8",
+      "homepage": "https://github.com/linqingping/M3U8-player",
+      "include_channels": [
+        "广西新闻",
+        "广西都市",
+        "广西影视",
+        "广西综艺旅游",
+        "广西卫视"
+      ],
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "note": "按指定频道发现公网候选，参与统一轮换检测。列表归属和节目身份未经独立人工验证，不代表转播授权。"
+    },
+    {
+      "id": "guilin-guanyang-regional-list",
+      "name": "地方频道公开列表 B",
+      "url": "https://raw.githubusercontent.com/zhyzjkpa/iptv/master/m4.txt",
+      "homepage": "https://github.com/zhyzjkpa/iptv",
+      "include_channels": [
+        "灌阳新闻综合",
+        "桂林新闻综合",
+        "桂林科教旅游",
+        "广西新闻",
+        "广西都市",
+        "广西影视",
+        "广西综艺旅游",
+        "资源电视台"
+      ],
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "note": "按指定频道发现公网候选，参与统一轮换检测。列表归属和节目身份未经独立人工验证，不代表转播授权。"
+    },
+    {
+      "id": "guanyang-backup-list",
+      "name": "地方频道备用列表",
+      "url": "https://raw.githubusercontent.com/doubwing/iptv-5/main/list.txt",
+      "homepage": "https://github.com/doubwing/iptv-5",
+      "include_channels": [
+        "灌阳新闻综合",
+        "广西新闻",
+        "广西都市",
+        "广西影视",
+        "广西综艺旅游"
+      ],
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "note": "按指定频道发现公网候选，参与统一轮换检测。列表归属和节目身份未经独立人工验证，不代表转播授权。"
+    }
+  ],
+  "reference_projects": [
+    {
+      "name": "Guovin iptv-api",
+      "homepage": "https://github.com/Guovin/iptv-api",
+      "purpose": "采集和测速设计参考；未复制 AGPL 源码，公开示例输出按解码检测结果收录。"
+    }
+  ],
+  "official_watch_pages": [
+    {
+      "name": "央视网直播",
+      "url": "https://tv.cctv.com/live/",
+      "type": "official_webpage_not_direct_playlist"
+    },
+    {
+      "name": "CGTN Live",
+      "url": "https://www.cgtn.com/tv",
+      "type": "official_webpage_not_direct_playlist"
+    },
+    {
+      "name": "NHK WORLD-JAPAN",
+      "url": "https://www3.nhk.or.jp/nhkworld/en/live/",
+      "type": "official_webpage_not_direct_playlist"
+    }
+  ]
+}

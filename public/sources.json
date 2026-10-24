@@ -1,0 +1,121 @@
+{
+  "live": [
+    {
+      "id": "cn",
+      "name": "中国大陆",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
+    },
+    {
+      "id": "lightconer",
+      "name": "国内备用",
+      "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    },
+    {
+      "id": "hk",
+      "name": "香港",
+      "url": "https://iptv-org.github.io/iptv/countries/hk.m3u"
+    },
+    {
+      "id": "tw",
+      "name": "台湾",
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u"
+    },
+    {
+      "id": "us",
+      "name": "美国",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
+    },
+    {
+      "id": "jp",
+      "name": "日本",
+      "url": "https://iptv-org.github.io/iptv/countries/jp.m3u"
+    },
+    {
+      "id": "kr",
+      "name": "韩国",
+      "url": "https://iptv-org.github.io/iptv/countries/kr.m3u"
+    },
+    {
+      "id": "nexus-cn",
+      "name": "Nexus 中国大陆",
+      "region": "cn",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
+    },
+    {
+      "id": "nexus-hk",
+      "name": "Nexus 香港",
+      "region": "hk",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json"
+    },
+    {
+      "id": "nexus-tw",
+      "name": "Nexus 台湾",
+      "region": "tw",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json"
+    },
+    {
+      "id": "nexus-us",
+      "name": "Nexus 美国",
+      "region": "us",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    },
+    {
+      "id": "nexus-jp",
+      "name": "Nexus 日本",
+      "region": "jp",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
+    },
+    {
+      "id": "nexus-kr",
+      "name": "Nexus 韩国",
+      "region": "kr",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
+    }
+  ],
+  "vod": {
+    "urls": [
+      {
+        "name": "肥猫",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/feimao.json"
+      },
+      {
+        "name": "王二小",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/wangerxiao.json"
+      },
+      {
+        "name": "老刘备",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/laoliubei.json"
+      },
+      {
+        "name": "小马",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaoma.json"
+      },
+      {
+        "name": "讴歌",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/ouge.json"
+      },
+      {
+        "name": "4K小盒子",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/4k.json"
+      },
+      {
+        "name": "小盒子单仓",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/xiaohezi.json"
+      },
+      {
+        "name": "拾光多仓",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/shiguang.json"
+      },
+      {
+        "name": "挺好分享多仓",
+        "url": "https://gh-proxy.org/https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/tinghao.json"
+      }
+    ]
+  }
+}

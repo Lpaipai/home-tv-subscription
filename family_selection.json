@@ -1,0 +1,659 @@
+{
+  "description": "用户选择的33条投影仪音视频输出通过线路，完整替换旧家庭精选；包含CCTV-14/15/17测试卡。不是长期稳定或节目身份保证。",
+  "mode": "fixed",
+  "channels": [
+    "CCTV-1 综合",
+    "CCTV-2 财经",
+    "CCTV-3 综艺",
+    "CCTV-4 中文国际",
+    "CCTV-5 体育",
+    "CCTV-5+ 体育赛事",
+    "CCTV-6 电影",
+    "CCTV-7 国防军事",
+    "CCTV-8 电视剧",
+    "CCTV-9 纪录",
+    "CCTV-10 科教",
+    "CCTV-11 戏曲",
+    "CCTV-12 社会与法",
+    "CCTV-13 新闻",
+    "CCTV-14 少儿",
+    "CCTV-15 音乐",
+    "CCTV-17 农业农村",
+    "CGTN英语",
+    "CGTN纪录",
+    "CGTN西语",
+    "CGTN阿语",
+    "湖南卫视",
+    "浙江卫视",
+    "江苏卫视",
+    "陕西卫视",
+    "湖北卫视",
+    "江西卫视",
+    "广东卫视",
+    "东方卫视",
+    "西藏卫视",
+    "天津卫视",
+    "贵州卫视",
+    "重庆卫视"
+  ],
+  "max_lines_per_channel": 1,
+  "fixed_entries": [
+    {
+      "name": "CCTV-1 综合",
+      "attrs": {
+        "tvg-id": "CCTV1",
+        "tvg-name": "CCTV1",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV1",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:15:33+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-2 财经",
+      "attrs": {
+        "tvg-id": "CCTV2",
+        "tvg-name": "CCTV2",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV2",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:15:51+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-3 综艺",
+      "attrs": {
+        "tvg-id": "CCTV3",
+        "tvg-name": "CCTV3",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV3",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:16:09+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-4 中文国际",
+      "attrs": {
+        "tvg-id": "CCTV4",
+        "tvg-name": "CCTV4",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV4",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:16:26+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-5 体育",
+      "attrs": {
+        "tvg-id": "CCTV5",
+        "tvg-name": "CCTV5",
+        "http-user-agent": "iPhone",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV5",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=iPhone"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:16:43+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-5+ 体育赛事",
+      "attrs": {
+        "tvg-id": "CCTV5PLUS",
+        "tvg-name": "CCTV5+",
+        "http-user-agent": "iPhone",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV5p",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=iPhone"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:16:59+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-6 电影",
+      "attrs": {
+        "tvg-id": "CCTV6",
+        "tvg-name": "CCTV6",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV6",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:17:16+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-7 国防军事",
+      "attrs": {
+        "tvg-id": "CCTV7",
+        "tvg-name": "CCTV7",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV7",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:17:32+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-8 电视剧",
+      "attrs": {
+        "tvg-id": "CCTV8",
+        "tvg-name": "CCTV8",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV8",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:17:49+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-9 纪录",
+      "attrs": {
+        "tvg-id": "CCTV9",
+        "tvg-name": "CCTV9",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV9",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:18:06+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-10 科教",
+      "attrs": {
+        "tvg-id": "CCTV10",
+        "tvg-name": "CCTV10",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV10",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:18:22+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-11 戏曲",
+      "attrs": {
+        "tvg-id": "CCTV11",
+        "tvg-name": "CCTV11",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV11",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:18:41+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-12 社会与法",
+      "attrs": {
+        "tvg-id": "CCTV12",
+        "tvg-name": "CCTV12",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV12",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:18:56+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-13 新闻",
+      "attrs": {
+        "tvg-id": "CCTV13",
+        "tvg-name": "CCTV13",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV13",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:19:13+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CCTV-14 少儿",
+      "attrs": {
+        "tvg-id": "CCTV14",
+        "tvg-name": "CCTV14",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV14",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:19:28+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "test_card"
+      }
+    },
+    {
+      "name": "CCTV-15 音乐",
+      "attrs": {
+        "tvg-id": "CCTV15",
+        "tvg-name": "CCTV15",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV15",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:19:45+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "test_card"
+      }
+    },
+    {
+      "name": "CCTV-17 农业农村",
+      "attrs": {
+        "tvg-id": "CCTV17",
+        "tvg-name": "CCTV17",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV17",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:21:34+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "test_card"
+      }
+    },
+    {
+      "name": "CGTN英语",
+      "attrs": {
+        "tvg-id": "CGTN",
+        "tvg-name": "CGTN",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "https://english-livebkali.cgtn.com/live/encgtn_0.m3u8",
+      "directives": [],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:21:49+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CGTN纪录",
+      "attrs": {
+        "tvg-id": "CGTN纪录",
+        "tvg-name": "CGTN纪录",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "https://english-livebkali.cgtn.com/live/doccgtn_0.m3u8",
+      "directives": [],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:22:06+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CGTN西语",
+      "attrs": {
+        "tvg-id": "CGTN西语",
+        "tvg-name": "CGTN西语",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "https://0472.org/hls/cgtnx.m3u8",
+      "directives": [],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:22:23+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CGTN阿语",
+      "attrs": {
+        "tvg-id": "CGTN阿语",
+        "tvg-name": "CGTN阿语",
+        "group-title": "央视"
+      },
+      "group": "央视",
+      "url": "https://0472.org/hls/cgtna.m3u8",
+      "directives": [],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:22:46+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "湖南卫视",
+      "attrs": {
+        "tvg-id": "湖南卫视",
+        "tvg-name": "湖南卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "http-referer": "https:/aptv.app/",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=湖南卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:23:49+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "浙江卫视",
+      "attrs": {
+        "tvg-id": "浙江卫视",
+        "tvg-name": "浙江卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=浙江卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:24:30+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "江苏卫视",
+      "attrs": {
+        "tvg-id": "江苏卫视",
+        "tvg-name": "江苏卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "http-header": "Referer=https://litchi-play-encrypted-site.jstv.com/",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=江苏卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:24:48+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "陕西卫视",
+      "attrs": {
+        "tvg-id": "陕西卫视",
+        "tvg-name": "陕西卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=陕西卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:25:04+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "湖北卫视",
+      "attrs": {
+        "tvg-id": "湖北卫视",
+        "tvg-name": "湖北卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=湖北卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:25:21+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "江西卫视",
+      "attrs": {
+        "tvg-id": "江西卫视",
+        "tvg-name": "江西卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=江西卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:25:43+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "广东卫视",
+      "attrs": {
+        "tvg-id": "广东卫视",
+        "tvg-name": "广东卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=广东卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:26:00+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "东方卫视",
+      "attrs": {
+        "tvg-id": "东方卫视",
+        "tvg-name": "东方卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=东方卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:26:16+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "西藏卫视",
+      "attrs": {
+        "tvg-id": "西藏卫视",
+        "tvg-name": "西藏卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=西藏卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:26:31+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "天津卫视",
+      "attrs": {
+        "tvg-id": "天津卫视",
+        "tvg-name": "天津卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=天津卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:27:47+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "贵州卫视",
+      "attrs": {
+        "tvg-id": "贵州卫视",
+        "tvg-name": "贵州卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=贵州卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:28:46+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "重庆卫视",
+      "attrs": {
+        "tvg-id": "重庆卫视",
+        "tvg-name": "重庆卫视",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "卫视"
+      },
+      "group": "卫视",
+      "url": "http://101.35.240.114:88/live.php?id=重庆卫视",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:29:14+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    }
+  ]
+}

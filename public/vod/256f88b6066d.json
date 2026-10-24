@@ -1,0 +1,220 @@
+{
+  "urls": [
+    {
+      "name": "SVIP📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
+    },
+    {
+      "name": "备用📚在线",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/xmbjm/svip/refs/heads/main/svip.json"
+    },
+    {
+      "name": "VIP📚在线",
+      "url": "https://jiekou.netlify.app/svip.json"
+    },
+    {
+      "name": "小米📚在线",
+      "url": "http://miqk.cc/小米/DEMO.json"
+    },
+    {
+      "name": "动漫城📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/c6dbba9e167d.json"
+    },
+    {
+      "name": "喵影视📚在线",
+      "url": "https://bitbucket.org/xduo/duoapi/raw/master/xpg.json"
+    },
+    {
+      "name": "小脑斧📚在线",
+      "url": "https://6492.kstore.space/xnf/xnf.json"
+    },
+    {
+      "name": "小虎斑📚在线",
+      "url": "http://hb.小虎斑.site:25252/仅供测试"
+    },
+    {
+      "name": "潇洒📚在线",
+      "url": "https://9877.kstore.space/AnotherD/api.json"
+    },
+    {
+      "name": "肥猫📚在线",
+      "url": "http://肥猫.com"
+    },
+    {
+      "name": "欧歌📚在线",
+      "url": "https://欧歌.v.nxog.top/m/"
+    },
+    {
+      "name": "乐哥📚在线",
+      "url": "https://乐哥.xyz/TV/Zy.json"
+    },
+    {
+      "name": "老虎📚在线",
+      "url": "http://tv.laohu.cool/tvbox.json"
+    },
+    {
+      "name": "Clun📚在线",
+      "url": "https://clun.top/box.json"
+    },
+    {
+      "name": "O  K📚在线",
+      "url": "http://ok321.top/ok"
+    },
+    {
+      "name": "俊佬📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/b914f19a1946.json"
+    },
+    {
+      "name": "短剧📚在线",
+      "url": "http://74.120.175.78/JK/XYQTVBox/dj.json"
+    },
+    {
+      "name": "驸马📚在线",
+      "url": "http://fmys.top/fmys.json"
+    },
+    {
+      "name": "南风📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/yoursmile66/TVBox/main/XC.json"
+    },
+    {
+      "name": "二小📚在线",
+      "url": "http://tvbox.王二小放牛娃.top"
+    },
+    {
+      "name": "毒盒📚在线",
+      "url": "https://xn--8owq8u.com/tv/"
+    },
+    {
+      "name": "心魔📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/c0ac13dd12c9.json"
+    },
+    {
+      "name": "D佬📚在线",
+      "url": "http://2883.kstore.space/nzk/nzk0722.json"
+    },
+    {
+      "name": "小马📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/a6707c24b2df.json"
+    },
+    {
+      "name": "星辰📚在线",
+      "url": "https://fmbox.cc"
+    },
+    {
+      "name": "龙伊📚在线",
+      "url": "https://龙伊.top"
+    },
+    {
+      "name": "寳盒📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/a17c1fda1d77.json"
+    },
+    {
+      "name": "挺好📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/66962c74ee81.json"
+    },
+    {
+      "name": "传说📚在线",
+      "url": "https://chuanshuo.77blog.cn/tv.json"
+    },
+    {
+      "name": "多多📚在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/leevi0709/one/main/jsm.json"
+    },
+    {
+      "name": "分享📚在线",
+      "url": "http://hucongrong.web3v.work/风水/fxz/fxz.json"
+    },
+    {
+      "name": "蓝天📚在线",
+      "url": "https://gitee.com/lukei7/lib/raw/Luck/%E8%87%AA%E5%BB%BA.json"
+    },
+    {
+      "name": "青龙📚在线",
+      "url": "https://gitee.com/yiwu369/6758/raw/master/%E9%9D%92%E9%BE%99/1.json"
+    },
+    {
+      "name": "黄金📚在线",
+      "url": "https://gitlab.com/lzc1021lzc/hjfggzs.hjys/-/raw/main/hjys.free.json"
+    },
+    {
+      "name": "道长📚在线",
+      "url": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json"
+    },
+    {
+      "name": "PG📚在线",
+      "url": "https://cnb.cool/fish2018/pg/-/git/raw/master/jsm.json"
+    },
+    {
+      "name": "真訫📚在线",
+      "url": "https://cnb.cool/fish2018/zx/-/git/raw/master/FongMi.json"
+    },
+    {
+      "name": "琉芸📚在线",
+      "url": "https://git.acwing.com/999/tvbox/-/raw/main/%E5%BD%B1%E8%A7%86.json"
+    },
+    {
+      "name": "月光📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/86b6407e6185.json"
+    },
+    {
+      "name": "雷霆📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/n3rddd/N3RD/master/JN/lemj.json"
+    },
+    {
+      "name": "小凯📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/79b95eb7cef2.json"
+    },
+    {
+      "name": "公子📚在线",
+      "url": "http://xn--b9w.l5.ca/"
+    },
+    {
+      "name": "短剧📚在线",
+      "url": "http://jiduo.3116598.xyz"
+    },
+    {
+      "name": "特别📚在线",
+      "url": "https://gh-proxy.com/raw.githubusercontent.com/yuanwangokk-1/TV-BOX/refs/heads/main/drpys/jsm.json"
+    },
+    {
+      "name": "蜂蜜📚在线",
+      "url": "https://qu.ax/uanw.json"
+    },
+    {
+      "name": "传说📚在线",
+      "url": "http://tjf1100.serv00.net/"
+    },
+    {
+      "name": "多多📚在线",
+      "url": "https://yydsys.top/duo"
+    },
+    {
+      "name": "刺刺📚在线",
+      "url": "https://d.kstore.dev/download/8975/刺刺专用音乐接口.json"
+    },
+    {
+      "name": "剧场📚在线",
+      "url": "https://乐哥.xyz/dj.json"
+    },
+    {
+      "name": "听书📚在线",
+      "url": "https://乐哥.xyz/Ting/Tshu.json"
+    },
+    {
+      "name": "CandyMu📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/99ec6431ba95.json"
+    },
+    {
+      "name": "欧歌备用📚在线",
+      "url": "https://xn--biib-rp5imh.v.nxog.top/apitv.php"
+    },
+    {
+      "name": "各种网盘📚在线",
+      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"
+    },
+    {
+      "name": "请勿贩卖📚在线",
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/vod/661df4638e63.json"
+    }
+  ]
+}

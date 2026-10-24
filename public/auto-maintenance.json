@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-10-24T00:47:28+00:00",
+  "policy": {
+    "recheck_days": 7,
+    "suspend_days": 14,
+    "min_separate_failed_days": 2,
+    "suspended_recheck_days": 7,
+    "max_initial": 8,
+    "max_retry": 2,
+    "selection": "live_and_suspended_split_budget_oldest_attempt_first"
+  },
+  "sampled": 0,
+  "attempts": 0,
+  "counts": {},
+  "state_changes": {},
+  "suspended_total": 0,
+  "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
+  "results": [],
+  "renewed_by_formal_checks": 0
+}

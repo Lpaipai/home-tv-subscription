@@ -1,0 +1,190 @@
+{
+  "name": "LWP 家庭影音",
+  "base_url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public",
+  "live_sources": [
+    {
+      "id": "cn",
+      "name": "中国大陆",
+      "url": "https://iptv-org.github.io/iptv/countries/cn.m3u"
+    },
+    {
+      "id": "lightconer",
+      "name": "国内备用",
+      "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    },
+    {
+      "id": "hk",
+      "name": "香港",
+      "url": "https://iptv-org.github.io/iptv/countries/hk.m3u"
+    },
+    {
+      "id": "tw",
+      "name": "台湾",
+      "url": "https://iptv-org.github.io/iptv/countries/tw.m3u"
+    },
+    {
+      "id": "us",
+      "name": "美国",
+      "url": "https://iptv-org.github.io/iptv/countries/us.m3u"
+    },
+    {
+      "id": "jp",
+      "name": "日本",
+      "url": "https://iptv-org.github.io/iptv/countries/jp.m3u"
+    },
+    {
+      "id": "kr",
+      "name": "韩国",
+      "url": "https://iptv-org.github.io/iptv/countries/kr.m3u"
+    },
+    {
+      "id": "nexus-cn",
+      "name": "Nexus 中国大陆",
+      "region": "cn",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
+    },
+    {
+      "id": "nexus-hk",
+      "name": "Nexus 香港",
+      "region": "hk",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json"
+    },
+    {
+      "id": "nexus-tw",
+      "name": "Nexus 台湾",
+      "region": "tw",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json"
+    },
+    {
+      "id": "nexus-us",
+      "name": "Nexus 美国",
+      "region": "us",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    },
+    {
+      "id": "nexus-jp",
+      "name": "Nexus 日本",
+      "region": "jp",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
+    },
+    {
+      "id": "nexus-kr",
+      "name": "Nexus 韩国",
+      "region": "kr",
+      "format": "nexus",
+      "url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
+    }
+  ],
+  "vod_catalog": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/多仓订阅.json",
+  "vod_origins": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/config/sources.json",
+  "vod_status": "https://raw.githubusercontent.com/Lightconer/tvbox-ysc-config/main/output/status.json",
+  "preferred_vod": [
+    "王二小",
+    "小马",
+    "老刘备"
+  ],
+  "vod_home_api": {
+    "wangerxiao": "csp_WexkuihuatvGuard"
+  },
+  "live_exclusions": [
+    {
+      "name": "CCTV-13 (720p)",
+      "url": "https://event.pull.hebtv.com/jishi/cp1.m3u8",
+      "reason": "2026-10-22 投影仪实测此线路播放购物广告，与 CCTV-13 新闻频道标注不符"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://207.56.13.146:81/cdnlive/cctv4.m3u8",
+      "reason": "2026-10-22 电脑和投影仪均播购物广告；与同期央视域名 CCTV-4 正常节目不符"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
+      "reason": "2026-10-23 电脑及投影仪画面均为花垣综合，频道误标"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
+      "reason": "2026-10-23 连续测试50秒仅推进约16秒视频，替换为本次通过连续解码的线路"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://69.30.245.50/live/cctv1.m3u8",
+      "reason": "2026-10-23 连接重置且视频解码失败，替换为本轮验证线路"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://198.204.240.250:82/live/cctv1.m3u8",
+      "reason": "2026-10-23 连接重置及5XX错误，替换为本轮验证线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "https://live.eac-news.com/CCTV/streams/cctv6.m3u8",
+      "reason": "2026-10-23 返回HTTP 500，解码失败"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://198.204.228.26/live/cctv6hd.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://69.30.245.50/live/cctv6.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://198.204.240.250:82/live/cctv6.m3u8",
+      "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    }
+  ],
+  "live_additions": [
+    {
+      "name": "CCTV-4",
+      "url": "http://107.150.60.122/live/cctv4hd.m3u8",
+      "provenance": "https://github.com/jiandantv/IPTV2026/blob/main/live_lite.m3u",
+      "verified_at": "2026-10-22",
+      "verification": "抽帧可见 CCTV-4 中文国际台标及与央视域名相同的节目；不代表长期稳定"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://112.46.85.60:8009/hls/4/index.m3u8",
+      "provenance": "https://github.com/jiandantv/IPTV2026/blob/main/live_lite.m3u",
+      "verified_at": "2026-10-22",
+      "verification": "抽帧可见 CCTV-4 中文国际台标及与央视域名相同的节目；不代表长期稳定"
+    },
+    {
+      "name": "CCTV-4",
+      "url": "http://www.cdnstv.com:6398/hls/4/index.m3u8",
+      "provenance": "https://github.com/jiandantv/IPTV2026/blob/main/live_lite.m3u",
+      "verified_at": "2026-10-22",
+      "verification": "抽帧可见 CCTV-4 中文国际台标及与央视域名相同的节目；不代表长期稳定"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://120.76.248.139/live/bfgd/4200000488.m3u8",
+      "provenance": "https://raw.githubusercontent.com/CCSH/IPTV/main/live_lite.txt",
+      "verified_at": "2026-10-23",
+      "verification": "台标人工画面核对；60秒音视频解码完成；不代表长期稳定"
+    },
+    {
+      "name": "CCTV-1",
+      "url": "http://198.204.228.26/live/cctv1hd.m3u8",
+      "provenance": "https://raw.githubusercontent.com/CCSH/IPTV/main/live_lite.txt",
+      "verified_at": "2026-10-23",
+      "verification": "台标人工画面核对；45秒音视频解码完成；不代表长期稳定"
+    },
+    {
+      "name": "CCTV-6",
+      "url": "http://120.76.248.139/live/bfgd/4200000065.m3u8",
+      "provenance": "https://raw.githubusercontent.com/CCSH/IPTV/main/live_lite.txt",
+      "verified_at": "2026-10-23",
+      "verification": "台标人工核对、45秒连续视频与音频解码；投影仪影视仓实际出现电影频道动态画面；不代表长期稳定"
+    }
+  ]
+}

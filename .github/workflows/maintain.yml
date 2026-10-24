@@ -1,0 +1,167 @@
+# 2026/10/22 23:40:00 by liaoweipeng1
+name: 免费直播源维护
+
+on:
+  # 维护逻辑变更合入 main 后立即完成一次完整更新与核验；
+  # 自动发布仅改 public/，且 GITHUB_TOKEN 推送不会递归触发。
+  push:
+    branches: [main]
+    paths:
+      - 'config.json'
+      - 'candidate_sources.json'
+      - 'family_selection.json'
+      - 'channel_catalog.py'
+      - 'channel_names.json'
+      - 'update.py'
+      - 'scan_live.py'
+      - 'curation.py'
+      - 'network_policy.py'
+      - 'source_review.py'
+      - 'candidate_scan.py'
+      - 'auto_additions.py'
+      - 'auto_maintenance.py'
+      - 'visual_check.py'
+      - '.github/workflows/maintain.yml'
+  schedule:
+    - cron: '23 22 * * *'  # 北京时间每天 06:23
+    - cron: '23 23 * * 6'  # 北京时间周日 07:23
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 选择更新目录或播放抽检
+        type: choice
+        options:
+          - update
+          - scan
+        default: update
+
+permissions:
+  contents: write
+
+concurrency:
+  group: subscription-maintenance
+  cancel-in-progress: false
+
+jobs:
+  maintain:
+    # 仅在原公开仓库主分支运行，防止转为私有仓库后消耗付费额度。
+    if: github.repository == 'Lpaipai/home-tv-subscription' && github.event.repository.private == false && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      MODE: ${{ github.event.schedule == '23 23 * * 6' && 'scan' || inputs.mode || 'update' }}
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          # 排队任务开始时读取最新版本，避免上一个维护任务提交后仍使用旧快照。
+          ref: main
+          fetch-depth: 0
+      - name: 检查公开发布策略
+        env:
+          PUBLICATION_POLICY: ${{ secrets.PUBLICATION_POLICY }}
+        run: python3 -B publication_guard.py
+      - name: 运行回归检查
+        run: python3 -B -m unittest -v
+      - name: 恢复上游文本缓存
+        if: env.MODE == 'update'
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
+        with:
+          path: cache
+          key: live-text-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: live-text-v1-
+      - name: 更新直播目录并检查发布门槛
+        if: env.MODE == 'update'
+        timeout-minutes: 5
+        run: python3 -B update.py --live-only --guarded
+      - name: 发现候选源并排除已知错标地址
+        id: discover
+        if: env.MODE == 'update'
+        timeout-minutes: 2
+        continue-on-error: true
+        run: python3 -B source_review.py
+      - name: 检查抽检工具
+        run: |
+          if ! command -v ffmpeg >/dev/null; then
+            sudo apt-get update -qq
+            sudo apt-get install -y --no-install-recommends ffmpeg
+          fi
+      - name: 检查免费本地 OCR
+        id: ocr_setup
+        if: env.MODE == 'update'
+        timeout-minutes: 2
+        continue-on-error: true
+        run: |
+          if ! command -v tesseract >/dev/null || ! tesseract --list-langs 2>&1 | grep -q chi_sim; then
+            sudo apt-get update -qq
+            sudo apt-get install -y --no-install-recommends tesseract-ocr tesseract-ocr-chi-sim
+          fi
+          tesseract --list-langs
+      - name: 每日重点频道实播抽检
+        id: daily_scan
+        if: env.MODE == 'update'
+        timeout-minutes: 4
+        continue-on-error: true
+        run: python3 -B scan_live.py --mode daily --limit 24 --retry-limit 8
+      - name: 每日候选抽检并自动收录通过线路
+        id: candidate_scan
+        if: env.MODE == 'update' && steps.discover.outcome == 'success'
+        timeout-minutes: 3
+        continue-on-error: true
+        run: python3 -B candidate_scan.py
+      - name: 自动收录线路到期复检与停用恢复
+        id: recheck
+        if: env.MODE == 'update'
+        timeout-minutes: 3
+        continue-on-error: true
+        run: python3 -B auto_maintenance.py
+      - name: 每周轮换播放抽检
+        if: env.MODE == 'scan'
+        timeout-minutes: 13
+        run: python3 -B scan_live.py --mode weekly --limit 120 --retry-limit 40
+      - name: 发布前复核生成文件
+        env:
+          PUBLICATION_POLICY: ${{ secrets.PUBLICATION_POLICY }}
+        run: python3 -B publication_guard.py
+      - name: 写入运行摘要
+        run: |
+          if [ "$MODE" = scan ]; then
+            cat public/health.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            python3 -B -c 'import json, os; from pathlib import Path; s=json.loads(Path("public/status.json").read_text()); Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text("直播目录更新通过：%s 条线路。目录更新本身不代表全部线路可播。\n" % s["live_entries"])'
+            if [ "${{ steps.ocr_setup.outcome }}" != success ]; then
+              echo 'OCR 工具准备失败或超时：本次允许降级为视频解码检测；已记录的疑似错台继续拦截。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            if [ "${{ steps.discover.outcome }}" = success ]; then
+              echo '候选目录已更新；普通线路解码通过后自动加入，获显式授权的公网 IPv6 可标注未验证状态作为备用线路加入。' >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo '候选源发现失败或未执行；沿用旧报告。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            if [ "${{ steps.candidate_scan.outcome }}" = success ]; then
+              python3 -B -c 'import json, os; from pathlib import Path; r=json.loads(Path("public/candidate-health.json").read_text()); c=r["counts"]; print("候选线路抽检：%s 条；视频解码成功 %s 条；新增实播线路 %s 条、未验证 IPv6 备用线路 %s 条。" % (r["sampled"], c.get("decoded", 0), r.get("promoted_decoded", 0), r.get("promoted_ipv6_unverified", 0)), file=open(os.environ["GITHUB_STEP_SUMMARY"],"a"))'
+            else
+              echo '本次候选实播检测未完成，原正式订阅不受影响。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            if [ "${{ steps.recheck.outcome }}" = success ]; then
+              python3 -B -c 'import json, os; from pathlib import Path; r=json.loads(Path("public/auto-maintenance.json").read_text()); print("自动收录复检：%s 条；本次解码 %s 条；累计暂停 %s 条；暂停线路按期继续复检。" % (r["sampled"], r["counts"].get("decoded",0), r["suspended_total"]), file=open(os.environ["GITHUB_STEP_SUMMARY"],"a"))'
+            else
+              echo '自动收录复检未完成；保留上一版本。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            if [ "${{ steps.daily_scan.outcome }}" = success ]; then
+              cat public/health.md >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo '每日实播抽检未完成；直播目录照常发布，保留旧抽检报告。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+          fi
+      - name: 发布到固定订阅地址
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- public
+          if git diff --cached --quiet; then
+            echo '目录无变化，无需提交。'
+            exit 0
+          fi
+          git commit -m "自动维护直播订阅：$MODE"
+          # 普通快进推送；如人工提交并发进入则失败，绝不强制覆盖。
+          git push origin HEAD:main

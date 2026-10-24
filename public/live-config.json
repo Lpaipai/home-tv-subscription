@@ -1,0 +1,12 @@
+{
+  "sites": [],
+  "lives": [
+    {
+      "name": "LWP 家庭直播",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public/live.txt",
+      "playerType": 1,
+      "ua": "okhttp/3.15"
+    }
+  ]
+}
