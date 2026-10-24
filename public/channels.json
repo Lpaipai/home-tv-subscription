@@ -54,8 +54,8 @@
       },
       {
         "name": "CCTV-7 国防军事",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-8 电视剧",
@@ -214,13 +214,13 @@
       },
       {
         "name": "大湾区卫视",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "东方卫视",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "东南卫视",
@@ -244,8 +244,8 @@
       },
       {
         "name": "贵州卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "海南卫视",
@@ -269,8 +269,8 @@
       },
       {
         "name": "湖北卫视",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "湖南卫视",
@@ -324,8 +324,8 @@
       },
       {
         "name": "山东卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "山西卫视",
@@ -379,8 +379,8 @@
       },
       {
         "name": "浙江卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "重庆卫视",
@@ -494,8 +494,8 @@
       },
       {
         "name": "广东民生",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "广东新闻",
@@ -674,11 +674,6 @@
       },
       {
         "name": "内蒙古蒙古语文化",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "女性时尚",
         "lines": 2,
         "txt_lines": 2
       },

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-24T08:46:04+08:00",
+  "fetched_at": "2026-10-24T13:40:53+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -78,9 +78,9 @@
   ],
   "failures": [],
   "total_unique": 1787,
-  "not_in_main": 1604,
+  "not_in_main": 1597,
   "ipv6_literal": 115,
-  "priority_unlisted": 406,
+  "priority_unlisted": 400,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -161,17 +161,6 @@
     },
     {
       "line_id": "ade9d9dfbd9b8cb1",
-      "name": "广西卫视",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "regional_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "c91411bdf6cd2fdf",
       "name": "广西卫视",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -424,17 +413,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "htv-guangdong-tvm"
-      ]
-    },
-    {
-      "line_id": "1dc13c3fcbddb0b0",
-      "name": "大湾区卫视",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {
@@ -691,17 +669,6 @@
       ]
     },
     {
-      "line_id": "f8cab55e360d1900",
-      "name": "广东新闻",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "241cc695093291f9",
       "name": "广东民生",
       "network": "ipv4_literal",
@@ -749,17 +716,6 @@
       "line_id": "a296729e1729edb1",
       "name": "广东民生",
       "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "htv-guangdong-yuhong"
-      ]
-    },
-    {
-      "line_id": "015617a254d6664c",
-      "name": "广东珠江",
-      "network": "ipv4_literal",
       "already_in_main": false,
       "priority": "target_missing_channel",
       "review": "pending_video_decode_content_unverified",
@@ -1417,6 +1373,17 @@
       ]
     },
     {
+      "line_id": "f4635b10dd3c3972",
+      "name": "CCTV-14",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
       "line_id": "80f74d3d5dc105c5",
       "name": "CCTV-14 少儿",
       "network": "ipv4_literal",
@@ -1484,17 +1451,6 @@
     },
     {
       "line_id": "8c3e293f6418c953",
-      "name": "CCTV-15",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "c6ffe8bba63b44bd",
       "name": "CCTV-15",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1843,6 +1799,50 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "d7573ee5e2ad0f05",
+      "name": "CCTV-5",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "db74d83408a61d27",
+      "name": "CCTV-5",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "f51c356943d84bc1",
+      "name": "CCTV-5",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3de3958fa3118b72",
+      "name": "CCTV-5 体育",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
       ]
     }
   ]

@@ -1,22 +1,21 @@
 {
-  "checked_at": "2026-10-24T08:46:51+08:00",
+  "checked_at": "2026-10-24T13:42:02+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3666,
+  "catalog_entries": 3676,
   "sampled": 24,
   "counts": {
-    "decoded": 18,
-    "blocked": 1,
+    "decoded": 19,
     "failed": 5
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 30,
-  "recovered_on_retry": 1,
+  "attempts": 29,
+  "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "ba497d57e2f328fa",
+      "id": "c20b41c9dcbc667a",
       "name": "CCTV-3 综艺",
       "group": "央视",
       "status": "decoded",
@@ -24,11 +23,12 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4a46b143c27d1cc5",
+      "id": "a55a059f3bc0ec0d",
       "name": "CCTV-4 America",
       "group": "央视",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
       "id": "1bcf4e03452cee03",
@@ -47,7 +47,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "37c939a1cfed747e",
+      "id": "95fb95f126ce244d",
       "name": "CCTV-4 中文国际",
       "group": "央视",
       "status": "decoded",
@@ -65,7 +65,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "6e056459bf48029d",
+      "id": "caf0c74de42868cd",
       "name": "CCTV-5 体育",
       "group": "央视",
       "status": "decoded",
@@ -83,7 +83,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "a3754d4669c6b1d0",
+      "id": "82632b9b06c20719",
       "name": "CCTV-6 电影",
       "group": "央视",
       "status": "decoded",
@@ -91,15 +91,16 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3059145cc1619fdc",
+      "id": "6fa2bb225beced26",
       "name": "CCTV-7 国防军事",
       "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "4fbe1f5d52494b0c",
+      "id": "4919ba1e497b7fcb",
       "name": "CCTV-8 电视剧",
       "group": "央视",
       "status": "decoded",
@@ -107,17 +108,15 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6191f45534a09b39",
+      "id": "1bdcf09d06c66f40",
       "name": "CCTV-8K",
       "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "15f9d02bb6cfd24d",
+      "id": "5fd61bb37de4e0d4",
       "name": "CCTV-9 纪录",
       "group": "央视",
       "status": "decoded",
@@ -157,52 +156,24 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "0c01ef55eb528f13",
+      "id": "73487ea107c9c1ce",
       "name": "央视女性时尚",
       "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "a878b0bd1264dc54",
-      "name": "News12 New Jersey",
-      "group": "美国",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "039a185619d27b30",
-      "name": "News12 New York",
+      "id": "6da18578afc561f3",
+      "name": "LifevisionTV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "265852f6112ac7fb",
-      "name": "News12 Westchester",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "7a6fc39d2d9f1795",
-      "name": "News12+ Connecticut",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "bb11a992baece10e",
-      "name": "News12+ Hudson Valley",
+      "id": "982605ce9b6fb525",
+      "name": "Lindell TV",
       "group": "美国",
       "status": "failed",
       "frames": 0,
@@ -211,8 +182,34 @@
       "initial_status": "failed"
     },
     {
-      "id": "00406aa9a6ba808f",
-      "name": "News12+ Long Island",
+      "id": "a518ac0370005b58",
+      "name": "Little Guyana TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "cc0dcc8119e04290",
+      "name": "Little Stars Universe",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "766e694adf28234c",
+      "name": "Littleton 8 TV",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "b6fb2256dadc0a4b",
+      "name": "Live Music",
       "group": "美国",
       "status": "decoded",
       "frames": 4,

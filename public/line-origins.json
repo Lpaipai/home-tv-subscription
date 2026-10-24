@@ -12,12 +12,6 @@
       "https://raw.githubusercontent.com/CCSH/IPTV/main/live_lite.txt"
     ]
   },
-  "fac12c2fbbc6dcdc": {
-    "url": "http://204.12.221.218:8181/3m1080p/cctv1.m3u8",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "45fad1a5d2bc20e4": {
     "url": "http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009",
     "sources": [
@@ -32,6 +26,12 @@
   },
   "de77a08a9f2ffc3e": {
     "url": "http://120.198.95.220:9901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&down=1",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "fac12c2fbbc6dcdc": {
+    "url": "http://204.12.221.218:8181/3m1080p/cctv1.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -76,16 +76,16 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "3e98ccce1b6a5125": {
-    "url": "http://107.150.60.122/live/cctv3hd.m3u8",
-    "sources": [
-      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
-    ]
-  },
   "c20b41c9dcbc667a": {
     "url": "http://120.198.95.220:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&down=1",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "3e98ccce1b6a5125": {
+    "url": "http://107.150.60.122/live/cctv3hd.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
   "e4615d4565278d99": {
@@ -161,16 +161,16 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "236a76b46de6baf2": {
-    "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub",
-    "sources": [
-      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
-    ]
-  },
   "caf0c74de42868cd": {
     "url": "http://207.56.13.146:81/cdnlive/cctv5.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "236a76b46de6baf2": {
+    "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv5p.m3u8?auth=testpub",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
   "437d1aabefdaab45": {
@@ -224,6 +224,12 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "dac15e492f1d34d5": {
+    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
   "6fa2bb225beced26": {
     "url": "http://101.66.194.176:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -244,14 +250,14 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "9d53280dd787219c": {
-    "url": "http://207.56.13.146:81/cdnlive/cctv8.m3u8",
+  "4fbe1f5d52494b0c": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "4fbe1f5d52494b0c": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "9d53280dd787219c": {
+    "url": "http://207.56.13.146:81/cdnlive/cctv8.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -274,17 +280,17 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
+  "5fd61bb37de4e0d4": {
+    "url": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d22ebefff500084389b2af3b0169f024",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "4ca7c4394673083c": {
     "url": "https://xykt-fix.github.io/Y77.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
-    ]
-  },
-  "5fd61bb37de4e0d4": {
-    "url": "https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d22ebefff500084389b2af3b0169f024",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
   "ed47617705142353": {
@@ -436,20 +442,14 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "f4635b10dd3c3972": {
-    "url": "http://198.204.228.26/live/cctv14hd.m3u8",
+  "d0d7ecf8ae38eb97": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "c59833b6fd6fafca": {
-    "url": "http://173.208.212.130:8181/1080p/cctv14.m3u8",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
-  "8487d5b85d174736": {
-    "url": "http://204.12.221.218:8181/3m1080p/cctv14.m3u8",
+  "cb2726aa0b5af752": {
+    "url": "http://101.66.195.232:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -460,14 +460,20 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "d0d7ecf8ae38eb97": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0015_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "8487d5b85d174736": {
+    "url": "http://204.12.221.218:8181/3m1080p/cctv14.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "cb2726aa0b5af752": {
-    "url": "http://101.66.195.232:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "1ff2f5c15f0457bd": {
+    "url": "https://event.pull.hebtv.com/jishi/cp2.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "c59833b6fd6fafca": {
+    "url": "http://173.208.212.130:8181/1080p/cctv14.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -705,14 +711,14 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "b6d8f1974cc5057d": {
-    "url": "http://101.66.194.176:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "7ae95a06edaedb59": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "7ae95a06edaedb59": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "b6d8f1974cc5057d": {
+    "url": "http://101.66.194.176:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -780,10 +786,10 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "18e8233add343fd3": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "211e977d779c5fac": {
+    "url": "http://183.237.95.108:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+      "https://raw.githubusercontent.com/yuhong126/iptv/main/smtv.txt"
     ]
   },
   "d0ae765e8e1b7138": {
@@ -792,8 +798,8 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "0e447703bb0c5b7f": {
-    "url": "http://bp-resource-dfl.bestv.cn/155/3/video.m3u8",
+  "18e8233add343fd3": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0124_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -902,12 +908,6 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "b9c7e7f7ba1509b6": {
-    "url": "http://101.66.198.18:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "4bb241505c56d182": {
     "url": "http://101.66.194.176:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -922,6 +922,12 @@
   },
   "ca7a5176afd505d7": {
     "url": "http://101.66.195.232:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "b9c7e7f7ba1509b6": {
+    "url": "http://101.66.198.18:9901/tsfile/live/0113_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -948,6 +954,18 @@
     "url": "http://204.12.221.218:8181/3m1080p/gzws.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
+  "ea9f7f1e861aea77": {
+    "url": "http://101.66.194.29:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "77c95191bea1d2b1": {
+    "url": "http://101.66.198.18:9901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
   "7dcc99b0b83d6478": {
@@ -1116,6 +1134,12 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
+  "2ae4c9b17c1ffc1a": {
+    "url": "http://221.226.51.220:50081/newlive/live/hls/36/live.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "48f75b839006b14e": {
     "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226952/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EREB40lnZnCEwjRy7LZuhIQ%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND",
     "sources": [
@@ -1136,6 +1160,12 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "29bbb907d576f879": {
+    "url": "http://107.150.60.122/live/hnwshd.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "c510b6ae3505ce99": {
     "url": "http://74.91.26.218:82/live/hnwshd.m3u8",
     "sources": [
@@ -1154,12 +1184,6 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "29bbb907d576f879": {
-    "url": "http://107.150.60.122/live/hnwshd.m3u8",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "fce2899960d425c0": {
     "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226509/1.m3u8?zoneoffset=480&servicetype=1&icpid=&limitflux=-1&limitdur=-1&tenantId=8601&accountinfo=%7E%7EV2.0%7EIGb_ib7rnBX9_sANRKq9sg%7EpK8OKM5JoJWWbLRyLfPcUMkwWZ90MzSI9S9PDltJsYzd0ZGcS3Tkh7syciNKJa-w60mDOdwtDyoNwCx9aRgzHNH9AUREV_qvNJtXHRPzYw0%7EExtInfo9bj61dxzlMXrsixrqcFYPg%3D%3D%3A20221022013542%2C915973%2C119.123.71.209%2C20221022013542%2C10000100000000050000000003873458%2C915973%2C-1%2C0%2C1%2C%2C%2C2%2C%2C%2C%2C2%2C%2C10000100000000060000000007253514_0%2CEND&GuardEncType=2",
     "sources": [
@@ -1172,14 +1196,8 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "cc7b30b636329f93": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
-  "034e55fadce56ddb": {
-    "url": "http://101.66.198.84:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "b851f0ee72447d1e": {
+    "url": "http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1190,20 +1208,26 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
+  "034e55fadce56ddb": {
+    "url": "http://101.66.198.84:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "bb241bbeb52abf6d": {
     "url": "http://101.66.194.176:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "cbfd5d1dd922130b": {
-    "url": "http://101.66.198.18:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "cc7b30b636329f93": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "b851f0ee72447d1e": {
-    "url": "http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "cbfd5d1dd922130b": {
+    "url": "http://101.66.198.18:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1221,14 +1245,14 @@
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
-  "5010302d89fd7e81": {
-    "url": "http://107.150.60.122/live/jswshd.m3u8",
+  "43fa6cf97fea3775": {
+    "url": "http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "43fa6cf97fea3775": {
-    "url": "http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub",
+  "5010302d89fd7e81": {
+    "url": "http://107.150.60.122/live/jswshd.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1300,12 +1324,6 @@
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
-  "fea9f06e007b1195": {
-    "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "b93109d431a32230": {
     "url": "http://101.66.198.84:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -1314,6 +1332,12 @@
   },
   "16096836cf1184bb": {
     "url": "http://101.66.194.176:9901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "fea9f06e007b1195": {
+    "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1386,14 +1410,14 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "46aa0cd7797d8f00": {
-    "url": "http://112.123.243.37:50085/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "e2f6cd7d5d6d101b": {
+    "url": "http://101.66.195.232:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "e2f6cd7d5d6d101b": {
-    "url": "http://101.66.195.232:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "46aa0cd7797d8f00": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0126_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1609,6 +1633,12 @@
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
+  "0a3cdca37ba1e83e": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "08142fb6fff0fd02": {
     "url": "http://101.66.194.176:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -1663,6 +1693,12 @@
       "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
     ]
   },
+  "640eb673cbeaf366": {
+    "url": "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "8d0100aaeb51f0b9": {
     "url": "http://101.66.198.84:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -1681,12 +1717,6 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "640eb673cbeaf366": {
-    "url": "http://101.66.194.29:9901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "f5c73e5452a24d1c": {
     "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227016/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESb5Qr3NTpE2ZugIroKoyTw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND",
     "sources": [
@@ -1699,26 +1729,26 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "844a72bad0e40ed1": {
-    "url": "http://101.66.198.84:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "7b448d53a75f1ac4": {
     "url": "http://101.66.198.18:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "a21a0c26bc9ad19a": {
-    "url": "http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0",
+  "934e9a08c3193c60": {
+    "url": "http://101.66.194.29:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "934e9a08c3193c60": {
-    "url": "http://101.66.194.29:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "844a72bad0e40ed1": {
+    "url": "http://101.66.198.84:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "a21a0c26bc9ad19a": {
+    "url": "http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -1882,14 +1912,14 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "a8c0c10cf3137605": {
-    "url": "http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
+  "8d3a0825f9d378d8": {
+    "url": "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "8d3a0825f9d378d8": {
-    "url": "http://120.198.95.220:9901/tsfile/live/1067_1.m3u8?key=txiptv&playlive=1&down=1",
+  "a8c0c10cf3137605": {
+    "url": "http://36.136.38.87:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -2073,12 +2103,6 @@
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
-  "8c6f7fedb4d84cab": {
-    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
   "6db22da80c6d249d": {
     "url": "http://101.66.194.29:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -2097,6 +2121,18 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
+  "d73c31a775fedf2f": {
+    "url": "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "8c6f7fedb4d84cab": {
+    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "b8e996f7dc28fd5f": {
     "url": "http://120.198.95.220:9901/tsfile/live/1056_1.m3u8?key=txiptv&playlive=1&down=1",
     "sources": [
@@ -2105,12 +2141,6 @@
   },
   "e9dda46706ee50da": {
     "url": "http://101.66.198.84:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
-  "d73c31a775fedf2f": {
-    "url": "http://101.66.198.18:9901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -2179,6 +2209,12 @@
     "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd",
     "sources": [
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
+  "342bfccdcbc2cb1c": {
+    "url": "http://112.123.243.37:50085/tsfile/live/0019_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
   "c14c6c58a9ba23fa": {
@@ -2305,8 +2341,7 @@
     "url": "http://113.64.146.48:1688/hls/4/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+      "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
   "23257ee986af1e1e": {
@@ -2408,6 +2443,12 @@
     "url": "http://222.128.55.152:9080/live/gdms.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/yuhong126/iptv/main/smtv.txt"
+    ]
+  },
+  "241cc695093291f9": {
+    "url": "http://38.75.136.137:98/gslb/dsdqpub/gdgga.m3u8?auth=testpub",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
   "f8cab55e360d1900": {
@@ -2667,14 +2708,14 @@
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
-  "18ec1fe1d03ca05e": {
-    "url": "http://101.66.198.18:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "3a308ca692e11830": {
+    "url": "http://101.66.195.232:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "3a308ca692e11830": {
-    "url": "http://101.66.195.232:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
+  "18ec1fe1d03ca05e": {
+    "url": "http://101.66.198.18:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -2708,16 +2749,14 @@
     "url": "https://liveplus.lzr.com.cn/wlpd/HD/live.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+      "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
   "5cb7c995658dabd2": {
     "url": "https://liveplus.lzr.com.cn/xwzh/HD/live.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+      "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
   "af9c41670336eb99": {
@@ -2751,18 +2790,6 @@
     "url": "http://play1-qk.nmtv.cn/live/1769652109096027.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
-  "7a375637406a4d13": {
-    "url": "http://119.129.172.249:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
-  "0d3965353f69c765": {
-    "url": "http://119.129.172.198:9901/tsfile/live/1010_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
   "42c87aefe4180f1c": {
