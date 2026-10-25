@@ -1,19 +1,145 @@
 {
-  "checked_at": "2026-10-25T08:25:10+08:00",
-  "mode": "daily",
+  "checked_at": "2026-10-25T09:22:51+08:00",
+  "mode": "weekly",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3675,
-  "sampled": 24,
+  "catalog_entries": 3679,
+  "sampled": 120,
   "counts": {
-    "decoded": 18,
-    "failed": 6
+    "decoded": 79,
+    "failed": 39,
+    "blocked": 2
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 32,
+  "attempts": 160,
   "recovered_on_retry": 2,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
+    {
+      "id": "2ac7db377504d05c",
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "fe24e362aa11e08b",
+      "name": "CCTV-4K",
+      "group": "央视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "6e056459bf48029d",
+      "name": "CCTV-5 体育",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1e09bb0c48dfb174",
+      "name": "CCTV-5+ 体育赛事",
+      "group": "央视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "82632b9b06c20719",
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "92bb289e8785ca44",
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "37704c682b0e4d9d",
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1bdcf09d06c66f40",
+      "name": "CCTV-8K",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "15f9d02bb6cfd24d",
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "28570e470e6a7304",
+      "name": "央视世界地理",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "36575d1f87e38356",
+      "name": "央视兵器科技",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a803576f0c9bfe39",
+      "name": "央视卫生健康",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a29705b007736055",
+      "name": "央视台球",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "73487ea107c9c1ce",
+      "name": "央视女性时尚",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7b90e89bb22727ff",
+      "name": "央视怀旧剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
     {
       "id": "34c9250d762aff48",
       "name": "央视文化精品",
@@ -60,13 +186,27 @@
       "group": "央视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "111ace19358a8a04",
+      "id": "4ae76489de058546",
       "name": "三沙卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8dc5667966818aaa",
+      "name": "东南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "d0ae765e8e1b7138",
+      "name": "东方卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -75,25 +215,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "a31ef0de140b5c2c",
-      "name": "东南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "0e447703bb0c5b7f",
-      "name": "东方卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6aa34a4636c5480d",
+      "id": "6d5fd13a53d11ac8",
       "name": "云南卫视",
       "group": "卫视",
       "status": "failed",
@@ -103,36 +225,25 @@
       "initial_status": "failed"
     },
     {
-      "id": "26268980bd35a7f8",
+      "id": "795db1d9b757d6df",
       "name": "兵团卫视",
       "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "de5fa4bb2a53bbe5",
+      "id": "13ced5b664b074fd",
       "name": "内蒙古卫视",
       "group": "卫视",
       "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "ea5dd59fa83525ff",
+      "id": "9871797038c45022",
       "name": "北京卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "965947dcf85b156b",
-      "name": "厦门卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -141,15 +252,25 @@
       "initial_status": "failed"
     },
     {
-      "id": "1bdd7ef9dcd57f79",
-      "name": "吉林卫视",
+      "id": "c90b1aeeeeeeed72",
+      "name": "厦门卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "618c2e64e687becd",
+      "id": "b851f0ee72447d1e",
+      "name": "吉林卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0e9604240ecad3e6",
       "name": "四川卫视",
       "group": "卫视",
       "status": "failed",
@@ -159,7 +280,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "1dc13c3fcbddb0b0",
+      "id": "211e977d779c5fac",
       "name": "大湾区卫视",
       "group": "卫视",
       "status": "decoded",
@@ -167,60 +288,766 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "5e4777d5509e66e5",
+      "id": "7cf9329767528e39",
       "name": "天津卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "7d6ab493542d4111",
+      "name": "宁夏卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6e1f849060413853",
-      "name": "Midpen Media Center Channel 75",
+      "id": "b6d8f1974cc5057d",
+      "name": "安徽卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0a3cdca37ba1e83e",
+      "name": "山东卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "640eb673cbeaf366",
+      "name": "山西卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "cb8b5a29404f08b0",
+      "name": "广东卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "4f9b4c360f34f26c",
+      "name": "广西卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8970b729925f0520",
+      "name": "康巴卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "b16590480a4a9969",
+      "name": "延边卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "59479e471de7492a",
+      "name": "新疆卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "43fa6cf97fea3775",
+      "name": "江苏卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "874956a0504b1138",
+      "name": "江西卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "c934be53ebc8a0fa",
+      "name": "河北卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "6e234270e2464533",
+      "name": "河南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "342bfccdcbc2cb1c",
+      "name": "浙江卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "6537000fd55598b9",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0fb2731184141d0b",
+      "name": "深圳卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "2ae4c9b17c1ffc1a",
+      "name": "湖北卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0f70b2b61e5ca652",
+      "name": "湖南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "3fb8352753cb3dc4",
+      "name": "甘肃卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "46edb34d3772cf38",
+      "name": "西藏卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7dcc99b0b83d6478",
+      "name": "贵州卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "46c983d44b1506ca",
+      "name": "辽宁卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "bf0a8c3d785e29bd",
+      "name": "重庆卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7b448d53a75f1ac4",
+      "name": "陕西卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "4f7692a131611aa2",
+      "name": "青海卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "1fd751d35ff00081",
+      "name": "黑龙江卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "3e335ab2e6e6a5bb",
+      "name": "CCTV+ 1",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "2dcb4902a5010f03",
+      "name": "ABC KRGV-TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1623efdc9d306171",
-      "name": "Midsomer Murders",
+      "id": "ed667676f228fd0f",
+      "name": "ABC KSTP-TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "81294e1326985f01",
-      "name": "Military History",
+      "id": "afa64ec8e436cd28",
+      "name": "ABC KXXV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "eff568a627fe6aa8",
-      "name": "Ministerio La Voz De Un Remanente TV",
+      "id": "d83e7db11318f7ed",
+      "name": "ABC News Live 1",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "68a411a0c63dac2b",
+      "name": "ABC News Live 10",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "35ecbfdbdb278ea9",
+      "name": "ABC News Live 2",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "c9730fb30f9e3c56",
+      "name": "ABC News Live 3",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "bb5412528f02c97f",
+      "name": "ABC News Live 4",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "f77060e2ad810ffc",
+      "name": "ABC News Live 5",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "956fc30fc162d3a4",
+      "name": "ABC News Live 6",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "61aa6d8bdb807825",
+      "name": "ABC News Live 7",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "eb143afae262a766",
+      "name": "ABC News Live 8",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "637cb2e464a3fabc",
+      "name": "ABC News Live 9",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "27d07ff958c47597",
+      "name": "ABC WBBJ-TV",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "e51444382465f758",
+      "name": "ABC WBRZ-TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "19be964faa870787",
-      "name": "Mission Impossible",
+      "id": "5c9a3e25bb03942f",
+      "name": "ABC WDIO-DT",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2327899a596b955b",
-      "name": "Mission Impossible (United States)",
+      "id": "b79bd2f40b8079e8",
+      "name": "ABC WFTV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "2e76c961c540badb",
+      "name": "ABC WISN-TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "f0285a1e17e07fb7",
+      "name": "ABC WJLA-TV",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "3386c159d5d643ac",
+      "name": "ABC WLOS",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "8b1d930016df8683",
+      "name": "ABC WMAR-TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e4c5c9c4796e795d",
+      "name": "ABC WMUR-TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "144ff207f4b77da1",
+      "name": "ABC WPDE-TV",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "31ae2525ffe9c99e",
+      "name": "ABC WSOC-TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e0e0a53b63897430",
+      "name": "ABC WSYX",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "d705d8d5ae7f6d68",
+      "name": "ABC WTNH",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "e39221027d323a9b",
+      "name": "ABC WTVQ-DT",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1dbb6d281478477c",
+      "name": "ABC WTXL-TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3ed347e5e76d54c6",
+      "name": "ABC WWAY",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "352830d372d3ed30",
+      "name": "ABC 新闻直播",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "db0723f6c411947c",
+      "name": "ABHP TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "23b3d0d96813d792",
+      "name": "ABN Afghanistan",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "80403539025e4972",
+      "name": "ABN Africa",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "77ba8d76147d06bc",
+      "name": "ABN Bible Movies Channel",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "d5e1b6248fdce934",
+      "name": "ABN TV India",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "bc52f38c3b45452e",
+      "name": "ABN Urdu",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "40e256d9fad2f02f",
+      "name": "ACC Digital Network",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "eee86b6abfeeacf2",
+      "name": "ACC Network",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "aef3e3bb2d894eaa",
+      "name": "ACE Country Radio KPVM-LD",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "457a821e53304bfc",
+      "name": "ACTV (United States)",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "82055e4eb8fc6be3",
+      "name": "AFTV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "de61915d6e6ab5a4",
+      "name": "AFV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "71f284919722f5ca",
+      "name": "AFV Espanol",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "1f2ce19ae457338a",
+      "name": "AKC TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "f78489c71aa63486",
+      "name": "AKC TV Meet the Breeds",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e7ab359801efd92c",
+      "name": "AKC TV Puppies",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3e1b43b9787717a0",
+      "name": "ALLBLK Gems",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1bb8eac09b336030",
+      "name": "AMC (United States)",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "bcd75e48741c8a93",
+      "name": "AMC Latin America（Brazil）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "25255cf4b896ab65",
+      "name": "AMC Latin America（Panregional）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c002a33afff559bd",
+      "name": "AMC Latin America（SD）",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "60a580416b028de2",
+      "name": "AMC Series Latin America",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "94ed8b6c2536e629",
+      "name": "AMC en Espanol",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "feebc8291f36f95e",
+      "name": "AMG TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3b94f4a5756087dc",
+      "name": "AMGA TV",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "dd3c570cd3e1de33",
+      "name": "AMP 1",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "520895d32c7e4d8d",
+      "name": "AMP 2",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "b5eebf52df2f85fc",
+      "name": "ARTFLIX Movie Classics",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c68e887216eafa1c",
+      "name": "ARTN TV",
+      "group": "美国",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "49fa6ba5ff3b6c98",
+      "name": "ATL 26",
+      "group": "美国",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
     }
   ]
 }

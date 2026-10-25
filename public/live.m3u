@@ -162,10 +162,10 @@ http://120.76.248.139/live/bfgd/4200000065.m3u8
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?
 #EXTINF:-1 tvg-id="CCTV7.cn@SD" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="央视" tvg-name="CCTV-7 国防军事",CCTV-7 国防军事
 http://74.91.26.218:82/live/cctv7hd.m3u8
-#EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
-http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7 国防军事" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-7.png" group-title="央视",CCTV-7 国防军事
 http://107.150.60.122/live/cctv7hd.m3u8
+#EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
+http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV-7" tvg-name="CCTV-7 国防军事" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-7.png" group-title="央视",CCTV-7 国防军事
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
 #EXTINF:-1 tvg-name="CCTV-7 国防军事" group-title="央视",CCTV-7 国防军事
@@ -176,10 +176,10 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
 http://207.56.13.146:81/cdnlive/cctv8.m3u8
-#EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
-http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="CCTV-8" tvg-name="CCTV-8 电视剧" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-8.png" group-title="央视",CCTV-8 电视剧
 http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
+#EXTINF:-1 tvg-name="CCTV-8 电视剧" group-title="央视",CCTV-8 电视剧
+http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="CCTV-8 电视剧" tvg-logo="https://live.fanmingming.cn/tv/CCTV8.png" group-title="央视",CCTV-8 电视剧
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?
 #EXTINF:-1 tvg-name="CCTV-9 纪录" group-title="央视",CCTV-9 纪录
@@ -329,12 +329,12 @@ http://112.123.243.37:50085/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid
 http://go.bkpcp.top/mg/bjws
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/北京卫视.png" group-title="卫视",北京卫视
 http://107.150.60.122/live/bjwshd.m3u8
-#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="卫视" tvg-name="北京卫视",北京卫视
-http://ivi.bupt.edu.cn/hls/btv1.m3u8
 #EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/vsktAez.png" tvg-name="北京卫视" group-title="卫视",北京卫视
 http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://live.fanmingming.cn/tv/北京卫视.png" group-title="卫视",北京卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-id="BeijingSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/vsktAez.png" group-title="卫视" tvg-name="北京卫视",北京卫视
+http://ivi.bupt.edu.cn/hls/btv1.m3u8
 #EXTINF:-1 tvg-name="兵团卫视" group-title="卫视",兵团卫视
 http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视" tvg-name="兵团卫视",兵团卫视
@@ -419,10 +419,10 @@ http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
 http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8
 #EXTINF:-1 tvg-id="GuizhouTV.cn@SD" tvg-logo="https://i.imgur.com/nkcKCdr.png" tvg-name="贵州卫视" group-title="卫视",贵州卫视
 http://125.210.152.18:9090/live/GZWSHD_H265.m3u8
-#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视",海南卫视
-http://120.76.248.139/live/bfgd/4200000473.m3u8
 #EXTINF:-1 tvg-name="海南卫视" tvg-logo="https://live.fanmingming.cn/tv/海南卫视.png" group-title="卫视",海南卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/海南卫视.png" group-title="卫视",海南卫视
+http://120.76.248.139/live/bfgd/4200000473.m3u8
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视",河北卫视
 http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视",河北卫视
@@ -433,10 +433,10 @@ https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
 http://120.76.248.139/live/bfgd/4200000108.m3u8
 #EXTINF:-1 tvg-id="河北卫视" tvg-name="河北卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/河北卫视.png" group-title="卫视",河北卫视
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd
-#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="卫视" tvg-name="河北卫视",河北卫视
-https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视",河北卫视
 http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="HebeiTV.cn@SD" tvg-logo="https://i.imgur.com/Z5Ppzbi.png" group-title="卫视" tvg-name="河北卫视",河北卫视
+https://event.pull.hebtv.com/live/live101.m3u8
 #EXTINF:-1 tvg-name="河北卫视" group-title="卫视",河北卫视
 http://101.66.198.84:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="河北卫视" tvg-logo="https://live.fanmingming.cn/tv/河北卫视.png" group-title="卫视",河北卫视
@@ -495,12 +495,12 @@ http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid
 http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.cn/tv/吉林卫视.png" group-title="卫视",吉林卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
+http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn@SD" tvg-logo="" group-title="卫视" tvg-name="江苏卫视",江苏卫视
 http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 #EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
 http://107.150.60.122/live/jswshd.m3u8
-#EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
-http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-name="江苏卫视" group-title="卫视",江苏卫视
 http://112.123.243.37:50085/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="JiangsuSatelliteTV.cn@SD" tvg-name="江苏卫视" group-title="卫视",江苏卫视
@@ -571,13 +571,13 @@ http://39.134.39.37/PLTV/88888888/224/3221226209/index.m3u8
 http://112.25.48.68/live/program/live/lnwshd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="LiaoningTV.cn@SD" tvg-logo="https://i.imgur.com/XRfeNTd.png" tvg-name="辽宁卫视" group-title="卫视",辽宁卫视
 http://183.207.248.71/cntv/live1/liaoningstv/liaoningstv
-#EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-logo="https://i.imgur.com/WeugJBE.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="卫视" tvg-name="内蒙古卫视",内蒙古卫视
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
-https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
 #EXTINF:-1 tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/内蒙古卫视.png" group-title="卫视",内蒙古卫视
 http://107.150.60.122/live/nmgws.m3u8
+#EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-logo="https://i.imgur.com/WeugJBE.png" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="卫视" tvg-name="内蒙古卫视",内蒙古卫视
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36
+https://cdn4.skygo.mn/live/disk1/NeigMGL/HLSv3-FTA/NeigMGL.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-logo="https://i.imgur.com/WeugJBE.png" tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视
 http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221225836/index.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-logo="https://i.imgur.com/WeugJBE.png" tvg-name="内蒙古卫视" group-title="卫视",内蒙古卫视
@@ -590,10 +590,10 @@ http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221
 http://113.25.252.226:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 tvg-id="宁夏卫视" tvg-name="宁夏卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/宁夏卫视.png" group-title="卫视",宁夏卫视
 http://198.204.228.26/live/nxws.m3u8
-#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn@SD" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="卫视" tvg-name="宁夏卫视",宁夏卫视
-http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 #EXTINF:-1 tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
 http://112.123.243.37:50085/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn@SD" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="卫视" tvg-name="宁夏卫视",宁夏卫视
+http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 #EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn@SD" tvg-logo="https://i.imgur.com/nUQE4Ib.png" tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
 http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8
 #EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn@SD" tvg-logo="https://i.imgur.com/nUQE4Ib.png" tvg-name="宁夏卫视" group-title="卫视",宁夏卫视
@@ -620,12 +620,12 @@ http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
 http://107.150.60.122/live/ssws.m3u8
 #EXTINF:-1 tvg-name="山东卫视" group-title="卫视",山东卫视
 http://101.66.194.176:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="山东卫视" group-title="卫视",山东卫视
+http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="ShandongSatelliteTV.cn@SD" tvg-logo="https://www.tvchinese.net/uploads/tv/shandongtv.jpg" group-title="卫视" tvg-name="山东卫视",山东卫视
 http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" tvg-logo="https://i.imgur.com/t3ICc4i.png" group-title="卫视" tvg-name="山东卫视",山东卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-#EXTINF:-1 tvg-name="山东卫视" group-title="卫视",山东卫视
-http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" tvg-logo="https://i.imgur.com/t3ICc4i.png" tvg-name="山东卫视" group-title="卫视",山东卫视
 http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
 #EXTINF:-1 tvg-id="ShandongTV.cn@SD" tvg-logo="https://i.imgur.com/t3ICc4i.png" tvg-name="山东卫视" group-title="卫视",山东卫视
@@ -668,12 +668,12 @@ http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 #EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
 http://112.123.243.37:50085/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
+#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
+http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn@SD" tvg-logo="" group-title="卫视" tvg-name="深圳卫视",深圳卫视
 https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
 #EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
 http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 tvg-name="深圳卫视" group-title="卫视",深圳卫视
-http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 #EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn@SD" tvg-name="深圳卫视" group-title="卫视",深圳卫视
 http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
 #EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn@SD" tvg-name="深圳卫视" group-title="卫视",深圳卫视
@@ -695,8 +695,6 @@ http://101.66.198.84:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/四川卫视.png" group-title="卫视",四川卫视
 http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
 #EXTINF:-1 tvg-id="SichuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/r5xivih.png" tvg-name="四川卫视" group-title="卫视",四川卫视
-http://183.207.248.71/gitv/live1/SCWS/SCWS
-#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/r5xivih.png" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
 #EXTINF:-1 tvg-id="SichuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/r5xivih.png" tvg-name="四川卫视" group-title="卫视",四川卫视
 http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
@@ -704,6 +702,8 @@ http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
 http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
 #EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://live.fanmingming.cn/tv/四川卫视.png" group-title="卫视",四川卫视
 http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+#EXTINF:-1 tvg-id="SichuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/r5xivih.png" tvg-name="四川卫视" group-title="卫视",四川卫视
+http://183.207.248.71/gitv/live1/SCWS/SCWS
 #EXTINF:-1 tvg-id="SichuanSatelliteTV.cn@SD" tvg-logo="https://i.imgur.com/r5xivih.png" group-title="卫视" tvg-name="四川卫视",四川卫视
 http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
 #EXTINF:-1 tvg-name="天津卫视" group-title="卫视",天津卫视
@@ -1570,10 +1570,10 @@ https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 https://jmp2.uk/plu-61a52615cbef2500072876e2.m3u8
 #EXTINF:-1 tvg-id="AcapulcoShore.us@US" tvg-logo="https://images.pluto.tv/channels/61a52615cbef2500072876e2/colorLogoPNG_1756972226445.png" group-title="美国" tvg-name="Acapulco Shore US",Acapulco Shore US
 https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
-#EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" tvg-logo="https://i.imgur.com/V6Kaqha.png" group-title="美国" tvg-name="ACC Digital Network",ACC Digital Network
-https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" tvg-logo="https://i.imgur.com/V6Kaqha.png" tvg-name="ACC Digital Network" group-title="美国",ACC Digital Network
 https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8
+#EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" tvg-logo="https://i.imgur.com/V6Kaqha.png" group-title="美国" tvg-name="ACC Digital Network",ACC Digital Network
+https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ACCDigitalNetwork.us@SD" tvg-logo="https://i.imgur.com/V6Kaqha.png" tvg-name="ACC Digital Network" group-title="美国",ACC Digital Network
 https://aegis-cloudfront-1.tubi.video/a1e671ae-d1c2-4e39-99c7-889e83056fd2/playlist.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.us@SD" tvg-logo="https://i.imgur.com/TpCkbkT.png" group-title="美国" tvg-name="ACC Network",ACC Network
@@ -1638,10 +1638,10 @@ https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="Akaku55.us@SD" tvg-logo="https://www.akaku.org/wp-content/uploads/bb-plugin/cache/Channel55-147x150-square.png" group-title="美国" tvg-name="Akaku 55",Akaku 55
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8
-#EXTINF:-1 tvg-id="AKCTV.us@SD" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="美国" tvg-name="AKC TV",AKC TV
-https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTV.us@SD" tvg-logo="https://i.imgur.com/XRTfoSp.png" tvg-name="AKC TV" group-title="美国",AKC TV
 https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+#EXTINF:-1 tvg-id="AKCTV.us@SD" tvg-logo="https://i.imgur.com/XRTfoSp.png" group-title="美国" tvg-name="AKC TV",AKC TV
+https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVMeettheBreeds.us@SD" tvg-logo="https://i.imgur.com/66avgdk.png" group-title="美国" tvg-name="AKC TV Meet the Breeds",AKC TV Meet the Breeds
 https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 #EXTINF:-1 tvg-id="AKCTVPuppies.us@SD" tvg-logo="https://i.imgur.com/2nzRS60.png" group-title="美国" tvg-name="AKC TV Puppies",AKC TV Puppies
@@ -1686,10 +1686,10 @@ https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8
 https://pb-amiq9wz02dhco.akamaized.net/playlist.m3u8
 #EXTINF:-1 tvg-id="AllWeddingsWEtv.us@SD" tvg-logo="https://i.imgur.com/OjLCew5.png" group-title="美国" tvg-name="All Weddings WE tv",All Weddings WE tv
 https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="ALLBLKGems.us@SD" tvg-logo="https://i.imgur.com/gnkepQJ.png" group-title="美国" tvg-name="ALLBLK Gems",ALLBLK Gems
-https://df1zke3zj042m.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="ALLBLKGems.us@SD" tvg-logo="https://i.imgur.com/gnkepQJ.png" tvg-name="ALLBLK Gems" group-title="美国",ALLBLK Gems
 https://jmp2.uk/plu-6793ea255225b515b4ba91a7.m3u8
+#EXTINF:-1 tvg-id="ALLBLKGems.us@SD" tvg-logo="https://i.imgur.com/gnkepQJ.png" group-title="美国" tvg-name="ALLBLK Gems",ALLBLK Gems
+https://df1zke3zj042m.cloudfront.net/playlist.m3u8
 #EXTINF:-1 tvg-id="AlmagdTVMiddleEast.us@SD" tvg-logo="https://i.imgur.com/3pUik3b.png" group-title="美国" tvg-name="Almagd TV Middle East",Almagd TV Middle East
 https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlmagdTVNorthAmerica.us@SD" tvg-logo="https://i.imgur.com/3pUik3b.png" group-title="美国" tvg-name="Almagd TV North America",Almagd TV North America
@@ -1704,10 +1704,10 @@ https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8
 http://23.239.31.26:8989/amc/index.m3u8
 #EXTINF:-1 tvg-id="AMC.us@EastHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" tvg-name="AMC (United States)" group-title="美国",AMC (United States)
 http://41.205.93.154/AMC/index.m3u8
-#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="美国" tvg-name="AMC en Espanol",AMC en Espanol
-https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" tvg-name="AMC en Espanol" group-title="美国",AMC en Espanol
 https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8
+#EXTINF:-1 tvg-id="AMCenEspanol.us@SD" tvg-logo="https://i.imgur.com/L1h6W5Q.png" group-title="美国" tvg-name="AMC en Espanol",AMC en Espanol
+https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Brazil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" tvg-name="AMC Latin America（Brazil）" group-title="美国",AMC Latin America（Brazil）
 http://170.83.49.66:8083/AMCHD/index.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" tvg-name="AMC Latin America（Panregional）" group-title="美国",AMC Latin America（Panregional）
@@ -1717,9 +1717,9 @@ http://138.121.15.230:9002/AMC/index.m3u8
 #EXTINF:-1 tvg-id="AMCLatinAmerica.us@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/AMC_logo_2019.svg/960px-AMC_logo_2019.svg.png" tvg-name="AMC Latin America（SD）" group-title="美国",AMC Latin America（SD）
 http://45.171.108.253:8888/AMC/index.m3u8
 #EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png" tvg-name="AMC Series Latin America" group-title="美国",AMC Series Latin America
-http://45.171.64.30:6060/play/a005/index.m3u8
-#EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png" tvg-name="AMC Series Latin America" group-title="美国",AMC Series Latin America
 https://streaming.onnethn.com/AMC/playlist.m3u8
+#EXTINF:-1 tvg-id="AMCSeriesLatinAmerica.us@Panregional" tvg-logo="https://amc-series.s3.amazonaws.com/menu/hbfen1Gom0_k1cyqi7rw4-amc-series-train-w.png" tvg-name="AMC Series Latin America" group-title="美国",AMC Series Latin America
+http://45.171.64.30:6060/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="AmericasNextTopModel.us@CA" tvg-logo="https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png" tvg-name="America's Next Top Model" group-title="美国",America's Next Top Model
 https://jmp2.uk/plu-68679fc6bb46d0bdd38ac9a4.m3u8
 #EXTINF:-1 tvg-id="AmericasNextTopModel.us@SD" tvg-logo="https://images.pluto.tv/channels/68679fc6bb46d0bdd38ac9a4/colorLogoPNG_1756466390265.png" group-title="美国" tvg-name="America's Next Top Model",America's Next Top Model
@@ -1852,10 +1852,10 @@ https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyet
 https://jmp2.uk/plu-65cf8b9328730900087c5324.m3u8
 #EXTINF:-1 tvg-id="Armenia1.am@America" tvg-logo="https://i.imgur.com/HIwJ4lc.png" group-title="美国" tvg-name="Armenia 1 America",Armenia 1 America
 https://amtvusdvr.tulix.tv/am4abr/index.m3u8
-#EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https://i.imgur.com/5pOZQB4.png" group-title="美国" tvg-name="ARTFLIX Movie Classics",ARTFLIX Movie Classics
-https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https://i.imgur.com/5pOZQB4.png" tvg-name="ARTFLIX Movie Classics" group-title="美国",ARTFLIX Movie Classics
 https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="ARTFLIXMovieClassics.us@SD" tvg-logo="https://i.imgur.com/5pOZQB4.png" group-title="美国" tvg-name="ARTFLIX Movie Classics",ARTFLIX Movie Classics
+https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ARTNTV.us@SD" tvg-logo="" group-title="美国" tvg-name="ARTN TV",ARTN TV
 https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 #EXTINF:-1 tvg-id="AsianCultureTV.us@HD" tvg-logo="https://i.imgur.com/o1icKZu.png" group-title="美国" tvg-name="Asian Culture TV",Asian Culture TV

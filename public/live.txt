@@ -38,15 +38,15 @@ CCTV-6 电影,http://112.123.243.37:50085/tsfile/live/0007_1.m3u8?key=txiptv&pla
 CCTV-6 电影,http://120.76.248.139/live/bfgd/4200000065.m3u8
 CCTV-6 电影,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226468/1.m3u8?
 CCTV-7 国防军事,http://74.91.26.218:82/live/cctv7hd.m3u8
-CCTV-7 国防军事,http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-7 国防军事,http://107.150.60.122/live/cctv7hd.m3u8
+CCTV-7 国防军事,http://112.123.243.37:50085/tsfile/live/0008_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-7 国防军事,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
 CCTV-7 国防军事,http://101.66.194.176:9901/tsfile/live/0007_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-7 国防军事,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226946/1.m3u8?
 CCTV-8 电视剧,http://74.91.26.218:82/live/cctv8hd.m3u8
 CCTV-8 电视剧,http://207.56.13.146:81/cdnlive/cctv8.m3u8
-CCTV-8 电视剧,http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-8 电视剧,http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8
+CCTV-8 电视剧,http://112.123.243.37:50085/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-8 电视剧,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226485/1.m3u8?
 CCTV-9 纪录,http://112.123.243.37:50085/tsfile/live/0010_1.m3u8?key=txiptv&playlive=0&authid=0
 CCTV-9 纪录,https://v4-702cae17a28d6e4f0c0002bba021d934.livehwc4.com/play.kankanlive.com/live/1698423397390920.m3u8?sub_m3u8=true&edge_slice=true&user_session_id=d22ebefff500084389b2af3b0169f024
@@ -121,9 +121,9 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 北京卫视,http://112.123.243.37:50085/tsfile/live/0127_1.m3u8?key=txiptv&playlive=0&authid=0
 北京卫视,http://go.bkpcp.top/mg/bjws
 北京卫视,http://107.150.60.122/live/bjwshd.m3u8
-北京卫视,http://ivi.bupt.edu.cn/hls/btv1.m3u8
 北京卫视,http://14.152.88.77/liveplay-kk.rtxapp.com/live/program/live/bjwshd/4000000/mnf.m3u8
 北京卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226900/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EcYPi33WFyhvd6SjmqUKhJg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+北京卫视,http://ivi.bupt.edu.cn/hls/btv1.m3u8
 兵团卫视,http://112.123.243.37:50085/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0
 兵团卫视,http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8
 大湾区卫视,http://198.204.228.26/live/nfws.m3u8
@@ -166,15 +166,15 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 贵州卫视,http://183.207.248.71/gitv/live1/G_GUIZHOU/G_GUIZHOU
 贵州卫视,http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225787/index.m3u8
 贵州卫视,http://125.210.152.18:9090/live/GZWSHD_H265.m3u8
-海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
 海南卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+海南卫视,http://120.76.248.139/live/bfgd/4200000473.m3u8
 河北卫视,http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8
 河北卫视,http://101.66.194.176:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
 河北卫视,https://restream.pdtvhd.com/memfs/1db8c005-9365-4b32-94a4-3736987b5646.m3u8
 河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8
 河北卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd
-河北卫视,https://event.pull.hebtv.com/live/live101.m3u8
 河北卫视,http://112.123.243.37:50085/tsfile/live/0018_1.m3u8?key=txiptv&playlive=0&authid=0
+河北卫视,https://event.pull.hebtv.com/live/live101.m3u8
 河北卫视,http://101.66.198.84:9901/tsfile/live/0117_1.m3u8?key=txiptv&playlive=0&authid=0
 河北卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227014/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErSGjhI3DMaaAASPrbQJYTg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 河南卫视,https://dxtx.hntv.tv/live/lypd.m3u8?txSecret=10c771842a0be59e8b575d765173ec96&txTime=7B923E0A&wsSecret=985ebb910dd1e9ad9603ffd7670bd155&wsTime=1791183481
@@ -204,9 +204,9 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 吉林卫视,http://112.123.243.37:50085/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 吉林卫视,http://101.66.194.29:9901/tsfile/live/0116_1.m3u8?key=txiptv&playlive=0&authid=0
 吉林卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227015/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EW5-3AVdwD5KlUpuA4mz7Cg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+江苏卫视,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 江苏卫视,http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 江苏卫视,http://107.150.60.122/live/jswshd.m3u8
-江苏卫视,http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub
 江苏卫视,http://112.123.243.37:50085/tsfile/live/0017_1.m3u8?key=txiptv&playlive=0&authid=0
 江苏卫视,http://223.110.245.157/ott.js.chinamobile.com/PLTV/3/224/3221227439/index.m3u8
 江苏卫视,http://223.110.245.170/PLTV/3/224/3221227255/index.m3u8
@@ -250,8 +250,8 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 内蒙古卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227018/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ErN_hoRDwApMKnJqiNHvn9w%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 宁夏卫视,http://113.25.252.226:9901/tsfile/live/1046_1.m3u8?key=txiptv&playlive=1&authid=0
 宁夏卫视,http://198.204.228.26/live/nxws.m3u8
-宁夏卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 宁夏卫视,http://112.123.243.37:50085/tsfile/live/0125_1.m3u8?key=txiptv&playlive=0&authid=0
+宁夏卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8
 宁夏卫视,http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8
 宁夏卫视,http://183.207.248.71/gitv/live1/G_NINGXIA/G_NINGXIA
 宁夏卫视,http://117.169.120.140:8080/live/ningxiastv/.m3u8
@@ -265,9 +265,9 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 三沙卫视,http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub
 三沙卫视,http://107.150.60.122/live/ssws.m3u8
 山东卫视,http://101.66.194.176:9901/tsfile/live/0131_1.m3u8?key=txiptv&playlive=0&authid=0
+山东卫视,http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
 山东卫视,http://125.210.152.18:9090/live/SDWSHD_H265.m3u8
 山东卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
-山东卫视,http://112.123.243.37:50085/tsfile/live/0122_1.m3u8?key=txiptv&playlive=0&authid=0
 山东卫视,http://223.110.245.149/ott.js.chinamobile.com/PLTV/3/224/3221225804/index.m3u8
 山东卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225738/index.m3u8
 山东卫视,http://117.169.120.140:8080/live/hdshandongstv/.m3u8
@@ -289,9 +289,9 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 陕西卫视,http://36.136.38.87:9901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0
 陕西卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226999/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EsGLKaSqf0wDZMbAjeQtfyw%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 深圳卫视,http://112.123.243.37:50085/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
+深圳卫视,http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 深圳卫视,https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
 深圳卫视,http://36.136.38.87:9901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0
-深圳卫视,http://120.198.95.220:9901/tsfile/live/1048_1.m3u8?key=txiptv&playlive=1&down=1
 深圳卫视,http://117.169.120.140:8080/live/hdshenzhenstv/.m3u8
 深圳卫视,http://183.207.249.37/PLTV/4/224/3221227307/index.m3u8
 深圳卫视,http://223.110.243.171/PLTV/3/224/3221227217/index.m3u8
@@ -302,11 +302,11 @@ CCTV-8K,http://198.204.240.250:82/live/cctv8k.m3u8
 深圳卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226959/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EGrVNEZREjuNVKiTJo2mtwg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
 四川卫视,http://101.66.198.84:9901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=0&authid=0
 四川卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
-四川卫视,http://183.207.248.71/gitv/live1/SCWS/SCWS
 四川卫视,http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8
 四川卫视,http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8
 四川卫视,http://125.210.152.18:9090/live/SCWSHD_H265.m3u8
 四川卫视,http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND
+四川卫视,http://183.207.248.71/gitv/live1/SCWS/SCWS
 四川卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225733/index.m3u8
 天津卫视,http://153.0.171.163:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0
 天津卫视,http://112.123.243.37:50085/tsfile/live/0128_1.m3u8?key=txiptv&playlive=0&authid=0
@@ -743,8 +743,8 @@ ABN Urdu,https://mediaserver.abnvideos.com/streams/abnurdu.m3u8
 Absolute Reality by WE TV,https://amc-absolutereality-1-us.plex.wurl.tv/playlist.m3u8
 Acapulco Shore,https://jmp2.uk/plu-61a52615cbef2500072876e2.m3u8
 Acapulco Shore US,https://jmp2.uk/plu-64dab1f835425100080e1e7b.m3u8
-ACC Digital Network,https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 ACC Digital Network,https://d53csymoczzde.cloudfront.net/ACC_Digital_Network.m3u8
+ACC Digital Network,https://raycom-accdn-firetv.amagi.tv/playlist.m3u8
 ACC Digital Network,https://aegis-cloudfront-1.tubi.video/a1e671ae-d1c2-4e39-99c7-889e83056fd2/playlist.m3u8
 ACC Network,http://23.239.31.26:8989/accnetwork/index.m3u8
 Access 4 PAC,https://reflect-channel18vod-springfield-il-us.cablecast.tv/live-16/live/stream-4/live.m3u8
@@ -777,8 +777,8 @@ AFV Espanol,https://linear-46.frequency.stream/dist/plex/46/hls/master/playlist.
 Akaku 53,https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch1/video.m3u8
 Akaku 54,https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch2/video.m3u8
 Akaku 55,https://castus-vod-dev.s3.amazonaws.com/vod_clients/akaku/live/ch3/video.m3u8
-AKC TV,https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
 AKC TV,https://install.akctvcontrol.com/speed/broadcast/138/desktop-playlist.m3u8
+AKC TV,https://broadcast.blivenyc.com/speed/broadcast/22/desktop-playlist.m3u8
 AKC TV Meet the Breeds,https://install.akctvcontrol.com/speed/broadcast/139/desktop-playlist.m3u8
 AKC TV Puppies,https://install.akctvcontrol.com/speed/broadcast/140/desktop-playlist.m3u8
 Al Hayat TV,https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8
@@ -801,8 +801,8 @@ All Reality by WE tv,https://pb-6pmy4e08w6rny.akamaized.net/playlist.m3u8
 All Reality by WE tv,https://jmp2.uk/plu-5e82530945600e0007ca076c.m3u8
 All Weddings WE tv,https://pb-amiq9wz02dhco.akamaized.net/playlist.m3u8
 All Weddings WE tv,https://amc-allweddings-1-us.xumo.wurl.tv/playlist.m3u8
-ALLBLK Gems,https://df1zke3zj042m.cloudfront.net/playlist.m3u8
 ALLBLK Gems,https://jmp2.uk/plu-6793ea255225b515b4ba91a7.m3u8
+ALLBLK Gems,https://df1zke3zj042m.cloudfront.net/playlist.m3u8
 Almagd TV Middle East,https://597f64b67707a.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 Almagd TV North America,https://5aafcc5de91f1.streamlock.net/almagd.tv/almagd.smil/playlist.m3u8
 Always Funny Videos,https://d24l3uppudokci.cloudfront.net/playlist.m3u8
@@ -810,14 +810,14 @@ Always Funny Videos,https://aegis-cloudfront-1.tubi.video/a0713659-0883-4501-9ab
 Amazing Facts TV,https://hlspackager.akamaized.net/live/DB/AMAZING_FACTS/HLS/AMAZING_FACTS.m3u8
 AMC (United States),http://23.239.31.26:8989/amc/index.m3u8
 AMC (United States),http://41.205.93.154/AMC/index.m3u8
-AMC en Espanol,https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
 AMC en Espanol,https://pb-fmbyorn1d0n1n.akamaized.net/v1/amc_amcespanol_3/samsungheadend_us/latest/main/hls/playlist.m3u8
+AMC en Espanol,https://amc-amcespanol-1-us.lg.wurl.tv/playlist.m3u8
 AMC Latin America（Brazil）,http://170.83.49.66:8083/AMCHD/index.m3u8
 AMC Latin America（Panregional）,http://15.204.246.24:8080/AMCHD/index.m3u8
 AMC Latin America（Panregional）,http://138.121.15.230:9002/AMC/index.m3u8
 AMC Latin America（SD）,http://45.171.108.253:8888/AMC/index.m3u8
-AMC Series Latin America,http://45.171.64.30:6060/play/a005/index.m3u8
 AMC Series Latin America,https://streaming.onnethn.com/AMC/playlist.m3u8
+AMC Series Latin America,http://45.171.64.30:6060/play/a005/index.m3u8
 America's Next Top Model,https://jmp2.uk/plu-68679fc6bb46d0bdd38ac9a4.m3u8
 America's Next Top Model,https://jmp2.uk/plu-68757c45759366af05b3b199.m3u8
 America's Test Kitchen,https://pb-zwcfuzg8t5abc.akamaized.net/Americas_Test_Kitchen.m3u8
@@ -880,8 +880,8 @@ Are We There Yet?,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatest
 Are We There Yet?,https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8
 Are We There Yet?,https://jmp2.uk/plu-65cf8b9328730900087c5324.m3u8
 Armenia 1 America,https://amtvusdvr.tulix.tv/am4abr/index.m3u8
-ARTFLIX Movie Classics,https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 ARTFLIX Movie Classics,https://amogonetworx-artflix-1-se.samsung.wurl.tv/playlist.m3u8
+ARTFLIX Movie Classics,https://amogonetworx-artflix-1-nl.samsung.wurl.tv/playlist.m3u8
 ARTN TV,https://streamer1.connectto.com/ARTN_mobile/index.m3u8
 Asian Culture TV,https://cdn.vegasplus.us/vegas/actv/playlist.m3u8
 AsianCrush,https://linear-900.frequency.stream/dist/cineverse/900/hls/master/playlist.m3u8
