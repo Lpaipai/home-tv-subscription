@@ -34,8 +34,8 @@
       },
       {
         "name": "CCTV-4 中文国际",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-5 体育",
@@ -204,8 +204,8 @@
       },
       {
         "name": "北京卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "兵团卫视",
@@ -214,13 +214,13 @@
       },
       {
         "name": "大湾区卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "东方卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "东南卫视",
@@ -259,8 +259,8 @@
       },
       {
         "name": "河南卫视",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "黑龙江卫视",
@@ -269,8 +269,8 @@
       },
       {
         "name": "湖北卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "湖南卫视",
@@ -289,8 +289,8 @@
       },
       {
         "name": "江西卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "康巴卫视",
@@ -474,8 +474,8 @@
       },
       {
         "name": "风云足球",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "凤凰中文",
@@ -4513,6 +4513,11 @@
         "txt_lines": 6
       },
       {
+        "name": "Fairground AI Creator TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Faith TV",
         "lines": 1,
         "txt_lines": 1
@@ -4863,7 +4868,7 @@
         "txt_lines": 1
       },
       {
-        "name": "FX",
+        "name": "FX (United States)",
         "lines": 1,
         "txt_lines": 1
       },
@@ -11493,18 +11498,18 @@
         "txt_lines": 1
       },
       {
-        "name": "TBS 日本台",
-        "lines": 2,
+        "name": "TBS TV",
+        "lines": 1,
         "txt_lines": 0
       },
       {
         "name": "东京电视台",
-        "lines": 2,
+        "lines": 1,
         "txt_lines": 0
       },
       {
         "name": "日本电视台",
-        "lines": 2,
+        "lines": 1,
         "txt_lines": 0
       },
       {
@@ -11773,7 +11778,7 @@
         "txt_lines": 1
       },
       {
-        "name": "TBS 韩国台",
+        "name": "TBS TV",
         "lines": 1,
         "txt_lines": 1
       },
