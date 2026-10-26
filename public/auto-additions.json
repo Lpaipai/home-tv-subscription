@@ -345,8 +345,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-23T09:23:16+00:00",
-      "last_attempt_at": "2026-10-23T09:23:16+00:00",
+      "last_decoded_at": "2026-10-25T01:22:51+00:00",
+      "last_attempt_at": "2026-10-25T01:22:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -933,8 +933,8 @@
       "accepted_at": "2026-10-23T09:58:31+00:00",
       "content_verified": false,
       "visual_status": "no_frames",
-      "last_decoded_at": "2026-10-23T09:58:31+00:00",
-      "last_attempt_at": "2026-10-23T09:58:31+00:00",
+      "last_decoded_at": "2026-10-25T01:22:51+00:00",
+      "last_attempt_at": "2026-10-25T01:22:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -985,8 +985,8 @@
       "accepted_at": "2026-10-23T14:11:03+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-23T15:05:43+00:00",
-      "last_attempt_at": "2026-10-23T15:05:43+00:00",
+      "last_decoded_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_at": "2026-10-26T00:41:24+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -1167,8 +1167,8 @@
       "accepted_at": "2026-10-23T14:56:36+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-23T15:05:43+00:00",
-      "last_attempt_at": "2026-10-23T15:05:43+00:00",
+      "last_decoded_at": "2026-10-25T01:22:51+00:00",
+      "last_attempt_at": "2026-10-25T01:22:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2624,8 +2624,8 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-10-24T00:46:51+00:00",
+      "last_decoded_at": "2026-10-25T01:22:51+00:00",
+      "last_attempt_at": "2026-10-25T01:22:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2697,8 +2697,8 @@
       "accepted_at": "2026-10-24T05:42:02+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T05:42:02+00:00",
-      "last_attempt_at": "2026-10-24T05:42:02+00:00",
+      "last_decoded_at": "2026-10-25T01:22:51+00:00",
+      "last_attempt_at": "2026-10-25T01:22:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2850,6 +2850,84 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-25T00:25:10+00:00",
       "last_attempt_at": "2026-10-25T00:25:10+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "cb3217a3e1d1c0b0": {
+      "name": "大湾区卫视",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nfws",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "大湾区卫视",
+        "tvg-name": "大湾区卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/大湾区卫视.png",
+        "group-title": "☘️广东频道"
+      },
+      "group": "☘️广东频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-26T00:41:24+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "41039382748238a6": {
+      "name": "女性时尚",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nxss",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "女性时尚",
+        "tvg-name": "女性时尚",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/女性时尚.png",
+        "group-title": "💰央视付费频道"
+      },
+      "group": "💰央视付费频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-26T00:41:24+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "4198afd648017ce3": {
+      "name": "第一剧场",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dyjc",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "第一剧场",
+        "tvg-name": "第一剧场",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/第一剧场.png",
+        "group-title": "💰央视付费频道"
+      },
+      "group": "💰央视付费频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-26T00:41:24+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-10-26T00:41:24+00:00",
+      "last_attempt_at": "2026-10-26T00:41:24+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"

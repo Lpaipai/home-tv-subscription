@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T00:25:25+00:00",
+  "checked_at": "2026-10-26T00:42:03+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -16,5 +16,5 @@
   "suspended_total": 0,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [],
-  "renewed_by_formal_checks": 4
+  "renewed_by_formal_checks": 6
 }
