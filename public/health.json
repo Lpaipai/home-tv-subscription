@@ -1,30 +1,29 @@
 {
-  "checked_at": "2026-10-26T08:41:24+08:00",
+  "checked_at": "2026-10-27T09:33:40+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3624,
+  "catalog_entries": 3596,
   "sampled": 24,
   "counts": {
-    "failed": 11,
-    "decoded": 13
+    "decoded": 19,
+    "failed": 5
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 32,
+  "attempts": 29,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "45c5f3f2c24b45a1",
+      "id": "620082e18ecd963a",
       "name": "安徽卫视",
       "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "439ddf958cebe0d9",
+      "id": "702a7409c2eccbc4",
       "name": "山东卫视",
       "group": "卫视",
       "status": "failed",
@@ -34,7 +33,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "05237bbbb42f2698",
+      "id": "8a06740f8ac45549",
       "name": "山西卫视",
       "group": "卫视",
       "status": "decoded",
@@ -42,7 +41,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8c5e5e995c62b0a8",
+      "id": "1442ba4b1509ed78",
       "name": "广东卫视",
       "group": "卫视",
       "status": "decoded",
@@ -50,14 +49,12 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b82e5d5f47e134c5",
+      "id": "ca7a5176afd505d7",
       "name": "广西卫视",
       "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
       "id": "8970b729925f0520",
@@ -68,7 +65,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "26278cef03498a33",
+      "id": "929cec66ea8174fa",
       "name": "延边卫视",
       "group": "卫视",
       "status": "failed",
@@ -78,7 +75,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "755aa2750c498a4d",
+      "id": "6dccdf1aabf1adcd",
       "name": "新疆卫视",
       "group": "卫视",
       "status": "decoded",
@@ -86,7 +83,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2e6f2b3ffb609a04",
+      "id": "95e5e6a26b510dc5",
       "name": "江苏卫视",
       "group": "卫视",
       "status": "decoded",
@@ -94,7 +91,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8f90a9e99463d6b1",
+      "id": "942f4ff80085bd73",
       "name": "江西卫视",
       "group": "卫视",
       "status": "failed",
@@ -104,7 +101,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "3848ed8b1ff36df2",
+      "id": "040891a16b04b03f",
       "name": "河北卫视",
       "group": "卫视",
       "status": "decoded",
@@ -112,22 +109,22 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "29867c45467a3817",
+      "id": "6e234270e2464533",
       "name": "河南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "528a61e90844c1ab",
+      "name": "浙江卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
-    },
-    {
-      "id": "366de2852f0b3db3",
-      "name": "浙江卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
       "id": "6537000fd55598b9",
@@ -138,7 +135,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2be3d20a10c27819",
+      "id": "3d9b11dea0d0007b",
       "name": "深圳卫视",
       "group": "卫视",
       "status": "failed",
@@ -148,16 +145,15 @@
       "initial_status": "failed"
     },
     {
-      "id": "00f5e94a9058f5a6",
+      "id": "596a46bcac426eba",
       "name": "湖北卫视",
       "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "349db923be058796",
+      "id": "a6f9853ab1b24087",
       "name": "湖南卫视",
       "group": "卫视",
       "status": "decoded",
@@ -165,7 +161,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "cc6952b6f3e5d862",
+      "id": "36c4eefb25f987f6",
       "name": "甘肃卫视",
       "group": "卫视",
       "status": "decoded",
@@ -173,52 +169,52 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "acd17c0f71ebd051",
-      "name": "Logos TV English",
+      "id": "e2e7e19e09564f5e",
+      "name": "Nickelodeon Clasico",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "5098d8db860ea90d",
-      "name": "Logos TV Estudio",
-      "group": "美国",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
-    },
-    {
-      "id": "d7eaad238f63c8b7",
-      "name": "Logos TV Kids",
+      "id": "68177d43d87dd795",
+      "name": "Nickelodeon Classico",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "fba9394436ad1666",
-      "name": "Logos TV Salud",
-      "group": "美国",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
-    },
-    {
-      "id": "39b72bc4db46806d",
-      "name": "Lone Star（Poland）",
+      "id": "2b92dc97748d2336",
+      "name": "Nickelodeon Latin America",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "9aa9b5ac12a31949",
-      "name": "Lone Star（SD）",
+      "id": "181a159acbe25035",
+      "name": "Nickelodeon Pluto TV",
       "group": "美国",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "835db6f83fbda24b",
+      "name": "Nickelodeon Teen（BR）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e1cacf9e945a8e5d",
+      "name": "Nickelodeon Teen（LatAm）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ]
 }

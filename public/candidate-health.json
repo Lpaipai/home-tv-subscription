@@ -1,32 +1,24 @@
 {
-  "checked_at": "2026-10-26T00:41:24+00:00",
+  "checked_at": "2026-10-27T01:33:40+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "decoded": 3,
-    "failed": 9
+    "failed": 10,
+    "decoded": 1,
+    "blocked": 1
   },
   "visual_checked": 0,
   "visual_counts": {
-    "unsupported": 3
+    "unsupported": 1
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 3,
+  "eligible_for_auto_publish": 1,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "cb3217a3e1d1c0b0",
-      "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
-      "visual_blocked": false
-    },
-    {
-      "id": "4fa1fdcad2618d85",
+      "id": "af8c6e15fcf39192",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -34,7 +26,15 @@
       "visual_blocked": false
     },
     {
-      "id": "30b5db94718b3c87",
+      "id": "6c09f916468ab58b",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "70434fff3b5e03df",
       "name": "深圳电视剧",
       "group": "地方",
       "status": "failed",
@@ -42,87 +42,84 @@
       "visual_blocked": false
     },
     {
-      "id": "3b6161b457e1eb5c",
-      "name": "深圳都市",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "3dd65a32f83e0f21",
-      "name": "广东民生",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "425b406e95c5d23a",
-      "name": "广东少儿",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "80d603334ba84f1c",
-      "name": "山东卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "80dcfe6bab01daba",
-      "name": "东方卫视",
+      "id": "71e6d646cbeaf0bf",
+      "name": "大湾区卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "80f74d3d5dc105c5",
-      "name": "CCTV-14 少儿",
+      "id": "7d9e1b83f25adf12",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
+      "visual_blocked": false
+    },
+    {
+      "id": "83cb3baf9370d739",
+      "name": "广东影视",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "a2af610b7de77053",
+      "name": "北京卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "a3f7a7e51d8cd151",
+      "name": "福建海峡卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "a3ff49295f7909f6",
+      "name": "CCTV-17",
       "group": "央视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "811279ae31c40fc6",
-      "name": "广东卫视",
+      "id": "a418149a426175e5",
+      "name": "吉林卫视",
       "group": "卫视",
       "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "41039382748238a6",
-      "name": "女性时尚",
+      "id": "498f119c5bccbc8e",
+      "name": "新蔡综合",
       "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
       "visual_blocked": false
     },
     {
-      "id": "4198afd648017ce3",
-      "name": "第一剧场",
+      "id": "49963db47190248f",
+      "name": "新昌新闻综合",
       "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     }
   ],
-  "promoted": 3,
-  "promoted_decoded": 3,
+  "promoted": 1,
+  "promoted_decoded": 1,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "cb3217a3e1d1c0b0",
-    "41039382748238a6",
-    "4198afd648017ce3"
+    "7d9e1b83f25adf12"
   ],
   "visual_mismatch_blocked": 0
 }
