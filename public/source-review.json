@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-27T09:32:45+08:00",
+  "fetched_at": "2026-10-28T09:30:09+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -78,9 +78,9 @@
   ],
   "failures": [],
   "total_unique": 1787,
-  "not_in_main": 1589,
+  "not_in_main": 1590,
   "ipv6_literal": 115,
-  "priority_unlisted": 395,
+  "priority_unlisted": 396,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -735,17 +735,6 @@
       ]
     },
     {
-      "line_id": "7d9e1b83f25adf12",
-      "name": "广东珠江",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "htv-guangdong-yuhong"
-      ]
-    },
-    {
       "line_id": "982ad274ecbd53db",
       "name": "广东珠江",
       "network": "ipv4_literal",
@@ -1197,7 +1186,7 @@
       ]
     },
     {
-      "line_id": "f749d22c55d7ce07",
+      "line_id": "ef555d4f5cad6c5f",
       "name": "CCTV-11",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1242,17 +1231,6 @@
     },
     {
       "line_id": "13ecf77b45106c86",
-      "name": "CCTV-12",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "bb19ad79fb256451",
       "name": "CCTV-12",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1373,6 +1351,17 @@
       ]
     },
     {
+      "line_id": "f4635b10dd3c3972",
+      "name": "CCTV-14",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
       "line_id": "80f74d3d5dc105c5",
       "name": "CCTV-14 少儿",
       "network": "ipv4_literal",
@@ -1395,7 +1384,7 @@
       ]
     },
     {
-      "line_id": "2b6287e0d1402833",
+      "line_id": "0eb45d3effb89cc7",
       "name": "CCTV-15",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1571,9 +1560,53 @@
       ]
     },
     {
+      "line_id": "89fdcc431a1f953d",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8bb1548292a1c661",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "99d31fa756d53997",
+      "name": "CCTV-2",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
       "line_id": "ae7e80a3c935e9ca",
       "name": "CCTV-2",
       "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "c3590c8de7c0a63c",
+      "name": "CCTV-2",
+      "network": "hostname_unresolved",
       "already_in_main": false,
       "priority": "domestic_channel_candidate",
       "review": "pending_video_decode_content_unverified",
@@ -1660,17 +1693,6 @@
     },
     {
       "line_id": "071279b161b8cc2a",
-      "name": "CCTV-4",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "89756f856f9b3b51",
       "name": "CCTV-4",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1769,17 +1791,6 @@
       ]
     },
     {
-      "line_id": "d7573ee5e2ad0f05",
-      "name": "CCTV-5",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "db74d83408a61d27",
       "name": "CCTV-5",
       "network": "hostname_unresolved",
@@ -1827,17 +1838,6 @@
       "line_id": "235d870f8844f206",
       "name": "CCTV-5+",
       "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "36da561ac5fc1228",
-      "name": "CCTV-5+",
-      "network": "hostname_unresolved",
       "already_in_main": false,
       "priority": "domestic_channel_candidate",
       "review": "pending_video_decode_content_unverified",

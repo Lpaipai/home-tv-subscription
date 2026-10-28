@@ -2952,6 +2952,105 @@
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
+    },
+    "e403490dda50fae4": {
+      "name": "海南卫视",
+      "url": "http://cdnrrs.gz.chinamobile.com/PLTV/88888888/224/3221225709/01.m3u8?fmt=ts2hls&fbl=$GYYD超清",
+      "directives": [],
+      "attrs": {},
+      "group": "卫视频道",
+      "source": "candidate-htv-guangdong-tvm",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/chuanzhuo/blog/main/tvm.txt"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-28T01:31:09+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "0b2891c6eb833347": {
+      "name": "安徽卫视",
+      "url": "http://198.204.228.26/live/ahwshd.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "安徽卫视",
+        "tvg-name": "安徽卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/安徽卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-28T01:31:09+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "0eb45d3effb89cc7": {
+      "name": "CCTV-15",
+      "url": "http://204.12.221.218:8181/3m1080p/cctv15.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "CCTV-15",
+        "tvg-name": "CCTV-15",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-15.png",
+        "group-title": "📺央视频道"
+      },
+      "group": "📺央视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-28T01:31:09+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "529d8cd0b5fa7631": {
+      "name": "浙江教科影视",
+      "url": "http://ali-m-l.cztv.com/channels/lantian/channel04/1080p.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "浙江教科影视",
+        "tvg-name": "浙江教科影视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/浙江教科影视.png",
+        "group-title": "☘️浙江频道"
+      },
+      "group": "☘️浙江频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-28T01:31:09+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
     }
   }
 }

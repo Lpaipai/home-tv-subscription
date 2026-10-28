@@ -1237,84 +1237,6 @@
       "status": "failed",
       "checked_at": "2026-10-23T09:41:31+00:00"
     },
-    "e014e9cb5a1fd45e": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 2
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
-    "e187f9b0d499d31a": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 2
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
-    "e3fdb60dab45a95b": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 2
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
-    "e403490dda50fae4": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 2
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
-    "e5012f7f93604189": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 1
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
-    "e940d1f13d2ff7f3": {
-      "score": 35.0,
-      "failures": 1,
-      "observations": [
-        {
-          "at": "2026-10-23T09:55:32+00:00",
-          "status": "failed",
-          "attempts": 1
-        }
-      ],
-      "status": "failed",
-      "checked_at": "2026-10-23T09:55:32+00:00"
-    },
     "26d66bb6245ab246": {
       "score": 35.0,
       "failures": 1,
@@ -3154,8 +3076,194 @@
       ],
       "status": "failed",
       "checked_at": "2026-10-27T01:33:40+00:00"
+    },
+    "e014e9cb5a1fd45e": {
+      "score": 24.5,
+      "failures": 2,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 2
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "e187f9b0d499d31a": {
+      "score": 24.5,
+      "failures": 2,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 2
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "e3fdb60dab45a95b": {
+      "score": 24.5,
+      "failures": 2,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 2
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "e403490dda50fae4": {
+      "score": 54.5,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 2
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "e5012f7f93604189": {
+      "score": 24.5,
+      "failures": 2,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 1
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "e940d1f13d2ff7f3": {
+      "score": 24.5,
+      "failures": 2,
+      "observations": [
+        {
+          "at": "2026-10-23T09:55:32+00:00",
+          "status": "failed",
+          "attempts": 1
+        },
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 1
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "09e3db408c8861c9": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 1
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "0b2891c6eb833347": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "0c350bfb812a51eb": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 1
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "0eb45d3effb89cc7": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "52963d0ab4576581": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "failed",
+          "attempts": 1
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-10-28T01:31:09+00:00"
+    },
+    "529d8cd0b5fa7631": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-10-28T01:31:09+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-10-28T01:31:09+00:00"
     }
   },
-  "updated_at": "2026-10-27T01:33:40+00:00",
+  "updated_at": "2026-10-28T01:31:09+00:00",
   "visual_holds": {}
 }
