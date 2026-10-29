@@ -1,24 +1,40 @@
 {
-  "checked_at": "2026-10-28T01:31:09+00:00",
+  "checked_at": "2026-10-29T01:54:52+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "failed": 8,
-    "decoded": 4
+    "failed": 9,
+    "decoded": 2,
+    "blocked": 1
   },
   "visual_checked": 2,
   "visual_counts": {
-    "unsupported": 2,
     "unknown": 2
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 4,
+  "eligible_for_auto_publish": 2,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "e014e9cb5a1fd45e",
+      "id": "28037e926a0cafab",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "300b911962d03115",
+      "name": "深圳电视剧",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "30624c63b7dc5a13",
       "name": "广东珠江",
       "group": "地方",
       "status": "failed",
@@ -26,57 +42,32 @@
       "visual_blocked": false
     },
     {
-      "id": "e187f9b0d499d31a",
-      "name": "广东新闻",
+      "id": "5a78c867dd8e7365",
+      "name": "广东民生",
       "group": "地方",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "e3fdb60dab45a95b",
-      "name": "CCTV-16 4K",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "e403490dda50fae4",
+      "id": "5acdc253b4512d2b",
       "name": "海南卫视",
       "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
-      "visual_blocked": false
-    },
-    {
-      "id": "e5012f7f93604189",
-      "name": "深圳少儿",
-      "group": "地方",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "e940d1f13d2ff7f3",
-      "name": "广东影视",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "09e3db408c8861c9",
-      "name": "陕西农林卫视",
+      "id": "5ef6ca5f4a2e66f9",
+      "name": "大湾区卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "0b2891c6eb833347",
-      "name": "安徽卫视",
+      "id": "640e6eaa9f8ae965",
+      "name": "山东卫视",
       "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
@@ -85,17 +76,17 @@
       "frame_count": 2
     },
     {
-      "id": "0c350bfb812a51eb",
-      "name": "CCTV-8 电视剧",
-      "group": "央视",
+      "id": "643f83ab4a9b5614",
+      "name": "香港卫视",
+      "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "0eb45d3effb89cc7",
-      "name": "CCTV-15",
-      "group": "央视",
+      "id": "65d15d8ba5891121",
+      "name": "广西卫视",
+      "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "visual_status": "unknown",
@@ -103,31 +94,36 @@
       "frame_count": 2
     },
     {
-      "id": "52963d0ab4576581",
-      "name": "海南公共",
-      "group": "其他",
+      "id": "660e695ebb81a390",
+      "name": "山东卫视",
+      "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "529d8cd0b5fa7631",
-      "name": "浙江教科影视",
+      "id": "569078c96013a877",
+      "name": "东森洋片",
       "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "visual_blocked": false
+    },
+    {
+      "id": "56cba7b25248dc24",
+      "name": "江门综合",
+      "group": "其他",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     }
   ],
-  "promoted": 4,
-  "promoted_decoded": 4,
+  "promoted": 2,
+  "promoted_decoded": 2,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "e403490dda50fae4",
-    "0b2891c6eb833347",
-    "0eb45d3effb89cc7",
-    "529d8cd0b5fa7631"
+    "640e6eaa9f8ae965",
+    "65d15d8ba5891121"
   ],
   "visual_mismatch_blocked": 0
 }

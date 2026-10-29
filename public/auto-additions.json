@@ -834,8 +834,8 @@
       "accepted_at": "2026-10-23T09:55:32+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T05:47:47+00:00",
-      "last_attempt_at": "2026-10-24T05:47:47+00:00",
+      "last_decoded_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_at": "2026-10-29T01:54:52+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -1063,8 +1063,8 @@
       "accepted_at": "2026-10-23T14:19:58+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T05:47:47+00:00",
-      "last_attempt_at": "2026-10-24T05:47:47+00:00",
+      "last_decoded_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_at": "2026-10-29T01:54:52+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2926,8 +2926,8 @@
       "accepted_at": "2026-10-26T00:41:24+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-26T00:41:24+00:00",
-      "last_attempt_at": "2026-10-26T00:41:24+00:00",
+      "last_decoded_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_at": "2026-10-29T01:54:52+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3048,6 +3048,58 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-28T01:31:09+00:00",
       "last_attempt_at": "2026-10-28T01:31:09+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "640e6eaa9f8ae965": {
+      "name": "山东卫视",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sdwshd",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "山东卫视",
+        "tvg-name": "山东卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/山东卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-29T01:54:52+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "65d15d8ba5891121": {
+      "name": "广西卫视",
+      "url": "http://198.204.228.26/live/gxwshd.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "广西卫视",
+        "tvg-name": "广西卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/广西卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-29T01:54:52+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_at": "2026-10-29T01:54:52+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
