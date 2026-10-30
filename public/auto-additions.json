@@ -501,8 +501,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-23T09:23:16+00:00",
-      "last_attempt_at": "2026-10-23T09:23:16+00:00",
+      "last_decoded_at": "2026-10-30T02:04:40+00:00",
+      "last_attempt_at": "2026-10-30T02:04:40+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -1167,8 +1167,8 @@
       "accepted_at": "2026-10-23T14:56:36+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-25T01:22:51+00:00",
-      "last_attempt_at": "2026-10-25T01:22:51+00:00",
+      "last_decoded_at": "2026-10-30T02:04:40+00:00",
+      "last_attempt_at": "2026-10-30T02:04:40+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2822,8 +2822,8 @@
       "accepted_at": "2026-10-25T00:25:10+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-27T01:33:40+00:00",
-      "last_attempt_at": "2026-10-27T01:33:40+00:00",
+      "last_decoded_at": "2026-10-30T02:04:40+00:00",
+      "last_attempt_at": "2026-10-30T02:04:40+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3100,6 +3100,32 @@
       "visual_status": "unknown",
       "last_decoded_at": "2026-10-29T01:54:52+00:00",
       "last_attempt_at": "2026-10-29T01:54:52+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "e759f8f929760f59": {
+      "name": "东方卫视",
+      "url": "http://107.150.60.122/live/dfwshd.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "东方卫视",
+        "tvg-name": "东方卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/东方卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-10-30T02:04:41+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-10-30T02:04:41+00:00",
+      "last_attempt_at": "2026-10-30T02:04:41+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
