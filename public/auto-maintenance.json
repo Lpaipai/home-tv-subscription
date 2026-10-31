@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T02:05:09+00:00",
+  "checked_at": "2026-10-31T01:43:57+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -9,12 +9,69 @@
     "max_retry": 2,
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
-  "sampled": 0,
-  "attempts": 0,
-  "counts": {},
-  "state_changes": {},
+  "sampled": 8,
+  "attempts": 10,
+  "counts": {
+    "failed": 2,
+    "decoded": 6
+  },
+  "state_changes": {
+    "probation": 2,
+    "active": 6
+  },
   "suspended_total": 0,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
-  "results": [],
-  "renewed_by_formal_checks": 3
+  "results": [
+    {
+      "id": "2629e345a80eb233",
+      "name": "广西卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "a3c8c5d0845412b8",
+      "name": "翡翠台",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a6e6e9829ec77c74",
+      "name": "四川卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ab951ff508eee1c0",
+      "name": "浙江卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ba35645b3510da63",
+      "name": "昌黎综合",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "931b1e46b3fc0db3",
+      "name": "江西卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "94e535c8ba80d8c7",
+      "name": "天津卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "95fdbee41eeb9d4a",
+      "name": "内蒙古卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    }
+  ],
+  "renewed_by_formal_checks": 2
 }

@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-10-30T10:03:25+08:00",
+  "fetched_at": "2026-10-31T09:42:13+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -80,7 +80,7 @@
   "total_unique": 1787,
   "not_in_main": 1593,
   "ipv6_literal": 115,
-  "priority_unlisted": 399,
+  "priority_unlisted": 400,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -1384,6 +1384,17 @@
       ]
     },
     {
+      "line_id": "2b6287e0d1402833",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
       "line_id": "36015695aca99c6d",
       "name": "CCTV-15",
       "network": "hostname_unresolved",
@@ -1451,6 +1462,17 @@
     },
     {
       "line_id": "5c6972a0940cf814",
+      "name": "CCTV-16",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "8720da57dd9d868c",
       "name": "CCTV-16",
       "network": "ipv4_literal",
       "already_in_main": false,
@@ -1821,28 +1843,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
-      ]
-    },
-    {
-      "line_id": "cdfc5483c24c8760",
-      "name": "CCTV-5 体育",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "fanmingming-index"
-      ]
-    },
-    {
-      "line_id": "235d870f8844f206",
-      "name": "CCTV-5+",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     }
   ]

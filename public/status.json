@@ -1,31 +1,31 @@
 {
-  "updated_at": "2026-10-30T10:03:22+08:00",
+  "updated_at": "2026-10-31T09:42:10+08:00",
   "base_url": "https://raw.githubusercontent.com/Lpaipai/home-tv-subscription/main/public",
   "live": [
     {
       "url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/cn.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "55580f2aa61a0405c9cd1e4bd8d9317adf2f0ff9f4195e090bcea29f9c37c5bc",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "d1560b30fde53e534731228251c8c33b60f6947ac663e82fe0a4103747066fe5",
       "cached": false,
       "id": "cn",
       "name": "中国大陆",
-      "entries": 150
+      "entries": 155
     },
     {
       "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt",
       "resolved_url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "22e3dfef4ff27824611e1cc4fd9827b720752bb283fa94bdc14f53f0ff5658b3",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "65987e4319d746b74dc565887e285820e552132d5e85b0c24a49fb6ed51203e9",
       "cached": false,
       "id": "lightconer",
       "name": "国内备用",
-      "entries": 128
+      "entries": 130
     },
     {
       "url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/hk.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
       "sha256": "87d4ad46757837f5d1a2d0217efb61bfe866c01211f2a0646cc8d7d340277424",
       "cached": false,
       "id": "hk",
@@ -35,7 +35,7 @@
     {
       "url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/tw.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
       "sha256": "af1a581e50fa6225b18ff5b6fce646898b9fdf09e32683442e21092cd73b21ff",
       "cached": false,
       "id": "tw",
@@ -45,8 +45,8 @@
     {
       "url": "https://iptv-org.github.io/iptv/countries/us.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/us.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "9dc3d505d0826dca27031177e8681d26b1ace3a3253b542b2cf51e5d5dd18bdf",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "50dc70e6d68cf84bb0a56137782a80b4df6cf81d7dec5dbb85c5a7333761b931",
       "cached": false,
       "id": "us",
       "name": "美国",
@@ -55,7 +55,7 @@
     {
       "url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/jp.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
       "sha256": "1753ce19013caca8141c6db1c19494cc42835c47e914bb4d06b685cac2058329",
       "cached": false,
       "id": "jp",
@@ -65,7 +65,7 @@
     {
       "url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
       "resolved_url": "https://iptv-org.github.io/iptv/countries/kr.m3u",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
       "sha256": "5e016f6f128d09d323edb912e7f30f6cac8fb4e049a0fca1987bbe7d0cbd1fc3",
       "cached": false,
       "id": "kr",
@@ -75,18 +75,18 @@
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "6dae22fd67fb84a23ae0ff6b29d1f8dd0b773be13f9f97ef38b35598f6e64539",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "3316883369360da8bc872a0b1d7f702e883b4f761f162b4421bdebac84dac963",
       "cached": false,
       "id": "nexus-cn",
       "name": "Nexus 中国大陆",
-      "entries": 302
+      "entries": 303
     },
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/hk.json",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "45eecfc0275d406a2d2549a3edde50d1c3047581cc3634fad0a9aaf5482cfcec",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "b9faa4640963a205152420d89662389c8caacdb3f410f648e1fce1081faaf198",
       "cached": false,
       "id": "nexus-hk",
       "name": "Nexus 香港",
@@ -95,28 +95,28 @@
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/tw.json",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "1c02b6839981f7b3edc83d679cfc1594d920c1bec5df0b77e22593dd8439258d",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "9d4cb7e4d3352f0802f3d12b9ba7fb0dd749cc6a158c9e3910bb49ddd774578c",
       "cached": false,
       "id": "nexus-tw",
       "name": "Nexus 台湾",
-      "entries": 32
+      "entries": 33
     },
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
-      "fetched_at": "2026-10-30T10:03:23+08:00",
-      "sha256": "5fe97d648a8b5a6be5c753e8e2e4e39eaace3d99f735d0ea35eb829c4662e577",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "ca84145449acbf15f83a84797a5ec7cdb39c43be3640340c8452945f21b041a0",
       "cached": false,
       "id": "nexus-us",
       "name": "Nexus 美国",
-      "entries": 2819
+      "entries": 2820
     },
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "bb84152e8443dec4e4a225772e94f95d207b432e50a971a96d28ae52ca6450c8",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "36020384f4de121d5e438eb6d272e8acca9bde77f3bcb71b4c4d78e172c09614",
       "cached": false,
       "id": "nexus-jp",
       "name": "Nexus 日本",
@@ -125,8 +125,8 @@
     {
       "url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json",
       "resolved_url": "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json",
-      "fetched_at": "2026-10-30T10:03:22+08:00",
-      "sha256": "43f01a2aef39430e0b551a5a90e7f28df15f743e069f6388f00c5b3f9f0f20c6",
+      "fetched_at": "2026-10-31T09:42:10+08:00",
+      "sha256": "067102204c65b4bc465734aad3c42b99bc5080ba1480fe5496bd40d742769736",
       "cached": false,
       "id": "nexus-kr",
       "name": "Nexus 韩国",
@@ -814,7 +814,7 @@
     }
   ],
   "verification": "目录解析与依赖路径处理；不代表频道或点播实播通过",
-  "auto_additions": 133,
+  "auto_additions": 135,
   "auto_additions_ipv6_unverified": 55,
   "live_exclusions": [
     {
@@ -869,26 +869,26 @@
     }
   ],
   "live_excluded_entries": 13,
-  "nexus_unique_lines": 1657,
+  "nexus_unique_lines": 1656,
   "live_groups": 11,
-  "live_channels": 2385,
+  "live_channels": 2390,
   "live_multi_line_channels": 541,
-  "live_entries": 3656,
+  "live_entries": 3658,
   "live_network_types": {
-    "ipv4_literal": 646,
+    "ipv4_literal": 644,
     "ipv6_literal": 55,
-    "hostname_unresolved": 2954,
-    "other_protocol": 1,
+    "hostname_unresolved": 2953,
+    "other_protocol": 6,
     "invalid": 0
   },
   "family_lines": 33,
   "family_channels": 33,
   "published_live_groups": 12,
-  "published_live_entries": 3689,
+  "published_live_entries": 3691,
   "txt_omitted_special_headers": 98,
   "vod_updated_at": "2026-10-22T22:43:03+08:00",
   "update_scope": "仅直播；点播沿用此前发布版本",
-  "auto_additions_updated_at": "2026-10-30T02:04:41+00:00",
+  "auto_additions_updated_at": "2026-10-31T01:43:29+00:00",
   "auto_suspended": 0,
-  "auto_recheck_at": "2026-10-30T02:05:09+00:00"
+  "auto_recheck_at": "2026-10-31T01:43:57+00:00"
 }
