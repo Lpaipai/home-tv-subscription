@@ -1,25 +1,24 @@
 {
-  "checked_at": "2026-10-31T01:43:29+00:00",
+  "checked_at": "2026-11-01T01:20:08+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
     "failed": 9,
-    "blocked": 1,
-    "decoded": 2
+    "blocked": 2,
+    "decoded": 1
   },
-  "visual_checked": 1,
+  "visual_checked": 0,
   "visual_counts": {
-    "unknown": 1,
     "unsupported": 1
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 2,
+  "eligible_for_auto_publish": 1,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "1b1946c73250837b",
+      "id": "982ad274ecbd53db",
       "name": "广东珠江",
       "group": "地方",
       "status": "failed",
@@ -27,39 +26,23 @@
       "visual_blocked": false
     },
     {
-      "id": "1bc4ce53cbd70dd0",
-      "name": "广东珠江",
-      "group": "地方",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
-      "visual_blocked": false
-    },
-    {
-      "id": "8fe973236723dc45",
-      "name": "广东民生",
+      "id": "9d829c70595f4d2f",
+      "name": "广东新闻",
       "group": "地方",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "940575f2e20ee64d",
-      "name": "深圳都市",
-      "group": "地方",
+      "id": "d381d3c9caa0b4ee",
+      "name": "大湾区卫视",
+      "group": "卫视",
       "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "942d05bf0133ae66",
-      "name": "深圳电视剧",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "9666c98af7cc19cf",
+      "id": "d503e10be9be010e",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -67,63 +50,76 @@
       "visual_blocked": false
     },
     {
-      "id": "b1e3a6326442e0b7",
-      "name": "江西卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unknown",
-      "visual_blocked": false,
-      "frame_count": 2
+      "id": "dc88e596269f3f1b",
+      "name": "广东新闻",
+      "group": "地方",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "visual_blocked": false
     },
     {
-      "id": "b237b8f02ee61655",
-      "name": "CCTV-13",
-      "group": "央视",
+      "id": "dc96936075ef1a4b",
+      "name": "广东少儿",
+      "group": "地方",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "b2786cf828c481f4",
-      "name": "宁夏卫视",
+      "id": "d62153e3fe7c6160",
+      "name": "陕西卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "b64b518a2ca393d0",
-      "name": "东南卫视",
+      "id": "d6f3382858f636ae",
+      "name": "贵州卫视",
       "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "d8412bd3b23f671d",
+      "name": "四川卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "d8e0d974e06948b3",
+      "name": "江西卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "6f88396d4a257dcc",
+      "name": "项城新闻",
+      "group": "其他",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "visual_blocked": false
+    },
+    {
+      "id": "6fafbffae5196d23",
+      "name": "萧山生活",
+      "group": "其他",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "visual_status": "unsupported",
       "visual_blocked": false
-    },
-    {
-      "id": "6ab8ba43bb60461e",
-      "name": "湖南国际",
-      "group": "其他",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "6af1f7a14e39a365",
-      "name": "内蒙古蒙语文化",
-      "group": "其他",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
     }
   ],
-  "promoted": 2,
-  "promoted_decoded": 2,
+  "promoted": 1,
+  "promoted_decoded": 1,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "b1e3a6326442e0b7",
-    "b64b518a2ca393d0"
+    "6fafbffae5196d23"
   ],
   "visual_mismatch_blocked": 0
 }
