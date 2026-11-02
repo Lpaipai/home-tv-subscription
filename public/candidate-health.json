@@ -1,24 +1,24 @@
 {
-  "checked_at": "2026-11-01T01:20:08+00:00",
+  "checked_at": "2026-11-02T01:38:56+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
     "failed": 9,
-    "blocked": 2,
-    "decoded": 1
+    "decoded": 3
   },
-  "visual_checked": 0,
+  "visual_checked": 2,
   "visual_counts": {
-    "unsupported": 1
+    "unsupported": 1,
+    "unknown": 2
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 1,
+  "eligible_for_auto_publish": 3,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "982ad274ecbd53db",
+      "id": "de9347793e804bd5",
       "name": "广东珠江",
       "group": "地方",
       "status": "failed",
@@ -26,23 +26,23 @@
       "visual_blocked": false
     },
     {
-      "id": "9d829c70595f4d2f",
-      "name": "广东新闻",
+      "id": "a296729e1729edb1",
+      "name": "广东民生",
       "group": "地方",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "d381d3c9caa0b4ee",
-      "name": "大湾区卫视",
-      "group": "卫视",
+      "id": "a75a6c93e78676fe",
+      "name": "广东影视",
+      "group": "地方",
       "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "d503e10be9be010e",
+      "id": "a7ea4a7928689192",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -50,76 +50,82 @@
       "visual_blocked": false
     },
     {
-      "id": "dc88e596269f3f1b",
-      "name": "广东新闻",
+      "id": "b0c16b53b82e37f9",
+      "name": "深圳少儿",
       "group": "地方",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "dc96936075ef1a4b",
-      "name": "广东少儿",
+      "id": "c82ce25cb37eca7d",
+      "name": "广东珠江",
       "group": "地方",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "d62153e3fe7c6160",
-      "name": "陕西卫视",
+      "id": "d3bd9fd08facd4b3",
+      "name": "厦门卫视",
       "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "d6f3382858f636ae",
-      "name": "贵州卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "d8412bd3b23f671d",
-      "name": "四川卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "d8e0d974e06948b3",
-      "name": "江西卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "6f88396d4a257dcc",
-      "name": "项城新闻",
-      "group": "其他",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
-      "visual_blocked": false
-    },
-    {
-      "id": "6fafbffae5196d23",
-      "name": "萧山生活",
-      "group": "其他",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "visual_status": "unsupported",
       "visual_blocked": false
+    },
+    {
+      "id": "d5c2ada3b8167ff6",
+      "name": "安徽卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "d7573ee5e2ad0f05",
+      "name": "CCTV-5",
+      "group": "央视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "d8e72ab03f3e15f8",
+      "name": "山东卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "73a4aa34a3a5c6a8",
+      "name": "齐齐哈尔新闻综合",
+      "group": "其他",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "73dea1a23145c470",
+      "name": "杭州生活",
+      "group": "其他",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
     }
   ],
-  "promoted": 1,
-  "promoted_decoded": 1,
+  "promoted": 3,
+  "promoted_decoded": 3,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "6fafbffae5196d23"
+    "d3bd9fd08facd4b3",
+    "d7573ee5e2ad0f05",
+    "d8e72ab03f3e15f8"
   ],
   "visual_mismatch_blocked": 0
 }
