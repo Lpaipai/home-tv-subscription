@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-02T01:39:26+00:00",
+  "checked_at": "2026-11-03T03:33:48+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,7 +10,7 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 9,
+  "attempts": 10,
   "counts": {
     "decoded": 7,
     "failed": 1
@@ -23,54 +23,55 @@
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "816a2d994a0e428e",
-      "name": "广东民生",
+      "id": "05d21895aecfe44e",
+      "name": "风云足球",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e53e706808fdd4dd",
-      "name": "天龙八部",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "28c407e2c5529a4a",
-      "name": "云南卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "2fecc4a11b14e089",
-      "name": "广东影视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "581ae05fbae0c153",
-      "name": "广东珠江",
+      "id": "0f79497cebb1a1e1",
+      "name": "缙云综合",
       "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2
     },
     {
-      "id": "f48c95b316e89d26",
-      "name": "浙江休闲台",
+      "id": "3e98ccce1b6a5125",
+      "name": "CCTV-3",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e4158540127e8d71",
-      "name": "黑龙江卫视",
+      "id": "2228ed2520a70783",
+      "name": "CCTV-10",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "006661c270de7f22",
-      "name": "贵州卫视",
+      "id": "d8e6de3e8f7776a7",
+      "name": "广东民生",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2
+    },
+    {
+      "id": "aa15d2f93f975073",
+      "name": "西藏卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ab36f160ed54251a",
+      "name": "CCTV-12",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "de893288be7c6762",
+      "name": "CCTV-14",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 12
+  "renewed_by_formal_checks": 3
 }
