@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-04T10:29:51+08:00",
+  "fetched_at": "2026-11-04T23:15:32+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -78,9 +78,9 @@
   ],
   "failures": [],
   "total_unique": 1787,
-  "not_in_main": 1568,
+  "not_in_main": 1565,
   "ipv6_literal": 115,
-  "priority_unlisted": 377,
+  "priority_unlisted": 374,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -402,17 +402,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "htv-guangdong-tvm"
-      ]
-    },
-    {
-      "line_id": "1dd3893415a51757",
-      "name": "大湾区卫视",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {
@@ -1461,17 +1450,6 @@
       ]
     },
     {
-      "line_id": "8bb1548292a1c661",
-      "name": "CCTV-2",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "99d31fa756d53997",
       "name": "CCTV-2",
       "network": "ipv4_literal",
@@ -1546,17 +1524,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
-      ]
-    },
-    {
-      "line_id": "89756f856f9b3b51",
-      "name": "CCTV-4",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {
@@ -1843,6 +1810,39 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "9d53280dd787219c",
+      "name": "CCTV-8",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "0c350bfb812a51eb",
+      "name": "CCTV-8 电视剧",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "ec2d82a3493fd9ff",
+      "name": "CCTV-8 电视剧",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
       ]
     }
   ]

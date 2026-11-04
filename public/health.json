@@ -1,76 +1,21 @@
 {
-  "checked_at": "2026-11-04T10:32:16+08:00",
+  "checked_at": "2026-11-04T23:16:29+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3715,
+  "catalog_entries": 3678,
   "sampled": 24,
   "counts": {
-    "failed": 7,
-    "decoded": 16,
-    "blocked": 1
+    "decoded": 21,
+    "failed": 3
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 31,
+  "attempts": 27,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "5d02371e347cb53c",
-      "name": "重庆卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "36e5011a28e61e0e",
-      "name": "陕西卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "28a7adad958acd1e",
-      "name": "青海卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "01f776fa98df0fa4",
-      "name": "黑龙江卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "3e335ab2e6e6a5bb",
-      "name": "CCTV+ 1",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "458a94732156c13e",
-      "name": "CCTV+ 2",
-      "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "45fad1a5d2bc20e4",
+      "id": "fac12c2fbbc6dcdc",
       "name": "CCTV-1 综合",
       "group": "央视",
       "status": "decoded",
@@ -78,33 +23,32 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "bb937a9739ae7aeb",
+      "id": "958f96e9f605f3ba",
       "name": "CCTV-10 科教",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "7274a3b95d1afec4",
-      "name": "CCTV-11 戏曲",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "bb19ad79fb256451",
-      "name": "CCTV-12 社会与法",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "856b8664105f044c",
+      "id": "f749d22c55d7ce07",
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c687cc2b697a2270",
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "d1932bf9db43bfde",
       "name": "CCTV-13 新闻",
       "group": "央视",
       "status": "decoded",
@@ -112,7 +56,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "57489735b737128c",
+      "id": "6d4194986c96ef0c",
       "name": "CCTV-14 少儿",
       "group": "央视",
       "status": "decoded",
@@ -120,7 +64,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2b6287e0d1402833",
+      "id": "8c3e293f6418c953",
       "name": "CCTV-15 音乐",
       "group": "央视",
       "status": "decoded",
@@ -128,8 +72,72 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "5fc866f00fa2255a",
+      "id": "90f56986d19d37cc",
       "name": "CCTV-16 奥林匹克",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ccbcdfe800a4ea51",
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ae7e80a3c935e9ca",
+      "name": "CCTV-2 财经",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "b80c3b0e6dca5abf",
+      "name": "CCTV-3 综艺",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a55a059f3bc0ec0d",
+      "name": "CCTV-4 America",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1bcf4e03452cee03",
+      "name": "CCTV-4 Asia",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c9b3e336079fe548",
+      "name": "CCTV-4 Europe",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "071279b161b8cc2a",
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "fe24e362aa11e08b",
+      "name": "CCTV-4K",
       "group": "央视",
       "status": "failed",
       "frames": 0,
@@ -138,79 +146,66 @@
       "initial_status": "failed"
     },
     {
-      "id": "e6eaa57b6c738089",
-      "name": "CCTV-17 农业农村",
+      "id": "236a76b46de6baf2",
+      "name": "CCTV-5 体育",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "89fdcc431a1f953d",
-      "name": "CCTV-2 财经",
+      "id": "1e09bb0c48dfb174",
+      "name": "CCTV-5+ 体育赛事",
       "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "4e3aa14c5b5d6f55",
-      "name": "CCTV-3 综艺",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "4a46b143c27d1cc5",
-      "name": "CCTV-4 America",
-      "group": "央视",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
-    },
-    {
-      "id": "c59034b6593b73e6",
-      "name": "Paramount Network",
+      "id": "f620f27988243269",
+      "name": "Pluto TV Novelas（LatAm）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "430cb72822d26161",
-      "name": "Paramount+ Picks",
+      "id": "ce1d320aad889e90",
+      "name": "Pluto TV Novelas（US）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8cbc13e74786bbdc",
-      "name": "Paranormal State",
+      "id": "cec6ab6b5919f51a",
+      "name": "Pluto TV Nuestro Cine",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "08b93ca5dd843794",
-      "name": "Pars TV",
+      "id": "2f48f2ff43d94492",
+      "name": "Pluto TV Paisagens por Stingray",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6c1f648dda047985",
-      "name": "Pasco TV",
+      "id": "cc2d57a25fd85f88",
+      "name": "Pluto TV Paranormal",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "36bec7a599320ae0",
-      "name": "Pasiones Latin America",
+      "id": "123199d4bb2b8ed1",
+      "name": "Pluto TV Paranormal (United States)",
       "group": "美国",
       "status": "decoded",
       "frames": 4,

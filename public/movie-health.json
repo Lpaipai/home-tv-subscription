@@ -1,0 +1,148 @@
+{
+  "checked_at": "2026-11-04T15:16:58+00:00",
+  "mode": "daily_movie_targeted",
+  "environment": "GitHub 标准 Linux 云端",
+  "catalog_entries": 161,
+  "sampled": 12,
+  "attempts": 16,
+  "counts": {
+    "decoded": 3,
+    "failed": 7,
+    "blocked": 2
+  },
+  "family_channels_tested": [
+    "CCTV-6 电影",
+    "CHC 动作电影",
+    "CHC 家庭影院"
+  ],
+  "candidate_channels_tested": [
+    "江西影视",
+    "淘电影",
+    "湖北影视",
+    "湖南电影",
+    "第一剧场",
+    "纬来电影",
+    "绍兴文化影视",
+    "经典电影",
+    "美亚电影台"
+  ],
+  "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
+  "results": [
+    {
+      "id": "ff914805c1ac3f9c",
+      "name": "CCTV-6 电影",
+      "group": "电影频道",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "d31c47a2ec2d112d",
+      "name": "CHC 动作电影",
+      "group": "电影频道",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "43a1b7e6125210f8",
+      "name": "CHC 家庭影院",
+      "group": "电影频道",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "f4f10f7aa664792c",
+      "name": "江西影视",
+      "group": "地方",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "0cb12b8d9d73acee",
+      "name": "淘电影",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "5b642c9fd5411083",
+      "name": "湖北影视",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "ab1153969c3d7f0d",
+      "name": "湖南电影",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "2896ce07d2702eb4",
+      "name": "第一剧场",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "6a33f49c82cfcdf7",
+      "name": "纬来电影",
+      "group": "其他",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "9fa87a7795cb5fd6",
+      "name": "绍兴文化影视",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "490f88438f5956a1",
+      "name": "经典电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "7e7e5ee9c6e9315c",
+      "name": "美亚电影台",
+      "group": "香港",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    }
+  ]
+}
