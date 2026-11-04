@@ -2436,11 +2436,11 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-23T18:27:14+00:00",
-      "last_attempt_at": "2026-10-23T18:27:14+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "18bd680b1e8ac72d": {
       "name": "贵州卫视",
@@ -2462,11 +2462,11 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-23T18:27:14+00:00",
-      "last_attempt_at": "2026-10-23T18:27:14+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "1985a3c45cb26ebf": {
       "name": "河北卫视",
@@ -2488,11 +2488,11 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-23T18:27:14+00:00",
-      "last_attempt_at": "2026-10-23T18:27:14+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "f8cab55e360d1900": {
       "name": "广东新闻",
@@ -2514,11 +2514,11 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-10-24T00:46:51+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "015617a254d6664c": {
       "name": "广东珠江",
@@ -2536,10 +2536,12 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_status": "decoded",
-      "failure_days": [],
-      "state": "due"
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_status": "failed",
+      "failure_days": [
+        "2026-11-04"
+      ],
+      "state": "probation"
     },
     "1dc13c3fcbddb0b0": {
       "name": "大湾区卫视",
@@ -2587,11 +2589,11 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-10-24T00:46:51+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "c6ffe8bba63b44bd": {
       "name": "CCTV-15",
@@ -2691,11 +2693,11 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-10-24T00:46:51+00:00",
+      "last_decoded_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "211e977d779c5fac": {
       "name": "大湾区卫视",
@@ -2739,10 +2741,12 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-24T05:42:02+00:00",
-      "last_attempt_at": "2026-10-24T05:42:02+00:00",
-      "last_attempt_status": "decoded",
-      "failure_days": [],
-      "state": "due"
+      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_status": "failed",
+      "failure_days": [
+        "2026-11-04"
+      ],
+      "state": "probation"
     },
     "dac15e492f1d34d5": {
       "name": "CCTV-7",
@@ -2987,7 +2991,7 @@
       "last_attempt_at": "2026-10-28T01:31:09+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "0b2891c6eb833347": {
       "name": "安徽卫视",
@@ -3013,7 +3017,7 @@
       "last_attempt_at": "2026-10-28T01:31:09+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "0eb45d3effb89cc7": {
       "name": "CCTV-15",
@@ -3039,7 +3043,7 @@
       "last_attempt_at": "2026-10-28T01:31:09+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "529d8cd0b5fa7631": {
       "name": "浙江教科影视",
@@ -3065,7 +3069,7 @@
       "last_attempt_at": "2026-10-28T01:31:09+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "640e6eaa9f8ae965": {
       "name": "山东卫视",
@@ -3318,6 +3322,110 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-03T03:33:11+00:00",
       "last_attempt_at": "2026-11-03T03:33:11+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "1dd3893415a51757": {
+      "name": "大湾区卫视",
+      "url": "http://107.150.60.122/live/nfws.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "大湾区卫视",
+        "tvg-name": "大湾区卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/大湾区卫视.png",
+        "group-title": "☘️广东频道"
+      },
+      "group": "☘️广东频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-04T02:32:17+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "89756f856f9b3b51": {
+      "name": "CCTV-4",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/cctv4k.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "CCTV-4",
+        "tvg-name": "CCTV-4",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-4.png",
+        "group-title": "📺央视频道"
+      },
+      "group": "📺央视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-04T02:32:17+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "8bb1548292a1c661": {
+      "name": "CCTV-2",
+      "url": "http://204.12.221.218:8181/3m1080p/cctv2.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "CCTV-2",
+        "tvg-name": "CCTV-2",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-2.png",
+        "group-title": "📺央视频道"
+      },
+      "group": "📺央视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-04T02:32:17+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "8c6f7fedb4d84cab": {
+      "name": "云南卫视",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "云南卫视",
+        "tvg-name": "云南卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/云南卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-04T02:32:17+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-04T02:32:17+00:00",
+      "last_attempt_at": "2026-11-04T02:32:17+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
