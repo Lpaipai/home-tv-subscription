@@ -375,7 +375,8 @@ def main():
     STATE.mkdir(exist_ok=True)
     write_json(STATE / "live_entries.json", entries)
     for filename in ("health.json", "health.md", "source-review.json",
-                     "candidate-health.json", "candidate-health-history.json"):
+                     "candidate-health.json", "candidate-health-history.json",
+                     "movie-health.json", "movie-health.md", "movie-health-history.json"):
         if (ROOT / "public" / filename).exists():
             shutil.copy2(ROOT / "public" / filename, out / filename)
 

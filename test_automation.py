@@ -254,12 +254,19 @@ class AutomationTests(unittest.TestCase):
 
     def test_family_selection_is_a_consistent_managed_directory(self):
         selection = json.loads((update.ROOT / "family_selection.json").read_text(encoding="utf-8"))
+        movie = json.loads((update.ROOT / "movie_selection.json").read_text(encoding="utf-8"))
         channels = selection["channels"]
+        movie_channels = movie["channels"]
         self.assertIn("CCTV-1 综合", channels)
         self.assertEqual(selection["mode"], "fixed")
-        self.assertIn("CCTV-6 电影", channels)
+        self.assertNotIn("CCTV-6 电影", channels)
+        self.assertIn("CCTV-6 电影", movie_channels)
         self.assertEqual(len(channels), len(set(channels)))
+        self.assertEqual(len(movie_channels), len(set(movie_channels)))
         self.assertEqual(set(channels), {e["name"] for e in selection["fixed_entries"]})
+        self.assertEqual(set(movie_channels), {e["name"] for e in movie["fixed_entries"]})
+        self.assertEqual(movie["group"], "电影频道")
+        self.assertEqual(len(channels) + len(movie_channels), 35)
 
     def test_htv_target_source_filters_and_normalizes(self):
         catalog = {"sources": [{

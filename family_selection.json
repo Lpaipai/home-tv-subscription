@@ -1,5 +1,5 @@
 {
-  "description": "用户选择的33条投影仪音视频输出通过线路，完整替换旧家庭精选；包含CCTV-14/15/17测试卡。不是长期稳定或节目身份保证。",
+  "description": "用户选择的32条投影仪音视频输出通过线路；CCTV-6已移入独立电影频道分组。其余线路不代表长期稳定或节目身份已完全核验。",
   "mode": "fixed",
   "channels": [
     "CCTV-1 综合",
@@ -8,7 +8,6 @@
     "CCTV-4 中文国际",
     "CCTV-5 体育",
     "CCTV-5+ 体育赛事",
-    "CCTV-6 电影",
     "CCTV-7 国防军事",
     "CCTV-8 电视剧",
     "CCTV-9 纪录",
@@ -148,25 +147,6 @@
       ],
       "device_verification": {
         "checked_at": "2026-10-24T01:16:59+08:00",
-        "audio_video_output": "passed_short_sample",
-        "content_observation": "not_fully_verified"
-      }
-    },
-    {
-      "name": "CCTV-6 电影",
-      "attrs": {
-        "tvg-id": "CCTV6",
-        "tvg-name": "CCTV6",
-        "http-user-agent": "AptvPlayer-UA",
-        "group-title": "央视"
-      },
-      "group": "央视",
-      "url": "http://101.35.240.114:88/live.php?id=CCTV6",
-      "directives": [
-        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
-      ],
-      "device_verification": {
-        "checked_at": "2026-10-24T01:17:16+08:00",
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       }

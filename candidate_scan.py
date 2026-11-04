@@ -13,6 +13,7 @@ from scan_live import scan_entries
 from update import ROOT
 from auto_additions import publish_scan
 from visual_check import check as check_visual, target as logo_target
+from movie_scan import is_movie_candidate, load_settings as load_movie_settings, load_aliases as load_movie_aliases
 
 
 def allowed_candidate(entry):
@@ -43,8 +44,11 @@ def allowed_candidate(entry):
 def choose_candidates(entries, history, limit, day):
     """有限额轮换候选，不为单个地方频道固定预留检测名额。"""
     candidates = {}
+    movie_settings = load_movie_settings()
+    movie_aliases = load_movie_aliases()
     for e in entries:
-        if not allowed_candidate(e) or is_ipv6_literal(e):
+        if (not allowed_candidate(e) or is_ipv6_literal(e)
+                or is_movie_candidate(e.get("name", ""), movie_settings, movie_aliases)):
             continue
         candidates.setdefault(e["id"], e)
 
