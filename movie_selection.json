@@ -1,0 +1,101 @@
+{
+  "description": "家庭精选内的独立电影频道分组。CCTV-6为原家庭精选线路移入此组；CHC 动作电影和 CHC 家庭影院为新增试播候选，尚未完成人工节目身份与投影仪实机核验。每日单独进行视频和音频解码测试。",
+  "group": "电影频道",
+  "channels": [
+    "CCTV-6 电影",
+    "CHC 动作电影",
+    "CHC 家庭影院"
+  ],
+  "max_lines_per_channel": 1,
+  "fixed_entries": [
+    {
+      "name": "CCTV-6 电影",
+      "attrs": {
+        "tvg-id": "CCTV6",
+        "tvg-name": "CCTV6",
+        "http-user-agent": "AptvPlayer-UA",
+        "group-title": "电影频道"
+      },
+      "group": "电影频道",
+      "url": "http://101.35.240.114:88/live.php?id=CCTV6",
+      "directives": [
+        "#EXTVLCOPT:http-user-agent=AptvPlayer-UA"
+      ],
+      "device_verification": {
+        "checked_at": "2026-10-24T01:17:16+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      }
+    },
+    {
+      "name": "CHC 动作电影",
+      "attrs": {
+        "tvg-id": "CHCAction.cn@SD",
+        "tvg-name": "CHC 动作电影",
+        "tvg-logo": "https://i.imgur.com/AuiVcyh.png",
+        "group-title": "电影频道"
+      },
+      "group": "电影频道",
+      "url": "http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8",
+      "directives": []
+    },
+    {
+      "name": "CHC 家庭影院",
+      "attrs": {
+        "tvg-id": "CHCHomeTheater.cn@SD",
+        "tvg-name": "CHC 家庭影院",
+        "tvg-logo": "https://i.imgur.com/AwBldBE.png",
+        "group-title": "电影频道"
+      },
+      "group": "电影频道",
+      "url": "http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8",
+      "directives": []
+    }
+  ],
+  "daily_scan": {
+    "always_check": [
+      "CCTV-6 电影",
+      "CHC 动作电影",
+      "CHC 家庭影院"
+    ],
+    "target_names": [
+      "CCTV-6 电影",
+      "CHC 动作电影",
+      "CHC 家庭影院",
+      "美亚电影台",
+      "天映频道",
+      "东森洋片台",
+      "第一剧场",
+      "央视第一剧场",
+      "哈尔滨影视",
+      "吉林影视",
+      "江苏影视",
+      "江西影视",
+      "广东影视",
+      "央视风云剧场",
+      "央视怀旧剧场"
+    ],
+    "keywords": [
+      "电影",
+      "影视",
+      "CHC",
+      "Movie",
+      "Movies",
+      "Cinema",
+      "Film",
+      "Celestial",
+      "Mei Ah"
+    ],
+    "exclude_keywords": [
+      "Girlfriends Films",
+      "ABN Bible Movies",
+      "Forensic Files",
+      "Classic TV",
+      "FilmRise Anime",
+      "浙江教科影视"
+    ],
+    "limit": 12,
+    "retry_limit": 4,
+    "description": "每次优先检测家庭精选电影线路，再轮换电影/影视候选；视频和音频分别解码。"
+  }
+}

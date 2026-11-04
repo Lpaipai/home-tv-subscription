@@ -43,8 +43,9 @@ def family_group_entries(selected):
             continue
         seen.add(key)
         item = copy.deepcopy(entry)
-        item["group"] = "家庭精选"
-        item["attrs"] = dict(item.get("attrs", {}), **{"group-title": "家庭精选"})
+        group = "电影频道" if entry.get("group") == "电影频道" else "家庭精选"
+        item["group"] = group
+        item["attrs"] = dict(item.get("attrs", {}), **{"group-title": group})
         result.append(item)
     return result
 
@@ -98,6 +99,50 @@ def build_family_outputs(entries, history, config, out, now, render):
                 "content_status": "manual_image_checked" if verified else "pending_manual_review",
                 "rights_status": "not_verified",
             })
+    movie_selection_path = out.parent / "movie_selection.json"
+    if movie_selection_path.exists():
+        movie_selection = json.loads(movie_selection_path.read_text(encoding="utf-8"))
+        movie_channels = movie_selection.get("channels", [])
+        movie_group = movie_selection.get("group", "电影频道")
+        movie_limit = movie_selection.get("max_lines_per_channel", 1)
+        movie_entries = movie_selection.get("fixed_entries", [])
+        if movie_group != "电影频道":
+            raise ValueError("电影频道分组名称必须为电影频道")
+        if (not isinstance(movie_channels, list) or not movie_channels
+                or len(movie_channels) > 1000
+                or any(not isinstance(name, str) or not name.strip() for name in movie_channels)):
+            raise ValueError("电影频道必须声明唯一且非空的频道列表")
+        if len(set(movie_channels)) != len(movie_channels):
+            raise ValueError("电影频道不能重复声明频道")
+        if not isinstance(movie_limit, int) or not 1 <= movie_limit <= 5:
+            raise ValueError("电影频道单频道最多保留 1 至 5 条地址")
+        if set(movie_channels) & set(names):
+            raise ValueError("电影频道不能与普通家庭精选重复")
+        if not isinstance(movie_entries, list) or len(movie_entries) > 1000:
+            raise ValueError("电影频道固定线路必须为最多 1000 条记录的列表")
+        for entry in movie_entries:
+            if (not isinstance(entry, dict) or entry.get("name") not in movie_channels
+                    or entry.get("group") != movie_group):
+                raise ValueError("电影频道固定线路必须属于已声明的电影频道分组")
+            url = urlsplit(entry.get("url", ""))
+            if url.scheme not in {"http", "https"} or not url.hostname or url.username or url.password:
+                raise ValueError("电影频道固定精选只接受不带账号密码的 HTTP(S) 地址")
+        if set(movie_channels) != {entry["name"] for entry in movie_entries}:
+            raise ValueError("电影频道固定精选缺少声明的频道，拒绝生成不完整目录")
+        for name in movie_channels:
+            options = [entry for entry in movie_entries if entry["name"] == name][:movie_limit]
+            preview.extend(options)
+            for entry in options:
+                review.append({
+                    "name": name, "line_id": line_id(entry),
+                    "network": network_type(entry["url"]),
+                    "cloud_decoded_recently": False,
+                    "selection_mode": "fixed_movie_trial",
+                    "device_verification": entry.get("device_verification"),
+                    "content_status": "pending_manual_review",
+                    "rights_status": "not_verified",
+                })
+
     render(preview, out, "family-preview")
     render(checked, out, "family-content-checked")
     (out / "family-review.json").write_text(json.dumps({

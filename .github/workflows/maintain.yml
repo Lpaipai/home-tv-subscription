@@ -10,6 +10,8 @@ on:
       - 'config.json'
       - 'candidate_sources.json'
       - 'family_selection.json'
+      - 'movie_selection.json'
+      - 'movie_scan.py'
       - 'channel_catalog.py'
       - 'channel_names.json'
       - 'update.py'
@@ -47,7 +49,7 @@ jobs:
     # 仅在原公开仓库主分支运行，防止转为私有仓库后消耗付费额度。
     if: github.repository == 'Lpaipai/home-tv-subscription' && github.event.repository.private == false && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
-    timeout-minutes: 20
+    timeout-minutes: 25
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       MODE: ${{ github.event.schedule == '23 23 * * 6' && 'scan' || inputs.mode || 'update' }}
@@ -109,6 +111,17 @@ jobs:
         timeout-minutes: 3
         continue-on-error: true
         run: python3 -B candidate_scan.py
+      - name: 每日电影频道定向音视频抽检
+        id: movie_scan
+        if: env.MODE == 'update'
+        timeout-minutes: 6
+        continue-on-error: true
+        run: |
+          if [ "${{ steps.discover.outcome }}" = success ]; then
+            python3 -B movie_scan.py --include-candidates --limit 12 --retry-limit 4
+          else
+            python3 -B movie_scan.py --limit 12 --retry-limit 4
+          fi
       - name: 自动收录线路到期复检与停用恢复
         id: recheck
         if: env.MODE == 'update'
@@ -141,6 +154,11 @@ jobs:
               python3 -B -c 'import json, os; from pathlib import Path; r=json.loads(Path("public/candidate-health.json").read_text()); c=r["counts"]; print("候选线路抽检：%s 条；视频解码成功 %s 条；新增实播线路 %s 条、未验证 IPv6 备用线路 %s 条。" % (r["sampled"], c.get("decoded", 0), r.get("promoted_decoded", 0), r.get("promoted_ipv6_unverified", 0)), file=open(os.environ["GITHUB_STEP_SUMMARY"],"a"))'
             else
               echo '本次候选实播检测未完成，原正式订阅不受影响。' >> "$GITHUB_STEP_SUMMARY"
+            fi
+            if [ "${{ steps.movie_scan.outcome }}" = success ]; then
+              cat public/movie-health.md >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo '电影频道定向抽检未完成；保留上一版本报告。' >> "$GITHUB_STEP_SUMMARY"
             fi
             if [ "${{ steps.recheck.outcome }}" = success ]; then
               python3 -B -c 'import json, os; from pathlib import Path; r=json.loads(Path("public/auto-maintenance.json").read_text()); print("自动收录复检：%s 条；本次解码 %s 条；累计暂停 %s 条；暂停线路按期继续复检。" % (r["sampled"], r["counts"].get("decoded",0), r["suspended_total"]), file=open(os.environ["GITHUB_STEP_SUMMARY"],"a"))'

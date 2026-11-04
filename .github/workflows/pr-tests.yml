@@ -17,6 +17,8 @@ on:
       - 'visual_check.py'
       - 'candidate_sources.json'
       - 'family_selection.json'
+      - 'movie_selection.json'
+      - 'movie_scan.py'
 
 permissions:
   contents: read

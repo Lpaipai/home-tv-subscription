@@ -12,12 +12,14 @@ from update import ROOT, parse_live, render_live
 
 
 class FixedFamilyTests(unittest.TestCase):
-    def generate(self, selection, upstream=None):
+    def generate(self, selection, upstream=None, movie_selection=None):
         with tempfile.TemporaryDirectory(dir=ROOT) as folder:
             root = Path(folder)
             out = root / "public"
             out.mkdir()
             (root / "family_selection.json").write_text(json.dumps(selection), encoding="utf-8")
+            if movie_selection is not None:
+                (root / "movie_selection.json").write_text(json.dumps(movie_selection), encoding="utf-8")
             selected = build_family_outputs(upstream or [], {"lines": {}}, {}, out,
                                             datetime.now(timezone.utc), render_live)
             return selected, (out / "family-preview.m3u").read_text(encoding="utf-8"), (out / "family-preview.txt").read_text(encoding="utf-8")
@@ -60,6 +62,16 @@ class FixedFamilyTests(unittest.TestCase):
         expected = [e.get("device_verification") for e in self.config["fixed_entries"]]
         selected, _, _ = self.generate(self.config)
         self.assertEqual([e.get("device_verification") for e in selected], expected)
+
+    def test_movie_channels_are_added_as_a_separate_family_group(self):
+        movie = json.loads((ROOT / "movie_selection.json").read_text(encoding="utf-8"))
+        selected, m3u, txt = self.generate(self.config, movie_selection=movie)
+        parsed = parse_live(m3u)
+        movie_entries = [entry for entry in parsed if entry["group"] == "电影频道"]
+        self.assertEqual(len(selected), len(self.config["channels"]) + len(movie["channels"]))
+        self.assertEqual([entry["name"] for entry in movie_entries], movie["channels"])
+        self.assertIn('group-title="电影频道"', m3u)
+        self.assertEqual(len(parse_live(txt)), sum(not entry.get("directives") for entry in selected))
 
     def test_new_channel_and_category_need_only_configuration(self):
         entry = {"name": "未来新增频道", "group": "新增分类", "url": "https://example.com/new.m3u8",
