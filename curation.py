@@ -43,7 +43,7 @@ def family_group_entries(selected):
             continue
         seen.add(key)
         item = copy.deepcopy(entry)
-        group = "电影频道" if entry.get("group") == "电影频道" else "家庭精选"
+        group = "电影" if entry.get("group") == "电影" else "家庭精选"
         item["group"] = group
         item["attrs"] = dict(item.get("attrs", {}), **{"group-title": group})
         result.append(item)
@@ -103,11 +103,11 @@ def build_family_outputs(entries, history, config, out, now, render):
     if movie_selection_path.exists():
         movie_selection = json.loads(movie_selection_path.read_text(encoding="utf-8"))
         movie_channels = movie_selection.get("channels", [])
-        movie_group = movie_selection.get("group", "电影频道")
+        movie_group = movie_selection.get("group", "电影")
         movie_limit = movie_selection.get("max_lines_per_channel", 1)
         movie_entries = movie_selection.get("fixed_entries", [])
-        if movie_group != "电影频道":
-            raise ValueError("电影频道分组名称必须为电影频道")
+        if movie_group != "电影":
+            raise ValueError("电影分组名称必须为电影")
         if (not isinstance(movie_channels, list) or not movie_channels
                 or len(movie_channels) > 1000
                 or any(not isinstance(name, str) or not name.strip() for name in movie_channels)):

@@ -1,6 +1,6 @@
 # LWP 家庭影音订阅
 
-**家庭精选总目录保留原有 33 条频道，并新增独立的「电影频道」分组；其中 CCTV-6 移入电影分组，首批另加入 2 条 CHC 试播线路。** 独立订阅入口为 `public/family-preview.m3u`；`live.m3u` 中先展示「家庭精选」，再展示「电影频道」。电影频道每日进行定向视频与音频短时解码测试；云端通过不代表节目身份、家庭网络可用性或长期稳定性已确认。CCTV-14、15、17 的测试样本为测试卡。
+**家庭精选保留原有 33 条频道，CCTV-6 仅在「央视」分组显示；另设独立的「电影」分组，首批包含 2 条 CHC 试播线路。** 独立订阅入口为 `public/family-preview.m3u`；`live.m3u` 中先展示「家庭精选」，再展示「电影」。电影线路每日进行定向视频与音频短时解码测试；云端通过不代表节目身份、家庭网络可用性或长期稳定性已确认。CCTV-14、15、17 的测试样本为测试卡。
 
 这是我们自己维护的频道与点播配置目录。播放器从订阅取得地址，再访问上游；本项目不托管视频，未取得或提供 HTV 的完整内置源。
 
@@ -35,13 +35,13 @@
 | `public/candidate-health.json`、`public/candidate-health-history.json` | 候选源小样本实播结果、自动收录数量和历史分；通过后进入正式源抽检 |
 | `public/live.m3u` / `live.txt` 中的 `家庭精选` | M3U 首组与固定精选一致；TXT 无法无损携带请求头时不写入该线路 |
 | `public/family-preview.m3u`、`.txt` | 独立精选清单；包含原有 33 条线路和 2 条电影试播线路；M3U 保留 35 条，TXT 会按请求头兼容性省略特殊线路 |
-| `public/movie-health.json`、`public/movie-health.md`、`public/movie-health-history.json` | 每日电影频道定向测试结果与轮换历史；同时记录视频和音频短时解码状态，不代表人工节目身份核验 |
+| `public/movie-health.json`、`public/movie-health.md`、`public/movie-health-history.json` | 每日电影分类定向测试结果与轮换历史；同时记录视频和音频短时解码状态，不代表人工节目身份核验 |
 | `public/family-content-checked.m3u`、`.txt` | 最近 21 天人工核对过画面的**已有**线路，不意味着已获得公开转播授权 |
 | `public/auto-additions.json` | 自动收录与跨日历史：视频解码通过为 `video_decoded`；显式许可来源的公网 IPv6 作为 `ipv6_unverified` 备用线路发布，不伪造成功记录 |
 | `public/auto-maintenance.json` | 最新自动线路到期复检数量、失败/受限和暂停总数 |
 | `public/candidate-health.json` 中的 `visual_status` | 临时取帧后本地 OCR 结果：匹配、疑似错台、未识别或工具缺失；**不是人工确认** |
 | `public/family-review.json` | 家庭线路人工核验待办清单：近期解码、节目身份、网络地址类型 |
-| `movie_selection.json` | 电影频道固定精选线路、候选识别规则和每日定向测试配置 |
+| `movie_selection.json` | 电影分类固定精选线路、候选识别规则和每日定向测试配置 |
 
 影视仓各单仓保留原有 `spider`、`sites`、解析器与规则，统一注入家庭直播入口；不把依赖不同插件的站点生硬拼成一仓。嵌套多仓递归整理；无法读取的子仓仍保留原地址，并标记失败。配置搬迁时，以原作者配置地址而非镜像目录为基准修正相对路径。
 
@@ -76,7 +76,7 @@
 
 ## 家庭精选与候选自动收录
 
-- **家庭精选与电影频道都在原 `live.m3u` / `live.txt` 订阅中展示。** 电影频道是独立分组；首批 CHC 线路属于试播候选，尚未完成人工节目内容和投影仪实机核验。
+- **家庭精选与电影分类都在原 `live.m3u` / `live.txt` 订阅中展示。** 电影分类是独立分组；首批 CHC 线路属于试播候选，尚未完成人工节目内容和投影仪实机核验。
 - `candidate_sources.json` 读取 fanmingming、Guovin 等九份公开候选列表。新地址先暂存在忽略目录 `state/candidate_entries.json`，发现报告只公开未测地址的指纹。
 - 候选普通线路使用 `decode_then_publish`：每天首测最多 12 条，失败复测最多 4 条；**本轮最终成功解码至少 3 个视频采样帧且未被错台规则拦截的地址，自动加入原来的正式频道分类**。**例外：仅 `candidate_sources.json` 明确启用 `ipv6_direct_publish` 的来源，其公网 IPv6 字面量 URL 可不经云端 FFmpeg，直接以 `ipv6_unverified` 状态加入原订阅，作为待家庭验证的备用线路。** 当前先为 fanmingming IPv6 来源启用，每次最多新增 128 条；绝不接受回环、私网、链路本地、映射 IPv4 或带危险播放参数的地址。同名频道作为备用线路，家庭精选按原有规则更新。不再等待人工确认，不要求用户逐条审核；未测、失败、受限和跳过的候选不自动加入。
 - 经视频解码的地址与来源、检测时间保存到 `public/auto-additions.json`，标记 `admission: video_decoded`；免云端检测的公网 IPv6 标记 `admission: ipv6_unverified`，不填写虚假的成功时间。每日目录更新会重新合并这些线路；新增到期复检流程，正常或重新解码成功会自动续期，已停用的线路解码成功后也会自动恢复。

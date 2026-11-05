@@ -67,10 +67,17 @@ class FixedFamilyTests(unittest.TestCase):
         movie = json.loads((ROOT / "movie_selection.json").read_text(encoding="utf-8"))
         selected, m3u, txt = self.generate(self.config, movie_selection=movie)
         parsed = parse_live(m3u)
-        movie_entries = [entry for entry in parsed if entry["group"] == "电影频道"]
+        movie_entries = [entry for entry in parsed if entry["group"] == "电影"]
         self.assertEqual(len(selected), len(self.config["channels"]) + len(movie["channels"]))
         self.assertEqual([entry["name"] for entry in movie_entries], movie["channels"])
-        self.assertIn('group-title="电影频道"', m3u)
+        self.assertEqual(len(parsed), 35)
+        self.assertEqual(len(movie_entries), 2)
+        self.assertEqual(sum(e["name"] == "CCTV-6 电影" for e in parsed), 1)
+        cctv6 = next(e for e in parsed if e["name"] == "CCTV-6 电影")
+        self.assertEqual(cctv6["group"], "央视")
+        self.assertEqual(cctv6["attrs"]["tvg-id"], "CCTV6")
+        self.assertNotIn('group-title="电影频道"', m3u)
+        self.assertIn('group-title="电影"', m3u)
         self.assertEqual(len(parse_live(txt)), sum(not entry.get("directives") for entry in selected))
 
     def test_new_channel_and_category_need_only_configuration(self):
