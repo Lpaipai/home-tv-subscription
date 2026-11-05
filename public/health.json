@@ -1,16 +1,16 @@
 {
-  "checked_at": "2026-11-05T10:38:49+08:00",
+  "checked_at": "2026-11-05T23:14:17+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3882,
+  "catalog_entries": 3881,
   "sampled": 24,
   "counts": {
-    "decoded": 20,
-    "failed": 4
+    "decoded": 17,
+    "failed": 7
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 28,
+  "attempts": 31,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
@@ -23,7 +23,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "255e9a4e499a534f",
+      "id": "2747a2c4ba0fde6b",
       "name": "CCTV-4 中文国际",
       "group": "央视",
       "status": "decoded",
@@ -41,7 +41,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "3fed89b5157ca29a",
+      "id": "4963413a52c7ae33",
       "name": "CCTV-5 体育",
       "group": "央视",
       "status": "decoded",
@@ -49,8 +49,40 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "130b5c052830b4ce",
+      "id": "7da2747ff911eab9",
       "name": "CCTV-5+ 体育赛事",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "56bb9dab8339cc08",
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "04c45dc723c23cc9",
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "288f55377af572ed",
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "6191f45534a09b39",
+      "name": "CCTV-8K",
       "group": "央视",
       "status": "failed",
       "frames": 0,
@@ -59,40 +91,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "223de8c61352ea5d",
-      "name": "CCTV-6 电影",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "7ac4cc4800c674bd",
-      "name": "CCTV-7 国防军事",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "14abb40e03a23b75",
-      "name": "CCTV-8 电视剧",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1bdcf09d06c66f40",
-      "name": "CCTV-8K",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "16712667ab09a1aa",
+      "id": "26e6611c1cc69333",
       "name": "CCTV-9 纪录",
       "group": "央视",
       "status": "decoded",
@@ -132,12 +131,14 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "73487ea107c9c1ce",
+      "id": "0c01ef55eb528f13",
       "name": "央视女性时尚",
       "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
       "id": "7b90e89bb22727ff",
@@ -164,16 +165,16 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "54bebc8e6430a80d",
-      "name": "Overtime",
+      "id": "14ca93d04ff657d1",
+      "name": "National Geographic Latin America",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4fea779ea8ef93c7",
-      "name": "PBC TV Channel 20",
+      "id": "e263eebd1ee68c94",
+      "name": "National Geographic Wild (United States) HD East",
       "group": "美国",
       "status": "failed",
       "frames": 0,
@@ -182,36 +183,42 @@
       "initial_status": "failed"
     },
     {
-      "id": "af3bf54376a0fd1e",
-      "name": "PBC Tapesh TV",
+      "id": "5e27c6dbad339e2b",
+      "name": "National Iranian Congress TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f836624e5a7b83c6",
-      "name": "PBR RidePass",
+      "id": "b3e6537aec923b44",
+      "name": "New Channel",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "0f5fdcc644dc9d03",
-      "name": "PBS",
+      "id": "716c1e37106e10cf",
+      "name": "New Channel Pop!",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "0f8f77672488195c",
-      "name": "PBS Antiques Roadshow",
+      "id": "d3a9529bb02ba85f",
+      "name": "News of the World",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     }
   ]
 }

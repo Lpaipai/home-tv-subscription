@@ -1,40 +1,32 @@
 {
-  "checked_at": "2026-11-05T02:38:49+00:00",
+  "checked_at": "2026-11-05T15:14:17+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "failed": 8,
-    "decoded": 3,
-    "blocked": 1
+    "failed": 7,
+    "decoded": 5
   },
   "visual_checked": 3,
   "visual_counts": {
-    "unknown": 3
+    "unknown": 3,
+    "unsupported": 2
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 3,
+  "eligible_for_auto_publish": 5,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "70434fff3b5e03df",
-      "name": "深圳电视剧",
+      "id": "e5012f7f93604189",
+      "name": "深圳少儿",
       "group": "地方",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "71e6d646cbeaf0bf",
-      "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "af8c6e15fcf39192",
+      "id": "28037e926a0cafab",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -42,7 +34,15 @@
       "visual_blocked": false
     },
     {
-      "id": "e014e9cb5a1fd45e",
+      "id": "300b911962d03115",
+      "name": "深圳电视剧",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "30624c63b7dc5a13",
       "name": "广东珠江",
       "group": "地方",
       "status": "failed",
@@ -50,24 +50,24 @@
       "visual_blocked": false
     },
     {
-      "id": "e187f9b0d499d31a",
-      "name": "广东新闻",
+      "id": "5a78c867dd8e7365",
+      "name": "广东民生",
       "group": "地方",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "e3fdb60dab45a95b",
-      "name": "CCTV-16 4K",
-      "group": "央视",
+      "id": "5acdc253b4512d2b",
+      "name": "海南卫视",
+      "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "677b40648f553652",
-      "name": "黑龙江卫视",
+      "id": "fc58ecdd18d53753",
+      "name": "广西卫视",
       "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
@@ -76,8 +76,8 @@
       "frame_count": 2
     },
     {
-      "id": "67eb246ccb1458f2",
-      "name": "重庆卫视",
+      "id": "fc6d8d1275cc4c88",
+      "name": "安徽卫视",
       "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
@@ -86,9 +86,9 @@
       "frame_count": 2
     },
     {
-      "id": "68440b30412bfb39",
-      "name": "CCTV-9",
-      "group": "央视",
+      "id": "ff64b8fd1c541426",
+      "name": "天津卫视",
+      "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "visual_status": "unknown",
@@ -96,37 +96,41 @@
       "frame_count": 2
     },
     {
-      "id": "68971cab04dd8bec",
-      "name": "CCTV-2 财经",
+      "id": "ff881bc6b59f3f70",
+      "name": "CCTV-12 社会与法",
       "group": "央视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "9af507634fe4eac7",
-      "name": "潢川综合",
+      "id": "a2819a3d50ecbb7b",
+      "name": "浙江公共新闻",
       "group": "其他",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
       "visual_blocked": false
     },
     {
-      "id": "9b3d929f23991009",
-      "name": "绍兴公共",
+      "id": "a2b539dc9ce98849",
+      "name": "风云剧场",
       "group": "其他",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unsupported",
       "visual_blocked": false
     }
   ],
-  "promoted": 3,
-  "promoted_decoded": 3,
+  "promoted": 5,
+  "promoted_decoded": 5,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "677b40648f553652",
-    "67eb246ccb1458f2",
-    "68440b30412bfb39"
+    "fc58ecdd18d53753",
+    "fc6d8d1275cc4c88",
+    "ff64b8fd1c541426",
+    "a2819a3d50ecbb7b",
+    "a2b539dc9ce98849"
   ],
   "visual_mismatch_blocked": 0
 }

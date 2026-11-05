@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T10:40:20+08:00",
+  "generated_at": "2026-11-05T23:15:41+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
   "preview_lines": 35,
   "manual_content_checked_lines": 0,
@@ -83,6 +83,20 @@
       "selection_mode": "fixed",
       "device_verification": {
         "checked_at": "2026-10-24T01:16:59+08:00",
+        "audio_video_output": "passed_short_sample",
+        "content_observation": "not_fully_verified"
+      },
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "CCTV-6 电影",
+      "line_id": "ff914805c1ac3f9c",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": false,
+      "selection_mode": "fixed",
+      "device_verification": {
+        "checked_at": "2026-10-24T01:17:16+08:00",
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
@@ -447,20 +461,6 @@
       "selection_mode": "fixed",
       "device_verification": {
         "checked_at": "2026-10-24T01:29:14+08:00",
-        "audio_video_output": "passed_short_sample",
-        "content_observation": "not_fully_verified"
-      },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-6 电影",
-      "line_id": "ff914805c1ac3f9c",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": false,
-      "selection_mode": "fixed_movie_trial",
-      "device_verification": {
-        "checked_at": "2026-10-24T01:17:16+08:00",
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
