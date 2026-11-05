@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-04T15:17:19+00:00",
+  "checked_at": "2026-11-05T02:39:48+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,64 +10,68 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 8,
+  "attempts": 10,
   "counts": {
-    "decoded": 8
+    "failed": 2,
+    "decoded": 6
   },
   "state_changes": {
-    "active": 8
+    "probation": 2,
+    "active": 6
   },
   "suspended_total": 0,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "3a4df0615638abcd",
-      "name": "风云足球",
+      "id": "6537000fd55598b9",
+      "name": "海南卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "7d9e1b83f25adf12",
+      "name": "广东珠江",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "211e977d779c5fac",
+      "id": "0b2891c6eb833347",
+      "name": "安徽卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0eb45d3effb89cc7",
+      "name": "CCTV-15",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "529d8cd0b5fa7631",
+      "name": "浙江教科影视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e403490dda50fae4",
+      "name": "海南卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "02cb3d9d6781b11c",
       "name": "大湾区卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "37704c682b0e4d9d",
-      "name": "CCTV-8",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "92bb289e8785ca44",
-      "name": "CCTV-7",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c90b1aeeeeeeed72",
+      "id": "281da65d89453770",
       "name": "厦门卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "41039382748238a6",
-      "name": "女性时尚",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "cb3217a3e1d1c0b0",
-      "name": "大湾区卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1442ba4b1509ed78",
-      "name": "广东卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 2
+  "renewed_by_formal_checks": 0
 }

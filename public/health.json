@@ -1,124 +1,19 @@
 {
-  "checked_at": "2026-11-04T23:16:29+08:00",
+  "checked_at": "2026-11-05T10:38:49+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3678,
+  "catalog_entries": 3882,
   "sampled": 24,
   "counts": {
-    "decoded": 21,
-    "failed": 3
+    "decoded": 20,
+    "failed": 4
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 27,
+  "attempts": 28,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
-    {
-      "id": "fac12c2fbbc6dcdc",
-      "name": "CCTV-1 综合",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "958f96e9f605f3ba",
-      "name": "CCTV-10 科教",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "f749d22c55d7ce07",
-      "name": "CCTV-11 戏曲",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c687cc2b697a2270",
-      "name": "CCTV-12 社会与法",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "d1932bf9db43bfde",
-      "name": "CCTV-13 新闻",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6d4194986c96ef0c",
-      "name": "CCTV-14 少儿",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "8c3e293f6418c953",
-      "name": "CCTV-15 音乐",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "90f56986d19d37cc",
-      "name": "CCTV-16 奥林匹克",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "ccbcdfe800a4ea51",
-      "name": "CCTV-17 农业农村",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "ae7e80a3c935e9ca",
-      "name": "CCTV-2 财经",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "b80c3b0e6dca5abf",
-      "name": "CCTV-3 综艺",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a55a059f3bc0ec0d",
-      "name": "CCTV-4 America",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1bcf4e03452cee03",
-      "name": "CCTV-4 Asia",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
     {
       "id": "c9b3e336079fe548",
       "name": "CCTV-4 Europe",
@@ -128,7 +23,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "071279b161b8cc2a",
+      "id": "255e9a4e499a534f",
       "name": "CCTV-4 中文国际",
       "group": "央视",
       "status": "decoded",
@@ -146,7 +41,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "236a76b46de6baf2",
+      "id": "3fed89b5157ca29a",
       "name": "CCTV-5 体育",
       "group": "央视",
       "status": "decoded",
@@ -154,7 +49,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1e09bb0c48dfb174",
+      "id": "130b5c052830b4ce",
       "name": "CCTV-5+ 体育赛事",
       "group": "央视",
       "status": "failed",
@@ -164,48 +59,155 @@
       "initial_status": "failed"
     },
     {
-      "id": "f620f27988243269",
-      "name": "Pluto TV Novelas（LatAm）",
+      "id": "223de8c61352ea5d",
+      "name": "CCTV-6 电影",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7ac4cc4800c674bd",
+      "name": "CCTV-7 国防军事",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "14abb40e03a23b75",
+      "name": "CCTV-8 电视剧",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1bdcf09d06c66f40",
+      "name": "CCTV-8K",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "16712667ab09a1aa",
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "28570e470e6a7304",
+      "name": "央视世界地理",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "36575d1f87e38356",
+      "name": "央视兵器科技",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a803576f0c9bfe39",
+      "name": "央视卫生健康",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a29705b007736055",
+      "name": "央视台球",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "73487ea107c9c1ce",
+      "name": "央视女性时尚",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7b90e89bb22727ff",
+      "name": "央视怀旧剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "34c9250d762aff48",
+      "name": "央视文化精品",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "51a7ad04d1970cba",
+      "name": "央视第一剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "54bebc8e6430a80d",
+      "name": "Overtime",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "ce1d320aad889e90",
-      "name": "Pluto TV Novelas（US）",
+      "id": "4fea779ea8ef93c7",
+      "name": "PBC TV Channel 20",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "af3bf54376a0fd1e",
+      "name": "PBC Tapesh TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "cec6ab6b5919f51a",
-      "name": "Pluto TV Nuestro Cine",
+      "id": "f836624e5a7b83c6",
+      "name": "PBR RidePass",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2f48f2ff43d94492",
-      "name": "Pluto TV Paisagens por Stingray",
+      "id": "0f5fdcc644dc9d03",
+      "name": "PBS",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "cc2d57a25fd85f88",
-      "name": "Pluto TV Paranormal",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "123199d4bb2b8ed1",
-      "name": "Pluto TV Paranormal (United States)",
+      "id": "0f8f77672488195c",
+      "name": "PBS Antiques Roadshow",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
