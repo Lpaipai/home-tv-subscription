@@ -1,14 +1,13 @@
 {
-  "checked_at": "2026-11-05T15:14:54+00:00",
+  "checked_at": "2026-11-06T02:40:17+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 165,
+  "catalog_entries": 162,
   "sampled": 12,
-  "attempts": 16,
+  "attempts": 15,
   "counts": {
-    "decoded": 6,
-    "failed": 5,
-    "skipped": 1
+    "decoded": 9,
+    "failed": 3
   },
   "family_channels_tested": [
     "CCTV-6 电影",
@@ -16,15 +15,15 @@
     "CHC 家庭影院"
   ],
   "candidate_channels_tested": [
-    "24 Hour Free Movies",
-    "30A TV Classic Movies",
-    "70s Cinema",
-    "淘电影",
-    "湖北影视",
+    "ARTFLIX Movie Classics",
+    "BET Cinema",
+    "BET Comedy Movies",
+    "CHC动作电影",
+    "CHC家庭影院",
+    "Cinemax (United States) West",
+    "Cinemax Asia Taiwan",
     "第一剧场",
-    "美亚电影台",
-    "黑龙江影视",
-    "龙祥电影"
+    "黑龙江影视"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
@@ -60,66 +59,28 @@
       "initial_status": "failed"
     },
     {
-      "id": "c04db8d19eb4605b",
-      "name": "淘电影",
-      "group": "其他",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "beb6dc3ea9fbd158",
-      "name": "湖北影视",
-      "group": "其他",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "4198afd648017ce3",
+      "id": "cfd27bfe021bc3c4",
       "name": "第一剧场",
-      "group": "地方",
+      "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "925fe8f808ad47f0",
-      "name": "美亚电影台",
-      "group": "香港",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "0285be064040c964",
+      "id": "063d521236de2d3b",
       "name": "黑龙江影视",
       "group": "其他",
-      "video_status": "skipped",
-      "audio_status": "not_checked",
-      "status": "skipped",
-      "reason": "视频未通过：IPv6 字面量地址未在本云端验证，须在家庭网络复核"
-    },
-    {
-      "id": "876bc966cc834ef4",
-      "name": "龙祥电影",
-      "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "63daca121dfe4ddf",
-      "name": "24 Hour Free Movies",
+      "id": "b5eebf52df2f85fc",
+      "name": "ARTFLIX Movie Classics",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -127,8 +88,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "0af0d85b662ef10f",
-      "name": "30A TV Classic Movies",
+      "id": "e759b7301dd9f7aa",
+      "name": "BET Cinema",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -136,9 +97,45 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "d1075cb32598c4bd",
-      "name": "70s Cinema",
+      "id": "9cf3615a96b6e80d",
+      "name": "BET Comedy Movies",
       "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "765f7a4905b515ee",
+      "name": "CHC动作电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3fd85a30a729c410",
+      "name": "CHC家庭影院",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "8f1d0163fe4e2511",
+      "name": "Cinemax (United States) West",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "9068031636d456ad",
+      "name": "Cinemax Asia Taiwan",
+      "group": "台湾",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",

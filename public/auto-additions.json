@@ -457,8 +457,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-02T01:38:56+00:00",
-      "last_attempt_at": "2026-11-02T01:38:56+00:00",
+      "last_decoded_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_at": "2026-11-06T02:39:45+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -509,8 +509,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-30T02:04:40+00:00",
-      "last_attempt_at": "2026-10-30T02:04:40+00:00",
+      "last_decoded_at": "2026-11-06T02:40:49+00:00",
+      "last_attempt_at": "2026-11-06T02:40:49+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2534,10 +2534,11 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-24T00:46:51+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-06T02:40:49+00:00",
       "last_attempt_status": "failed",
       "failure_days": [
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-06"
       ],
       "state": "probation"
     },
@@ -2561,8 +2562,8 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-01T02:26:01+00:00",
-      "last_attempt_at": "2026-11-01T02:26:01+00:00",
+      "last_decoded_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_at": "2026-11-06T02:39:45+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2739,10 +2740,11 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-24T05:42:02+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_attempt_at": "2026-11-06T02:40:49+00:00",
       "last_attempt_status": "failed",
       "failure_days": [
-        "2026-11-04"
+        "2026-11-04",
+        "2026-11-06"
       ],
       "state": "probation"
     },
@@ -3707,6 +3709,58 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-05T15:14:17+00:00",
       "last_attempt_at": "2026-11-05T15:14:17+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "e9d07c68bbcd50e7": {
+      "name": "东南卫视",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "东南卫视",
+        "tvg-name": "东南卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/东南卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-06T02:39:45+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "aad3d3606c6b8e45": {
+      "name": "西峰综合",
+      "url": "https://play.kankanlive.com/live/1683944827526991.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "西峰综合",
+        "tvg-name": "西峰综合",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/西峰综合.png",
+        "group-title": "☘️甘肃频道"
+      },
+      "group": "☘️甘肃频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-06T02:39:45+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_at": "2026-11-06T02:39:45+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
