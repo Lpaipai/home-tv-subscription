@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-06T02:40:49+00:00",
+  "checked_at": "2026-11-07T02:07:13+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -9,39 +9,65 @@
     "max_retry": 2,
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
-  "sampled": 3,
-  "attempts": 5,
+  "sampled": 8,
+  "attempts": 8,
   "counts": {
-    "decoded": 1,
-    "failed": 2
+    "decoded": 8
   },
   "state_changes": {
-    "active": 1,
-    "probation": 2
+    "active": 8
   },
   "suspended_total": 0,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "c46f379f1dc73d18",
-      "name": "邯郸科技教育",
+      "id": "11ce20a3cd46751f",
+      "name": "CCTV-17",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "015617a254d6664c",
-      "name": "广东珠江",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2
+      "id": "b1e3a6326442e0b7",
+      "name": "江西卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "241cc695093291f9",
-      "name": "广东民生",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2
+      "id": "b64b518a2ca393d0",
+      "name": "东南卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "931b1e46b3fc0db3",
+      "name": "江西卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "94e535c8ba80d8c7",
+      "name": "天津卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "95fdbee41eeb9d4a",
+      "name": "内蒙古卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a3c8c5d0845412b8",
+      "name": "翡翠台",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a6e6e9829ec77c74",
+      "name": "四川卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 2
+  "renewed_by_formal_checks": 1
 }

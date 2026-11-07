@@ -121,9 +121,9 @@
       "accepted_at": "2026-10-23T06:24:30+00:00",
       "content_verified": false,
       "state": "active",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
       "failure_days": []
     },
     "de893288be7c6762": {
@@ -171,8 +171,8 @@
       "accepted_at": "2026-10-23T09:17:58+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -279,7 +279,7 @@
       "last_attempt_at": "2026-10-31T01:43:57+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "ba35645b3510da63": {
       "name": "昌黎综合",
@@ -379,8 +379,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -405,8 +405,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "not_checked_budget",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -431,8 +431,8 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "not_checked_budget",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -608,8 +608,8 @@
       "accepted_at": "2026-10-23T09:29:23+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-31T01:43:29+00:00",
-      "last_attempt_at": "2026-10-31T01:43:29+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -996,13 +996,11 @@
       "accepted_at": "2026-10-23T14:11:03+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-27T01:33:40+00:00",
-      "last_attempt_at": "2026-11-05T02:39:48+00:00",
-      "last_attempt_status": "failed",
-      "failure_days": [
-        "2026-11-05"
-      ],
-      "state": "probation"
+      "last_decoded_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
     },
     "e3c684ab5debe8e7": {
       "name": "广东卫视",
@@ -3171,8 +3169,8 @@
       "accepted_at": "2026-10-31T01:43:29+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-10-31T01:43:29+00:00",
-      "last_attempt_at": "2026-10-31T01:43:29+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3197,8 +3195,8 @@
       "accepted_at": "2026-10-31T01:43:29+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-10-31T01:43:29+00:00",
-      "last_attempt_at": "2026-10-31T01:43:29+00:00",
+      "last_decoded_at": "2026-11-07T02:07:13+00:00",
+      "last_attempt_at": "2026-11-07T02:07:13+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3761,6 +3759,58 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-06T02:39:45+00:00",
       "last_attempt_at": "2026-11-06T02:39:45+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "55bcd06fb9e5174f": {
+      "name": "CCTV-8",
+      "url": "http://69.30.245.50/live/cctv8.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "CCTV-8",
+        "tvg-name": "CCTV-8",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-8.png",
+        "group-title": "📺央视频道"
+      },
+      "group": "📺央视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-07T02:06:31+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "b37bcaf8f478fe42": {
+      "name": "余姚综合",
+      "url": "https://l.cztvcloud.com/channels/lantian/SXyuyao1/720p.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "余姚综合",
+        "tvg-name": "余姚综合",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/余姚综合.png",
+        "group-title": "☘️浙江频道"
+      },
+      "group": "☘️浙江频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-07T02:06:31+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_at": "2026-11-07T02:06:31+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"

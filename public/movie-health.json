@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-06T02:40:17+00:00",
+  "checked_at": "2026-11-07T02:06:54+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 162,
+  "catalog_entries": 168,
   "sampled": 12,
   "attempts": 15,
   "counts": {
@@ -16,13 +16,13 @@
   ],
   "candidate_channels_tested": [
     "ARTFLIX Movie Classics",
-    "BET Cinema",
-    "BET Comedy Movies",
     "CHC动作电影",
     "CHC家庭影院",
-    "Cinemax (United States) West",
-    "Cinemax Asia Taiwan",
-    "第一剧场",
+    "Cinemax Classics",
+    "Cinemax Hits",
+    "Cinemax Latin America",
+    "Classic Cinema",
+    "Classic Movie Westerns",
     "黑龙江影视"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
@@ -59,16 +59,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "cfd27bfe021bc3c4",
-      "name": "第一剧场",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "063d521236de2d3b",
+      "id": "d5081faba761d198",
       "name": "黑龙江影视",
       "group": "其他",
       "video_status": "failed",
@@ -79,7 +70,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "b5eebf52df2f85fc",
+      "id": "df56cf00c24f6e82",
       "name": "ARTFLIX Movie Classics",
       "group": "美国",
       "video_status": "decoded",
@@ -88,25 +79,7 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "e759b7301dd9f7aa",
-      "name": "BET Cinema",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "9cf3615a96b6e80d",
-      "name": "BET Comedy Movies",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "765f7a4905b515ee",
+      "id": "77b6e4b4e9f07d76",
       "name": "CHC动作电影",
       "group": "其他",
       "video_status": "decoded",
@@ -115,7 +88,7 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "3fd85a30a729c410",
+      "id": "4acdfac5107fc470",
       "name": "CHC家庭影院",
       "group": "其他",
       "video_status": "decoded",
@@ -124,8 +97,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "8f1d0163fe4e2511",
-      "name": "Cinemax (United States) West",
+      "id": "14eec296de0eef00",
+      "name": "Cinemax Classics",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -133,9 +106,36 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "9068031636d456ad",
-      "name": "Cinemax Asia Taiwan",
-      "group": "台湾",
+      "id": "01e22060d07b3ae3",
+      "name": "Cinemax Hits",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3007520d33c4bad7",
+      "name": "Cinemax Latin America",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "8a3e67bdcca969af",
+      "name": "Classic Cinema",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "8fd42a1a9f32fc17",
+      "name": "Classic Movie Westerns",
+      "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
