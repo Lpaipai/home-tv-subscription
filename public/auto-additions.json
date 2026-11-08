@@ -275,11 +275,11 @@
       "accepted_at": "2026-10-23T09:17:58+00:00",
       "content_verified": false,
       "visual_status": "not_checked_budget",
-      "last_decoded_at": "2026-10-31T01:43:57+00:00",
-      "last_attempt_at": "2026-10-31T01:43:57+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "ba35645b3510da63": {
       "name": "昌黎综合",
@@ -487,7 +487,7 @@
       "last_attempt_at": "2026-11-01T01:20:42+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "c46f379f1dc73d18": {
       "name": "邯郸科技教育",
@@ -530,8 +530,8 @@
       "accepted_at": "2026-10-23T09:29:23+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-01T01:20:42+00:00",
-      "last_attempt_at": "2026-11-01T01:20:42+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -556,8 +556,8 @@
       "accepted_at": "2026-10-23T09:29:23+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-01T01:20:42+00:00",
-      "last_attempt_at": "2026-11-01T01:20:42+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -634,8 +634,8 @@
       "accepted_at": "2026-10-23T09:29:23+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-01T01:20:42+00:00",
-      "last_attempt_at": "2026-11-01T01:20:42+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -664,7 +664,7 @@
       "last_attempt_at": "2026-11-01T01:20:42+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "9021bf31f7c955ad": {
       "name": "河北卫视",
@@ -690,7 +690,7 @@
       "last_attempt_at": "2026-11-01T01:20:42+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "24796150bcbc6611": {
       "name": "名山综合",
@@ -712,8 +712,8 @@
       "accepted_at": "2026-10-23T09:35:27+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-01T01:20:42+00:00",
-      "last_attempt_at": "2026-11-01T01:20:42+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -790,8 +790,8 @@
       "accepted_at": "2026-10-23T09:41:31+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-01T01:20:42+00:00",
-      "last_attempt_at": "2026-11-01T01:20:42+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2766,8 +2766,8 @@
       "accepted_at": "2026-10-24T05:42:02+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-01T01:20:08+00:00",
-      "last_attempt_at": "2026-11-01T01:20:08+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3221,8 +3221,8 @@
       "accepted_at": "2026-11-01T01:20:08+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-01T01:20:08+00:00",
-      "last_attempt_at": "2026-11-01T01:20:08+00:00",
+      "last_decoded_at": "2026-11-08T01:39:51+00:00",
+      "last_attempt_at": "2026-11-08T01:39:51+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3811,6 +3811,32 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-07T02:06:31+00:00",
       "last_attempt_at": "2026-11-07T02:06:31+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "ff57dc956209c7d5": {
+      "name": "新疆卫视",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xjws",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "新疆卫视",
+        "tvg-name": "新疆卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/新疆卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-08T01:38:47+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-08T01:38:47+00:00",
+      "last_attempt_at": "2026-11-08T01:38:47+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"

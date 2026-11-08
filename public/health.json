@@ -1,22 +1,23 @@
 {
-  "checked_at": "2026-11-07T10:06:31+08:00",
+  "checked_at": "2026-11-08T09:38:47+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3886,
+  "catalog_entries": 3795,
   "sampled": 24,
   "counts": {
-    "failed": 8,
-    "decoded": 16
+    "failed": 4,
+    "decoded": 18,
+    "blocked": 2
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 32,
-  "recovered_on_retry": 0,
+  "attempts": 30,
+  "recovered_on_retry": 2,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "29c6a72b711567d6",
-      "name": "广东卫视",
+      "id": "4f441f3d0a76d660",
+      "name": "陕西卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
@@ -24,8 +25,16 @@
       "initial_status": "failed"
     },
     {
-      "id": "76fffabb4712d6c6",
-      "name": "广西卫视",
+      "id": "87d305caa3668ec5",
+      "name": "青海卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "75cc20c520c1ca6e",
+      "name": "黑龙江卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
@@ -33,186 +42,172 @@
       "initial_status": "failed"
     },
     {
-      "id": "8970b729925f0520",
-      "name": "康巴卫视",
-      "group": "卫视",
+      "id": "3e335ab2e6e6a5bb",
+      "name": "CCTV+ 1",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "ff24fbfa1f002a25",
-      "name": "延边卫视",
-      "group": "卫视",
+      "id": "458a94732156c13e",
+      "name": "CCTV+ 2",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6dccdf1aabf1adcd",
-      "name": "新疆卫视",
-      "group": "卫视",
+      "id": "5bd122b6b64af097",
+      "name": "CCTV-1 综合",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4098a79748c422fd",
-      "name": "江苏卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "07f3226cf4beac31",
-      "name": "江西卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "040891a16b04b03f",
-      "name": "河北卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1082dff3d4ed4ccb",
-      "name": "河南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "069e1bd21d215571",
-      "name": "浙江卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "6537000fd55598b9",
-      "name": "海南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "00d71dd90ccbef49",
-      "name": "深圳卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0a9967b59a4402bc",
-      "name": "湖北卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "3867d114b9629d75",
-      "name": "湖南卫视",
-      "group": "卫视",
+      "id": "0d16f446e3d9966e",
+      "name": "CCTV-10 科教",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "2e9ab2904eae5214",
-      "name": "甘肃卫视",
-      "group": "卫视",
+      "id": "4ba17cd5e16525da",
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "1b36e51b43668ea1",
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3797ad87bfbeeb1e",
-      "name": "西藏卫视",
-      "group": "卫视",
+      "id": "098f8c56e17064fd",
+      "name": "CCTV-13 新闻",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "25edca576074b3dd",
-      "name": "贵州卫视",
-      "group": "卫视",
+      "id": "3c9af39752dccdf6",
+      "name": "CCTV-14 少儿",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "2b6287e0d1402833",
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "231bf410a7deb47d",
+      "name": "CCTV-16 奥林匹克",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "29012c08be2a6d7b",
-      "name": "辽宁卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "id": "07e52484bf172fa6",
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1cfbbabcde03e82a",
+      "name": "CCTV-2 财经",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "4df7c9866c80f032",
+      "name": "CCTV-3 综艺",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "2e276e7b8cbe547c",
-      "name": "Duck Dynasty（UK）",
+      "id": "4a46b143c27d1cc5",
+      "name": "CCTV-4 America",
+      "group": "央视",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "1bcf4e03452cee03",
+      "name": "CCTV-4 Asia",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c0dba8bd26f27a02",
+      "name": "Cinevault Westerns",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "44054ce4befa7d27",
-      "name": "Duck Dynasty（US）",
+      "id": "34e8a54e8516e4a1",
+      "name": "Circle",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "73ebf3f50ed900da",
-      "name": "Duck Hunting TV",
+      "id": "a6d27b75266d6938",
+      "name": "City TV Carlsbad",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4d6c583aaed0b06f",
-      "name": "Dungeon TV",
+      "id": "ecd2b38234944a9a",
+      "name": "City TV Channel 3/41",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "70709a7d85774ff3",
-      "name": "Dynasty",
+      "id": "7c8c94177e3d9d75",
+      "name": "City of Fairfield Channel 26",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
     },
     {
-      "id": "463ef0197e7a0f8f",
-      "name": "E! East",
+      "id": "66f16e7828788de9",
+      "name": "City of Fort Pierce",
       "group": "美国",
       "status": "decoded",
       "frames": 4,

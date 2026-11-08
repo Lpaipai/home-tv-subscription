@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T02:07:13+00:00",
+  "checked_at": "2026-11-08T01:39:51+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -21,53 +21,53 @@
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "11ce20a3cd46751f",
-      "name": "CCTV-17",
+      "id": "ab951ff508eee1c0",
+      "name": "浙江卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b1e3a6326442e0b7",
-      "name": "江西卫视",
+      "id": "6fafbffae5196d23",
+      "name": "萧山生活",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b64b518a2ca393d0",
-      "name": "东南卫视",
+      "id": "dac15e492f1d34d5",
+      "name": "CCTV-7",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "931b1e46b3fc0db3",
-      "name": "江西卫视",
+      "id": "11e5a3da543b91dc",
+      "name": "辽宁卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "94e535c8ba80d8c7",
-      "name": "天津卫视",
+      "id": "155a48f6fc2a839c",
+      "name": "宁夏卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "95fdbee41eeb9d4a",
-      "name": "内蒙古卫视",
+      "id": "24796150bcbc6611",
+      "name": "名山综合",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a3c8c5d0845412b8",
-      "name": "翡翠台",
+      "id": "350465a87984daec",
+      "name": "亚洲新闻",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a6e6e9829ec77c74",
-      "name": "四川卫视",
+      "id": "48da91e70714ecc0",
+      "name": "广东珠江",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 1
+  "renewed_by_formal_checks": 0
 }
