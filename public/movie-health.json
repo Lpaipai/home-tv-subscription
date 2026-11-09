@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-11-08T01:39:21+00:00",
+  "checked_at": "2026-11-09T01:50:40+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
   "catalog_entries": 162,
   "sampled": 12,
-  "attempts": 15,
+  "attempts": 16,
   "counts": {
-    "decoded": 9,
-    "failed": 3
+    "failed": 8,
+    "decoded": 4
   },
   "family_channels_tested": [
     "CCTV-6 电影",
@@ -17,13 +17,13 @@
   "candidate_channels_tested": [
     "CHC动作电影",
     "CHC家庭影院",
-    "Cinemax Latin America",
-    "Classic Movies Channel",
-    "EBS Cinema",
-    "FilmRise Western",
-    "Filmes Suspense",
-    "Gravitas Movies",
-    "黑龙江影视"
+    "Grjngo Western Movies",
+    "Hallmark Movies & More",
+    "IPTV经典电影",
+    "Kids Movie Club",
+    "Lifetime Movies",
+    "Magnificent Movies Network",
+    "Maverick Black Cinema"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
@@ -31,10 +31,12 @@
       "id": "ff914805c1ac3f9c",
       "name": "CCTV-6 电影",
       "group": "央视",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
       "id": "d31c47a2ec2d112d",
@@ -59,8 +61,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "eed1b08f3777641e",
-      "name": "黑龙江影视",
+      "id": "ee6033675c7dee17",
+      "name": "CHC动作电影",
       "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
@@ -70,16 +72,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "ea5717a4a39ecf10",
-      "name": "CHC动作电影",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "7bfa02c6b3da0848",
+      "id": "ae830aa00923c9bf",
       "name": "CHC家庭影院",
       "group": "其他",
       "video_status": "decoded",
@@ -88,8 +81,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "3980005531259a03",
-      "name": "Cinemax Latin America",
+      "id": "375e565af3874bca",
+      "name": "Grjngo Western Movies",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -97,8 +90,26 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "21c87778b19a67dc",
-      "name": "Classic Movies Channel",
+      "id": "07399376e9200280",
+      "name": "Hallmark Movies & More",
+      "group": "美国",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核"
+    },
+    {
+      "id": "245e049977bffd03",
+      "name": "IPTV经典电影",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "2ebb3a7b9c00ad9a",
+      "name": "Kids Movie Club",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -106,35 +117,26 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7f40808f527f5001",
-      "name": "EBS Cinema",
+      "id": "1cb9647ae557ecd0",
+      "name": "Lifetime Movies",
       "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
     },
     {
-      "id": "a89be56e2bc337cf",
-      "name": "FilmRise Western",
+      "id": "3a09d896799f7f76",
+      "name": "Magnificent Movies Network",
       "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
     },
     {
-      "id": "b7f026f28bc4ea12",
-      "name": "Filmes Suspense",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "a5bc7f506b5c7500",
-      "name": "Gravitas Movies",
+      "id": "5dafddee88aafabf",
+      "name": "Maverick Black Cinema",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",

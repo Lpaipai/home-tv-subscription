@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-08T09:37:01+08:00",
+  "fetched_at": "2026-11-09T09:48:46+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -78,7 +78,7 @@
   ],
   "failures": [],
   "total_unique": 1787,
-  "not_in_main": 1561,
+  "not_in_main": 1569,
   "ipv6_literal": 115,
   "priority_unlisted": 374,
   "preview": [

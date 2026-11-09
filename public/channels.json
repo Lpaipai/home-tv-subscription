@@ -4,8 +4,8 @@
     "channels": [
       {
         "name": "CCTV-1 综合",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "CCTV-2 财经",
@@ -14,8 +14,8 @@
       },
       {
         "name": "CCTV-3 综艺",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "CCTV-4 America",
@@ -54,8 +54,8 @@
       },
       {
         "name": "CCTV-7 国防军事",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "CCTV-8 电视剧",
@@ -84,13 +84,13 @@
       },
       {
         "name": "CCTV-13 新闻",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "CCTV-14 少儿",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "CCTV-15 音乐",
@@ -199,8 +199,8 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "北京卫视",
@@ -219,8 +219,8 @@
       },
       {
         "name": "东方卫视",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "东南卫视",
@@ -254,13 +254,13 @@
       },
       {
         "name": "河北卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "河南卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "黑龙江卫视",
@@ -289,8 +289,8 @@
       },
       {
         "name": "江西卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 16,
+        "txt_lines": 16
       },
       {
         "name": "康巴卫视",
@@ -304,13 +304,13 @@
       },
       {
         "name": "内蒙古卫视",
-        "lines": 9,
-        "txt_lines": 8
+        "lines": 10,
+        "txt_lines": 9
       },
       {
         "name": "宁夏卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "青海卫视",
@@ -339,8 +339,8 @@
       },
       {
         "name": "深圳卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "四川卫视",
@@ -364,8 +364,8 @@
       },
       {
         "name": "新疆卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "延边卫视",
@@ -374,8 +374,8 @@
       },
       {
         "name": "云南卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "浙江卫视",
@@ -848,47 +848,17 @@
         "txt_lines": 1
       },
       {
-        "name": "浙江教科",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "浙江教科影视",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "浙江经济",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "浙江民生",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "浙江钱江",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "浙江少儿",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "浙江新闻",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "浙江休闲台",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "之江纪录",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1104,8 +1074,8 @@
       },
       {
         "name": "浙江国际",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       }
     ]
   },
@@ -2109,7 +2079,7 @@
       },
       {
         "name": "AMC Series Latin America",
-        "lines": 2,
+        "lines": 3,
         "txt_lines": 2
       },
       {
@@ -2379,7 +2349,7 @@
       },
       {
         "name": "AXN Adria",
-        "lines": 1,
+        "lines": 2,
         "txt_lines": 0
       },
       {
@@ -2401,11 +2371,6 @@
         "name": "AXN Black（Poland）",
         "lines": 1,
         "txt_lines": 1
-      },
-      {
-        "name": "AXN Black（Romania）",
-        "lines": 1,
-        "txt_lines": 0
       },
       {
         "name": "AXN Crime",
@@ -2456,11 +2421,6 @@
         "name": "AXN White（Portugal）",
         "lines": 2,
         "txt_lines": 1
-      },
-      {
-        "name": "AXN White（SD）",
-        "lines": 1,
-        "txt_lines": 0
       },
       {
         "name": "AXS TV",
@@ -3666,6 +3626,11 @@
         "name": "CNN 国际台（NorthAmerica）",
         "lines": 1,
         "txt_lines": 1
+      },
+      {
+        "name": "CNN 国际台（SouthAsia）",
+        "lines": 1,
+        "txt_lines": 0
       },
       {
         "name": "CNN 美国有线电视新闻网",
@@ -4929,7 +4894,7 @@
       },
       {
         "name": "Fox Business Network",
-        "lines": 2,
+        "lines": 3,
         "txt_lines": 2
       },
       {
@@ -10169,8 +10134,8 @@
       },
       {
         "name": "Telemundo West",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Telemundo WTMO-CD",
@@ -11078,16 +11043,6 @@
         "txt_lines": 2
       },
       {
-        "name": "Univision",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "Univision East",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Univision KMEX-DT",
         "lines": 1,
         "txt_lines": 1
@@ -11111,6 +11066,16 @@
         "name": "Univision WLTV-DT",
         "lines": 2,
         "txt_lines": 2
+      },
+      {
+        "name": "Univision（EastHD）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Univision（东部版）",
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Unsolved Mysteries（UK）",
@@ -11558,11 +11523,6 @@
         "txt_lines": 1
       },
       {
-        "name": "WWE Network",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "WWON-TV Channel 48",
         "lines": 1,
         "txt_lines": 1
@@ -11760,7 +11720,7 @@
       {
         "name": "NHK World-Japan",
         "lines": 8,
-        "txt_lines": 8
+        "txt_lines": 7
       },
       {
         "name": "QVC 日本购物台",
