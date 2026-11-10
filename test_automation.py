@@ -258,7 +258,7 @@ class AutomationTests(unittest.TestCase):
         channels = selection["channels"]
         movie_channels = movie["channels"]
         self.assertIn("CCTV-1 综合", channels)
-        self.assertEqual(selection["mode"], "fixed")
+        self.assertEqual(selection["mode"], "fixed_plus_auto")
         self.assertIn("CCTV-6 电影", channels)
         self.assertNotIn("CCTV-6 电影", movie_channels)
         self.assertEqual(len(channels), len(set(channels)))
@@ -266,7 +266,7 @@ class AutomationTests(unittest.TestCase):
         self.assertEqual(set(channels), {e["name"] for e in selection["fixed_entries"]})
         self.assertEqual(set(movie_channels), {e["name"] for e in movie["fixed_entries"]})
         self.assertEqual(movie["group"], "电影")
-        self.assertEqual(len(channels) + len(movie_channels), 35)
+        self.assertEqual(len(channels) + len(movie_channels), 33)
 
     def test_htv_target_source_filters_and_normalizes(self):
         catalog = {"sources": [{
