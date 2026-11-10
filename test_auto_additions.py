@@ -100,8 +100,10 @@ class AutoAdditionTests(unittest.TestCase):
             self.fixture(root)
             public = root / "public"
             original = update.parse_live((public / "live.m3u").read_text(encoding="utf-8"))
+            exclusions = {item["url"] for item in json.loads(
+                (root / "config.json").read_text(encoding="utf-8"))["live_exclusions"]}
             original_counts = Counter((e["group"], e["name"], line_id(e)) for e in original
-                                      if e["group"] != "家庭精选")
+                                      if e["group"] != "家庭精选" and e["url"] not in exclusions)
             preserved = {p.relative_to(public): p.read_bytes() for p in (public / "vod").glob("*")}
             preserved[Path("subscription.json")] = (public / "subscription.json").read_bytes()
             entries = [self.entry(1), self.entry(2, directives=["#EXTVLCOPT:http-user-agent=TV"])]
