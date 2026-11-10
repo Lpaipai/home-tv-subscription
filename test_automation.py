@@ -319,6 +319,25 @@ class AutomationTests(unittest.TestCase):
         self.assertEqual(result["preview"][0]["sources"], ["one", "two"])
         self.assertFalse(any("url" in e for e in result["preview"]))
 
+    def test_aptv_missing_cctv16_keeps_user_agent_and_priority(self):
+        sample = {"name": "CCTV16", "group": "央视IPV4",
+                  "url": "http://101.35.240.114:88/live.php?id=CCTV16",
+                  "attrs": {"http-user-agent": "iPhone"}, "directives": []}
+        catalog = {"sources": [{
+            "id": "aptv-similar", "name": "APTV", "type": "community",
+            "url": "https://example.com/iptv.m3u", "rights": "unverified",
+            "homepage": "https://example.com", "mode": "decode_then_publish",
+            "include_channels": ["CCTV-16 奥林匹克"],
+        }]}
+        report, entries = source_review.summarize_candidates(
+            catalog, [], lambda *_: ([sample], {"cached": False}),
+            with_entries=True)
+        self.assertEqual(report["not_in_main"], 1)
+        self.assertEqual(len(entries), 1)
+        self.assertEqual(entries[0]["name"], "CCTV-16 奥林匹克")
+        self.assertEqual(entries[0]["priority"], "target_missing_channel")
+        self.assertIn("#EXTVLCOPT:http-user-agent=iPhone", entries[0]["directives"])
+
     def test_candidate_rejects_unconditional_publish_configuration(self):
         catalog = {"sources": [{"id": "bad", "type": "community", "mode": "publish"}]}
         with self.assertRaises(ValueError):
