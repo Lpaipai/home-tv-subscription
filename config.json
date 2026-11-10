@@ -141,6 +141,16 @@
       "name": "CCTV-6",
       "url": "http://198.204.240.250:82/live/cctv6.m3u8",
       "reason": "2026-10-23 电脑短测出画面，但投影仪实测未成功起播并自动跳过；替换为实机通过线路"
+    },
+    {
+      "name": "CHC 动作电影",
+      "url": "http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8",
+      "reason": "2026-11-10 家庭端从未播放成功，云端多日失败；取消固定并从完整目录排除"
+    },
+    {
+      "name": "CHC 家庭影院",
+      "url": "http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8",
+      "reason": "2026-11-10 家庭端从未播放成功，云端多日失败；取消固定并从完整目录排除"
     }
   ],
   "live_additions": [
