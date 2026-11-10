@@ -64,8 +64,8 @@
       },
       {
         "name": "CCTV-9 纪录",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "CCTV-10 科教",
@@ -204,8 +204,8 @@
       },
       {
         "name": "北京卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "兵团卫视",
@@ -279,8 +279,8 @@
       },
       {
         "name": "吉林卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "江苏卫视",
@@ -334,8 +334,8 @@
       },
       {
         "name": "陕西卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "深圳卫视",
@@ -723,6 +723,11 @@
         "txt_lines": 2
       },
       {
+        "name": "山东教育",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "山东农科",
         "lines": 1,
         "txt_lines": 1
@@ -919,16 +924,6 @@
       },
       {
         "name": "Bread TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "CHC 动作电影",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "CHC 家庭影院",
         "lines": 1,
         "txt_lines": 1
       },
@@ -6429,8 +6424,8 @@
       },
       {
         "name": "Magnificent Movies Network",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Magnolia Network",
@@ -9339,8 +9334,8 @@
       },
       {
         "name": "RVTV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "RVTV Civic",
@@ -10509,8 +10504,8 @@
       },
       {
         "name": "Timeless TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Tin TV",
@@ -11459,8 +11454,8 @@
       },
       {
         "name": "Wine Watches & Whiskey",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Wipeout Xtra",
@@ -12054,8 +12049,8 @@
       },
       {
         "name": "阿里郎电视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "阿里郎广播",
@@ -12146,21 +12141,6 @@
         "name": "新世界电视购物",
         "lines": 1,
         "txt_lines": 1
-      }
-    ]
-  },
-  {
-    "name": "电影",
-    "channels": [
-      {
-        "name": "CHC 动作电影",
-        "lines": 3,
-        "txt_lines": 3
-      },
-      {
-        "name": "CHC 家庭影院",
-        "lines": 3,
-        "txt_lines": 3
       }
     ]
   }

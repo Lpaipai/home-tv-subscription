@@ -1,45 +1,53 @@
 {
-  "checked_at": "2026-11-10T04:14:52+00:00",
+  "checked_at": "2026-11-10T09:03:55+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 163,
+  "catalog_entries": 160,
   "sampled": 12,
-  "attempts": 14,
+  "attempts": 16,
   "counts": {
-    "decoded": 10,
-    "failed": 2
+    "decoded": 7,
+    "failed": 5
   },
-  "family_channels_tested": [
-    "CCTV-6 电影",
-    "CHC 动作电影",
-    "CHC 家庭影院"
-  ],
+  "family_channels_tested": [],
   "candidate_channels_tested": [
-    "CHC家庭影院",
-    "Hallmark Movies & More",
-    "Magnificent Movies Network",
-    "Maverick Black Cinema",
-    "MovieSphere Gold WFXT",
-    "MovieSphere（AU）",
-    "MovieSphere（SD）",
-    "MovieSphere（UK）",
-    "MovieSphere（US）"
+    "TVS Classic Movies",
+    "TVS Drive In Movie",
+    "TVS Film Noir Network",
+    "TVS Nostalgia Movies",
+    "TVS Western Movie",
+    "Universal Cinema",
+    "Whiplash Cinema",
+    "东方影视",
+    "东森洋片台",
+    "东森电影",
+    "东阳影视生活",
+    "南宁影视娱乐"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "ff914805c1ac3f9c",
-      "name": "CCTV-6 电影",
-      "group": "央视",
+      "id": "daf6523de91d0843",
+      "name": "TVS Classic Movies",
+      "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "d31c47a2ec2d112d",
-      "name": "CHC 动作电影",
-      "group": "电影",
+      "id": "0079eaf36a1a1ac7",
+      "name": "TVS Drive In Movie",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "daef403a16a3e4ef",
+      "name": "TVS Film Noir Network",
+      "group": "美国",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed",
@@ -48,92 +56,87 @@
       "initial_status": "failed"
     },
     {
-      "id": "43a1b7e6125210f8",
-      "name": "CHC 家庭影院",
-      "group": "电影",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "id": "57b475651a1de23e",
+      "name": "TVS Nostalgia Movies",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "dd0450818df681f5",
-      "name": "CHC家庭影院",
+      "id": "a4260edb4f6f9f12",
+      "name": "TVS Western Movie",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "289ee77d59bec597",
+      "name": "Universal Cinema",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "2a53fe7ba51a1cec",
+      "name": "Whiplash Cinema",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "1627c731974046bb",
+      "name": "东方影视",
       "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "50b1e638086fa5b0",
-      "name": "Hallmark Movies & More",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "id": "3ea71f2d9a6e3115",
+      "name": "东森洋片台",
+      "group": "台湾",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "59be7cf4c4dc85ef",
-      "name": "Magnificent Movies Network",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "id": "598c97107f865641",
+      "name": "东森电影",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "7f71f349c387733e",
-      "name": "Maverick Black Cinema",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "id": "f43cfeeb8658fa27",
+      "name": "东阳影视生活",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核"
     },
     {
-      "id": "2fe548044905e1fb",
-      "name": "MovieSphere Gold WFXT",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "39db662054d6aa09",
-      "name": "MovieSphere（AU）",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "202ed62425c57071",
-      "name": "MovieSphere（SD）",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3a9d2bde55aa680d",
-      "name": "MovieSphere（UK）",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1d38b36d6fa62f51",
-      "name": "MovieSphere（US）",
-      "group": "美国",
+      "id": "d5e53c48f269db30",
+      "name": "南宁影视娱乐",
+      "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",

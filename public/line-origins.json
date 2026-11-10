@@ -381,6 +381,18 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "9f4fefacd1a1f22a": {
+    "url": "http://107.150.60.122/live/cctv9hd.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
+  "a150a65fb87e955b": {
+    "url": "http://74.91.26.218:82/live/cctv9hd.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
   "c2c0d0251a609cba": {
     "url": "http://119.39.9.8:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=0&authid=0",
     "sources": [
@@ -854,6 +866,12 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
+  "2764ea6bb4725a6e": {
+    "url": "http://36.136.38.87:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "fc6d8d1275cc4c88": {
     "url": "http://204.12.221.218:8181/3m1080p/ahws.m3u8",
     "sources": [
@@ -862,12 +880,6 @@
   },
   "cda132d4b4a9e43d": {
     "url": "http://59.39.89.130:60901/tsfile/live/0125_6.m3u8?key=txiptv&playlive=1&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
-    ]
-  },
-  "2764ea6bb4725a6e": {
-    "url": "http://36.136.38.87:9901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -903,14 +915,20 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "ed9068adec8f8711": {
-    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd",
+  "c578fdc26c1aadfd": {
+    "url": "http://124.228.160.40:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "c578fdc26c1aadfd": {
-    "url": "http://124.228.160.40:9901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
+  "76b42d6d9e9a2514": {
+    "url": "http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
+  "ed9068adec8f8711": {
+    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
@@ -965,12 +983,6 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "211e977d779c5fac": {
-    "url": "http://183.237.95.108:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/yuhong126/iptv/main/smtv.txt"
-    ]
-  },
   "20c8dd9d42ddef98": {
     "url": "http://222.128.55.152:9080/live/dwq.m3u8",
     "sources": [
@@ -989,6 +1001,12 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "211e977d779c5fac": {
+    "url": "http://183.237.95.108:9901/tsfile/live/1036_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/yuhong126/iptv/main/smtv.txt"
+    ]
+  },
   "e759f8f929760f59": {
     "url": "http://107.150.60.122/live/dfwshd.m3u8",
     "sources": [
@@ -1001,16 +1019,16 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "2005e92c21793e83": {
-    "url": "http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub",
-    "sources": [
-      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
-    ]
-  },
   "6722b8c768e01272": {
     "url": "http://173.208.212.130:8181/720p/dfws.m3u8",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "2005e92c21793e83": {
+    "url": "http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
   "9d118c16874bde99": {
@@ -1459,6 +1477,12 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "790d9e209a7f0bd0": {
+    "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
   "0e40e7fa1d937eec": {
     "url": "http://49.87.154.246:85/tsfile/live/0116_1.m3u8?key=txiptv",
     "sources": [
@@ -1734,16 +1758,16 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "14fcd6154873dd64": {
-    "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
   "b99880486718ea9a": {
     "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nmgws",
     "sources": [
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
+  "14fcd6154873dd64": {
+    "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
   "13ced5b664b074fd": {
@@ -1795,13 +1819,6 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
-  "895ed6d183c8b1f2": {
-    "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u"
-    ]
-  },
   "0de068b159ff0162": {
     "url": "http://183.207.248.11/PLTV/4/224/3221225842/index.m3u8",
     "sources": [
@@ -1836,6 +1853,13 @@
     "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227003/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7ESco1zinvdUYzleEkXYhIvA%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND",
     "sources": [
       "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+    ]
+  },
+  "895ed6d183c8b1f2": {
+    "url": "http://39.134.115.163:8080/PLTV/88888910/224/3221225726/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
+      "https://iptv-org.github.io/iptv/countries/cn.m3u"
     ]
   },
   "d17a117b4da839ee": {
@@ -1979,6 +2003,12 @@
       "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
     ]
   },
+  "a176a2a47cafbe4d": {
+    "url": "http://107.150.60.122/live/snwshd.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
   "7960ac1fefe1e24f": {
     "url": "http://59.39.89.130:60901/tsfile/live/0125_23.m3u8?key=txiptv&playlive=1&authid=0",
     "sources": [
@@ -2070,12 +2100,6 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "1a7a3f60fb65cdc6": {
-    "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
   "8fd27a2e5bdb260d": {
     "url": "http://112.25.48.68/live/program/live/scws/1300000/mnf.m3u8",
     "sources": [
@@ -2086,6 +2110,12 @@
     "url": "http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226995/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EBQiz3wrGrpG0CUSRIJ-7Jg%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND",
     "sources": [
       "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u"
+    ]
+  },
+  "1a7a3f60fb65cdc6": {
+    "url": "http://223.110.245.145/ott.js.chinamobile.com/PLTV/3/224/3221225814/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
   "618c2e64e687becd": {
@@ -2113,6 +2143,12 @@
       "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
     ]
   },
+  "502ae2b9ad67287f": {
+    "url": "http://119.39.9.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0",
+    "sources": [
+      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+    ]
+  },
   "ff64b8fd1c541426": {
     "url": "http://107.150.60.122/live/tjwshd.m3u8",
     "sources": [
@@ -2124,12 +2160,6 @@
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
       "https://iptv-org.github.io/iptv/countries/cn.m3u"
-    ]
-  },
-  "502ae2b9ad67287f": {
-    "url": "http://119.39.9.8:9901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=0&authid=0",
-    "sources": [
-      "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
   "a8c0c10cf3137605": {
@@ -3104,6 +3134,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
+  "e18948a1b0ad4abb": {
+    "url": "https://test1.live.sdetv.com.cn/live/dianshizhibo/playlist.m3u8",
+    "sources": [
+      "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+    ]
+  },
   "8739fa55b2f1f47b": {
     "url": "http://livealone302.iqilu.com/iqilu/nkpd.m3u8",
     "sources": [
@@ -3429,20 +3465,6 @@
       "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
     ]
   },
-  "d31c47a2ec2d112d": {
-    "url": "http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u"
-    ]
-  },
-  "43a1b7e6125210f8": {
-    "url": "http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json",
-      "https://iptv-org.github.io/iptv/countries/cn.m3u"
-    ]
-  },
   "611ab761858b7bed": {
     "url": "https://fastlive.cctvplus.com/out/v1/ca6f9297b7314a63959435028af287fc/index.m3u8",
     "sources": [
@@ -3604,6 +3626,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
+  "6c697c47593efad2": {
+    "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
+    ]
+  },
   "9d911331fea88c7e": {
     "url": "https://hlspackager.akamaized.net/live/DB/CGTN_ENGLISH/HLS/CGTN_ENGLISH.m3u8",
     "sources": [
@@ -3612,12 +3640,6 @@
   },
   "f2fb8fb8f6364e73": {
     "url": "https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
-  "6c697c47593efad2": {
-    "url": "https://english-livebkali.cgtn.com/live/encgtn.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
@@ -3641,14 +3663,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
-  "3e5a6b02fa9f3522": {
-    "url": "https://dash4.antik.sk/live/test_cgtn/playlist.m3u8",
+  "02bed8a934bdb348": {
+    "url": "https://h5cul1yar48um3t.wcetv.com/hls/cgtn.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
-  "02bed8a934bdb348": {
-    "url": "https://h5cul1yar48um3t.wcetv.com/hls/cgtn.m3u8",
+  "3e5a6b02fa9f3522": {
+    "url": "https://dash4.antik.sk/live/test_cgtn/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
@@ -3671,12 +3693,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
-  "e3eb8136943afde5": {
-    "url": "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
   "51565a325fe7c2d3": {
     "url": "https://hlspackager.akamaized.net/live/DB/CGTN_DOCUMENTARY/HLS/CGTN_DOCUMENTARY.m3u8",
     "sources": [
@@ -3685,6 +3701,12 @@
   },
   "5828bb1c1c8e759d": {
     "url": "https://english-livebkali.cgtn.com/live/doccgtn.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
+    ]
+  },
+  "e3eb8136943afde5": {
+    "url": "https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
@@ -3791,12 +3813,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
   },
-  "7f359f5910550a5d": {
-    "url": "http://45.186.106.147:8880/play/a06f/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
-    ]
-  },
   "a17ee0b478e44dc6": {
     "url": "http://45.165.82.19/test/index.m3u8",
     "sources": [
@@ -3805,6 +3821,12 @@
   },
   "7f96628a214a1edc": {
     "url": "https://espanol-livews.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
+    ]
+  },
+  "7f359f5910550a5d": {
+    "url": "http://45.186.106.147:8880/play/a06f/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/cn.json"
     ]
@@ -4584,14 +4606,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e1db520b7799eb06": {
-    "url": "https://jmp2.uk/plu-6346935b94aa8c0007c5b7a2.m3u8",
+  "6a9b811f7c80a885": {
+    "url": "https://jmp2.uk/plu-6346937a46f9a2000889073d.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "6a9b811f7c80a885": {
-    "url": "https://jmp2.uk/plu-6346937a46f9a2000889073d.m3u8",
+  "e1db520b7799eb06": {
+    "url": "https://jmp2.uk/plu-6346935b94aa8c0007c5b7a2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5100,14 +5122,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b2043ea03d6a1be0": {
-    "url": "https://accuweather-xumo.amagi.tv/playlist.m3u8",
+  "afbf73f0afff9a26": {
+    "url": "https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "afbf73f0afff9a26": {
-    "url": "https://amg00684-accuweather-accuweather-rokuus-0endj.amagi.tv/playlist.m3u8",
+  "b2043ea03d6a1be0": {
+    "url": "https://accuweather-xumo.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5648,26 +5670,26 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "75865d95673a5673": {
-    "url": "https://jmp2.uk/plu-663a163f8ea5560008a3f234.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "e03199db56b3831c": {
-    "url": "https://jmp2.uk/plu-6177fb39b68ef1000725e59e.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "3ff6f5891835f6c5": {
     "url": "https://jmp2.uk/plu-617807a1a3a6160007f615e4.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "75865d95673a5673": {
+    "url": "https://jmp2.uk/plu-663a163f8ea5560008a3f234.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "5e4ff56080a49369": {
     "url": "https://jmp2.uk/plu-6178156e54712100072d6b2b.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "e03199db56b3831c": {
+    "url": "https://jmp2.uk/plu-6177fb39b68ef1000725e59e.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5709,8 +5731,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e83765485680c48c": {
-    "url": "https://jmp2.uk/plu-6964b7e007ea70192df28d43.m3u8",
+  "0859687d69bcefe4": {
+    "url": "https://jmp2.uk/plu-6964b77dff4f2148e520fa9b.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "ed10b5ea6590fec5": {
+    "url": "https://jmp2.uk/plu-6964b6f5f7f6b0334bbf6cdb.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5721,14 +5749,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "0859687d69bcefe4": {
-    "url": "https://jmp2.uk/plu-6964b77dff4f2148e520fa9b.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "ed10b5ea6590fec5": {
-    "url": "https://jmp2.uk/plu-6964b6f5f7f6b0334bbf6cdb.m3u8",
+  "e83765485680c48c": {
+    "url": "https://jmp2.uk/plu-6964b7e007ea70192df28d43.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5797,20 +5819,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "e02fbb863d95793a": {
-    "url": "https://amg02333-pbs-amg02333c5-samsung-nz-2440.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "e00848739613ac86": {
     "url": "https://aegis-cloudfront-1.tubi.video/b42ac280-5300-4db0-8a63-2ec2e52c5b5c/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "84ef65e2610e911b": {
-    "url": "https://amg02333-pbs-amg02333c9-firetv-us-4249.playouts.now.amagi.tv/playlist.m3u8",
+  "e02fbb863d95793a": {
+    "url": "https://amg02333-pbs-amg02333c5-samsung-nz-2440.playouts.now.amagi.tv/PBSD-AntiquesRoadTripSF-samsung/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5821,14 +5837,20 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ccfbebbb7f1feb08": {
-    "url": "https://jmp2.uk/plu-615b8ec39e878900073f419a.m3u8",
+  "84ef65e2610e911b": {
+    "url": "https://amg02333-pbs-amg02333c9-firetv-us-4249.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "631f9b5284a725d1": {
     "url": "https://jmp2.uk/plu-6364f6cd308d210007b5eee9.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "ccfbebbb7f1feb08": {
+    "url": "https://jmp2.uk/plu-615b8ec39e878900073f419a.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -5883,14 +5905,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "f6d4888dbfd8f3a7": {
-    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8",
+  "6f77ff3e72b835ba": {
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetse-samsungse/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "6f77ff3e72b835ba": {
-    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetse-samsungse/playlist.m3u8",
+  "f6d4888dbfd8f3a7": {
+    "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00353-lionsgatestudio-arewethereyetnl-samsungnl/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6100,14 +6122,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "31988f094d85310f": {
-    "url": "http://87.238.211.217:2209/stream/104/index.m3u8",
+  "f46e4371178abab3": {
+    "url": "http://5.57.74.130:8000/play/a0at/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "f46e4371178abab3": {
-    "url": "http://5.57.74.130:8000/play/a0at/index.m3u8",
+  "31988f094d85310f": {
+    "url": "http://87.238.211.217:2209/stream/104/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6258,6 +6280,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "e9567cb44afc2902": {
+    "url": "https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "ab60e56ba92ea068": {
     "url": "https://jmp2.uk/plu-619d5e6a093e7c0007489211.m3u8",
     "sources": [
@@ -6266,12 +6294,6 @@
   },
   "d88e2090355b0589": {
     "url": "https://jmp2.uk/plu-60faffc3fbbc120007fc4376.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "e9567cb44afc2902": {
-    "url": "https://jmp2.uk/plu-63da6bcd60bc8f0008a5d364.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6408,14 +6430,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c81ac3fc30500646": {
-    "url": "https://baywatch-xumo.amagi.tv/playlist.m3u8",
+  "4704f5bbf5879e88": {
+    "url": "https://amg00145-buzzr-bigballs-baywatch-rokuus-qq7iy.amagi.tv/playlist/amg00145-buzzr-bigballs-baywatch-rokuus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "4704f5bbf5879e88": {
-    "url": "https://amg00145-buzzr-bigballs-baywatch-rokuus-qq7iy.amagi.tv/playlist/amg00145-buzzr-bigballs-baywatch-rokuus/playlist.m3u8",
+  "c81ac3fc30500646": {
+    "url": "https://baywatch-xumo.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6538,6 +6560,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "caf71740cb0b5bd9": {
+    "url": "https://bein-xtra-xumo.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "e92aa8c14cc9ebbc": {
     "url": "https://aegis-cloudfront-1.tubi.video/651ee7d3-e75b-4748-be86-422d43ff24b6/playlist.m3u8",
     "sources": [
@@ -6556,12 +6584,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "caf71740cb0b5bd9": {
-    "url": "https://bein-xtra-xumo.amagi.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "3ac316c71142a241": {
     "url": "https://dc1644a9jazgj.cloudfront.net/beIN_Sports_Xtra_Espanol.m3u8",
     "sources": [
@@ -6569,14 +6591,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "91e46bfe36bd8fe4": {
-    "url": "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8",
+  "c687f5fc0a01f262": {
+    "url": "https://bein-esp-xumo.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c687f5fc0a01f262": {
-    "url": "https://bein-esp-xumo.amagi.tv/playlist.m3u8",
+  "91e46bfe36bd8fe4": {
+    "url": "https://aegis-cloudfront-1.tubi.video/01f6c149-449b-4248-8bda-2278799205ec/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6623,14 +6645,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "a70d41bb60f9e7e7": {
-    "url": "https://jmp2.uk/plu-60f760bbdf090700075d7bfe.m3u8",
+  "0fc476baeb72a20d": {
+    "url": "https://jmp2.uk/plu-65a7b01907e03a0008913e8f.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "0fc476baeb72a20d": {
-    "url": "https://jmp2.uk/plu-65a7b01907e03a0008913e8f.m3u8",
+  "a70d41bb60f9e7e7": {
+    "url": "https://jmp2.uk/plu-60f760bbdf090700075d7bfe.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -6878,14 +6900,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "eb0c66f54c9d7b50": {
-    "url": "https://d3qwwydnxv5vo9.cloudfront.net/v1/bloomberg_quicktake_3/samsungheadend_us/latest/main/hls/playlist.m3u8",
+  "e8d8d4e8452f2728": {
+    "url": "https://dai.google.com/linear/hls/event/jKwfd4apQcuxQtyRI9Q6-Q/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e8d8d4e8452f2728": {
-    "url": "https://dai.google.com/linear/hls/event/jKwfd4apQcuxQtyRI9Q6-Q/master.m3u8",
+  "eb0c66f54c9d7b50": {
+    "url": "https://d3qwwydnxv5vo9.cloudfront.net/v1/bloomberg_quicktake_3/samsungheadend_us/latest/main/hls/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7124,14 +7146,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "30cd032930df2f6f": {
-    "url": "https://aegis-cloudfront-1.tubi.video/d4038326-a3e3-4aba-b1f1-f0526c912c74/playlist.m3u8",
+  "fb29fde39fc1585d": {
+    "url": "https://buzzrota-ono.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "fb29fde39fc1585d": {
-    "url": "https://buzzrota-ono.amagi.tv/playlist.m3u8",
+  "30cd032930df2f6f": {
+    "url": "https://aegis-cloudfront-1.tubi.video/d4038326-a3e3-4aba-b1f1-f0526c912c74/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7203,14 +7225,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "a90b9449bf53ae20": {
-    "url": "https://cmc-kowdtv.amagi.tv/playlist.m3u8",
+  "ceec2865cb8fd3de": {
+    "url": "https://cmc-ono.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ceec2865cb8fd3de": {
-    "url": "https://cmc-ono.amagi.tv/playlist.m3u8",
+  "a90b9449bf53ae20": {
+    "url": "https://cmc-kowdtv.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7580,14 +7602,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "70c810db58666142": {
-    "url": "https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8",
+  "81543a8595401de2": {
+    "url": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "81543a8595401de2": {
-    "url": "https://jmp2.uk/plu-5dc481cda1d430000948a1b4.m3u8",
+  "70c810db58666142": {
+    "url": "https://jmp2.uk/plu-5dc9b875e280c80009a8a44a.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7637,14 +7659,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "bc422b9e76f121c4": {
-    "url": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8",
+  "74c0a243295ffafa": {
+    "url": "https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "74c0a243295ffafa": {
-    "url": "https://jmp2.uk/plu-5dc9b8223687ff000936ed79.m3u8",
+  "bc422b9e76f121c4": {
+    "url": "https://jmp2.uk/plu-5dc48170e280c80009a861ab.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7766,20 +7788,20 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "14edc12e38a09a81": {
-    "url": "https://jmp2.uk/plu-6231ede1be5b460007f91bc1.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "86b56ebff43ffa07": {
     "url": "https://jmp2.uk/plu-6231ec93779a9d00079ba8e2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "751e13a0d1cdbae8": {
-    "url": "https://jmp2.uk/plu-6231ec4b62cd1f0007093c7b.m3u8",
+  "c6b8799ad7916667": {
+    "url": "https://jmp2.uk/plu-6231e9b7f6deff00074674f4.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "14edc12e38a09a81": {
+    "url": "https://jmp2.uk/plu-6231ede1be5b460007f91bc1.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -7796,14 +7818,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c6b8799ad7916667": {
-    "url": "https://jmp2.uk/plu-6231e9b7f6deff00074674f4.m3u8",
+  "8fc193491d307865": {
+    "url": "https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8fc193491d307865": {
-    "url": "https://cbsn-us-vtt.cbsnstream.cbsnews.com/out/v1/ef868690d34144509eda696884bf1619/master.m3u8",
+  "751e13a0d1cdbae8": {
+    "url": "https://jmp2.uk/plu-6231ec4b62cd1f0007093c7b.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8067,12 +8089,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ea086bdb66a31efa": {
-    "url": "http://15.204.246.24:8080/CinecanalHD/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "696098261380144b": {
     "url": "http://190.61.47.54:8000/play/a02z/index.m3u8",
     "sources": [
@@ -8081,6 +8097,12 @@
   },
   "696edf0170e56a1d": {
     "url": "https://barinaslive1.boldmss.com/CINECANAL/CINECANAL.isml/CINECANAL.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "ea086bdb66a31efa": {
+    "url": "http://15.204.246.24:8080/CinecanalHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8158,26 +8180,26 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "56596b22e13ccdb9": {
-    "url": "https://amg00432-circletvfast-amg00432c1-cineverse-us-1112.playouts.now.amagi.tv/playlist/amg00432-circletv-circletv-cineverseus/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "3f961ac822cae61e": {
     "url": "https://circle-samsung.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "bc357e70fba03b86": {
-    "url": "https://circle-klowdtv.amagi.tv/playlist.m3u8",
+  "56596b22e13ccdb9": {
+    "url": "https://amg00432-circletvfast-amg00432c1-cineverse-us-1112.playouts.now.amagi.tv/playlist/amg00432-circletv-circletv-cineverseus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "f1bc8d8b958361f6": {
     "url": "https://circle-xumo.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "bc357e70fba03b86": {
+    "url": "https://circle-klowdtv.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8457,6 +8479,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "120eccc746b8cc37": {
+    "url": "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "4ddf469d774e815d": {
     "url": "https://d3bp6dwmpbdajl.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-ury0meh5m4nzm/index.m3u8",
     "sources": [
@@ -8465,12 +8493,6 @@
   },
   "c547c8952a0face2": {
     "url": "https://vid.hls.protv.ro/liveibu8/liveibu8_highw/index.m3u8?1",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "120eccc746b8cc37": {
-    "url": "http://88.212.15.50/live/test_cnn_1200_atk/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8493,15 +8515,15 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b0b29f69a34743b8": {
-    "url": "https://tvsen6.aynaott.com/cnn/index.m3u8",
+  "11a13f23a70c94e8": {
+    "url": "http://212.5.144.156:8080/cnn/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "11a13f23a70c94e8": {
-    "url": "http://212.5.144.156:8080/cnn/index.m3u8",
+  "b0b29f69a34743b8": {
+    "url": "https://tvsen6.aynaott.com/cnn/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
@@ -8553,14 +8575,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "c9f6bdfdcd78b98d": {
-    "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
+  "41ab24fcad2a559e": {
+    "url": "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "41ab24fcad2a559e": {
-    "url": "https://barinaslive1.boldmss.com/COMEDY/COMEDY.isml/COMEDY.m3u8",
+  "c9f6bdfdcd78b98d": {
+    "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/Comedy_Central/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8603,14 +8625,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "66850c28e0b290de": {
-    "url": "https://d3a5mry3t5fzw9.cloudfront.net/playlist.m3u8",
+  "9d7c891f69809dbc": {
+    "url": "https://linear-903.frequency.stream/dist/xumo/903/hls/master/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "9d7c891f69809dbc": {
-    "url": "https://linear-903.frequency.stream/dist/xumo/903/hls/master/playlist.m3u8",
+  "66850c28e0b290de": {
+    "url": "https://d3a5mry3t5fzw9.cloudfront.net/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8727,32 +8749,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "b58f86a5ac1983a6": {
-    "url": "https://jmp2.uk/plu-5e1f7e089f23700009d66303.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "3c69f51399066778": {
-    "url": "https://jmp2.uk/plu-6400be67219c4c00081755d3.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "dc9a262e68df12a5": {
-    "url": "https://jmp2.uk/plu-6554bd45aa9ffb00088e5589.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "dc8d897403daaa22": {
-    "url": "https://jmp2.uk/plu-6400bc50953da40008b94668.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "7ee43b29087b4162": {
-    "url": "https://jmp2.uk/plu-6400bdb1219c4c00081751aa.m3u8",
+  "3e007436064e1b54": {
+    "url": "https://jmp2.uk/plu-6419ab7c9189ce000865a469.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8763,8 +8761,32 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3e007436064e1b54": {
-    "url": "https://jmp2.uk/plu-6419ab7c9189ce000865a469.m3u8",
+  "7ee43b29087b4162": {
+    "url": "https://jmp2.uk/plu-6400bdb1219c4c00081751aa.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "dc8d897403daaa22": {
+    "url": "https://jmp2.uk/plu-6400bc50953da40008b94668.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "dc9a262e68df12a5": {
+    "url": "https://jmp2.uk/plu-6554bd45aa9ffb00088e5589.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "b58f86a5ac1983a6": {
+    "url": "https://jmp2.uk/plu-5e1f7e089f23700009d66303.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "3c69f51399066778": {
+    "url": "https://jmp2.uk/plu-6400be67219c4c00081755d3.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8796,14 +8818,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "de92a02f395546b2": {
-    "url": "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
+  "8f5a0b1606c98c58": {
+    "url": "https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8f5a0b1606c98c58": {
-    "url": "https://pb-2rv53xe17yzvq.akamaized.net/Court_TV_US.m3u8",
+  "de92a02f395546b2": {
+    "url": "https://content.uplynk.com/channel/6c0bd0f94b1d4526a98676e9699a10ef.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -8869,14 +8891,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "0f44816530ab9960": {
-    "url": "https://jmp2.uk/plu-6578875614fbe400086e319e.m3u8",
+  "dbedbaa58a04ec11": {
+    "url": "https://jmp2.uk/plu-6578848a6e4f6a0008741910.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "dbedbaa58a04ec11": {
-    "url": "https://jmp2.uk/plu-6578848a6e4f6a0008741910.m3u8",
+  "0f44816530ab9960": {
+    "url": "https://jmp2.uk/plu-6578875614fbe400086e319e.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9111,8 +9133,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "bd20273162263f6d": {
-    "url": "https://aegis-cloudfront-1.tubi.video/240e3917-5be6-4a26-a1a2-878c9d40b5cf/master.m3u8",
+  "99f490d59dc805fd": {
+    "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993007/hls/master.m3u8?ads.xumo_channelId=99993007",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9123,14 +9145,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e62d64922a42364d": {
-    "url": "https://pb-cpf6bqkmt2btj.akamaized.net/master.m3u8",
+  "bd20273162263f6d": {
+    "url": "https://aegis-cloudfront-1.tubi.video/240e3917-5be6-4a26-a1a2-878c9d40b5cf/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "99f490d59dc805fd": {
-    "url": "https://d4whmvwm0rdvi.cloudfront.net/10007/99993007/hls/master.m3u8?ads.xumo_channelId=99993007",
+  "e62d64922a42364d": {
+    "url": "https://pb-cpf6bqkmt2btj.akamaized.net/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9234,14 +9256,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "9ed4ddee7e335461": {
-    "url": "https://amg00627-banijaygroup-dealornodeal-samsungnz-swf41.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungnz/playlist.m3u8",
+  "4779b438b6fd21b8": {
+    "url": "https://deal-or-no-deal-rakuten.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ba52deb07e14d105": {
-    "url": "https://amg00627-amg00627c21-samsung-nz-3876.playouts.now.amagi.tv/playlist.m3u8",
+  "9ed4ddee7e335461": {
+    "url": "https://amg00627-banijaygroup-dealornodeal-samsungnz-swf41.amagi.tv/playlist/amg00627-banijaygroup-dealornodeal-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9252,8 +9274,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "4779b438b6fd21b8": {
-    "url": "https://deal-or-no-deal-rakuten.amagi.tv/playlist.m3u8",
+  "8583c843e654014f": {
+    "url": "https://aegis-cloudfront-1.tubi.video/65eef95b-7b52-42be-8b08-faa459153ed9/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9264,8 +9286,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8583c843e654014f": {
-    "url": "https://aegis-cloudfront-1.tubi.video/65eef95b-7b52-42be-8b08-faa459153ed9/playlist.m3u8",
+  "ba52deb07e14d105": {
+    "url": "https://amg00627-amg00627c21-samsung-nz-3876.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9290,12 +9312,6 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "55ee58957cd8911a": {
-    "url": "https://jmp2.uk/plu-62bdaf3470f09a000714a2f6.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "14234ea5a3ed7d0d": {
     "url": "https://jmp2.uk/plu-611e71322f5f180007001dde.m3u8",
     "sources": [
@@ -9304,6 +9320,12 @@
   },
   "4e0c4e13a49ebef7": {
     "url": "https://jmp2.uk/plu-5c6eeb85c05dfc257e5a50c4.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "55ee58957cd8911a": {
+    "url": "https://jmp2.uk/plu-62bdaf3470f09a000714a2f6.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9550,26 +9572,26 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "6cb4f78e77ed6612": {
-    "url": "http://212.5.144.156/disneyjr/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "6726d4de0de7b355": {
     "url": "https://directv-iptv-player.vercel.app/api/stream?url=http://212.5.144.156:8080/disneyjr/tracks-v1a1/mono.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "de57a1f4ac4be65a": {
-    "url": "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
+  "6cb4f78e77ed6612": {
+    "url": "http://212.5.144.156/disneyjr/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "19142e540756ea0a": {
     "url": "http://tvsen7.aynascope.net/disney/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "de57a1f4ac4be65a": {
+    "url": "http://tvsen7.aynascope.net/disneyjr/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9671,14 +9693,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "4c5cb12b4899e042": {
-    "url": "https://amg00276-amg00276c11-rakuten-uk-3446.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-dogthebountyhunterall-rakutenuk/playlist.m3u8",
+  "532fe3c169c1f952": {
+    "url": "https://amg00276-amg00276c11-samsung-gb-3484.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "532fe3c169c1f952": {
-    "url": "https://amg00276-amg00276c11-samsung-gb-3484.playouts.now.amagi.tv/playlist.m3u8",
+  "4c5cb12b4899e042": {
+    "url": "https://amg00276-amg00276c11-rakuten-uk-3446.playouts.now.amagi.tv/playlist/amg00276-aetelevisionnetworksfast-dogthebountyhunterall-rakutenuk/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9696,8 +9718,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5867b11a059bfca2": {
-    "url": "https://jmp2.uk/plu-65787fb36e4f6a0008740127.m3u8",
+  "1eb350e729c8f0f5": {
+    "url": "https://jmp2.uk/plu-6540fee72cf13100085d5a18.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9708,8 +9730,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1eb350e729c8f0f5": {
-    "url": "https://jmp2.uk/plu-6540fee72cf13100085d5a18.m3u8",
+  "5867b11a059bfca2": {
+    "url": "https://jmp2.uk/plu-65787fb36e4f6a0008740127.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9845,12 +9867,6 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "17fb00140dab85c8": {
-    "url": "https://drybar-drybarcomedy-1-us.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "e88d96ceb898fa66": {
     "url": "https://drybar-drybarcomedy-1-nz.samsung.wurl.tv/playlist.m3u8",
     "sources": [
@@ -9859,6 +9875,12 @@
   },
   "0364f0d9ae6e4eeb": {
     "url": "https://drybar-drybarcomedy-1-ca.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "17fb00140dab85c8": {
+    "url": "https://drybar-drybarcomedy-1-us.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -9905,14 +9927,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "87e2bc15692f0f78": {
-    "url": "https://jmp2.uk/plu-657739fcb9adc40008fe02f4.m3u8",
+  "af1886282f51fc2a": {
+    "url": "https://jmp2.uk/plu-6540fe6fbfbaec0008a583ae.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "af1886282f51fc2a": {
-    "url": "https://jmp2.uk/plu-6540fe6fbfbaec0008a583ae.m3u8",
+  "87e2bc15692f0f78": {
+    "url": "https://jmp2.uk/plu-657739fcb9adc40008fe02f4.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10001,14 +10023,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "5af9b21a6d3314e5": {
-    "url": "https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8",
+  "485c339d2a5b8eb9": {
+    "url": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "485c339d2a5b8eb9": {
-    "url": "https://amg00353-lionsgatestudios-amg00353c11-xumo-us-2108.playouts.now.amagi.tv/EbonyTV-pl/playlist.m3u8",
+  "5af9b21a6d3314e5": {
+    "url": "https://pb-6csswagmy4nat.akamaized.net/Ebony_TV_by_Lionsgate.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10039,14 +10061,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "9e1458d34c56aaa3": {
-    "url": "https://jmp2.uk/plu-61099f2b40d0640007fc5aa2.m3u8",
+  "3e91467c1e8256ce": {
+    "url": "https://jmp2.uk/plu-60e45687313c5f0007bc8e94.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3e91467c1e8256ce": {
-    "url": "https://jmp2.uk/plu-60e45687313c5f0007bc8e94.m3u8",
+  "9e1458d34c56aaa3": {
+    "url": "https://jmp2.uk/plu-61099f2b40d0640007fc5aa2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10236,14 +10258,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8a5fc3b2f5385443": {
-    "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn6-mux/playlist.m3u8",
+  "de175a9026200d4b": {
+    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "de175a9026200d4b": {
-    "url": "https://barinaslive1.boldmss.com/ESPN_6/ESPN_6.isml/ESPN_6.m3u8",
+  "8a5fc3b2f5385443": {
+    "url": "https://bantel-cdn1.iptvperu.tv:1936/btnscrtn/espn6-mux/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10325,8 +10347,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d2901d37b722152a": {
-    "url": "https://aegis-cloudfront-1.tubi.video/f28725de-4a81-4382-a86d-fac1d93b0d60/playlist.m3u8",
+  "cf64655b3540295e": {
+    "url": "https://amg00567-amg00567c1-firetv-us-4124.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10337,8 +10359,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "cf64655b3540295e": {
-    "url": "https://amg00567-amg00567c1-firetv-us-4124.playouts.now.amagi.tv/playlist.m3u8",
+  "d2901d37b722152a": {
+    "url": "https://aegis-cloudfront-1.tubi.video/f28725de-4a81-4382-a86d-fac1d93b0d60/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10354,6 +10376,18 @@
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
+    ]
+  },
+  "acafe75c6c8ae6c0": {
+    "url": "https://amg00567-estrellamedia-estrellanews-distrotv-ddste.amagi.tv/playlist/amg00567-estrellamedia-estrellanews-distrotv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "f5d98f48bdb40258": {
+    "url": "https://estrellanews-plex.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "88de447095f6da69": {
@@ -10374,26 +10408,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "acafe75c6c8ae6c0": {
-    "url": "https://amg00567-estrellamedia-estrellanews-distrotv-ddste.amagi.tv/playlist/amg00567-estrellamedia-estrellanews-distrotv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "f5d98f48bdb40258": {
-    "url": "https://estrellanews-plex.amagi.tv/playlist.m3u8",
+  "9eeeeacd1fa81215": {
+    "url": "https://jmp2.uk/plu-60492e6d7f3f560007ab0f62.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "caf54f0661ea3aa8": {
     "url": "https://estrellanews-glewed.amagi.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "9eeeeacd1fa81215": {
-    "url": "https://jmp2.uk/plu-60492e6d7f3f560007ab0f62.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10529,14 +10551,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "b728e5d835d5476d": {
-    "url": "https://jmp2.uk/plu-5f1abf5fafb5ee0007d4d0ca.m3u8",
+  "fa77ce287861bc74": {
+    "url": "https://jmp2.uk/plu-6177f6bf7693550007531275.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "fa77ce287861bc74": {
-    "url": "https://jmp2.uk/plu-6177f6bf7693550007531275.m3u8",
+  "b728e5d835d5476d": {
+    "url": "https://jmp2.uk/plu-5f1abf5fafb5ee0007d4d0ca.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10587,12 +10609,6 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "fb1482ad4d71e888": {
-    "url": "https://jmp2.uk/plu-699c1c633d27d6da460bbcae.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "4b7c5d50ae168c89": {
     "url": "https://jmp2.uk/plu-699c1bd39a3f3bb4887e045e.m3u8",
     "sources": [
@@ -10601,6 +10617,12 @@
   },
   "8cd53a6b196ebe0b": {
     "url": "https://jmp2.uk/plu-680bb31c56ff83bcd685d64e.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "fb1482ad4d71e888": {
+    "url": "https://jmp2.uk/plu-699c1c633d27d6da460bbcae.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10619,8 +10641,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "9411fc6820235e36": {
-    "url": "https://jmp2.uk/plu-61815067b9802500076e16e0.m3u8",
+  "ccc2a619fbe9408b": {
+    "url": "https://jmp2.uk/plu-62bdaa32a1b2fd00076693e8.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "3ec7bb828dd79c1b": {
+    "url": "https://jmp2.uk/plu-61814b9a9704450007e52316.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10631,20 +10659,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ccc2a619fbe9408b": {
-    "url": "https://jmp2.uk/plu-62bdaa32a1b2fd00076693e8.m3u8",
+  "9411fc6820235e36": {
+    "url": "https://jmp2.uk/plu-61815067b9802500076e16e0.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "b1016049278caccc": {
     "url": "https://jmp2.uk/plu-5cb6f6f9a461406ffe4022cf.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "3ec7bb828dd79c1b": {
-    "url": "https://jmp2.uk/plu-61814b9a9704450007e52316.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10670,6 +10692,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "ab2311650a8b412f": {
+    "url": "https://amg00627-banijaygroup-fearfactor-samsungnz-zhrro.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungnz/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "9e3070ad0237cbc7": {
     "url": "https://aegis-cloudfront-1.tubi.video/2a9fb8e7-51c2-40d0-9cc0-6eb963199568/playlist.m3u8",
     "sources": [
@@ -10678,12 +10706,6 @@
   },
   "c9b1881151a6e14e": {
     "url": "https://d2y1l0qikd751h.cloudfront.net/Fear_Factor.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "ab2311650a8b412f": {
-    "url": "https://amg00627-banijaygroup-fearfactor-samsungnz-zhrro.amagi.tv/playlist/amg00627-banijaygroup-fearfactor-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10846,14 +10868,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "ae3386cc6cb42b63": {
-    "url": "https://jmp2.uk/plu-5bb1af6a268cae539bcedb0a.m3u8",
+  "5ef90d68b7688f25": {
+    "url": "https://jmp2.uk/plu-6181262dc68b92000780fed2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e2190bbf1c1ebb5a": {
-    "url": "https://jmp2.uk/plu-6181241c1a35d50007874c27.m3u8",
+  "ae3386cc6cb42b63": {
+    "url": "https://jmp2.uk/plu-5bb1af6a268cae539bcedb0a.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -10870,8 +10892,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5ef90d68b7688f25": {
-    "url": "https://jmp2.uk/plu-6181262dc68b92000780fed2.m3u8",
+  "e2190bbf1c1ebb5a": {
+    "url": "https://jmp2.uk/plu-6181241c1a35d50007874c27.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11218,14 +11240,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "a50c56419353b06a": {
-    "url": "https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8",
+  "de6f95f3e33d66a1": {
+    "url": "https://www.funroads-hls1.com/funroads.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "de6f95f3e33d66a1": {
-    "url": "https://www.funroads-hls1.com/funroads.m3u8",
+  "a50c56419353b06a": {
+    "url": "https://a-cdn.klowdtv.com/live3/funroads_720p/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11251,6 +11273,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "5dc95f1ba517619d": {
+    "url": "http://15.204.246.24:8080/FXHD/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "5bb3fd49fc68f878": {
     "url": "http://168.196.127.137:6001/play/a05u/index.m3u8",
     "sources": [
@@ -11259,12 +11287,6 @@
   },
   "37f50cf3014f21f4": {
     "url": "http://190.93.224.42/FX/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "5dc95f1ba517619d": {
-    "url": "http://15.204.246.24:8080/FXHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11429,14 +11451,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "2156c30bfdc51bcd": {
-    "url": "https://jmp2.uk/plu-619e1bb3e9af5a0007f235ad.m3u8",
+  "2c8c785fccfa5a77": {
+    "url": "https://jmp2.uk/plu-619e4726b9997a00072a4059.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "2c8c785fccfa5a77": {
-    "url": "https://jmp2.uk/plu-619e4726b9997a00072a4059.m3u8",
+  "2156c30bfdc51bcd": {
+    "url": "https://jmp2.uk/plu-619e1bb3e9af5a0007f235ad.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11453,14 +11475,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "a2f6d64fa3009a02": {
-    "url": "https://jmp2.uk/plu-65cf8ace332fec00081e7ea2.m3u8",
+  "ac393ca41e946bef": {
+    "url": "https://jmp2.uk/plu-64e561a4354251000823a0e0.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ac393ca41e946bef": {
-    "url": "https://jmp2.uk/plu-64e561a4354251000823a0e0.m3u8",
+  "a2f6d64fa3009a02": {
+    "url": "https://jmp2.uk/plu-65cf8ace332fec00081e7ea2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11599,14 +11621,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "edad2ad5876b1ecb": {
-    "url": "http://143.14.178.35/TCM-HD/index.m3u8",
+  "6402f2d3d5067cad": {
+    "url": "http://38.252.238.18:8000/play/a01i/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "6402f2d3d5067cad": {
-    "url": "http://38.252.238.18:8000/play/a01i/index.m3u8",
+  "edad2ad5876b1ecb": {
+    "url": "http://143.14.178.35/TCM-HD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11693,14 +11715,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "e0dc4f2e9ea77205": {
-    "url": "https://aegis-cloudfront-1.tubi.video/3bda1ff3-ae32-45ab-ad49-f5e206511a70/playlist.m3u8",
+  "434b8d0883467dbb": {
+    "url": "https://pb-7k9tqpp5wqdnj.akamaized.net/Grit_Xtra_US.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "434b8d0883467dbb": {
-    "url": "https://pb-7k9tqpp5wqdnj.akamaized.net/Grit_Xtra_US.m3u8",
+  "e0dc4f2e9ea77205": {
+    "url": "https://aegis-cloudfront-1.tubi.video/3bda1ff3-ae32-45ab-ad49-f5e206511a70/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11968,14 +11990,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "9d90fd4be0492d00": {
-    "url": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8",
+  "d73e12652c5bc3b1": {
+    "url": "https://freecast-lukentvlive.vgcdn.net/out/v1/ef4c45af299c46aaabc3f8713f92f163/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "d73e12652c5bc3b1": {
-    "url": "https://freecast-lukentvlive.vgcdn.net/out/v1/ef4c45af299c46aaabc3f8713f92f163/index.m3u8",
+  "9d90fd4be0492d00": {
+    "url": "https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/heartland/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -11993,8 +12015,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8bd71c7a6a07ac80": {
-    "url": "https://pb-lf7eocnc8ua2e.akamaized.net/Hells_Kitchen_SONO10.m3u8",
+  "7cbecb66d3438a2d": {
+    "url": "https://itv-hellskitchen-rakuten.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12005,8 +12027,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "7cbecb66d3438a2d": {
-    "url": "https://itv-hellskitchen-rakuten.amagi.tv/playlist.m3u8",
+  "8bd71c7a6a07ac80": {
+    "url": "https://pb-lf7eocnc8ua2e.akamaized.net/Hells_Kitchen_SONO10.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12023,6 +12045,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "b06d7fd273a52e70": {
+    "url": "https://amg00654-itvstudios-hellskitchennl-samsungnl-kvxhp.amagi.tv/playlist/amg00654-itvstudios-hellskitchennl-samsungnl/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "efeadd2e4c0b9495": {
     "url": "https://amg00654-itvstudios-hellskitchen-samsungse-9n806.amagi.tv/playlist/amg00654-itvstudios-hellskitchen-samsungse/playlist.m3u8",
     "sources": [
@@ -12031,12 +12059,6 @@
   },
   "59d25aa8047a00f5": {
     "url": "https://amg00654-itvstudios-hellskitchen-samsunguk-c8rgt.amagi.tv/playlist/amg00654-itvstudios-hellskitchen-samsunguk/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "b06d7fd273a52e70": {
-    "url": "https://amg00654-itvstudios-hellskitchennl-samsungnl-kvxhp.amagi.tv/playlist/amg00654-itvstudios-hellskitchennl-samsungnl/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12092,8 +12114,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d599fe72b838915b": {
-    "url": "https://jmp2.uk/plu-6081738748d3200007afb24b.m3u8",
+  "67204c39496ea39c": {
+    "url": "https://jmp2.uk/plu-68c014ee337652ee75dab43b.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12110,8 +12132,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "67204c39496ea39c": {
-    "url": "https://jmp2.uk/plu-68c014ee337652ee75dab43b.m3u8",
+  "d599fe72b838915b": {
+    "url": "https://jmp2.uk/plu-6081738748d3200007afb24b.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12173,12 +12195,6 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "e711e54cea729456": {
-    "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "2351ba8f2d9d8e67": {
     "url": "http://138.121.15.230:9002/HISTORY-CHANNEL/index.m3u8",
     "sources": [
@@ -12187,6 +12203,12 @@
   },
   "b95822885f36029f": {
     "url": "http://190.93.224.42/HISTORY/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "e711e54cea729456": {
+    "url": "http://15.204.246.24:8080/HistoryHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12283,6 +12305,42 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "c87dfec41e8999a3": {
+    "url": "https://all3media-homes-under-the-hammer-1-se.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "73ac542a2bf1e29e": {
+    "url": "https://all3media-homes-under-the-hammer-1-gb.rakuten.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "9214212617f6d42d": {
+    "url": "https://all3media-homes-under-the-hammer-1-fi.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "bbec789dc2e05262": {
+    "url": "https://all3media-homes-under-the-hammer-1-nl.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "a76e840e569fff97": {
+    "url": "https://all3media-homes-under-the-hammer-1-nz.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "1feb8908f7549728": {
+    "url": "https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "20e4b833efad3f43": {
     "url": "https://all3media-homes-under-the-hammer-1-no.samsung.wurl.tv/playlist.m3u8",
     "sources": [
@@ -12295,44 +12353,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1feb8908f7549728": {
-    "url": "https://all3media-homes-under-the-hammer-1-au.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "c87dfec41e8999a3": {
-    "url": "https://all3media-homes-under-the-hammer-1-se.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "9214212617f6d42d": {
-    "url": "https://all3media-homes-under-the-hammer-1-fi.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "73ac542a2bf1e29e": {
-    "url": "https://all3media-homes-under-the-hammer-1-gb.rakuten.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "a76e840e569fff97": {
-    "url": "https://all3media-homes-under-the-hammer-1-nz.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "bbec789dc2e05262": {
-    "url": "https://all3media-homes-under-the-hammer-1-nl.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "d07ee898066e7e73": {
-    "url": "https://jmp2.uk/plu-60e452730e76f20007598de8.m3u8",
+  "c7c29bef59a30cd7": {
+    "url": "https://jmp2.uk/plu-619e286e093e7c0007489e6a.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12349,8 +12371,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c7c29bef59a30cd7": {
-    "url": "https://jmp2.uk/plu-619e286e093e7c0007489e6a.m3u8",
+  "d07ee898066e7e73": {
+    "url": "https://jmp2.uk/plu-60e452730e76f20007598de8.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12430,14 +12452,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d9cf1ab860d1f9c8": {
-    "url": "http://45.134.141.161:2200/ARG/HTV/index.m3u8",
+  "0732a50e34606c9c": {
+    "url": "http://45.171.64.30:6060/play/a012/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "0732a50e34606c9c": {
-    "url": "http://45.171.64.30:6060/play/a012/index.m3u8",
+  "d9cf1ab860d1f9c8": {
+    "url": "http://45.134.141.161:2200/ARG/HTV/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12469,14 +12491,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "7bcf06121fb181c3": {
-    "url": "https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-PLEX/152.m3u8",
+  "bf40bf2082212049": {
+    "url": "https://du1gyxfing4ke.cloudfront.net/scheduler/scheduleMaster/152.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "bf40bf2082212049": {
-    "url": "https://du1gyxfing4ke.cloudfront.net/scheduler/scheduleMaster/152.m3u8",
+  "7bcf06121fb181c3": {
+    "url": "https://damkf751d85s1.cloudfront.net/v1/master/9d062541f2ff39b5c0f48b743c6411d25f62fc25/HumorMill-PLEX/152.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12532,14 +12554,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8c2d4780894ee06c": {
-    "url": "https://jmp2.uk/plu-5ce40f42ba7f7f5ea9518fe1.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "70a30724e8656b5b": {
-    "url": "https://jmp2.uk/plu-62cd97fb9f8154000727516c.m3u8",
+  "70e3ac445357c717": {
+    "url": "https://jmp2.uk/plu-62cd9fee6187a70007784cdd.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12556,8 +12572,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "70e3ac445357c717": {
-    "url": "https://jmp2.uk/plu-62cd9fee6187a70007784cdd.m3u8",
+  "70a30724e8656b5b": {
+    "url": "https://jmp2.uk/plu-62cd97fb9f8154000727516c.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "8c2d4780894ee06c": {
+    "url": "https://jmp2.uk/plu-5ce40f42ba7f7f5ea9518fe1.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12970,14 +12992,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5e3bbed077fd9400": {
-    "url": "https://jmp2.uk/plu-677f929054f43dad4b325c1c.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "3aa56603727cd175": {
-    "url": "https://distributionsjustepourrire-justforlaughsgags-1-fi.samsung.wurl.tv/playlist.m3u8",
+  "a5346f66fd11034c": {
+    "url": "https://jmp2.uk/plu-6093f48c95132a00075fd859.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -12994,8 +13010,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "a5346f66fd11034c": {
-    "url": "https://jmp2.uk/plu-6093f48c95132a00075fd859.m3u8",
+  "5e3bbed077fd9400": {
+    "url": "https://jmp2.uk/plu-677f929054f43dad4b325c1c.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "3aa56603727cd175": {
+    "url": "https://distributionsjustepourrire-justforlaughsgags-1-fi.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -13035,14 +13057,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "a16f9b3fff3a6b91": {
-    "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
+  "82e84d91cc0bd19e": {
+    "url": "https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "82e84d91cc0bd19e": {
-    "url": "https://hlspackager.akamaized.net/live/DB/KARTOON_CHANNEL/HLS/KARTOON_CHANNEL.m3u8",
+  "a16f9b3fff3a6b91": {
+    "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg01076-lightningintern-kartoonchannel-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -13053,14 +13075,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "a1083d5112525efa": {
-    "url": "https://d2z0ysa6dgxhlc.cloudfront.net/kchan.m3u8",
+  "2113aa7d7566a74d": {
+    "url": "https://aegis-cloudfront-1.tubi.video/ba23a03c-22ff-4a48-ae7e-dd8bf4ee4e29/kc_co.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "2113aa7d7566a74d": {
-    "url": "https://aegis-cloudfront-1.tubi.video/ba23a03c-22ff-4a48-ae7e-dd8bf4ee4e29/kc_co.m3u8",
+  "a1083d5112525efa": {
+    "url": "https://d2z0ysa6dgxhlc.cloudfront.net/kchan.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -13630,14 +13652,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5ee5e11506e521cb": {
-    "url": "https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1",
+  "f2340a2c936c7572": {
+    "url": "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/cb563d1e7f6c629098ce3c78d8f662ffa65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5cab6852db80148b6f4adafb8c2360625f5c98435ee3b24aa2f6e70c43d864f4ac481a922f58e68314c8c915ed808546cd45d574a3459ac1f789d414e03ba059816f639f943a581facb33bfefc53bfce9f6d79af6529521b4694dbf99c601df68ac7c19a85a6916aed07c6c9048c6525b2039935ea5879eb506bd58664a1aeb0cc4d4f7bd0aca3c6dbc297c2bed54f5a8963f5acecce60799cbc7312229a358b727e6ad895a16532f599d96d94a49410292c8466dacfab12c370d4c725bd28cfd5fd9b3c0d6d6b0d01875aada0a0ba43d255a7d41a2d504c0bf8d40584ceee573e664091931efa275be88bc5d3844e0cc36e4d0eb320c10d51258c157c6ce928ce9f3e47803245d0666ab50b63c00ad79018d88b97a50a32bedb8765fa6ce4ba4392d50abb62315c4de2a77a1115022d9ebe263e317fc257ed9c9fb2204753ba85b894aa6431093d18451fcbb3b702fca0f4694c468f035c231e7630990bd165da7a392326db11dea94939c5312823e2a8284e180bb2cda28a93d9da4ed727842f9c98999aee054f0c23d8a2a287e0fc99445f9f0ee59c/87/1280x720_2886400/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "f2340a2c936c7572": {
-    "url": "https://amg00488-foxdigital-livenowbyfox-lgus-y0a81.amagi.tv/ts-us-e2-n1/playlist/amg00488-foxdigital-livenowbyfox-lgus/cb563d1e7f6c629098ce3c78d8f662ffa65928d80b6c852a6ab454876da64607d1e3b680fd358b785d9f01de6a1a0a080361cf12ce3407c3c76ad91174204213cfcac9229d86170ab5c60c2c3aab016635837209c0790a79dca93d0d8636ba304530e01b615b37c2ec5cab6852db80148b6f4adafb8c2360625f5c98435ee3b24aa2f6e70c43d864f4ac481a922f58e68314c8c915ed808546cd45d574a3459ac1f789d414e03ba059816f639f943a581facb33bfefc53bfce9f6d79af6529521b4694dbf99c601df68ac7c19a85a6916aed07c6c9048c6525b2039935ea5879eb506bd58664a1aeb0cc4d4f7bd0aca3c6dbc297c2bed54f5a8963f5acecce60799cbc7312229a358b727e6ad895a16532f599d96d94a49410292c8466dacfab12c370d4c725bd28cfd5fd9b3c0d6d6b0d01875aada0a0ba43d255a7d41a2d504c0bf8d40584ceee573e664091931efa275be88bc5d3844e0cc36e4d0eb320c10d51258c157c6ce928ce9f3e47803245d0666ab50b63c00ad79018d88b97a50a32bedb8765fa6ce4ba4392d50abb62315c4de2a77a1115022d9ebe263e317fc257ed9c9fb2204753ba85b894aa6431093d18451fcbb3b702fca0f4694c468f035c231e7630990bd165da7a392326db11dea94939c5312823e2a8284e180bb2cda28a93d9da4ed727842f9c98999aee054f0c23d8a2a287e0fc99445f9f0ee59c/87/1280x720_2886400/index.m3u8",
+  "5ee5e11506e521cb": {
+    "url": "https://vid.hls.protv.ro/liveibu5/liveibu5_highw/index.m3u8?1",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -13919,13 +13941,8 @@
   "59be7cf4c4dc85ef": {
     "url": "https://mmn1.b-cdn.net/hls/MMN-HLS.m3u8",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
-    ]
-  },
-  "3a09d896799f7f76": {
-    "url": "https://mmn1-301f.kxcdn.com/hls/MMN-HLS.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "3659abbbc3a8d616": {
@@ -13976,14 +13993,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "6f22d3369f36f48b": {
-    "url": "https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8",
+  "068b49fd71d5d621": {
+    "url": "https://jmp2.uk/plu-5e3ddbd27091820009f86dd9.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "068b49fd71d5d621": {
-    "url": "https://jmp2.uk/plu-5e3ddbd27091820009f86dd9.m3u8",
+  "6f22d3369f36f48b": {
+    "url": "https://jmp2.uk/plu-6077045b6031bd00078de127.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14213,14 +14230,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "262dbc4742699f72": {
-    "url": "http://181.78.12.119:16123/play/ch55/index.m3u8",
+  "1155e6b5fa207eb5": {
+    "url": "http://38.134.250.110:8000/play/a02m/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1155e6b5fa207eb5": {
-    "url": "http://38.134.250.110:8000/play/a02m/index.m3u8",
+  "262dbc4742699f72": {
+    "url": "http://181.78.12.119:16123/play/ch55/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14286,14 +14303,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "60a9f87df8b7bedb": {
-    "url": "https://aegis-cloudfront-1.tubi.video/d76934f9-bea8-4cc2-a812-c2e8a9c5d40a/playlist.m3u8",
+  "7ea2d3f49f3a32ea": {
+    "url": "https://all3media-midsomer-1-us.xumo.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "7ea2d3f49f3a32ea": {
-    "url": "https://all3media-midsomer-1-us.xumo.wurl.tv/playlist.m3u8",
+  "60a9f87df8b7bedb": {
+    "url": "https://aegis-cloudfront-1.tubi.video/d76934f9-bea8-4cc2-a812-c2e8a9c5d40a/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14375,14 +14392,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "b0694a8af39e8bd0": {
-    "url": "https://pb-2y9ox4r1fy550.akamaized.net/playlist.m3u8",
+  "b2c216d6a73a108e": {
+    "url": "https://aegis-cloudfront-1.tubi.video/36ef2f9d-7100-4c4d-b41a-dbf41ab7e461/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b2c216d6a73a108e": {
-    "url": "https://aegis-cloudfront-1.tubi.video/36ef2f9d-7100-4c4d-b41a-dbf41ab7e461/playlist.m3u8",
+  "b0694a8af39e8bd0": {
+    "url": "https://pb-2y9ox4r1fy550.akamaized.net/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14468,14 +14485,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "f88ec1c39277187a": {
-    "url": "https://jmp2.uk/plu-65c340983ba51e00083988e8.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "e02880c0ba0c7b03": {
-    "url": "https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8",
+  "1ea411a65c41a372": {
+    "url": "https://jmp2.uk/plu-65c340383a116800078c8454.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14486,8 +14497,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1ea411a65c41a372": {
-    "url": "https://jmp2.uk/plu-65c340383a116800078c8454.m3u8",
+  "f88ec1c39277187a": {
+    "url": "https://jmp2.uk/plu-65c340983ba51e00083988e8.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "e02880c0ba0c7b03": {
+    "url": "https://4b9627c7.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X01vbnN0ZXJKYW1fSExT/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -14655,14 +14672,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "095c12b1d9036501": {
-    "url": "https://aegis-cloudfront-1.tubi.video/99c48388-377e-4f2c-ad8e-33d0dee33bc3/playlist.m3u8",
+  "d45ae0053b663107": {
+    "url": "https://amg00163-shoutfactory-mst3k-xumo-r2pwd.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "d45ae0053b663107": {
-    "url": "https://amg00163-shoutfactory-mst3k-xumo-r2pwd.amagi.tv/playlist.m3u8",
+  "095c12b1d9036501": {
+    "url": "https://aegis-cloudfront-1.tubi.video/99c48388-377e-4f2c-ad8e-33d0dee33bc3/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15010,14 +15027,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3330196f9955d099": {
-    "url": "https://amg00627-banijay-amg00627c14-samsung-nz-2342.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungnz/playlist.m3u8",
+  "3270729d95621651": {
+    "url": "https://d1cgf0ptrv4t22.cloudfront.net/Mythbusters_GB.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "2129cb32796119df": {
-    "url": "https://amg00627-amg00627c14-rakuten-uk-4802.playouts.now.amagi.tv/index.m3u8",
+  "3330196f9955d099": {
+    "url": "https://amg00627-banijay-amg00627c14-samsung-nz-2342.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mythbusters-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15028,20 +15045,20 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3270729d95621651": {
-    "url": "https://d1cgf0ptrv4t22.cloudfront.net/Mythbusters_GB.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "4cf466fc06eb03a9": {
-    "url": "https://jmp2.uk/plu-66e0b4866ad04d0008fff4d8.m3u8",
+  "2129cb32796119df": {
+    "url": "https://amg00627-amg00627c14-rakuten-uk-4802.playouts.now.amagi.tv/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "35109568550b9e22": {
     "url": "https://jmp2.uk/plu-5bd833b41843b56328bac189.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "4cf466fc06eb03a9": {
+    "url": "https://jmp2.uk/plu-66e0b4866ad04d0008fff4d8.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15053,14 +15070,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "1e024ab1e5bcc26f": {
-    "url": "https://mytime-tcl.amagi.tv/playlist.m3u8",
+  "158e186b4cf12f16": {
+    "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "158e186b4cf12f16": {
-    "url": "https://mytimeuk-rakuten-samsung.amagi.tv/playlist.m3u8",
+  "1e024ab1e5bcc26f": {
+    "url": "https://mytime-tcl.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15195,6 +15212,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "91aaf3eeb989028b": {
+    "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "a88a18ea32ff8182": {
     "url": "http://45.173.231.22:8000/play/a05z/index.m3u8",
     "sources": [
@@ -15203,12 +15226,6 @@
   },
   "63d72bc6dd4936cd": {
     "url": "http://190.93.224.42/NAT-GEO/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "91aaf3eeb989028b": {
-    "url": "http://15.204.246.24:8080/NatGeoHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15348,14 +15365,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "e8efd4962f6a3d54": {
-    "url": "https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8",
+  "c10afdde2ae16d92": {
+    "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c10afdde2ae16d92": {
-    "url": "https://xumo-xumoent-vc-122-sjv70.fast.nbcuni.com/live/master.m3u8",
+  "e8efd4962f6a3d54": {
+    "url": "https://d1m1xk35ma8qfl.cloudfront.net/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15508,26 +15525,26 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "84c2b2bda127c119": {
-    "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "86f5224a02496387": {
-    "url": "https://pb-o6czxr182vtiv.akamaized.net/master.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "1c406eba1613ae72": {
     "url": "https://xumo-drct-nbcnn-ir8ze.fast.nbcuni.com/live/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "84c2b2bda127c119": {
+    "url": "https://livehub-voidnet.onrender.com/cluster/streamcore/us/NBC_REDIS.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "2ad19b797e1b657f": {
     "url": "https://d1bl6tskrpq9ze.cloudfront.net/hls/master.m3u8?ads.xumo_channelId=99984003",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "86f5224a02496387": {
+    "url": "https://pb-o6czxr182vtiv.akamaized.net/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -15778,26 +15795,26 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "54eea390a6253928": {
-    "url": "https://nmxdistro.akamaized.net/hls/live/529965/Live_1/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "c5baee2427ecb012": {
     "url": "https://newsmax-vizio.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1a6d259a2c3adcb7": {
-    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
+  "54eea390a6253928": {
+    "url": "https://nmxdistro.akamaized.net/hls/live/529965/Live_1/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "dfcc8f451548fe8b": {
     "url": "https://amg00217-newsmax-newsmax-rokuus-dur76.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "1a6d259a2c3adcb7": {
+    "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16100,8 +16117,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d9f38d180fb20f5a": {
-    "url": "https://aegis-cloudfront-1.tubi.video/f111d6c2-02bf-45fb-9a90-2e55b18d9f70/playlist.m3u8",
+  "001c1df78e6b0611": {
+    "url": "https://amg00514-noseybaxterllc-nosey-cineverse-hvu5a.amagi.tv/playlist/amg00514-noseybaxterllc-nosey-cineverse/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16112,8 +16129,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "001c1df78e6b0611": {
-    "url": "https://amg00514-noseybaxterllc-nosey-cineverse-hvu5a.amagi.tv/playlist/amg00514-noseybaxterllc-nosey-cineverse/playlist.m3u8",
+  "d9f38d180fb20f5a": {
+    "url": "https://aegis-cloudfront-1.tubi.video/f111d6c2-02bf-45fb-9a90-2e55b18d9f70/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16156,14 +16173,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "28a1c745a53dba58": {
-    "url": "https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a16fa020f4c411f09ddaa1978319689a/index.m3u8",
+  "31c3fbfabf369ad7": {
+    "url": "https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "31c3fbfabf369ad7": {
-    "url": "https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a4243540d4b911f0b624bda5e9a32aa9/index.m3u8",
+  "28a1c745a53dba58": {
+    "url": "https://stream-204968.castr.net/64e0c91d08bff3041638aee3/live_a16fa020f4c411f09ddaa1978319689a/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16225,14 +16242,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "9ec238965b51e49b": {
-    "url": "https://amg17596-amg17596c1-ntdtv-worldwide-3276.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-ntdtvworldwide/playlist.m3u8",
+  "402580e95118bd9d": {
+    "url": "https://amg17596-ntdtv-amg17596c1-stirr-us-4738.playouts.now.amagi.tv/ntd.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "402580e95118bd9d": {
-    "url": "https://amg17596-ntdtv-amg17596c1-stirr-us-4738.playouts.now.amagi.tv/ntd.m3u8",
+  "9ec238965b51e49b": {
+    "url": "https://amg17596-amg17596c1-ntdtv-worldwide-3276.playouts.now.amagi.tv/playlist/amg17596-newtangdynastytelevision-ntdtv-ntdtvworldwide/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16367,6 +16384,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "1a1b2fcb3352354c": {
+    "url": "https://jmp2.uk/plu-62cd9f1cda044a00077b8f41.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "ec82b20e9f39daae": {
     "url": "https://jmp2.uk/plu-62cd971cec90c20007081050.m3u8",
     "sources": [
@@ -16375,12 +16398,6 @@
   },
   "76ba138455099077": {
     "url": "https://jmp2.uk/plu-62cdad7b5c38c00007f566c2.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "1a1b2fcb3352354c": {
-    "url": "https://jmp2.uk/plu-62cd9f1cda044a00077b8f41.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16463,6 +16480,7 @@
   "97e8861c5722c178": {
     "url": "https://ontv4u-orka.b-cdn.net/ONTV4U-ORKA/index.m3u8",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
@@ -16531,14 +16549,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "cb71896988b4a83a": {
-    "url": "https://aegis-cloudfront-1.tubi.video/27de4f2e-7f9c-418a-9b0d-e4b35b0843a0/playlist.m3u8",
+  "1c116adff3acb973": {
+    "url": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1c116adff3acb973": {
-    "url": "https://amg00353-amg00353c17-xumo-us-2554.playouts.now.amagi.tv/lionsgate-otspr-xumo/playlist.m3u8",
+  "cb71896988b4a83a": {
+    "url": "https://aegis-cloudfront-1.tubi.video/27de4f2e-7f9c-418a-9b0d-e4b35b0843a0/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16609,14 +16627,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "a034c7056595f38b": {
-    "url": "https://pac12-samsungus.amagi.tv/playlist.m3u8",
+  "70b0381547ff3d28": {
+    "url": "https://pac12-vizio.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "70b0381547ff3d28": {
-    "url": "https://pac12-vizio.amagi.tv/playlist.m3u8",
+  "a034c7056595f38b": {
+    "url": "https://pac12-samsungus.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16688,12 +16706,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8ca868076490d08b": {
-    "url": "http://15.204.246.24:8080/PasionesHD/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "cc5996d2885fdace": {
     "url": "http://45.224.97.181:9999/Pasiones/index.m3u8",
     "sources": [
@@ -16702,6 +16714,12 @@
   },
   "e7f498acd12b4d6f": {
     "url": "http://190.93.224.42/PASIONES/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "8ca868076490d08b": {
+    "url": "http://15.204.246.24:8080/PasionesHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16901,14 +16919,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "c25aafbc9595bd95": {
-    "url": "https://amg02333-pbs-amg02333c11-firetv-us-4242.playouts.now.amagi.tv/playlist.m3u8",
+  "40089d6af0937135": {
+    "url": "https://amg01597-wnetnewyorkpubl-pbsnature-xumo-8xorq.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "40089d6af0937135": {
-    "url": "https://amg01597-wnetnewyorkpubl-pbsnature-xumo-8xorq.amagi.tv/playlist.m3u8",
+  "c25aafbc9595bd95": {
+    "url": "https://amg02333-pbs-amg02333c11-firetv-us-4242.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16979,8 +16997,26 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "c2090d639987115c": {
-    "url": "https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8",
+  "d6e24439a7b1c730": {
+    "url": "https://jukin-peopleareawesome-2-dk.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "fdd036194b3d14af": {
+    "url": "https://jukin-peopleareawesome-2-mx.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "b1dcebd26c683a27": {
+    "url": "https://jukin-peopleareawesome-2-fi.samsung.wurl.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "0767f3f0b40df934": {
+    "url": "https://jukin-peopleareawesome-2-nl.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -16997,32 +17033,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "fdd036194b3d14af": {
-    "url": "https://jukin-peopleareawesome-2-mx.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "0767f3f0b40df934": {
-    "url": "https://jukin-peopleareawesome-2-nl.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "d1f68fcb54ed8647": {
     "url": "https://jukin-peopleareawesome-2-au.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b1dcebd26c683a27": {
-    "url": "https://jukin-peopleareawesome-2-fi.samsung.wurl.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "d6e24439a7b1c730": {
-    "url": "https://jukin-peopleareawesome-2-dk.samsung.wurl.tv/playlist.m3u8",
+  "c2090d639987115c": {
+    "url": "https://3ab76e42.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1Blb3BsZUFyZUF3ZXNvbWVfSExT/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17054,8 +17072,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "ae21cb847b02652c": {
-    "url": "https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8",
+  "e61d78de264a054b": {
+    "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17066,14 +17084,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e61d78de264a054b": {
-    "url": "https://a883593c.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X1BGTE1NQV9ITFM/playlist.m3u8",
+  "8c77f52f16a18461": {
+    "url": "https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8c77f52f16a18461": {
-    "url": "https://jmp2.uk/plu-6334a574605f140007e233c4.m3u8",
+  "ae21cb847b02652c": {
+    "url": "https://jmp2.uk/plu-64f6180130ab3300083d896b.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17091,8 +17109,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8c83bd2f5d0ea0df": {
-    "url": "https://jmp2.uk/plu-66c86fff9ba9e800080d8ebe.m3u8",
+  "07aa1d9a11ecbe62": {
+    "url": "https://jmp2.uk/plu-66c86fed85e28d0008f8a9ec.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17103,14 +17121,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "8c7dcb1a8f59cac5": {
-    "url": "https://jmp2.uk/plu-66c870112630fc0008137ae2.m3u8",
+  "8c83bd2f5d0ea0df": {
+    "url": "https://jmp2.uk/plu-66c86fff9ba9e800080d8ebe.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "07aa1d9a11ecbe62": {
-    "url": "https://jmp2.uk/plu-66c86fed85e28d0008f8a9ec.m3u8",
+  "8c7dcb1a8f59cac5": {
+    "url": "https://jmp2.uk/plu-66c870112630fc0008137ae2.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17542,14 +17560,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "a42bc0150c16dfa8": {
-    "url": "https://jmp2.uk/plu-66fedd65d7de140008dccd66.m3u8",
+  "cae3c2d4c9ba70b0": {
+    "url": "https://jmp2.uk/plu-5f4d3d06fb60d8000781fce8.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "cae3c2d4c9ba70b0": {
-    "url": "https://jmp2.uk/plu-5f4d3d06fb60d8000781fce8.m3u8",
+  "a42bc0150c16dfa8": {
+    "url": "https://jmp2.uk/plu-66fedd65d7de140008dccd66.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17756,8 +17774,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "ca6cec74f2aa6825": {
-    "url": "https://jmp2.uk/plu-62a0ada2f1bdc5000738e020.m3u8",
+  "44497a6512ba3848": {
+    "url": "https://jmp2.uk/plu-64be745340962900080b55e7.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -17780,8 +17798,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "44497a6512ba3848": {
-    "url": "https://jmp2.uk/plu-64be745340962900080b55e7.m3u8",
+  "ca6cec74f2aa6825": {
+    "url": "https://jmp2.uk/plu-62a0ada2f1bdc5000738e020.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -18350,14 +18368,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "d2f6f89a6f70fb96": {
-    "url": "https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8",
+  "ac3f6e7bef75e1be": {
+    "url": "https://amg01258-raycomsports-powernationnz-samsungnz-q92ks.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ac3f6e7bef75e1be": {
-    "url": "https://amg01258-raycomsports-powernationnz-samsungnz-q92ks.amagi.tv/playlist.m3u8",
+  "d2f6f89a6f70fb96": {
+    "url": "https://jmp2.uk/plu-63b48016d9dd51000828fa37.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -18415,14 +18433,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e259da2098706d23": {
-    "url": "https://linear-205.frequency.stream/dist/stirr/205/hls/master/playlist.m3u8",
+  "38657b266422a0d0": {
+    "url": "https://linear-205.frequency.stream/dist/glewedtv/205/hls/master/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "38657b266422a0d0": {
-    "url": "https://linear-205.frequency.stream/dist/glewedtv/205/hls/master/playlist.m3u8",
+  "e259da2098706d23": {
+    "url": "https://linear-205.frequency.stream/dist/stirr/205/hls/master/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -18478,6 +18496,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "9fdca28eb2c1078b": {
+    "url": "https://amg00378-mavtv-amg00378c2-samsung-nz-1791.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungnz/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "6e9b607a164085ea": {
     "url": "https://amg00378-mavtv-amg00378c2-samsung-au-1790.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungau/playlist.m3u8",
     "sources": [
@@ -18490,20 +18514,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "9fdca28eb2c1078b": {
-    "url": "https://amg00378-mavtv-amg00378c2-samsung-nz-1791.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-samsungnz/playlist.m3u8",
+  "5f316b9787681409": {
+    "url": "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "c0ce524d98b31e82": {
     "url": "https://d85qrcmltdfp8.cloudfront.net/MAVTV_Select.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "5f316b9787681409": {
-    "url": "https://amg00378-amg00378c4-freelivesports-emea-5637.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -18732,14 +18750,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d5e84daf12381817": {
-    "url": "https://d5bxknkoxytmb.cloudfront.net/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8",
+  "546dd72b312f045d": {
+    "url": "https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "546dd72b312f045d": {
-    "url": "https://amg00453-reuters-amg00453c1-xumo-us-2073.playouts.now.amagi.tv/reuters-reuters-hls/playlist.m3u8",
+  "d5e84daf12381817": {
+    "url": "https://d5bxknkoxytmb.cloudfront.net/playlist/amg00453-reuters-reuters-samsunggb/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -19014,6 +19032,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "f4de863bb888c30a": {
+    "url": "https://rvtv-orka.b-cdn.net/RVTV-ORKA/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "6a3f52fedb270ea6": {
     "url": "https://livestream.telvue.com/roguevalleycmttv2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8",
     "sources": [
@@ -19074,8 +19098,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "f9f26db23a3f2b68": {
-    "url": "https://amg00732-amg00732c2-stirr-us-8938.playouts.now.amagi.tv/playlist.m3u8",
+  "9853b755a3ad03ab": {
+    "url": "https://pb-v4mil672yaqlk.akamaized.net/Salem_News_Channel.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "190b0ec08af2523d": {
+    "url": "https://amg00732-salemmediagroup-salemnews-klowdtv-79zyj.amagi.tv/playlist/amg00732-salemmediagroup-salemnews-klowdtv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -19086,14 +19116,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "9853b755a3ad03ab": {
-    "url": "https://pb-v4mil672yaqlk.akamaized.net/Salem_News_Channel.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "190b0ec08af2523d": {
-    "url": "https://amg00732-salemmediagroup-salemnews-klowdtv-79zyj.amagi.tv/playlist/amg00732-salemmediagroup-salemnews-klowdtv/playlist.m3u8",
+  "f9f26db23a3f2b68": {
+    "url": "https://amg00732-amg00732c2-stirr-us-8938.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20050,14 +20074,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "cdf0f0684af68513": {
-    "url": "https://jmp2.uk/plu-6874ac742704ca31d815b8ed.m3u8",
+  "ac0fb91b0e007fcf": {
+    "url": "https://jmp2.uk/plu-5f21e7b24744c60007c1f6fc.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "ac0fb91b0e007fcf": {
-    "url": "https://jmp2.uk/plu-5f21e7b24744c60007c1f6fc.m3u8",
+  "cdf0f0684af68513": {
+    "url": "https://jmp2.uk/plu-6874ac742704ca31d815b8ed.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20173,14 +20197,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "e3a0f6f465954e03": {
-    "url": "https://tm-tmtar-xumo.amagi.tv/playlist.m3u8",
+  "aa0b459c8250d288": {
+    "url": "https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "aa0b459c8250d288": {
-    "url": "https://amg00047-tastemade-amg00047c3-cineverse-us-1360.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadetravel-cineverseus/playlist.m3u8",
+  "e3a0f6f465954e03": {
+    "url": "https://tm-tmtar-xumo.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20198,14 +20222,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "df2197ceb0e65ff0": {
-    "url": "https://pb-rlo4if9lnjthw.akamaized.net/Tastemade.m3u8",
+  "d0ba85a20b89c4c3": {
+    "url": "https://amg00047-tastemade-amg00047c4-cineverse-us-1361.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadefreetv16-cineverseus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "d0ba85a20b89c4c3": {
-    "url": "https://amg00047-tastemade-amg00047c4-cineverse-us-1361.playouts.now.amagi.tv/playlist/amg00047-tastemadefast-tastemadefreetv16-cineverseus/playlist.m3u8",
+  "df2197ceb0e65ff0": {
+    "url": "https://pb-rlo4if9lnjthw.akamaized.net/Tastemade.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20481,14 +20505,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "57eb46ce3abb9d10": {
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8",
+  "34d5c504c5b76927": {
+    "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "34d5c504c5b76927": {
-    "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master.m3u8",
+  "57eb46ce3abb9d10": {
+    "url": "https://nbculocallive.akamaized.net/hls/live/2037499/puertorico/stream1/master_1080.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20551,6 +20575,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "e864fb2657d4ad0c": {
+    "url": "https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "788a8b1abc0c6eb0": {
     "url": "https://jmp2.uk/plu-6627621d56fc840008e47c90.m3u8",
     "sources": [
@@ -20565,12 +20595,6 @@
   },
   "1b026f3643b3eb57": {
     "url": "https://tennischannelintl-rakuten.amagi.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "e864fb2657d4ad0c": {
-    "url": "https://jmp2.uk/plu-6870c9ca759366af055fe891.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20772,8 +20796,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "577794729304f68b": {
-    "url": "https://amg00441-amg00441c1-xumo-us-5144.playouts.now.amagi.tv/playlist.m3u8",
+  "3ef70b74573c4790": {
+    "url": "https://d4483wsd7yl91.cloudfront.net/The_Design_Network.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20784,8 +20808,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3ef70b74573c4790": {
-    "url": "https://d4483wsd7yl91.cloudfront.net/The_Design_Network.m3u8",
+  "577794729304f68b": {
+    "url": "https://amg00441-amg00441c1-xumo-us-5144.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20854,14 +20878,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "12d828fd1f5c962a": {
-    "url": "https://jamieoliver-xumo.amagi.tv/playlist.m3u8",
+  "fbc37a978c0b4497": {
+    "url": "https://pb-gxzycliwq14lw.akamaized.net/Jamie_Oliver.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "fbc37a978c0b4497": {
-    "url": "https://pb-gxzycliwq14lw.akamaized.net/Jamie_Oliver.m3u8",
+  "12d828fd1f5c962a": {
+    "url": "https://jamieoliver-xumo.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -20912,14 +20936,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "2aef1a0c91f4aae2": {
-    "url": "https://jmp2.uk/plu-6391cef9edb23c0008598cee.m3u8",
+  "724d65a1775a7603": {
+    "url": "https://jmp2.uk/plu-6391df52d146a40007c265f3.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "724d65a1775a7603": {
-    "url": "https://jmp2.uk/plu-6391df52d146a40007c265f3.m3u8",
+  "2aef1a0c91f4aae2": {
+    "url": "https://jmp2.uk/plu-6391cef9edb23c0008598cee.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -21200,13 +21224,8 @@
   "801584ff7a9acf9d": {
     "url": "https://timelesstv1.b-cdn.net/hls/TimelessTV.m3u8",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
-    ]
-  },
-  "118a4bf5993eb6b4": {
-    "url": "https://timelesstv1-301f.kxcdn.com/hls/TimelessTV.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
   "01e41d58eb11e82c": {
@@ -21235,14 +21254,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5cb8ee84398a8121": {
-    "url": "https://pb-yxy31pwnm3mp2.akamaized.net/v1/aenetworks_tinyhousenation_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
+  "e578c6d4bdc95142": {
+    "url": "https://adf47c43.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UaW55SG91c2VOYXRpb25fSExT/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e578c6d4bdc95142": {
-    "url": "https://adf47c43.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/U2Ftc3VuZy1nYl9UaW55SG91c2VOYXRpb25fSExT/playlist.m3u8",
+  "5cb8ee84398a8121": {
+    "url": "https://pb-yxy31pwnm3mp2.akamaized.net/v1/aenetworks_tinyhousenation_1/samsungheadend_us/latest/main/hls/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -21433,14 +21452,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e74e53e011e64f8a": {
-    "url": "https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8",
+  "5cf7c5049754078e": {
+    "url": "https://jmp2.uk/plu-5ff608e60e2996000768c366.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "5cf7c5049754078e": {
-    "url": "https://jmp2.uk/plu-5ff608e60e2996000768c366.m3u8",
+  "e74e53e011e64f8a": {
+    "url": "https://jmp2.uk/plu-5ff609de50ab210008025c1b.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -21514,8 +21533,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "af3548176f0c72df": {
-    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37",
+  "72ef3c3c82e7b9d6": {
+    "url": "https://tg-tg-xumo.otteravision.com/tg/tg/tg.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -21532,14 +21551,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "72ef3c3c82e7b9d6": {
-    "url": "https://tg-tg-xumo.otteravision.com/tg/tg/tg.m3u8",
+  "f5b83abf96461367": {
+    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=771",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "f5b83abf96461367": {
-    "url": "https://stream.ads.ottera.tv/playlist.m3u8?network_id=771",
+  "af3548176f0c72df": {
+    "url": "https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=37",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -21625,14 +21644,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d9d1601bcedf76d2": {
-    "url": "https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8",
+  "1ef70324027887cd": {
+    "url": "https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1ef70324027887cd": {
-    "url": "https://amg00376-magellan-amg00376c12-samsung-nz-1727.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowaunzin-samsungnz/playlist.m3u8",
+  "d9d1601bcedf76d2": {
+    "url": "https://amg00376-magellan-amg00376c11-rakuten-us-1700.playouts.now.amagi.tv/playlist/amg00376-magellantv-truecrimenowww-rakutenus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22044,14 +22063,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "3a68728fff24bb9c": {
-    "url": "https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8",
+  "826bec5488816c11": {
+    "url": "https://all3media-international-undercoverboss-1-nz.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "826bec5488816c11": {
-    "url": "https://all3media-international-undercoverboss-1-nz.samsung.wurl.tv/playlist.m3u8",
+  "3a68728fff24bb9c": {
+    "url": "https://all3media-international-undercoverboss-1-au.samsung.wurl.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22163,14 +22182,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "94b51aba590b6bd4": {
-    "url": "http://15.204.246.24:8080/UniversalHD/index.m3u8",
+  "da020809b963a185": {
+    "url": "http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "da020809b963a185": {
-    "url": "http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8",
+  "94b51aba590b6bd4": {
+    "url": "http://15.204.246.24:8080/UniversalHD/index.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22248,14 +22267,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "9a1c7a3fe2c51f4d": {
-    "url": "https://jmp2.uk/plu-61814f38ac1f2100075c8894.m3u8",
+  "caa4606b22b6abab": {
+    "url": "https://jmp2.uk/plu-62e924f2be69bc0007b7d53d.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1e22240d4994a2c6": {
-    "url": "https://jmp2.uk/plu-5b4e96a0423e067bd6df6901.m3u8",
+  "a63057c48c5abf61": {
+    "url": "https://jmp2.uk/plu-6181498caf6afc0007de9e72.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22266,14 +22285,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "caa4606b22b6abab": {
-    "url": "https://jmp2.uk/plu-62e924f2be69bc0007b7d53d.m3u8",
+  "1e22240d4994a2c6": {
+    "url": "https://jmp2.uk/plu-5b4e96a0423e067bd6df6901.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "a63057c48c5abf61": {
-    "url": "https://jmp2.uk/plu-6181498caf6afc0007de9e72.m3u8",
+  "9a1c7a3fe2c51f4d": {
+    "url": "https://jmp2.uk/plu-61814f38ac1f2100075c8894.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22310,12 +22329,6 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d684f12397a22e6c": {
-    "url": "https://usatodaynews-samsungus-tsv2-ghkcu.amagi.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "ed3030c0b455fb22": {
     "url": "https://usatodaynews-xumo.amagi.tv/playlist.m3u8",
     "sources": [
@@ -22324,6 +22337,12 @@
   },
   "8226c7363dc529b4": {
     "url": "https://amg00457-amg00457c1-stirr-us-8143.playouts.now.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "d684f12397a22e6c": {
+    "url": "https://usatodaynews-samsungus-tsv2-ghkcu.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22533,6 +22552,12 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
+  "629cb0fab5468fca": {
+    "url": "https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "68ae88a0186696a2": {
     "url": "https://amg00056-amg00056c9-rakuten-fr-3243.playouts.now.amagi.tv/playlist/amg00056-vevotvfast-vevopopfr-rakutenfr/playlist.m3u8",
     "sources": [
@@ -22541,12 +22566,6 @@
   },
   "eb6f0f60e90a9a1c": {
     "url": "https://d2n5ee9u100agb.cloudfront.net/Vevo_Pop.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "629cb0fab5468fca": {
-    "url": "https://amg00056-amg00056c6-rakuten-uk-3235.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22605,6 +22624,7 @@
   "fcb48c74e3e8d3e4": {
     "url": "http://23.237.104.106:8080/USA_VH1/index.m3u8",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
@@ -22622,14 +22642,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "6df5ee5e59fac1b5": {
-    "url": "https://d1ocru52bkg5e9.cloudfront.net/VICE.m3u8",
+  "c29b3643108bc995": {
+    "url": "https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c29b3643108bc995": {
-    "url": "https://vicetv-vicefast1-firetv.amagi.tv/playlist.m3u8",
+  "6df5ee5e59fac1b5": {
+    "url": "https://d1ocru52bkg5e9.cloudfront.net/VICE.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22722,14 +22742,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c2a2674529d95f50": {
-    "url": "https://jmp2.uk/plu-60afa749ac7f3200078adb40.m3u8",
+  "78ad617e5e05cb2d": {
+    "url": "https://jmp2.uk/plu-62a0aefc7c5f9f00075b4e24.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "78ad617e5e05cb2d": {
-    "url": "https://jmp2.uk/plu-62a0aefc7c5f9f00075b4e24.m3u8",
+  "c2a2674529d95f50": {
+    "url": "https://jmp2.uk/plu-60afa749ac7f3200078adb40.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -22824,14 +22844,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "44a62b10aed19afe": {
-    "url": "https://amg00381-waypointcommuni-waypointtv-xumo-syiru.amagi.tv/playlist.m3u8",
+  "73c23e124cfcf9bb": {
+    "url": "https://djb4ma5fajjay.cloudfront.net/Waypoint_TV.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "73c23e124cfcf9bb": {
-    "url": "https://djb4ma5fajjay.cloudfront.net/Waypoint_TV.m3u8",
+  "44a62b10aed19afe": {
+    "url": "https://amg00381-waypointcommuni-waypointtv-xumo-syiru.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23018,8 +23038,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "ea8c8e9ba63e34b9": {
-    "url": "https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8",
+  "e3a4d3a689baaa9f": {
+    "url": "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23030,14 +23050,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "2484a111bd15db60": {
-    "url": "https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8",
+  "ea8c8e9ba63e34b9": {
+    "url": "https://amg01269-amg01269c1-firetv-us-5377.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "e3a4d3a689baaa9f": {
-    "url": "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8",
+  "2484a111bd15db60": {
+    "url": "https://amg01269-amg01269c1-distrotv-us-5379.playouts.now.amagi.tv/playlist/amg01269-willowtvfast-willowplus-distrotvus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23068,6 +23088,12 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "cffa876145008106": {
+    "url": "https://w3-orka.b-cdn.net/W3-ORKA/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "0213b763ff3d420d": {
     "url": "https://amg00627-banijaygroup-wipeoutxtraau-samsungau-ashbl.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtraau-samsungau/playlist.m3u8",
     "sources": [
@@ -23075,8 +23101,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "6e5543c1b1f6a931": {
-    "url": "https://d36nnn435goed2.cloudfront.net/WipeoutXtraPoweredbyBanijay_GB.m3u8",
+  "b8d7243af56cf187": {
+    "url": "https://aegis-cloudfront-1.tubi.video/e0a81cae-d483-46f9-aaa1-d0b87faa13cf/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23087,14 +23113,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b8d7243af56cf187": {
-    "url": "https://aegis-cloudfront-1.tubi.video/e0a81cae-d483-46f9-aaa1-d0b87faa13cf/playlist.m3u8",
+  "29173a7cfbcc44d6": {
+    "url": "https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "29173a7cfbcc44d6": {
-    "url": "https://amg00627-banijaygroup-wipeoutxtranz-samsungnz-j1dyx.amagi.tv/playlist/amg00627-banijaygroup-wipeoutxtranz-samsungnz/playlist.m3u8",
+  "6e5543c1b1f6a931": {
+    "url": "https://d36nnn435goed2.cloudfront.net/WipeoutXtraPoweredbyBanijay_GB.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23198,8 +23224,8 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "d69b7940755c1a6d": {
-    "url": "https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8",
+  "c95accffbcea4197": {
+    "url": "https://pb-41uwb26l8gvwx.akamaized.net/World_Poker_Tour.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23210,8 +23236,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "c95accffbcea4197": {
-    "url": "https://pb-41uwb26l8gvwx.akamaized.net/World_Poker_Tour.m3u8",
+  "d69b7940755c1a6d": {
+    "url": "https://amg00218-wptenterprisesi-worldpokertour-xumo-us.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23219,6 +23245,7 @@
   "25f8944cd7833841": {
     "url": "https://tuvideoonline.com.ar:3332/live/xlevelmedialive.m3u8",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json",
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
@@ -23336,14 +23363,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "67365f210a8b37a7": {
-    "url": "https://amg00111-hearstmediaprod-xploreintlse-samsungse-lvo6s.amagi.tv/playlist/amg00111-hearstmediaprod-xploreintlse-samsungse/playlist.m3u8",
+  "aa313a38ad9eb342": {
+    "url": "https://depdwjha9qyli.cloudfront.net/Xplore.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "aa313a38ad9eb342": {
-    "url": "https://depdwjha9qyli.cloudfront.net/Xplore.m3u8",
+  "67365f210a8b37a7": {
+    "url": "https://amg00111-hearstmediaprod-xploreintlse-samsungse-lvo6s.amagi.tv/playlist/amg00111-hearstmediaprod-xploreintlse-samsungse/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23367,8 +23394,14 @@
       "https://iptv-org.github.io/iptv/countries/us.m3u"
     ]
   },
-  "6f5c230389c3c335": {
-    "url": "https://yahoo-plex.amagi.tv/playlist.m3u8",
+  "64d3b0b72ae62650": {
+    "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "1a540fde7f8cf6d4": {
+    "url": "https://amg00119-amg00119c1-firetv-us-4205.playouts.now.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23379,26 +23412,20 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "bfb91e383fcdedda": {
-    "url": "https://yahoo-plex.amagi.tv/hls/amagi_hls_data_yahoofina-yahoofinance-plex/CDN/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "64d3b0b72ae62650": {
-    "url": "https://yahoo-samsung.amagi.tv/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "899f01cdfa6f2090": {
     "url": "https://yahoo-roku-us.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "1a540fde7f8cf6d4": {
-    "url": "https://amg00119-amg00119c1-firetv-us-4205.playouts.now.amagi.tv/playlist.m3u8",
+  "bfb91e383fcdedda": {
+    "url": "https://yahoo-plex.amagi.tv/hls/amagi_hls_data_yahoofina-yahoofinance-plex/CDN/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "6f5c230389c3c335": {
+    "url": "https://yahoo-plex.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23443,14 +23470,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "14972dd37ab66fe0": {
-    "url": "https://younghollywood-vizio.amagi.tv/playlist.m3u8",
+  "44a713c5b43bc654": {
+    "url": "https://amg00143-younghollywoodfast-amg00143c1-cineverse-us-946.playouts.now.amagi.tv/playlist/amg00143-younghollywoodfast-younghollywood-cineverseus/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "44a713c5b43bc654": {
-    "url": "https://amg00143-younghollywoodfast-amg00143c1-cineverse-us-946.playouts.now.amagi.tv/playlist/amg00143-younghollywoodfast-younghollywood-cineverseus/playlist.m3u8",
+  "14972dd37ab66fe0": {
+    "url": "https://younghollywood-vizio.amagi.tv/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23488,24 +23515,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "fd9c50fc248a3272": {
-    "url": "https://jmp2.uk/plu-6130d9c712c2b000070abb50.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "92391fa85c85b461": {
-    "url": "https://jmp2.uk/plu-63eb96754e83e70008ab8941.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
-  "03203dbd50c42af2": {
-    "url": "https://jmp2.uk/plu-63eb82e24e83e70008ab735f.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "b057433778100b1d": {
     "url": "https://jmp2.uk/plu-642d4493aa2d690008f0a03f.m3u8",
     "sources": [
@@ -23518,8 +23527,26 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
+  "03203dbd50c42af2": {
+    "url": "https://jmp2.uk/plu-63eb82e24e83e70008ab735f.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "92391fa85c85b461": {
+    "url": "https://jmp2.uk/plu-63eb96754e83e70008ab8941.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
   "5d5ac51fe6378948": {
     "url": "https://jmp2.uk/plu-5fceaab478f2af00080ff51f.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "fd9c50fc248a3272": {
+    "url": "https://jmp2.uk/plu-6130d9c712c2b000070abb50.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23558,12 +23585,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "86df9b21b7e5da84": {
-    "url": "https://jmp2.uk/plu-66b227b446762a000846c208.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
-    ]
-  },
   "577f6af90c388e39": {
     "url": "https://jmp2.uk/plu-66b3af1c3a4ad200081c7d03.m3u8",
     "sources": [
@@ -23572,6 +23593,12 @@
   },
   "97f2e9031a6fa03a": {
     "url": "https://jmp2.uk/plu-66b3af48d2d50d00083d6936.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
+    ]
+  },
+  "86df9b21b7e5da84": {
+    "url": "https://jmp2.uk/plu-66b227b446762a000846c208.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23620,8 +23647,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "b474278a20d89b4c": {
-    "url": "https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8",
+  "47d3cd3b70361f45": {
+    "url": "https://66e4bbba.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23632,8 +23659,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
   },
-  "47d3cd3b70361f45": {
-    "url": "https://66e4bbba.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/TEctZ2JfQmxvb21iZXJnVFZQbHVzX0hMUw/playlist.m3u8",
+  "b474278a20d89b4c": {
+    "url": "https://bloomberg.com/media-manifest/streams/phoenix-us.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/us.json"
     ]
@@ -23696,20 +23723,14 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
     ]
   },
-  "c455052717dcb4fd": {
-    "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
-    ]
-  },
   "52c111cd00b81676": {
     "url": "https://freem3u.xyz/api/live/play.m3u8?vid=106",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
     ]
   },
-  "06a61dd234d98736": {
-    "url": "https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8",
+  "c455052717dcb4fd": {
+    "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
     ]
@@ -23722,6 +23743,12 @@
   },
   "227db96333728189": {
     "url": "https://mumt07.tangotv.in/zHjX9OFlNHKWORLD/index.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
+    ]
+  },
+  "06a61dd234d98736": {
+    "url": "https://media-osa.hls.nhkworld.jp/hls/w/live/master.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/jp.json"
     ]
@@ -24170,7 +24197,14 @@
   "3fa56adfc26ea119": {
     "url": "https://freem3u.xyz/api/live/play.m3u8?vid=111",
     "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json",
       "https://iptv-org.github.io/iptv/countries/kr.m3u"
+    ]
+  },
+  "f398acd629c97fa4": {
+    "url": "http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
+    "sources": [
+      "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]
   },
   "a3da41bd387c084f": {
@@ -24191,18 +24225,6 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]
   },
-  "f398acd629c97fa4": {
-    "url": "http://amdlive-ch02.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
-    ]
-  },
-  "bc8cb8cb2b55455b": {
-    "url": "http://45.162.64.114/ARIRANG/index.m3u8",
-    "sources": [
-      "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
-    ]
-  },
   "6d630e61079a6e56": {
     "url": "http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
     "sources": [
@@ -24216,8 +24238,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]
   },
-  "83673f5c99733105": {
-    "url": "http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+  "9583e28c4e5e6b5b": {
+    "url": "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]
@@ -24228,8 +24250,8 @@
       "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]
   },
-  "9583e28c4e5e6b5b": {
-    "url": "https://amdlive-ch02-ctnd-com.akamaized.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
+  "83673f5c99733105": {
+    "url": "http://amdlive.ctnd.com.edgesuite.net/arirang_3ch/smil:arirang_3ch.smil/playlist.m3u8",
     "sources": [
       "https://dearbulut.github.io/iptv/api/v1/by-country/kr.json"
     ]

@@ -94,7 +94,3 @@ http://101.35.240.114:88/live.php?id=贵州卫视
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",重庆卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=重庆卫视
-#EXTINF:-1 tvg-id="CHCAction.cn@SD" tvg-name="CHC 动作电影" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="电影",CHC 动作电影
-http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8
-#EXTINF:-1 tvg-id="CHCHomeTheater.cn@SD" tvg-name="CHC 家庭影院" tvg-logo="https://i.imgur.com/AwBldBE.png" group-title="电影",CHC 家庭影院
-http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8

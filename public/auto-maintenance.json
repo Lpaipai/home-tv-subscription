@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T04:15:27+00:00",
+  "checked_at": "2026-11-10T09:04:21+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,67 +10,68 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 9,
+  "attempts": 10,
   "counts": {
-    "decoded": 7,
-    "failed": 1
+    "decoded": 6,
+    "failed": 2
   },
   "state_changes": {
-    "active": 7,
-    "probation": 1
+    "active": 6,
+    "probation": 2
   },
   "suspended_total": 0,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "57df8b3d3fe18f63",
-      "name": "北京卫视",
+      "id": "e4158540127e8d71",
+      "name": "黑龙江卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "d7573ee5e2ad0f05",
-      "name": "CCTV-5",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "d8e72ab03f3e15f8",
-      "name": "山东卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "e759f8f929760f59",
-      "name": "东方卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "006661c270de7f22",
-      "name": "贵州卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "28c407e2c5529a4a",
-      "name": "云南卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "2fecc4a11b14e089",
-      "name": "广东影视",
+      "id": "e53e706808fdd4dd",
+      "name": "天龙八部",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2
     },
     {
-      "id": "816a2d994a0e428e",
-      "name": "广东民生",
+      "id": "f48c95b316e89d26",
+      "name": "浙江休闲台",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "21eb89f15fb38c41",
+      "name": "黑龙江卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "596a46bcac426eba",
+      "name": "湖北卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a6f9853ab1b24087",
+      "name": "湖南卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "f1f99c31c9bd23bc",
+      "name": "广东新闻",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "05d21895aecfe44e",
+      "name": "风云足球",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 3
+  "renewed_by_formal_checks": 4
 }

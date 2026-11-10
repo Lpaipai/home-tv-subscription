@@ -1,23 +1,23 @@
 # 每日电影频道定向音视频抽检
 
-检测时间：2026-11-10T04:14:52+00:00
+检测时间：2026-11-10T09:03:55+00:00
 
 视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。
 
-候选目录 163 条；本次抽检 12 条；总探测 14 次。
-视频与音频均通过 10 条；失败 2 条；受限 0 条；跳过 0 条。
+候选目录 160 条；本次抽检 12 条；总探测 16 次。
+视频与音频均通过 7 条；失败 5 条；受限 0 条；跳过 0 条。
 
 | 频道 | 分组 | 视频 | 音频 | 综合状态 | 说明 |
 |---|---|---|---|---|---|
-| CCTV-6 电影 | 央视 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| CHC 动作电影 | 电影 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
-| CHC 家庭影院 | 电影 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
-| CHC家庭影院 | 其他 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| Hallmark Movies & More | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| Magnificent Movies Network | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| Maverick Black Cinema | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| MovieSphere Gold WFXT | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| MovieSphere（AU） | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| MovieSphere（SD） | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| MovieSphere（UK） | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
-| MovieSphere（US） | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| TVS Classic Movies | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| TVS Drive In Movie | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| TVS Film Noir Network | 美国 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
+| TVS Nostalgia Movies | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| TVS Western Movie | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| Universal Cinema | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| Whiplash Cinema | 美国 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |
+| 东方影视 | 其他 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
+| 东森洋片台 | 台湾 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
+| 东森电影 | 其他 | failed | not_checked | failed | 视频未通过：云端未完成至少 3 帧解码，需家庭网络复核 |
+| 东阳影视生活 | 其他 | failed | not_checked | failed | 视频未通过：云端 16 秒内未完成采样，需家庭网络复核 |
+| 南宁影视娱乐 | 其他 | decoded | decoded | decoded | 视频与音频均完成短时解码；未核验实际节目身份和长期稳定性 |

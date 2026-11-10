@@ -1,17 +1,18 @@
 {
-  "checked_at": "2026-11-10T12:14:29+08:00",
+  "checked_at": "2026-11-10T17:03:33+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3784,
+  "catalog_entries": 3780,
   "sampled": 24,
   "counts": {
-    "decoded": 20,
-    "failed": 4
+    "decoded": 17,
+    "failed": 6,
+    "blocked": 1
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 28,
-  "recovered_on_retry": 0,
+  "attempts": 31,
+  "recovered_on_retry": 1,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
@@ -39,7 +40,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8dc5667966818aaa",
+      "id": "e9d07c68bbcd50e7",
       "name": "东南卫视",
       "group": "卫视",
       "status": "decoded",
@@ -47,7 +48,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3bf0d5ff38bffc72",
+      "id": "6722b8c768e01272",
       "name": "东方卫视",
       "group": "卫视",
       "status": "decoded",
@@ -55,73 +56,8 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "491ce3d0098e5c64",
+      "id": "6ed2653f32747cb9",
       "name": "云南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "795db1d9b757d6df",
-      "name": "兵团卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "b99880486718ea9a",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "93f1afdc6013a4df",
-      "name": "北京卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c90b1aeeeeeeed72",
-      "name": "厦门卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0e40e7fa1d937eec",
-      "name": "吉林卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "bd77881ba5e02d2a",
-      "name": "四川卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1dd3893415a51757",
-      "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "2b9edb32f1aa554f",
-      "name": "天津卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -130,7 +66,77 @@
       "initial_status": "failed"
     },
     {
-      "id": "f3c688db7bc70e94",
+      "id": "cfd8ecb559f8486f",
+      "name": "兵团卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "d183837941c0846f",
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "c578fdc26c1aadfd",
+      "name": "北京卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "281da65d89453770",
+      "name": "厦门卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c6f76fb9c32bf5d2",
+      "name": "吉林卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1a7a3f60fb65cdc6",
+      "name": "四川卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "211e977d779c5fac",
+      "name": "大湾区卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "502ae2b9ad67287f",
+      "name": "天津卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "895ed6d183c8b1f2",
       "name": "宁夏卫视",
       "group": "卫视",
       "status": "failed",
@@ -140,7 +146,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "137615204761023b",
+      "id": "2764ea6bb4725a6e",
       "name": "安徽卫视",
       "group": "卫视",
       "status": "decoded",
@@ -148,7 +154,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "702a7409c2eccbc4",
+      "id": "b264de34d3d02140",
       "name": "山东卫视",
       "group": "卫视",
       "status": "failed",
@@ -166,52 +172,51 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "97c134140649655c",
-      "name": "XFC TV",
+      "id": "120eccc746b8cc37",
+      "name": "CNN 国际台（Europe）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "303ea092df6aa377",
-      "name": "XITE 90's Throwback",
+      "id": "58c16a9e78694192",
+      "name": "CNN 国际台（LatinAmerica）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c4f9dd277b5fcf4e",
-      "name": "XITE Classic Country",
+      "id": "6f2a67700f4e0def",
+      "name": "CNN 国际台（NorthAmerica）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2613a66ac2a5f7ae",
-      "name": "XITE Just Chill",
+      "id": "fe58f6eeb2b3d55f",
+      "name": "CNN 国际台（SouthAsia）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "30bfc736c188602c",
-      "name": "XITE Nuevo Latino",
+      "id": "11a13f23a70c94e8",
+      "name": "CNN 美国有线电视新闻网",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e6c708d38398fd4e",
-      "name": "XITE Reggae Vibes",
+      "id": "037bc4332a761970",
+      "name": "COStv",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
     }
   ]
 }

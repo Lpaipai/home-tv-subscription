@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-11-10T12:15:32+08:00",
+  "generated_at": "2026-11-10T17:04:54+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 35,
+  "preview_lines": 33,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
+  "auto_missing_channels": [
+    "CCTV-16 奥林匹克",
+    "北京卫视",
+    "深圳卫视",
+    "内蒙古卫视",
+    "新疆卫视",
+    "青海卫视",
+    "东南卫视",
+    "吉林卫视",
+    "四川卫视",
+    "安徽卫视",
+    "山东卫视",
+    "山西卫视",
+    "河北卫视",
+    "河南卫视",
+    "甘肃卫视",
+    "辽宁卫视",
+    "黑龙江卫视",
+    "海南卫视",
+    "大湾区卫视",
+    "广西卫视",
+    "云南卫视",
+    "宁夏卫视",
+    "兵团卫视",
+    "CGTN法语",
+    "CGTN俄语"
+  ],
   "entries": [
     {
       "name": "CCTV-1 综合",
@@ -464,26 +491,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CHC 动作电影",
-      "line_id": "d31c47a2ec2d112d",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": false,
-      "selection_mode": "fixed_movie_trial",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CHC 家庭影院",
-      "line_id": "43a1b7e6125210f8",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": false,
-      "selection_mode": "fixed_movie_trial",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     }
