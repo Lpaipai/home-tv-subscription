@@ -23,6 +23,7 @@ on:
       - 'auto_additions.py'
       - 'auto_maintenance.py'
       - 'visual_check.py'
+      - 'test_*.py'
       - '.github/workflows/maintain.yml'
   schedule:
     - cron: '23 22 * * *'  # 北京时间每天 06:23
