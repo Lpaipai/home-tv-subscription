@@ -2,6 +2,7 @@
 """发现候选来源；未测地址暂存，交由有限额解码检测决定自动收录。"""
 import json
 import re
+from functools import lru_cache
 from pathlib import Path
 
 from health_tracking import line_id
@@ -20,6 +21,8 @@ TARGET_ALIASES = {
     "广东大湾区卫视": "大湾区卫视",
     "CCTV16-4K": "CCTV-16 4K",
     "CCTV-16-4K": "CCTV-16 4K",
+    "CCTV16": "CCTV-16 奥林匹克",
+    "CCTV-16": "CCTV-16 奥林匹克",
     "广西桂林综合": "桂林新闻综合",
     "广西桂林新闻综合": "桂林新闻综合",
     "广西桂林科教": "桂林科教旅游",
@@ -53,12 +56,22 @@ def canonical_target_name(name):
     return TARGET_ALIASES.get(name, name)
 
 
+@lru_cache(maxsize=1)
+def family_auto_targets():
+    """从精选配置读取自动补齐目标，给缺失频道更高的候选抽检优先级。"""
+    try:
+        setting = json.loads((ROOT / "family_selection.json").read_text(encoding="utf-8"))
+        return frozenset(setting.get("auto_targets", []))
+    except (OSError, ValueError, TypeError):
+        return frozenset()
+
+
 def candidate_priority(name):
     if name == FEATURED_LOCAL_CHANNEL:
         return "featured_local_channel"
     if name in REGIONAL_CHANNELS:
         return "regional_channel"
-    if name in HTV_GAPS:
+    if name in HTV_GAPS or name in family_auto_targets():
         return "target_missing_channel"
     if important_name(name):
         return "domestic_channel_candidate"
@@ -96,6 +109,12 @@ def summarize_candidates(catalog, existing_entries, downloader, with_entries=Fal
                 if canonical not in include:
                     continue
                 e = dict(e, name=canonical)
+            # APTV 的 UA 写在 EXTINF 中，而 FFmpeg 探测只识别 EXTVLCOPT。
+            if source["id"] == "aptv-similar":
+                agent = e.get("attrs", {}).get("http-user-agent", "")
+                if agent and len(agent) <= 128 and not any(ch in agent for ch in "\\r\\n"):
+                    e = dict(e, directives=list(e.get("directives", []))
+                             + ["#EXTVLCOPT:http-user-agent=" + agent])
             key = line_id(e)
             row = found.setdefault(key, {
                 "line_id": key, "name": e["name"],
