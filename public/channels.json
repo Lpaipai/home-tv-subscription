@@ -4,8 +4,8 @@
     "channels": [
       {
         "name": "CCTV-1 综合",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV-2 财经",
@@ -84,8 +84,8 @@
       },
       {
         "name": "CCTV-13 新闻",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV-14 少儿",
@@ -309,8 +309,8 @@
       },
       {
         "name": "宁夏卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "青海卫视",
@@ -374,8 +374,8 @@
       },
       {
         "name": "云南卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 14,
+        "txt_lines": 14
       },
       {
         "name": "浙江卫视",
@@ -514,8 +514,8 @@
       },
       {
         "name": "广东珠江",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "广州综合",
@@ -646,6 +646,11 @@
         "name": "金鹰卡通",
         "lines": 5,
         "txt_lines": 5
+      },
+      {
+        "name": "精品体育",
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "酒泉新闻综合",
@@ -819,6 +824,11 @@
       },
       {
         "name": "新疆8台",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "兴隆综合",
         "lines": 1,
         "txt_lines": 1
       },

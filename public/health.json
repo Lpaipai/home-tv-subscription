@@ -1,18 +1,17 @@
 {
-  "checked_at": "2026-11-10T17:03:33+08:00",
+  "checked_at": "2026-11-10T17:45:36+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3780,
+  "catalog_entries": 3786,
   "sampled": 24,
   "counts": {
-    "decoded": 17,
-    "failed": 6,
-    "blocked": 1
+    "decoded": 19,
+    "failed": 5
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 31,
-  "recovered_on_retry": 1,
+  "attempts": 29,
+  "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
@@ -40,7 +39,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e9d07c68bbcd50e7",
+      "id": "b64b518a2ca393d0",
       "name": "东南卫视",
       "group": "卫视",
       "status": "decoded",
@@ -48,7 +47,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6722b8c768e01272",
+      "id": "80f439ddd984ec36",
       "name": "东方卫视",
       "group": "卫视",
       "status": "decoded",
@@ -56,7 +55,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6ed2653f32747cb9",
+      "id": "7d8efd8a83b24af8",
       "name": "云南卫视",
       "group": "卫视",
       "status": "failed",
@@ -66,34 +65,33 @@
       "initial_status": "failed"
     },
     {
-      "id": "cfd8ecb559f8486f",
+      "id": "26268980bd35a7f8",
       "name": "兵团卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "eea8b2444a5402b8",
+      "name": "内蒙古卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "d183837941c0846f",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "c578fdc26c1aadfd",
+      "id": "ed9068adec8f8711",
       "name": "北京卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "281da65d89453770",
+      "id": "965947dcf85b156b",
       "name": "厦门卫视",
       "group": "卫视",
       "status": "decoded",
@@ -101,7 +99,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c6f76fb9c32bf5d2",
+      "id": "0e40e7fa1d937eec",
       "name": "吉林卫视",
       "group": "卫视",
       "status": "decoded",
@@ -109,7 +107,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1a7a3f60fb65cdc6",
+      "id": "8fd27a2e5bdb260d",
       "name": "四川卫视",
       "group": "卫视",
       "status": "failed",
@@ -119,24 +117,25 @@
       "initial_status": "failed"
     },
     {
-      "id": "211e977d779c5fac",
+      "id": "cb3217a3e1d1c0b0",
       "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "502ae2b9ad67287f",
-      "name": "天津卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "895ed6d183c8b1f2",
+      "id": "7cf9329767528e39",
+      "name": "天津卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0de068b159ff0162",
       "name": "宁夏卫视",
       "group": "卫视",
       "status": "failed",
@@ -146,7 +145,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "2764ea6bb4725a6e",
+      "id": "cda132d4b4a9e43d",
       "name": "安徽卫视",
       "group": "卫视",
       "status": "decoded",
@@ -154,14 +153,12 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b264de34d3d02140",
+      "id": "ca9e7bf7b929461f",
       "name": "山东卫视",
       "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
       "id": "016099692223e79f",
@@ -172,51 +169,52 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "120eccc746b8cc37",
-      "name": "CNN 国际台（Europe）",
+      "id": "2b7efb53c4ae0e71",
+      "name": "Brat TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "58c16a9e78694192",
-      "name": "CNN 国际台（LatinAmerica）",
+      "id": "c22688a48917b5f8",
+      "name": "Bravo",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6f2a67700f4e0def",
-      "name": "CNN 国际台（NorthAmerica）",
+      "id": "1ca15af01aa838a6",
+      "name": "Brevard Government Access TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "fe58f6eeb2b3d55f",
-      "name": "CNN 国际台（SouthAsia）",
+      "id": "5b4568adcf291ebf",
+      "name": "BritBox Mysteries",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "11a13f23a70c94e8",
-      "name": "CNN 美国有线电视新闻网",
+      "id": "e8ad85c938b2ea0b",
+      "name": "British Comedy",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "037bc4332a761970",
-      "name": "COStv",
+      "id": "766b4d820d2905d3",
+      "name": "Business Rockstars",
       "group": "美国",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ]
 }

@@ -181,17 +181,6 @@
       "status": "decoded",
       "checked_at": "2026-10-23T06:08:43+00:00"
     },
-    "4f44dc8fb4fdfdd8": {
-      "score": 50.0,
-      "failures": 0,
-      "observations": [
-        {
-          "at": "2026-10-23T06:08:43+00:00",
-          "status": "blocked",
-          "attempts": 1
-        }
-      ]
-    },
     "4fc2652fe146ff5b": {
       "score": 35.0,
       "failures": 1,
@@ -5024,8 +5013,167 @@
       ],
       "status": "failed",
       "checked_at": "2026-11-10T09:03:33+00:00"
+    },
+    "4f44dc8fb4fdfdd8": {
+      "score": 50.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-10-23T06:08:43+00:00",
+          "status": "blocked",
+          "attempts": 1
+        },
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "blocked",
+          "attempts": 1
+        }
+      ]
+    },
+    "86e9da0aab990c0f": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "c17c748e421b2b4b": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "c3a5ffafd93a891e": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "6bf2f92c87634634": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "826c908134c70550": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "45fad1a5d2bc20e4": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "48e7368c9e088a12": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "4a35695709b3b064": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "failed",
+          "attempts": 2
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "4ad182fbc7c6fbb7": {
+      "score": 35.0,
+      "failures": 1,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "failed",
+          "attempts": 1
+        }
+      ],
+      "status": "failed",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "ea50b0666f29e011": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
+    },
+    "eaadec92f9fafb2e": {
+      "score": 65.0,
+      "failures": 0,
+      "observations": [
+        {
+          "at": "2026-11-10T09:45:36+00:00",
+          "status": "decoded",
+          "attempts": 1
+        }
+      ],
+      "status": "decoded",
+      "checked_at": "2026-11-10T09:45:36+00:00"
     }
   },
-  "updated_at": "2026-11-10T09:03:33+00:00",
+  "updated_at": "2026-11-10T09:45:36+00:00",
   "visual_holds": {}
 }

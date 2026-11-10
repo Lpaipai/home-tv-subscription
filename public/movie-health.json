@@ -1,80 +1,34 @@
 {
-  "checked_at": "2026-11-10T09:03:55+00:00",
+  "checked_at": "2026-11-10T09:46:12+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
   "catalog_entries": 160,
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "decoded": 7,
-    "failed": 5
+    "decoded": 5,
+    "failed": 6,
+    "blocked": 1
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "TVS Classic Movies",
-    "TVS Drive In Movie",
-    "TVS Film Noir Network",
-    "TVS Nostalgia Movies",
-    "TVS Western Movie",
     "Universal Cinema",
-    "Whiplash Cinema",
     "东方影视",
-    "东森洋片台",
     "东森电影",
-    "东阳影视生活",
-    "南宁影视娱乐"
+    "吉林影视",
+    "哈尔滨影视",
+    "天映频道",
+    "央视怀旧剧场",
+    "央视第一剧场",
+    "央视风云剧场",
+    "安徽影视",
+    "平泉影视",
+    "广东影视"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "daf6523de91d0843",
-      "name": "TVS Classic Movies",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "0079eaf36a1a1ac7",
-      "name": "TVS Drive In Movie",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "daef403a16a3e4ef",
-      "name": "TVS Film Noir Network",
-      "group": "美国",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "57b475651a1de23e",
-      "name": "TVS Nostalgia Movies",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "a4260edb4f6f9f12",
-      "name": "TVS Western Movie",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "289ee77d59bec597",
+      "id": "8c61bb4ef8b14325",
       "name": "Universal Cinema",
       "group": "美国",
       "video_status": "decoded",
@@ -83,16 +37,7 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "2a53fe7ba51a1cec",
-      "name": "Whiplash Cinema",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1627c731974046bb",
+      "id": "d8f8132803b4f995",
       "name": "东方影视",
       "group": "其他",
       "video_status": "failed",
@@ -103,20 +48,18 @@
       "initial_status": "failed"
     },
     {
-      "id": "3ea71f2d9a6e3115",
-      "name": "东森洋片台",
-      "group": "台湾",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "598c97107f865641",
+      "id": "a312ab5f08834803",
       "name": "东森电影",
       "group": "其他",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "f95a536cabb99d7c",
+      "name": "吉林影视",
+      "group": "地方",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed",
@@ -125,22 +68,80 @@
       "initial_status": "failed"
     },
     {
-      "id": "f43cfeeb8658fa27",
-      "name": "东阳影视生活",
-      "group": "其他",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核"
-    },
-    {
-      "id": "d5e53c48f269db30",
-      "name": "南宁影视娱乐",
-      "group": "其他",
+      "id": "c191d685667bf73f",
+      "name": "哈尔滨影视",
+      "group": "地方",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "5dc190c2f5c07cbf",
+      "name": "天映频道",
+      "group": "香港",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "7b90e89bb22727ff",
+      "name": "央视怀旧剧场",
+      "group": "央视",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "51a7ad04d1970cba",
+      "name": "央视第一剧场",
+      "group": "央视",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3df5e41c22e9ff3b",
+      "name": "央视风云剧场",
+      "group": "央视",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "00337532ff506822",
+      "name": "安徽影视",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "dc64a2bcde65f795",
+      "name": "平泉影视",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
+    },
+    {
+      "id": "2fecc4a11b14e089",
+      "name": "广东影视",
+      "group": "地方",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核"
     }
   ]
 }

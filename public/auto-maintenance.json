@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-10T09:04:21+00:00",
+  "checked_at": "2026-11-10T09:46:33+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -12,65 +12,66 @@
   "sampled": 8,
   "attempts": 10,
   "counts": {
-    "decoded": 6,
-    "failed": 2
+    "decoded": 5,
+    "failed": 3
   },
   "state_changes": {
-    "active": 6,
-    "probation": 2
+    "active": 5,
+    "probation": 1,
+    "suspended": 2
   },
-  "suspended_total": 0,
+  "suspended_total": 2,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "e4158540127e8d71",
-      "name": "黑龙江卫视",
+      "id": "2228ed2520a70783",
+      "name": "CCTV-10",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e53e706808fdd4dd",
-      "name": "天龙八部",
+      "id": "3e98ccce1b6a5125",
+      "name": "CCTV-3",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "aa15d2f93f975073",
+      "name": "西藏卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ab36f160ed54251a",
+      "name": "CCTV-12",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "d8e6de3e8f7776a7",
+      "name": "广东民生",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2
     },
     {
-      "id": "f48c95b316e89d26",
-      "name": "浙江休闲台",
+      "id": "de893288be7c6762",
+      "name": "CCTV-14",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "21eb89f15fb38c41",
-      "name": "黑龙江卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "596a46bcac426eba",
-      "name": "湖北卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a6f9853ab1b24087",
-      "name": "湖南卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "f1f99c31c9bd23bc",
-      "name": "广东新闻",
+      "id": "581ae05fbae0c153",
+      "name": "广东珠江",
       "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2
     },
     {
-      "id": "05d21895aecfe44e",
-      "name": "风云足球",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "id": "015617a254d6664c",
+      "name": "广东珠江",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核"
     }
   ],
   "renewed_by_formal_checks": 4
