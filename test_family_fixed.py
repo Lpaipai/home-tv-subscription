@@ -85,7 +85,7 @@ class FixedFamilyTests(unittest.TestCase):
 
 
     def test_auto_fill_needs_two_distinct_success_days_on_trusted_host(self):
-        target = {"name": "广西卫视", "group": "央视",
+        target = {"name": "广西卫视", "group": "卫视",
                   "url": "http://101.35.240.114:88/live.php?id=广西卫视",
                   "attrs": {}, "directives": []}
         now = datetime.now(timezone.utc)
@@ -120,9 +120,9 @@ class FixedFamilyTests(unittest.TestCase):
         self.assertEqual(len(self.config["channels"]), 54)
         self.assertEqual(len(self.config["fixed_entries"]), 90)
         self.assertEqual(self.config["max_lines_per_channel"], 2)
-        cctv16 = grouped["广西卫视"]
+        cctv16 = grouped["CCTV-16 奥林匹克"]
         self.assertEqual(len(cctv16), 2)
-        self.assertEqual(cctv16[0]["url"], "http://101.35.240.114:88/live.php?id=广西卫视")
+        self.assertEqual(cctv16[0]["url"], "http://101.35.240.114:88/live.php?id=CCTV16")
         self.assertEqual(cctv16[0]["attrs"]["http-user-agent"], "iPhone")
         self.assertEqual(cctv16[0]["line_role"], "same_source_trial")
         self.assertEqual(cctv16[1]["line_role"], "backup_trial")
