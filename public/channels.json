@@ -4,18 +4,18 @@
     "channels": [
       {
         "name": "CCTV-1 综合",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-2 财经",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-3 综艺",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV-4 America",
@@ -34,43 +34,43 @@
       },
       {
         "name": "CCTV-4 中文国际",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "CCTV-5 体育",
+        "lines": 4,
+        "txt_lines": 4
+      },
+      {
+        "name": "CCTV-5+ 体育赛事",
         "lines": 5,
         "txt_lines": 5
       },
       {
-        "name": "CCTV-5+ 体育赛事",
-        "lines": 4,
-        "txt_lines": 4
-      },
-      {
         "name": "CCTV-6 电影",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "CCTV-7 国防军事",
-        "lines": 10,
-        "txt_lines": 10
-      },
-      {
-        "name": "CCTV-8 电视剧",
-        "lines": 6,
-        "txt_lines": 6
-      },
-      {
-        "name": "CCTV-9 纪录",
         "lines": 9,
         "txt_lines": 9
       },
       {
+        "name": "CCTV-8 电视剧",
+        "lines": 7,
+        "txt_lines": 7
+      },
+      {
+        "name": "CCTV-9 纪录",
+        "lines": 6,
+        "txt_lines": 6
+      },
+      {
         "name": "CCTV-10 科教",
-        "lines": 5,
-        "txt_lines": 4
+        "lines": 4,
+        "txt_lines": 3
       },
       {
         "name": "CCTV-11 戏曲",
@@ -79,23 +79,23 @@
       },
       {
         "name": "CCTV-12 社会与法",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-13 新闻",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-14 少儿",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-15 音乐",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV-16 奥林匹克",
@@ -104,8 +104,8 @@
       },
       {
         "name": "CCTV-17 农业农村",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CCTV+ 1",
@@ -199,8 +199,8 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "北京卫视",
@@ -219,8 +219,8 @@
       },
       {
         "name": "东方卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "东南卫视",
@@ -234,18 +234,18 @@
       },
       {
         "name": "广东卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "广西卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "贵州卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "海南卫视",
@@ -269,13 +269,13 @@
       },
       {
         "name": "湖北卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "湖南卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "吉林卫视",
@@ -299,8 +299,8 @@
       },
       {
         "name": "辽宁卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "内蒙古卫视",
@@ -309,53 +309,53 @@
       },
       {
         "name": "宁夏卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "青海卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "三沙卫视",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "山东卫视",
+        "lines": 14,
+        "txt_lines": 14
+      },
+      {
+        "name": "山西卫视",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
+        "name": "陕西卫视",
         "lines": 3,
         "txt_lines": 3
       },
       {
-        "name": "山东卫视",
-        "lines": 12,
-        "txt_lines": 12
-      },
-      {
-        "name": "山西卫视",
-        "lines": 5,
-        "txt_lines": 5
-      },
-      {
-        "name": "陕西卫视",
-        "lines": 5,
-        "txt_lines": 5
-      },
-      {
         "name": "深圳卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "四川卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "天津卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "西藏卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "厦门卫视",
@@ -364,23 +364,23 @@
       },
       {
         "name": "新疆卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "延边卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "云南卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "浙江卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 16,
+        "txt_lines": 16
       },
       {
         "name": "重庆卫视",
@@ -484,11 +484,6 @@
       },
       {
         "name": "风云足球",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "凤凰中文",
         "lines": 2,
         "txt_lines": 2
       },
@@ -649,8 +644,8 @@
       },
       {
         "name": "金鹰卡通",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "酒泉新闻综合",
@@ -848,17 +843,47 @@
         "txt_lines": 1
       },
       {
+        "name": "浙江教科",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "浙江教科影视",
         "lines": 1,
         "txt_lines": 1
       },
       {
+        "name": "浙江经济",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "浙江民生",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
+        "name": "浙江钱江",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "浙江少儿",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "浙江新闻",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "浙江休闲台",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "之江纪录",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1074,8 +1099,8 @@
       },
       {
         "name": "浙江国际",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       }
     ]
   },
@@ -1124,8 +1149,8 @@
       },
       {
         "name": "凤凰香港",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "凤凰中文台",
@@ -1179,11 +1204,6 @@
       },
       {
         "name": "香港国际财经台",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "香港卫视",
         "lines": 2,
         "txt_lines": 2
       },
@@ -4348,6 +4368,11 @@
         "txt_lines": 1
       },
       {
+        "name": "E! Latin America（Colombia）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "E! Latin America（Mexico）",
         "lines": 1,
         "txt_lines": 1
@@ -6219,8 +6244,8 @@
       },
       {
         "name": "LiveNOW from FOX",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "LIVExLIVE",
@@ -6404,8 +6429,8 @@
       },
       {
         "name": "Magnificent Movies Network",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Magnolia Network",
@@ -6583,6 +6608,11 @@
         "txt_lines": 1
       },
       {
+        "name": "Mi Musica Popular",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Mi Musica Reggaeton",
         "lines": 1,
         "txt_lines": 1
@@ -6594,8 +6624,8 @@
       },
       {
         "name": "Mi Musica Salsa",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Midnight Pulp",
@@ -7794,8 +7824,8 @@
       },
       {
         "name": "OnTV4U",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Orange Government Access TV",
@@ -9858,6 +9888,11 @@
         "txt_lines": 1
       },
       {
+        "name": "Studio Universal Latin America（Colombia）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Studio Universal Latin America（Panregional）",
         "lines": 3,
         "txt_lines": 3
@@ -10134,8 +10169,8 @@
       },
       {
         "name": "Telemundo West",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Telemundo WTMO-CD",
@@ -10474,8 +10509,8 @@
       },
       {
         "name": "Timeless TV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Tin TV",
@@ -10719,8 +10754,8 @@
       },
       {
         "name": "TUDN (United States)",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Turismo",
@@ -11043,6 +11078,11 @@
         "txt_lines": 2
       },
       {
+        "name": "Univision",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
         "name": "Univision KMEX-DT",
         "lines": 1,
         "txt_lines": 1
@@ -11066,16 +11106,6 @@
         "name": "Univision WLTV-DT",
         "lines": 2,
         "txt_lines": 2
-      },
-      {
-        "name": "Univision（EastHD）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Univision（东部版）",
-        "lines": 3,
-        "txt_lines": 3
       },
       {
         "name": "Unsolved Mysteries（UK）",
@@ -11189,6 +11219,11 @@
       },
       {
         "name": "Vevo True School Hip-Hop",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "VH1",
         "lines": 1,
         "txt_lines": 1
       },
@@ -11493,6 +11528,11 @@
         "txt_lines": 4
       },
       {
+        "name": "WOX TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "WPLG 10.1",
         "lines": 1,
         "txt_lines": 1
@@ -11651,11 +11691,6 @@
         "name": "Zoom News",
         "lines": 1,
         "txt_lines": 0
-      },
-      {
-        "name": "ZTV",
-        "lines": 1,
-        "txt_lines": 1
       },
       {
         "name": "彭博电视（AsiaLiveEvent）",
