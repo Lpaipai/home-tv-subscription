@@ -43,7 +43,7 @@ permissions:
 
 concurrency:
   group: subscription-maintenance
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   maintain:
@@ -84,11 +84,15 @@ jobs:
         continue-on-error: true
         run: python3 -B source_review.py
       - name: 检查抽检工具
+        id: ffmpeg_setup
+        timeout-minutes: 2
+        continue-on-error: true
         run: |
           if ! command -v ffmpeg >/dev/null; then
             sudo apt-get update -qq
             sudo apt-get install -y --no-install-recommends ffmpeg
           fi
+          command -v ffmpeg
       - name: 检查免费本地 OCR
         id: ocr_setup
         if: env.MODE == 'update'
@@ -102,19 +106,19 @@ jobs:
           tesseract --list-langs
       - name: 每日重点频道实播抽检
         id: daily_scan
-        if: env.MODE == 'update'
+        if: env.MODE == 'update' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 4
         continue-on-error: true
         run: python3 -B scan_live.py --mode daily --limit 24 --retry-limit 8
       - name: 每日候选抽检并自动收录通过线路
         id: candidate_scan
-        if: env.MODE == 'update' && steps.discover.outcome == 'success'
+        if: env.MODE == 'update' && steps.discover.outcome == 'success' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 3
         continue-on-error: true
         run: python3 -B candidate_scan.py
       - name: 每日电影频道定向音视频抽检
         id: movie_scan
-        if: env.MODE == 'update'
+        if: env.MODE == 'update' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 6
         continue-on-error: true
         run: |
@@ -125,12 +129,12 @@ jobs:
           fi
       - name: 自动收录线路到期复检与停用恢复
         id: recheck
-        if: env.MODE == 'update'
+        if: env.MODE == 'update' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 3
         continue-on-error: true
         run: python3 -B auto_maintenance.py
       - name: 每周轮换播放抽检
-        if: env.MODE == 'scan'
+        if: env.MODE == 'scan' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 13
         run: python3 -B scan_live.py --mode weekly --limit 120 --retry-limit 40
       - name: 发布前复核生成文件
@@ -171,6 +175,9 @@ jobs:
             else
               echo '每日实播抽检未完成；直播目录照常发布，保留旧抽检报告。' >> "$GITHUB_STEP_SUMMARY"
             fi
+          fi
+          if [ "${{ steps.ffmpeg_setup.outcome }}" != success ]; then
+            echo 'FFmpeg 工具准备失败或超时：本次仍发布已通过回归检查的订阅目录；播放健康抽检跳过并保留上一轮健康记录。' >> "$GITHUB_STEP_SUMMARY"
           fi
       - name: 发布到固定订阅地址
         run: |
