@@ -50,7 +50,7 @@ class MovieSelectionTests(unittest.TestCase):
         self.aliases = movie_scan.load_aliases()
         self.history = {"version": 1, "lines": {}}
 
-    def test_family_movie_channels_are_always_selected_first(self):
+    def test_movie_channels_rotate_without_daily_mandatory_entries(self):
         items = [
             entry("CHC 动作电影", "https://example.com/action.m3u8"),
             entry("CHC 家庭影院", "https://example.com/home.m3u8"),
@@ -61,7 +61,7 @@ class MovieSelectionTests(unittest.TestCase):
         selected = movie_scan.select_movie_entries(
             items, self.history, self.settings, self.aliases, limit=4, rotation=0)
         names = [item["name"] for item in selected]
-        self.assertEqual(names[:3], self.settings["daily_scan"]["always_check"])
+        self.assertEqual(self.settings["daily_scan"]["always_check"], [])
         self.assertEqual(len(selected), 4)
 
     def test_candidate_channels_rotate_without_duplicate_lines(self):
