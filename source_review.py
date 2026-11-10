@@ -112,7 +112,7 @@ def summarize_candidates(catalog, existing_entries, downloader, with_entries=Fal
             # APTV 的 UA 写在 EXTINF 中，而 FFmpeg 探测只识别 EXTVLCOPT。
             if source["id"] == "aptv-similar":
                 agent = e.get("attrs", {}).get("http-user-agent", "")
-                if agent and len(agent) <= 128 and not any(ch in agent for ch in "\\r\\n"):
+                if agent and len(agent) <= 128 and not any(ch in agent for ch in (chr(10), chr(13))):
                     e = dict(e, directives=list(e.get("directives", []))
                              + ["#EXTVLCOPT:http-user-agent=" + agent])
             key = line_id(e)
