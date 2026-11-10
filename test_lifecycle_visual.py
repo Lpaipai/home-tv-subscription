@@ -110,9 +110,11 @@ class LifecycleTests(unittest.TestCase):
                 after_origins = json.loads((public / "line-origins.json").read_text(encoding="utf-8"))
                 self.assertNotIn(key, after_origins)
                 self.assertNotIn(original_url, (public / "live.m3u").read_text(encoding="utf-8"))
-                # 除被暂停线路外，其余线路仍可追溯到上游。
+                # 除暂停线路与人工排除的坏源外，其余线路仍可追溯到上游。
+                excluded = {item["url"] for item in json.loads(
+                    (root / "config.json").read_text(encoding="utf-8"))["live_exclusions"]}
                 for line, info in before_origins.items():
-                    if line == key:
+                    if line == key or info["url"] in excluded:
                         continue
                     self.assertEqual(after_origins[line]["sources"], info["sources"])
 
