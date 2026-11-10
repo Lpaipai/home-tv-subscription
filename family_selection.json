@@ -1,6 +1,6 @@
 {
-  "description": "用户选择的33条投影仪音视频输出通过线路；CCTV-6仅保留在央视分组。其余线路不代表长期稳定或节目身份已完全核验。",
-  "mode": "fixed",
+  "description": "现有33个家庭实测稳定频道固定主线保持不变。对CCTV-16、缺失卫视和CGTN语言台，只从同类已用源站里选取至少跨两个日期解码成功的新线路自动补齐；自动补充频道仍需要家庭设备核验。",
+  "mode": "fixed_plus_auto",
   "channels": [
     "CCTV-1 综合",
     "CCTV-2 财经",
@@ -655,5 +655,39 @@
         "content_observation": "not_fully_verified"
       }
     }
-  ]
+  ],
+  "auto_targets": [
+    "CCTV-16 奥林匹克",
+    "北京卫视",
+    "深圳卫视",
+    "内蒙古卫视",
+    "新疆卫视",
+    "青海卫视",
+    "东南卫视",
+    "吉林卫视",
+    "四川卫视",
+    "安徽卫视",
+    "山东卫视",
+    "山西卫视",
+    "河北卫视",
+    "河南卫视",
+    "甘肃卫视",
+    "辽宁卫视",
+    "黑龙江卫视",
+    "海南卫视",
+    "大湾区卫视",
+    "广西卫视",
+    "云南卫视",
+    "宁夏卫视",
+    "兵团卫视",
+    "CGTN法语",
+    "CGTN俄语"
+  ],
+  "auto_trusted_hosts": [
+    "101.35.240.114",
+    "0472.org"
+  ],
+  "auto_max_lines_per_channel": 1,
+  "auto_min_distinct_success_days": 2,
+  "auto_success_max_age_days": 30
 }
