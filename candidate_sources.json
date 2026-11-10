@@ -159,6 +159,43 @@
       "rights": "unverified",
       "mode": "decode_then_publish",
       "note": "按指定频道发现公网候选，参与统一轮换检测。列表归属和节目身份未经独立人工验证，不代表转播授权。"
+    },
+    {
+      "id": "aptv-similar",
+      "name": "APTV 同源补缺候选",
+      "url": "https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+      "homepage": "https://github.com/Kimentanm/aptv",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "include_channels": [
+        "CCTV-16 奥林匹克",
+        "北京卫视",
+        "深圳卫视",
+        "内蒙古卫视",
+        "新疆卫视",
+        "青海卫视",
+        "东南卫视",
+        "吉林卫视",
+        "四川卫视",
+        "安徽卫视",
+        "山东卫视",
+        "山西卫视",
+        "河北卫视",
+        "河南卫视",
+        "甘肃卫视",
+        "辽宁卫视",
+        "黑龙江卫视",
+        "海南卫视",
+        "大湾区卫视",
+        "广西卫视",
+        "云南卫视",
+        "宁夏卫视",
+        "兵团卫视",
+        "CGTN法语",
+        "CGTN俄语"
+      ],
+      "note": "只采集缺失家庭频道候选。先检测视频解码；需不同日期两次成功且符合家庭同源规则，才能自动补入精选。视频短测不能证明节目身份和使用授权。"
     }
   ],
   "reference_projects": [
