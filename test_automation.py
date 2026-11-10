@@ -322,7 +322,7 @@ class AutomationTests(unittest.TestCase):
         self.assertEqual(result["preview"][0]["sources"], ["one", "two"])
         self.assertFalse(any("url" in e for e in result["preview"]))
 
-    def test_aptv_missing_cctv16_keeps_user_agent_and_priority(self):
+    def test_aptv_fixed_cctv16_keeps_user_agent_without_missing_priority(self):
         sample = {"name": "CCTV16", "group": "央视IPV4",
                   "url": "http://101.35.240.114:88/live.php?id=CCTV16",
                   "attrs": {"http-user-agent": "iPhone"}, "directives": []}
@@ -338,7 +338,7 @@ class AutomationTests(unittest.TestCase):
         self.assertEqual(report["not_in_main"], 1)
         self.assertEqual(len(entries), 1)
         self.assertEqual(entries[0]["name"], "CCTV-16 奥林匹克")
-        self.assertEqual(entries[0]["priority"], "target_missing_channel")
+        self.assertEqual(entries[0]["priority"], "domestic_channel_candidate")
         self.assertIn("#EXTVLCOPT:http-user-agent=iPhone", entries[0]["directives"])
 
     def test_candidate_rejects_unconditional_publish_configuration(self):
