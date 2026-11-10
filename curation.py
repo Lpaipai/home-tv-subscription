@@ -74,6 +74,30 @@ def build_family_outputs(entries, history, config, out, now, render):
                 raise ValueError("固定精选只接受不带账号密码的 HTTP(S) 地址")
         if set(names) != {entry["name"] for entry in entries}:
             raise ValueError("固定精选缺少声明的频道，拒绝生成不完整目录")
+        # 备用线路来自自动收录池：若生命周期管理已暂停或人工加入排除清单，
+        # 不再把它作为精选备用重新发布；主线路及同源试播主线路仍由固定清单控制。
+        ledger_path = out / "auto-additions.json"
+        ledger_entries = {}
+        if ledger_path.exists():
+            ledger_data = json.loads(ledger_path.read_text(encoding="utf-8"))
+            ledger_entries = ledger_data.get("entries", {})
+            if not isinstance(ledger_entries, dict):
+                raise ValueError("自动收录台账格式无效，拒绝生成精选")
+        excluded_urls = {
+            item.get("url") for item in config.get("live_exclusions", [])
+            if isinstance(item, dict) and isinstance(item.get("url"), str)
+        }
+        entries = [
+            entry for entry in entries
+            if not (
+                entry.get("line_role") == "backup_trial"
+                and (
+                    entry.get("url") in excluded_urls
+                    or (line_id(entry) in ledger_entries
+                        and ledger_entries[line_id(entry)].get("state") != "active")
+                )
+            )
+        ]
     grouped = {}
     for entry in entries:
         if entry["name"] in names and (fixed or entry["group"] in {"央视", "卫视", "地方", "国内其他", "国际", "香港"}):
