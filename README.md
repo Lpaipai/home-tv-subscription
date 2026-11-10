@@ -161,4 +161,4 @@
 
 原有 33 条线路取自投影仪现用 APTV 快照，保留 User-Agent，包括用户选择保留的 3 条测试卡；新增 21 条同源试播主线路。另有 36 条备用线路来自近期云端解码成功的候选。备用仅代表云端短时视频解码通过，不代表家庭设备已验证。没有把云端未测 IPv6 自动加入精选；`family-review.json` 分别记录 `line_role`、`cloud_checked_at` 和 `device_verification`，不把云端证据冒充实机验证。
 
-本批 29 条线路需要保留特殊请求头，`family-preview.m3u` 和 `live.m3u` 完整携带；TXT 格式不无损表达这些参数，因此不发布会丢失参数的精选 TXT 行。
+本批 48 条线路需要保留特殊请求头，`family-preview.m3u` 和 `live.m3u` 完整携带；TXT 格式不无损表达这些参数，因此不发布会丢失参数的精选 TXT 行。
