@@ -1,6 +1,6 @@
 # 2026/10/24 02:23:00 by liaoweipeng1
 """家庭小列表与内容人工核验报告。云端能解码并不证明节目身份正确。"""
-from datetime import datetime, date
+from datetime import datetime, date, timezone
 import json
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -58,9 +58,10 @@ def build_family_outputs(entries, history, config, out, now, render):
     if not isinstance(limit, int) or not 1 <= limit <= 5:
         raise ValueError("家庭单频道最多保留 1 至 5 条地址")
     mode = selections.get("mode", "health_ranked")
-    if mode not in {"fixed", "health_ranked"}:
+    if mode not in {"fixed", "health_ranked", "fixed_plus_auto"}:
         raise ValueError("未知的家庭精选选择模式")
-    fixed = mode == "fixed"
+    catalog_entries = entries
+    fixed = mode in {"fixed", "fixed_plus_auto"}
     if fixed:
         entries = selections.get("fixed_entries", [])
         if not isinstance(entries, list) or len(entries) > 1000:
@@ -99,6 +100,69 @@ def build_family_outputs(entries, history, config, out, now, render):
                 "content_status": "manual_image_checked" if verified else "pending_manual_review",
                 "rights_status": "not_verified",
             })
+    if mode == "fixed_plus_auto":
+        # 固定33条主线绝不被候选替换，只对尚未拥有固定主线的频道自动补齐。
+        auto_targets = selections.get("auto_targets", [])
+        allowed_hosts = set(selections.get("auto_trusted_hosts", []))
+        auto_limit = selections.get("auto_max_lines_per_channel", 1)
+        required_days = selections.get("auto_min_distinct_success_days", 2)
+        max_age = selections.get("auto_success_max_age_days", 30)
+        if (not isinstance(auto_targets, list) or len(set(auto_targets)) != len(auto_targets)
+                or not isinstance(auto_limit, int) or not 1 <= auto_limit <= 2
+                or not isinstance(required_days, int) or required_days < 2
+                or not isinstance(max_age, int) or not 1 <= max_age <= 90):
+            raise ValueError("自动精选补齐配置无效")
+        for name in auto_targets:
+            if name in names:
+                continue
+            eligible = []
+            for entry in catalog_entries:
+                if entry.get("name") != name or entry.get("group") not in {"央视", "卫视", "国际"}:
+                    continue
+                url = urlsplit(entry.get("url", ""))
+                if url.scheme not in {"http", "https"} or url.hostname not in allowed_hosts:
+                    continue
+                # 同源规则：只信任当前固定频道所在的两类服务器及已知路径。
+                if url.hostname == "101.35.240.114" and url.path != "/live.php":
+                    continue
+                if url.hostname == "0472.org" and not url.path.startswith("/hls/cgtn"):
+                    continue
+                if entry.get("admission") == "ipv6_unverified" or entry.get("visual_status") == "mismatch":
+                    continue
+                item = history.get("lines", {}).get(line_id(entry), {})
+                if item.get("status") != "decoded":
+                    continue
+                days = set()
+                newest = None
+                for observation in item.get("observations", []):
+                    if observation.get("status") != "decoded":
+                        continue
+                    try:
+                        at = datetime.fromisoformat(observation["at"]).astimezone(timezone.utc)
+                    except (KeyError, ValueError, TypeError):
+                        continue
+                    days.add(at.date())
+                    if newest is None or at > newest:
+                        newest = at
+                if len(days) < required_days or newest is None:
+                    continue
+                age_seconds = (now.astimezone(timezone.utc) - newest).total_seconds()
+                if age_seconds < 0 or age_seconds > max_age * 86400:
+                    continue
+                eligible.append((newest, entry))
+            eligible.sort(key=lambda row: row[0], reverse=True)
+            for _, entry in eligible[:auto_limit]:
+                preview.append(entry)
+                review.append({
+                    "name": name, "line_id": line_id(entry),
+                    "network": network_type(entry["url"]),
+                    "cloud_decoded_recently": True,
+                    "selection_mode": "auto_two_distinct_days_same_source",
+                    "device_verification": None,
+                    "content_status": "pending_manual_review",
+                    "rights_status": "not_verified",
+                })
+
     movie_selection_path = out.parent / "movie_selection.json"
     if movie_selection_path.exists():
         movie_selection = json.loads(movie_selection_path.read_text(encoding="utf-8"))
@@ -108,7 +172,7 @@ def build_family_outputs(entries, history, config, out, now, render):
         movie_entries = movie_selection.get("fixed_entries", [])
         if movie_group != "电影":
             raise ValueError("电影分组名称必须为电影")
-        if (not isinstance(movie_channels, list) or not movie_channels
+        if (not isinstance(movie_channels, list)
                 or len(movie_channels) > 1000
                 or any(not isinstance(name, str) or not name.strip() for name in movie_channels)):
             raise ValueError("电影频道必须声明唯一且非空的频道列表")
@@ -150,6 +214,8 @@ def build_family_outputs(entries, history, config, out, now, render):
         "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
         "preview_lines": len(preview), "manual_content_checked_lines": len(checked),
         "missing_channels": [n for n in names if n not in grouped],
+        "auto_missing_channels": [n for n in selections.get("auto_targets", [])
+                                  if n not in {e["name"] for e in preview}],
         "entries": review,
     }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     return preview
