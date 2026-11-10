@@ -85,12 +85,11 @@ jobs:
         run: python3 -B source_review.py
       - name: 检查抽检工具
         id: ffmpeg_setup
-        timeout-minutes: 2
         continue-on-error: true
         run: |
           if ! command -v ffmpeg >/dev/null; then
-            sudo apt-get update -qq
-            sudo apt-get install -y --no-install-recommends ffmpeg
+            sudo timeout 45s apt-get update -qq
+            sudo timeout 45s apt-get install -y --no-install-recommends ffmpeg
           fi
           command -v ffmpeg
       - name: 检查免费本地 OCR
