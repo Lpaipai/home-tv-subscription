@@ -1,47 +1,13 @@
 {
-  "description": "家庭精选内的独立电影分组。CHC 动作电影和 CHC 家庭影院为试播线路，尚未完成人工节目身份与投影仪实机核验；CCTV-6只保留在央视分组。每日单独进行视频和音频解码测试。",
+  "description": "不再发布两条未经实播核验的CHC固定试播；电影频道按最久未测轮换音视频抽检，无每日必检。",
   "group": "电影",
-  "channels": [
-    "CHC 动作电影",
-    "CHC 家庭影院"
-  ],
+  "channels": [],
   "max_lines_per_channel": 1,
-  "fixed_entries": [
-    {
-      "name": "CHC 动作电影",
-      "attrs": {
-        "tvg-id": "CHCAction.cn@SD",
-        "tvg-name": "CHC 动作电影",
-        "tvg-logo": "https://i.imgur.com/AuiVcyh.png",
-        "group-title": "电影"
-      },
-      "group": "电影",
-      "url": "http://39.134.19.68/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226465/index.m3u8",
-      "directives": []
-    },
-    {
-      "name": "CHC 家庭影院",
-      "attrs": {
-        "tvg-id": "CHCHomeTheater.cn@SD",
-        "tvg-name": "CHC 家庭影院",
-        "tvg-logo": "https://i.imgur.com/AwBldBE.png",
-        "group-title": "电影"
-      },
-      "group": "电影",
-      "url": "http://39.134.19.153/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226462/index.m3u8",
-      "directives": []
-    }
-  ],
+  "fixed_entries": [],
   "daily_scan": {
-    "always_check": [
-      "CCTV-6 电影",
-      "CHC 动作电影",
-      "CHC 家庭影院"
-    ],
+    "always_check": [],
     "target_names": [
       "CCTV-6 电影",
-      "CHC 动作电影",
-      "CHC 家庭影院",
       "美亚电影台",
       "天映频道",
       "东森洋片台",
@@ -76,6 +42,6 @@
     ],
     "limit": 12,
     "retry_limit": 4,
-    "description": "每次优先检测家庭精选电影线路，再轮换电影/影视候选；视频和音频分别解码。"
+    "description": "每次对电影/影视候选按历史检测时间轮换抽检，不强制每日检测指定频道。"
   }
 }
