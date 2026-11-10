@@ -91,10 +91,18 @@ def build_family_outputs(entries, history, config, out, now, render):
             verified = is_recent_content_check(entry["url"], additions, now)
             if verified:
                 checked.append(entry)
+            cloud_decoded = recently_decoded(entry, history, now)
+            if not cloud_decoded and entry.get("cloud_checked_at"):
+                try:
+                    checked_at = datetime.fromisoformat(entry["cloud_checked_at"])
+                    age_seconds = (now - checked_at).total_seconds()
+                    cloud_decoded = 0 <= age_seconds <= 30 * 86400
+                except (TypeError, ValueError):
+                    pass
             review.append({
                 "name": name, "line_id": line_id(entry),
                 "network": network_type(entry["url"]),
-                "cloud_decoded_recently": recently_decoded(entry, history, now),
+                "cloud_decoded_recently": cloud_decoded,
                 "selection_mode": "fixed" if fixed else "health_ranked",
                 "line_role": entry.get("line_role", "primary"),
                 "source_note": entry.get("source_note"),
