@@ -85,8 +85,8 @@ class FixedFamilyTests(unittest.TestCase):
 
 
     def test_auto_fill_needs_two_distinct_success_days_on_trusted_host(self):
-        target = {"name": "CCTV-16 奥林匹克", "group": "央视",
-                  "url": "http://101.35.240.114:88/live.php?id=CCTV16",
+        target = {"name": "广西卫视", "group": "央视",
+                  "url": "http://101.35.240.114:88/live.php?id=广西卫视",
                   "attrs": {}, "directives": []}
         now = datetime.now(timezone.utc)
         observation = {
@@ -99,7 +99,7 @@ class FixedFamilyTests(unittest.TestCase):
         selected, _, _ = self.generate(
             self.config, [target], history={"lines": {line_id(target): observation}})
         self.assertEqual(len(selected), len(self.config["fixed_entries"]) + 1)
-        self.assertEqual(selected[-1]["name"], "CCTV-16 奥林匹克")
+        self.assertEqual(selected[-1]["name"], "广西卫视")
         # 同一日期重复成功，不允许晋级。
         observation["observations"][0]["at"] = observation["observations"][1]["at"]
         selected, _, _ = self.generate(
@@ -107,7 +107,7 @@ class FixedFamilyTests(unittest.TestCase):
         self.assertEqual(len(selected), len(self.config["fixed_entries"]))
         # 其它源站即使跨日成功，也不允许绕过家庭同源准入。
         observation["observations"][0]["at"] = (now - timedelta(days=2)).isoformat()
-        target["url"] = "https://untrusted.example/live.php?id=CCTV16"
+        target["url"] = "https://untrusted.example/live.php?id=广西卫视"
         selected, _, _ = self.generate(
             self.config, [target], history={"lines": {line_id(target): observation}})
         self.assertEqual(len(selected), len(self.config["fixed_entries"]))
@@ -120,9 +120,9 @@ class FixedFamilyTests(unittest.TestCase):
         self.assertEqual(len(self.config["channels"]), 54)
         self.assertEqual(len(self.config["fixed_entries"]), 90)
         self.assertEqual(self.config["max_lines_per_channel"], 2)
-        cctv16 = grouped["CCTV-16 奥林匹克"]
+        cctv16 = grouped["广西卫视"]
         self.assertEqual(len(cctv16), 2)
-        self.assertEqual(cctv16[0]["url"], "http://101.35.240.114:88/live.php?id=CCTV16")
+        self.assertEqual(cctv16[0]["url"], "http://101.35.240.114:88/live.php?id=广西卫视")
         self.assertEqual(cctv16[0]["attrs"]["http-user-agent"], "iPhone")
         self.assertEqual(cctv16[0]["line_role"], "same_source_trial")
         self.assertEqual(cctv16[1]["line_role"], "backup_trial")
