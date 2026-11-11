@@ -1,78 +1,92 @@
 {
-  "checked_at": "2026-11-10T09:45:36+00:00",
+  "checked_at": "2026-11-11T02:03:40+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "failed": 5,
-    "decoded": 6,
-    "blocked": 1
+    "failed": 9,
+    "decoded": 3
   },
   "visual_checked": 3,
   "visual_counts": {
-    "unknown": 3,
-    "not_checked_budget": 1,
-    "unsupported": 2
+    "unknown": 3
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 6,
+  "eligible_for_auto_publish": 3,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "86e9da0aab990c0f",
-      "name": "云南卫视",
+      "id": "8ea992b7d71e2908",
+      "name": "宁夏卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "c17c748e421b2b4b",
-      "name": "宁夏卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unknown",
-      "visual_blocked": false,
-      "frame_count": 2
+      "id": "581ae05fbae0c153",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
     },
     {
-      "id": "c3a5ffafd93a891e",
-      "name": "云南卫视",
-      "group": "卫视",
+      "id": "015617a254d6664c",
+      "name": "广东珠江",
+      "group": "地方",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "6bf2f92c87634634",
-      "name": "云南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "not_checked_budget",
-      "visual_blocked": false
-    },
-    {
-      "id": "826c908134c70550",
-      "name": "云南卫视",
+      "id": "b2786cf828c481f4",
+      "name": "宁夏卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "4f44dc8fb4fdfdd8",
-      "name": "兵团卫视",
+      "id": "8ce66c6df8962c70",
+      "name": "大湾区卫视",
       "group": "卫视",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "45fad1a5d2bc20e4",
-      "name": "CCTV-1",
+      "id": "8e0120ea5932dd7c",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "8412ac8c2283b4e7",
+      "name": "广东卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "846806f5fedcdfe6",
+      "name": "青海卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "8487d5b85d174736",
+      "name": "CCTV-14",
       "group": "央视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
@@ -81,60 +95,37 @@
       "frame_count": 2
     },
     {
-      "id": "48e7368c9e088a12",
-      "name": "CCTV-13",
-      "group": "央视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unknown",
-      "visual_blocked": false,
-      "frame_count": 2
-    },
-    {
-      "id": "4a35695709b3b064",
-      "name": "甘肃卫视",
+      "id": "85120ed0a571d10a",
+      "name": "江苏卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "4ad182fbc7c6fbb7",
-      "name": "香港卫视",
-      "group": "卫视",
+      "id": "fc9c2e4944c2a9ad",
+      "name": "四川科教",
+      "group": "其他",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "ea50b0666f29e011",
-      "name": "兴隆综合",
+      "id": "fcb5a98a42fc633e",
+      "name": "海南少儿",
       "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
-      "visual_blocked": false
-    },
-    {
-      "id": "eaadec92f9fafb2e",
-      "name": "精品体育",
-      "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     }
   ],
-  "promoted": 6,
-  "promoted_decoded": 6,
+  "promoted": 3,
+  "promoted_decoded": 3,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "c17c748e421b2b4b",
-    "6bf2f92c87634634",
-    "45fad1a5d2bc20e4",
-    "48e7368c9e088a12",
-    "ea50b0666f29e011",
-    "eaadec92f9fafb2e"
+    "8412ac8c2283b4e7",
+    "846806f5fedcdfe6",
+    "8487d5b85d174736"
   ],
   "visual_mismatch_blocked": 0
 }

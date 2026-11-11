@@ -2746,13 +2746,14 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-10-24T05:42:02+00:00",
-      "last_attempt_at": "2026-11-06T02:40:49+00:00",
+      "last_attempt_at": "2026-11-11T02:04:53+00:00",
       "last_attempt_status": "failed",
       "failure_days": [
         "2026-11-04",
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-11"
       ],
-      "state": "probation"
+      "state": "suspended"
     },
     "dac15e492f1d34d5": {
       "name": "CCTV-7",
@@ -4287,6 +4288,84 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-10T09:45:36+00:00",
       "last_attempt_at": "2026-11-10T09:45:36+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "8412ac8c2283b4e7": {
+      "name": "广东卫视",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "广东卫视",
+        "tvg-name": "广东卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/广东卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T02:03:40+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "846806f5fedcdfe6": {
+      "name": "青海卫视",
+      "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "青海卫视",
+        "tvg-name": "青海卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/青海卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T02:03:40+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "8487d5b85d174736": {
+      "name": "CCTV-14",
+      "url": "http://204.12.221.218:8181/3m1080p/cctv14.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "CCTV-14",
+        "tvg-name": "CCTV-14",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/CCTV-14.png",
+        "group-title": "📺央视频道"
+      },
+      "group": "📺央视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T02:03:40+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_at": "2026-11-11T02:03:40+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
