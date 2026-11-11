@@ -117,7 +117,7 @@ class IPv6ProvisionalTests(unittest.TestCase):
     def test_publish_keeps_decoding_evidence_separate_from_ipv6_and_next_rechecks(self):
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)
-            for name in ("config.json", "channel_names.json", "family_selection.json",
+            for name in ("config.json", "channel_names.json", "family_selection.json", "platform_selection.json",
                          "candidate_sources.json"):
                 shutil.copy2(update.ROOT / name, root / name)
             shutil.copytree(update.ROOT / "public", root / "public")

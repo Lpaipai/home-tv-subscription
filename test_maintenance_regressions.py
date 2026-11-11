@@ -52,7 +52,7 @@ class VisualPersistenceTests(unittest.TestCase):
         self.assertEqual(report["eligible_for_auto_publish"], 0)
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)
-            for name in ("config.json", "channel_names.json", "family_selection.json",
+            for name in ("config.json", "channel_names.json", "family_selection.json", "platform_selection.json",
                      "candidate_sources.json"):
                 shutil.copy2(update.ROOT / name, root / name)
             shutil.copytree(update.ROOT / "public", root / "public")

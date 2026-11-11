@@ -12,6 +12,9 @@ on:
       - 'family_selection.json'
       - 'movie_selection.json'
       - 'movie_scan.py'
+      - 'platform_scan.py'
+      - 'platform_catalog.py'
+      - 'platform_selection.json'
       - 'channel_catalog.py'
       - 'channel_names.json'
       - 'update.py'
@@ -50,7 +53,7 @@ jobs:
     # 仅在原公开仓库主分支运行，防止转为私有仓库后消耗付费额度。
     if: github.repository == 'Lpaipai/home-tv-subscription' && github.event.repository.private == false && github.ref == 'refs/heads/main'
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 30
     env:
       PYTHONDONTWRITEBYTECODE: '1'
       MODE: ${{ github.event.schedule == '23 23 * * 6' && 'scan' || inputs.mode || 'update' }}
@@ -136,6 +139,12 @@ jobs:
         if: env.MODE == 'scan' && steps.ffmpeg_setup.outcome == 'success'
         timeout-minutes: 13
         run: python3 -B scan_live.py --mode weekly --limit 120 --retry-limit 40
+      - name: 平台轮播候选音视频检查
+        id: platform_scan
+        if: env.MODE == 'update' && steps.ffmpeg_setup.outcome == 'success'
+        timeout-minutes: 5
+        continue-on-error: true
+        run: python3 -B platform_scan.py --limit 24
       - name: 发布前复核生成文件
         env:
           PUBLICATION_POLICY: ${{ secrets.PUBLICATION_POLICY }}

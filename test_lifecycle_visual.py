@@ -93,7 +93,7 @@ class LifecycleTests(unittest.TestCase):
     def test_atomic_rebuild_preserves_origins_and_handles_suspend_resume(self):
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)
-            for name in ("config.json", "channel_names.json", "family_selection.json"):
+            for name in ("config.json", "channel_names.json", "family_selection.json", "platform_selection.json"):
                 shutil.copy2(update.ROOT / name, root / name)
             shutil.copytree(update.ROOT / "public", root / "public")
             public = root / "public"

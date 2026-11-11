@@ -203,7 +203,7 @@ def live_definition(base):
 
 
 def render_live(entries, out, stem="live"):
-    m3u = ["#EXTM3U"]
+    m3u = ["#EXTM3U", "#EXT-X-CATALOG-VERSION:20261111"]
     txt = []
     last_group = None
     omissions = 0
@@ -260,6 +260,8 @@ def publish_directory(out):
 
 def write_live_outputs(entries, history, config, out, report):
     """更新统一直播、精选、来源与数量；调用方负责暂存和原子发布。"""
+    from platform_catalog import is_platform_entry
+    entries = [entry for entry in entries if not is_platform_entry(entry)]
     entries = rank_entries(entries, history, datetime.now(BEIJING))
     write_json(out / "health-history.json", history)
     origins = {}
@@ -287,8 +289,9 @@ def write_live_outputs(entries, history, config, out, report):
     family = family_group_entries(preview)
     # 家庭精选来自固定清单或健康排序；原分组和完整目录均保留。
     report["family_lines"] = len(family)
-    report["family_channels"] = len({entry["name"] for entry in family})
-    report["published_live_groups"] = report["live_groups"] + bool(family)
+    report["family_channels"] = len({entry["attrs"].get("tvg-id") if entry.get("platform_room") else entry["name"] for entry in family})
+    report["published_live_groups"] = len({entry["group"] for entry in family + entries})
+    report["platform_channels"] = sum(bool(entry.get("platform_room")) for entry in family)
     report["published_live_entries"] = len(family) + len(entries)
     report["txt_omitted_special_headers"] = render_live(family + entries, out)
     return entries
@@ -368,6 +371,9 @@ def main():
     history = load_history(ROOT / "public")
     active_ids = {line_id(entry) for entry in entries}
     history["lines"] = {key: value for key, value in history["lines"].items() if key in active_ids}
+    for filename in ("platform-ledger.json", "platform-health.json", "platform-health-history.json"):
+        if (ROOT / "public" / filename).exists():
+            shutil.copy2(ROOT / "public" / filename, out / filename)
     entries = write_live_outputs(entries, history, config, out, report)
     if args.guarded:
         previous = json.loads((ROOT / "public" / "status.json").read_text(encoding="utf-8"))

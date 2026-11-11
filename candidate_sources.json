@@ -175,6 +175,16 @@
         "兵团卫视"
       ],
       "note": "21个同源频道已直接进入家庭精选试播（19个101.35.240.114:88频道、2个0472.org CGTN语言台）；本来源继续为未覆盖的频道提供候选发现。固定试播不代表家庭设备已验证。"
+    },
+    {
+      "id": "jiandantv-platforms",
+      "name": "直播平台轮播候选",
+      "url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "homepage": "https://github.com/jiandantv/IPTV2026",
+      "type": "community",
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "note": "平台房间独立执行短时音视频检测；通过后按分类进入精选，未测、停播与失败条目不直接收录。"
     }
   ],
   "reference_projects": [

@@ -1,0 +1,216 @@
+{
+  "enabled": true,
+  "max_channels": 4000,
+  "group_order": [
+    "影人专场",
+    "类型精选",
+    "综合影院",
+    "剧集轮播",
+    "一起看"
+  ],
+  "rooms": {
+    "https://live.ottiptv.cc/huya/11342412": {
+      "name": "周星驰电影 · 周星星",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/30631741": {
+      "name": "周星驰电影 · 喜剧之王",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11342386": {
+      "name": "成龙电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11601968": {
+      "name": "沈腾电影 · 虎牙影院",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/30080251": {
+      "name": "王宝强电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11352876": {
+      "name": "黄渤徐峥 · 心花路放",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11342387": {
+      "name": "周润发电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11342424": {
+      "name": "刘德华电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11342390": {
+      "name": "李连杰电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11342421": {
+      "name": "林正英电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11352935": {
+      "name": "甄子丹电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11279251": {
+      "name": "洪金宝电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11602045": {
+      "name": "吴京电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11602033": {
+      "name": "许氏三杰电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/29982675": {
+      "name": "古天乐电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11352877": {
+      "name": "林家栋电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11352962": {
+      "name": "吴彦祖电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/30631751": {
+      "name": "林青霞电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/11602058": {
+      "name": "王晶电影",
+      "group": "电影·导演专场"
+    },
+    "https://live.ottiptv.cc/huya/30631756": {
+      "name": "冯小刚电影",
+      "group": "电影·导演专场"
+    },
+    "https://live.ottiptv.cc/huya/880261": {
+      "name": "热门大片 · 虎牙八点档",
+      "group": "电影·综合"
+    },
+    "https://live.ottiptv.cc/huya/11602031": {
+      "name": "喜剧电影放映厅",
+      "group": "电影·喜剧"
+    },
+    "https://live.ottiptv.cc/huya/11352894": {
+      "name": "粤语喜剧电影",
+      "group": "电影·喜剧"
+    },
+    "https://live.ottiptv.cc/huya/20969142": {
+      "name": "香港喜剧电影",
+      "group": "电影·喜剧"
+    },
+    "https://live.ottiptv.cc/huya/10871113": {
+      "name": "动作大片放映厅",
+      "group": "电影·动作"
+    },
+    "https://live.ottiptv.cc/huya/29982611": {
+      "name": "武侠电影放映厅",
+      "group": "电影·动作"
+    },
+    "https://live.ottiptv.cc/huya/26355770": {
+      "name": "古装武侠电影",
+      "group": "电影·动作"
+    },
+    "https://live.ottiptv.cc/huya/11602041": {
+      "name": "国产动作电影",
+      "group": "电影·动作"
+    },
+    "https://live.ottiptv.cc/huya/26355797": {
+      "name": "犯罪电影放映厅",
+      "group": "电影·悬疑犯罪"
+    },
+    "https://live.ottiptv.cc/huya/29982641": {
+      "name": "悬疑电影放映厅",
+      "group": "电影·悬疑犯罪"
+    },
+    "https://live.ottiptv.cc/huya/11342395": {
+      "name": "国产悬疑精选",
+      "group": "电影·悬疑犯罪"
+    },
+    "https://live.ottiptv.cc/huya/11352886": {
+      "name": "警匪电影",
+      "group": "电影·悬疑犯罪"
+    },
+    "https://live.ottiptv.cc/huya/30041512": {
+      "name": "热血警匪电影",
+      "group": "电影·悬疑犯罪"
+    },
+    "https://live.ottiptv.cc/huya/11342419": {
+      "name": "经典黑帮电影",
+      "group": "电影·经典港片"
+    },
+    "https://live.ottiptv.cc/huya/29982639": {
+      "name": "爱情电影放映厅",
+      "group": "电影·爱情"
+    },
+    "https://live.ottiptv.cc/huya/20985801": {
+      "name": "国产科幻电影",
+      "group": "电影·科幻奇幻"
+    },
+    "https://live.ottiptv.cc/huya/29982638": {
+      "name": "东方奇幻电影",
+      "group": "电影·科幻奇幻"
+    },
+    "https://live.ottiptv.cc/huya/11601960": {
+      "name": "恐怖喜剧电影",
+      "group": "电影·惊悚"
+    },
+    "https://live.ottiptv.cc/huya/15152155": {
+      "name": "科幻梦工场 · 解说",
+      "group": "电影解说"
+    },
+    "https://live.ottiptv.cc/huya/30631704": {
+      "name": "九叔林正英 · 陪看",
+      "group": "陪看直播"
+    },
+    "https://live.ottiptv.cc/huya/11342429": {
+      "name": "梁家辉电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/21059588": {
+      "name": "杰森·斯坦森电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/21059581": {
+      "name": "巨石强森电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/huya/21241763": {
+      "name": "史泰龙电影",
+      "group": "电影·演员专场"
+    },
+    "https://live.ottiptv.cc/douyu/1274132": {
+      "name": "铁甲影院 · 陪看",
+      "group": "陪看直播"
+    },
+    "https://live.ottiptv.cc/douyu/7642724": {
+      "name": "米尼影院 · 剧集",
+      "group": "剧集轮播"
+    }
+  },
+  "included_groups": [
+    "影人专场",
+    "类型精选",
+    "综合影院",
+    "剧集轮播",
+    "一起看"
+  ],
+  "group_aliases": {
+    "电影·演员专场": "影人专场",
+    "电影·导演专场": "影人专场",
+    "电影·喜剧": "类型精选",
+    "电影·动作": "类型精选",
+    "电影·经典港片": "类型精选",
+    "电影·悬疑犯罪": "类型精选",
+    "电影·科幻奇幻": "类型精选",
+    "电影·爱情": "类型精选",
+    "电影·惊悚": "类型精选",
+    "电影·综合": "综合影院"
+  }
+}

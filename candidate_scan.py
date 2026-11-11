@@ -47,7 +47,8 @@ def choose_candidates(entries, history, limit, day):
     movie_settings = load_movie_settings()
     movie_aliases = load_movie_aliases()
     for e in entries:
-        if (not allowed_candidate(e) or is_ipv6_literal(e)
+        if (e.get("source_id") == "jiandantv-platforms"
+                or not allowed_candidate(e) or is_ipv6_literal(e)
                 or is_movie_candidate(e.get("name", ""), movie_settings, movie_aliases)):
             continue
         candidates.setdefault(e["id"], e)

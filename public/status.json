@@ -891,14 +891,15 @@
     "other_protocol": 6,
     "invalid": 0
   },
-  "family_lines": 90,
-  "family_channels": 54,
-  "published_live_groups": 12,
-  "published_live_entries": 3978,
-  "txt_omitted_special_headers": 121,
+  "family_lines": 1135,
+  "family_channels": 1099,
+  "published_live_groups": 17,
+  "published_live_entries": 5023,
+  "txt_omitted_special_headers": 1166,
   "vod_updated_at": "2026-10-22T22:43:03+08:00",
   "update_scope": "仅直播；点播沿用此前发布版本",
   "auto_additions_updated_at": "2026-11-11T02:03:40+00:00",
   "auto_suspended": 3,
-  "auto_recheck_at": "2026-11-11T02:04:53+00:00"
+  "auto_recheck_at": "2026-11-11T02:04:53+00:00",
+  "platform_channels": 1045
 }

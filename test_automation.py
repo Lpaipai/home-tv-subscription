@@ -37,7 +37,7 @@ class AutomationTests(unittest.TestCase):
     def test_live_only_preserves_vod_and_health_without_fetching_vod(self):
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)
-            for name in ("config.json", "channel_names.json", "family_selection.json"):
+            for name in ("config.json", "channel_names.json", "family_selection.json", "platform_selection.json"):
                 shutil.copy2(update.ROOT / name, root / name)
             shutil.copytree(update.ROOT / "public", root / "public")
             public = root / "public"

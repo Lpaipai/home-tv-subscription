@@ -34,7 +34,7 @@ class AutoAdditionTests(unittest.TestCase):
                             for entry, status in zip(entries, statuses)]}
 
     def fixture(self, root):
-        for name in ("config.json", "channel_names.json", "family_selection.json",
+        for name in ("config.json", "channel_names.json", "family_selection.json", "platform_selection.json",
                      "candidate_sources.json"):
             shutil.copy2(update.ROOT / name, root / name)
         shutil.copytree(update.ROOT / "public", root / "public")

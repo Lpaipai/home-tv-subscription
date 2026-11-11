@@ -43,7 +43,7 @@ def family_group_entries(selected):
             continue
         seen.add(key)
         item = copy.deepcopy(entry)
-        group = "电影" if entry.get("group") == "电影" else "家庭精选"
+        group = entry["group"] if entry.get("platform_room") else "电影" if entry.get("group") == "电影" else "家庭精选"
         item["group"] = group
         item["attrs"] = dict(item.get("attrs", {}), **{"group-title": group})
         result.append(item)
@@ -244,6 +244,15 @@ def build_family_outputs(entries, history, config, out, now, render):
                     "content_status": "pending_manual_review",
                     "rights_status": "not_verified",
                 })
+
+    from platform_catalog import select_published
+    platform_entries = select_published(out, config)
+    preview.extend(platform_entries)
+    for entry in platform_entries:
+        review.append({"name": entry["name"], "line_id": line_id(entry),
+                       "selection_mode": "platform_audio_video_decoded",
+                       "network": network_type(entry["url"]),
+                       "content_status": "not_manually_verified", "rights_status": "not_verified"})
 
     render(preview, out, "family-preview")
     render(checked, out, "family-content-checked")

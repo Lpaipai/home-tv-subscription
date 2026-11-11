@@ -102,6 +102,11 @@ def summarize_candidates(catalog, existing_entries, downloader, with_entries=Fal
             "homepage": source["homepage"]})
         include = set(source.get("include_channels", []))
         for e in data:
+            if source["id"] == "jiandantv-platforms":
+                from platform_catalog import normalize
+                e = normalize(e)
+                if e is None:
+                    continue
             if e["url"] in excluded_urls:
                 continue
             if include:

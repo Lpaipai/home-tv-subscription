@@ -166,7 +166,8 @@ def main():
         raise RuntimeError("未找到 FFmpeg，不能生成播放检测报告")
     all_entries = parse_live((ROOT / "public" / "live.m3u").read_text(encoding="utf-8"))
     # 精选只是原线路的另一分组，扫描时剔除复本以免占用抽检预算。
-    entries = [e for e in all_entries if e["group"] != "家庭精选"]
+    from platform_catalog import is_platform_entry
+    entries = [e for e in all_entries if e["group"] != "家庭精选" and not is_platform_entry(e)]
     rotation_seconds = 86400 if args.mode == "daily" else 7 * 86400
     rotation = int(datetime.now(timezone.utc).timestamp()) // rotation_seconds
     history = load_history(ROOT / "public")
