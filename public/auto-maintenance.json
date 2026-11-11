@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-11T02:04:53+00:00",
+  "checked_at": "2026-11-11T11:51:54+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -9,24 +9,65 @@
     "max_retry": 2,
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
-  "sampled": 1,
-  "attempts": 2,
+  "sampled": 8,
+  "attempts": 8,
   "counts": {
-    "failed": 1
+    "decoded": 8
   },
   "state_changes": {
-    "suspended": 1
+    "active": 8
   },
   "suspended_total": 3,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "241cc695093291f9",
-      "name": "广东民生",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2
+      "id": "89756f856f9b3b51",
+      "name": "CCTV-4",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8bb1548292a1c661",
+      "name": "CCTV-2",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8c6f7fedb4d84cab",
+      "name": "云南卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "18bd680b1e8ac72d",
+      "name": "贵州卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1985a3c45cb26ebf",
+      "name": "河北卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "2b5083e02f6a39eb",
+      "name": "中国蓝新闻",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "cd6b80aac9b60e63",
+      "name": "广东珠江",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "f8cab55e360d1900",
+      "name": "广东新闻",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 0
+  "renewed_by_formal_checks": 2
 }

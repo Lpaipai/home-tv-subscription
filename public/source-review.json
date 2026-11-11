@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-11T10:01:31+08:00",
+  "fetched_at": "2026-11-11T19:49:26+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -82,13 +82,21 @@
       "rights": "unverified",
       "mode": "decode_then_publish",
       "homepage": "https://github.com/Kimentanm/aptv"
+    },
+    {
+      "id": "jiandantv-platforms",
+      "items": 2561,
+      "cached": false,
+      "rights": "unverified",
+      "mode": "decode_then_publish",
+      "homepage": "https://github.com/jiandantv/IPTV2026"
     }
   ],
   "failures": [],
-  "total_unique": 1788,
-  "not_in_main": 1549,
+  "total_unique": 4348,
+  "not_in_main": 3162,
   "ipv6_literal": 115,
-  "priority_unlisted": 367,
+  "priority_unlisted": 365,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -707,6 +715,17 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "241cc695093291f9",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
       ]
     },
     {
@@ -1393,17 +1412,6 @@
     },
     {
       "line_id": "6d4194986c96ef0c",
-      "name": "CCTV-14",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "8487d5b85d174736",
       "name": "CCTV-14",
       "network": "ipv4_literal",
       "already_in_main": false,

@@ -1,21 +1,21 @@
 {
-  "checked_at": "2026-11-11T10:03:40+08:00",
+  "checked_at": "2026-11-11T19:51:06+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3886,
+  "catalog_entries": 3837,
   "sampled": 24,
   "counts": {
-    "decoded": 19,
-    "failed": 5
+    "decoded": 15,
+    "failed": 9
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 31,
-  "recovered_on_retry": 2,
+  "attempts": 32,
+  "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "008e9a3909d1669a",
+      "id": "932976e1a0818ba2",
       "name": "广西卫视",
       "group": "卫视",
       "status": "decoded",
@@ -31,7 +31,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b16590480a4a9969",
+      "id": "ff24fbfa1f002a25",
       "name": "延边卫视",
       "group": "卫视",
       "status": "decoded",
@@ -39,17 +39,15 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "44e8f151e1ca4f4e",
+      "id": "6dccdf1aabf1adcd",
       "name": "新疆卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4098a79748c422fd",
+      "id": "39a7513f36141b4b",
       "name": "江苏卫视",
       "group": "卫视",
       "status": "failed",
@@ -59,32 +57,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "13e9c4f9d86d5515",
+      "id": "086d3227b5547ab6",
       "name": "江西卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "b2e8bb8d86f79160",
-      "name": "河北卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "30a66f8fc53f336c",
-      "name": "河南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "069e1bd21d215571",
-      "name": "浙江卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -93,8 +67,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "6537000fd55598b9",
-      "name": "海南卫视",
+      "id": "f24929b08a2b152a",
+      "name": "河北卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
@@ -102,23 +76,50 @@
       "initial_status": "failed"
     },
     {
-      "id": "0427b34ebb508db2",
+      "id": "6e9f51aaf2a58c8a",
+      "name": "河南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0d80d1bf31b8e07c",
+      "name": "浙江卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "e403490dda50fae4",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0fb2731184141d0b",
       "name": "深圳卫视",
       "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "117df8dee466f95f",
+      "id": "1ace420e520100d5",
       "name": "湖北卫视",
       "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "4f0f408cf66eb013",
+      "id": "9dbf14240904eb53",
       "name": "湖南卫视",
       "group": "卫视",
       "status": "decoded",
@@ -126,24 +127,25 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "cc6952b6f3e5d862",
+      "id": "3fb8352753cb3dc4",
       "name": "甘肃卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "3797ad87bfbeeb1e",
-      "name": "西藏卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "580bd2b62c2691c0",
+      "id": "3ed48b03eafe3174",
+      "name": "西藏卫视",
+      "group": "卫视",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "7fe3b660829b8679",
       "name": "贵州卫视",
       "group": "卫视",
       "status": "decoded",
@@ -151,7 +153,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "07922a2074693f90",
+      "id": "147b319ae3c4d885",
       "name": "辽宁卫视",
       "group": "卫视",
       "status": "failed",
@@ -160,62 +162,60 @@
       "initial_status": "failed"
     },
     {
-      "id": "2b7e4cf4328e1634",
+      "id": "87c936403fb062c3",
       "name": "重庆卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a89be56e2bc337cf",
-      "name": "FilmRise Western",
+      "id": "8c89e6b73affa2e2",
+      "name": "Pluto TV Kids（BR）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b7f026f28bc4ea12",
-      "name": "Filmes Suspense",
+      "id": "b0fdde7ff8dde21e",
+      "name": "Pluto TV Kids（LatAm）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a946e9c391c264b2",
-      "name": "Flicks of Fury",
+      "id": "2f67af28e00fe7cf",
+      "name": "Pluto TV Lives",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2c260c4a9494202e",
-      "name": "FloHockey",
+      "id": "8b53fafc28f84c1e",
+      "name": "Pluto TV Los nuevos detectives",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "634f7da3dfc4c94c",
-      "name": "FloRacing",
+      "id": "0914f77fb5609728",
+      "name": "Pluto TV Melrose Place",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f4b09ed2ca0524ba",
-      "name": "Flowers TV USA",
+      "id": "d317040e469865ab",
+      "name": "Pluto TV Mi Obsesion Favorita",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
     }
   ]
 }

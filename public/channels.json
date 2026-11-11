@@ -9,8 +9,8 @@
       },
       {
         "name": "CCTV-2 财经",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "CCTV-3 综艺",
@@ -44,8 +44,8 @@
       },
       {
         "name": "CCTV-5+ 体育赛事",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-6 电影",
@@ -59,8 +59,8 @@
       },
       {
         "name": "CCTV-8 电视剧",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-9 纪录",
@@ -69,8 +69,8 @@
       },
       {
         "name": "CCTV-10 科教",
-        "lines": 9,
-        "txt_lines": 8
+        "lines": 8,
+        "txt_lines": 7
       },
       {
         "name": "CCTV-11 戏曲",
@@ -94,8 +94,8 @@
       },
       {
         "name": "CCTV-15 音乐",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "CCTV-16 奥林匹克",
@@ -104,8 +104,8 @@
       },
       {
         "name": "CCTV-17 农业农村",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV+ 1",
@@ -199,13 +199,13 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "北京卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "兵团卫视",
@@ -219,8 +219,8 @@
       },
       {
         "name": "东方卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "东南卫视",
@@ -234,8 +234,8 @@
       },
       {
         "name": "广东卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "广西卫视",
@@ -284,13 +284,13 @@
       },
       {
         "name": "江苏卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "江西卫视",
-        "lines": 17,
-        "txt_lines": 17
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "康巴卫视",
@@ -299,8 +299,8 @@
       },
       {
         "name": "辽宁卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 14,
+        "txt_lines": 14
       },
       {
         "name": "内蒙古卫视",
@@ -309,8 +309,8 @@
       },
       {
         "name": "宁夏卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "青海卫视",
@@ -344,8 +344,8 @@
       },
       {
         "name": "四川卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "天津卫视",
@@ -379,8 +379,8 @@
       },
       {
         "name": "浙江卫视",
-        "lines": 18,
-        "txt_lines": 18
+        "lines": 17,
+        "txt_lines": 17
       },
       {
         "name": "重庆卫视",
@@ -689,8 +689,8 @@
       },
       {
         "name": "女性时尚",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "萍乡新闻综合",
@@ -839,6 +839,11 @@
       },
       {
         "name": "亚洲新闻",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "永昌综合",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1573,11 +1578,6 @@
         "txt_lines": 1
       },
       {
-        "name": "A&E",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "A&E Latin America（Brazil）",
         "lines": 2,
         "txt_lines": 2
@@ -1833,11 +1833,6 @@
         "txt_lines": 3
       },
       {
-        "name": "ACC Network",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Access 4 PAC",
         "lines": 1,
         "txt_lines": 1
@@ -1879,8 +1874,8 @@
       },
       {
         "name": "AccuWeather NOW",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "ACE Country Radio KPVM-LD",
@@ -1906,16 +1901,6 @@
         "name": "Adrenalina Pura TV",
         "lines": 2,
         "txt_lines": 2
-      },
-      {
-        "name": "Adult Swim Latin America（Brazil）",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "Adult Swim Latin America（Panregional）",
-        "lines": 1,
-        "txt_lines": 1
       },
       {
         "name": "Adult Swim West [Not 24/7;Geo-blocked]",
@@ -2079,8 +2064,8 @@
       },
       {
         "name": "AMC (United States)",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "AMC en Espanol",
@@ -2204,8 +2189,8 @@
       },
       {
         "name": "Animal Planet (United States)",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Animal Planet Latin America",
@@ -2413,11 +2398,6 @@
         "txt_lines": 3
       },
       {
-        "name": "AXN Latin America（Mexico）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "AXN Latin America（Panregional）",
         "lines": 2,
         "txt_lines": 2
@@ -2449,8 +2429,8 @@
       },
       {
         "name": "AXS TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Baby Shark TV",
@@ -2526,11 +2506,6 @@
         "name": "Baywatch",
         "lines": 7,
         "txt_lines": 7
-      },
-      {
-        "name": "BBC America",
-        "lines": 1,
-        "txt_lines": 1
       },
       {
         "name": "BBC Earth US",
@@ -3014,13 +2989,13 @@
       },
       {
         "name": "Cartoon Network Latin America（Brazil）",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Cartoon Network Latin America（NorthAtlantic）",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Cartoon Network Latin America（SouthAtlanticHD）",
@@ -3359,8 +3334,8 @@
       },
       {
         "name": "Cine Premium",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Cine Romantico",
@@ -3419,8 +3394,8 @@
       },
       {
         "name": "Cinemax Latin America",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "CinePride",
@@ -3774,8 +3749,8 @@
       },
       {
         "name": "Cops",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "Cornerstone TV",
@@ -4104,8 +4079,8 @@
       },
       {
         "name": "DHE",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Didgah TV",
@@ -4119,11 +4094,6 @@
       },
       {
         "name": "Discovery Channel (United States)",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Discovery Channel Latin America（Brazil）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4154,11 +4124,6 @@
       },
       {
         "name": "Discovery Kids Latin America（Colombia）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Discovery Kids Latin America（Mexico）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4423,11 +4388,6 @@
         "txt_lines": 1
       },
       {
-        "name": "El Sembrador Nueva Evangelizacion ESNE",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Elbeshara GTV",
         "lines": 1,
         "txt_lines": 1
@@ -4474,8 +4434,8 @@
       },
       {
         "name": "ESNE TV",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "ESPN8: The Ocho",
@@ -5014,8 +4974,8 @@
       },
       {
         "name": "FX Latin America（Panregional）",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "FX Latin America（South）",
@@ -5194,8 +5154,8 @@
       },
       {
         "name": "Golf Channel Latin America",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "GoodLife 45",
@@ -5739,8 +5699,8 @@
       },
       {
         "name": "Investigation Discovery Latin America",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "INWILD",
@@ -6429,11 +6389,6 @@
       },
       {
         "name": "Magnificent Movies Network",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Magnolia Network",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7269,8 +7224,8 @@
       },
       {
         "name": "NBC WJAR",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "NBC WKYC",
@@ -9434,8 +9389,8 @@
       },
       {
         "name": "Semillitas TV",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Sensing Murder",
@@ -9634,8 +9589,8 @@
       },
       {
         "name": "Sony Movies Latin America",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Sound View Community Media",
@@ -10173,11 +10128,6 @@
         "txt_lines": 1
       },
       {
-        "name": "TeleXitos",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Temecula TV",
         "lines": 1,
         "txt_lines": 1
@@ -10576,11 +10526,6 @@
         "name": "TNT Latin America（South）",
         "lines": 1,
         "txt_lines": 0
-      },
-      {
-        "name": "TNT Novelas（Brazil）",
-        "lines": 1,
-        "txt_lines": 1
       },
       {
         "name": "TNT Novelas（ColombiaHD）",
@@ -11028,16 +10973,6 @@
         "txt_lines": 1
       },
       {
-        "name": "UniMas（Central）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "UniMas（WAMIDT）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Universal Cinema",
         "lines": 2,
         "txt_lines": 2
@@ -11064,8 +10999,8 @@
       },
       {
         "name": "Univision",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Univision KMEX-DT",
@@ -11104,8 +11039,8 @@
       },
       {
         "name": "USA Network",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "USA Network Latin America",

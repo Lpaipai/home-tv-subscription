@@ -261,6 +261,9 @@ https://live.ottiptv.cc/huya/11342386
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1038/2e/6566e3e908ec0ae09387e3ab594ba2_180_135.jpg?1446441422" group-title="影人专场" tvg-id="PLATFORM_96c415a3811ceb68" tvg-name="李连杰电影",李连杰电影
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11342390
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1095/88/30b87b0089d3fb73c3040ff5ea6a19_180_135.jpg?1618468236" group-title="影人专场" tvg-id="PLATFORM_a15a2bd3d552fa90" tvg-name="杰森·斯坦森电影",杰森·斯坦森电影
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/21059588
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1032/ec/67260a4154e056eeff0934114422a7_180_135.jpg" group-title="影人专场" tvg-id="PLATFORM_c9cb87ee86b785c6" tvg-name="林家栋电影",林家栋电影
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11352877
@@ -621,6 +624,9 @@ https://live.ottiptv.cc/douyu/9414884
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1077/29/fd4f9175d62f8d4b18dadb334dba25_180_135.jpg?1787264203" group-title="综合影院" tvg-id="PLATFORM_af64d11c8e45d744" tvg-name="浅浅爱电影",浅浅爱电影
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/31274232
+#EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="综合影院" tvg-id="PLATFORM_87f11e65dcea5e50" tvg-name="海湾电影",海湾电影
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/31371694
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201806/df183b1d850788d0b42ed9b8b3c0846e_big.jpg" group-title="综合影院" tvg-id="PLATFORM_c84326960cd7d299" tvg-name="涛浪浪电影",涛浪浪电影
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/5424258
@@ -789,6 +795,9 @@ https://live.ottiptv.cc/huya/11342404
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1016/6e/8c4c0663da63b3eee64b4e6b7c7e8c_180_135.jpg?1462501351" group-title="一起看" tvg-id="PLATFORM_f25a5cb41139c3b8" tvg-name="-小癲",-小癲
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11602065
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1033/74/4e53152975413e83dc7ab387ee5230_180_135.jpg?1449121897" group-title="一起看" tvg-id="PLATFORM_8f7dcdfd47479b1c" tvg-name="-惟美",-惟美
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11352885
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1048/7c/91edc505bc2b8068ae1f0ba822d7a9_180_135.jpg?1464061479" group-title="一起看" tvg-id="PLATFORM_f89ccd760e8141dc" tvg-name="-懒猪",-懒猪
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11342393
@@ -885,6 +894,9 @@ https://live.ottiptv.cc/douyu/4246519
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202408/99a191d4381043a5bd99e78767e09713_big.jpg" group-title="一起看" tvg-id="PLATFORM_559cf2f4c78afe8d" tvg-name="Poison丶冰冰",Poison丶冰冰
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/74374
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1020/2f/b9c743197ec3e8c7a58785f81d066a_180_135.jpg?1721817356" group-title="一起看" tvg-id="PLATFORM_308649a75d5f8f14" tvg-name="RainyRabbits",RainyRabbits
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/30080172
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1022/c2/47eb2295c7e5865c9d6db3cdf34cf3_180_135.jpg?1453364729" group-title="一起看" tvg-id="PLATFORM_d39862e1773dd010" tvg-name="SMG吐槽担当",SMG吐槽担当
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11352961
@@ -1071,6 +1083,9 @@ https://live.ottiptv.cc/huya/26355798
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1057/b1/86411769a7594adda1e6c43572dffd_180_135.jpg" group-title="一起看" tvg-id="PLATFORM_b18e3c80435d248c" tvg-name="不发威当我Kitty",不发威当我Kitty
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11342403
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1017/07/537196710105cd97eb36990c6da854_180_135.jpg?1717726056" group-title="一起看" tvg-id="PLATFORM_d4c8eed78560ad94" tvg-name="不能全鱼",不能全鱼
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/26355771
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1060/f9/f3f4495dafa8a6901138761ef2c284_180_135.jpg?1583571151" group-title="一起看" tvg-id="PLATFORM_14512c0c98817b3d" tvg-name="且听我说",且听我说
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985820
@@ -1128,6 +1143,12 @@ https://live.ottiptv.cc/huya/26355835
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1056/59/1a1f07535d27c088512b1ec8d4bdf9_180_135.jpg?1646814431" group-title="一起看" tvg-id="PLATFORM_ced1e4b2042b1c5c" tvg-name="二十鯉",二十鯉
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/26355783
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1042/31/acbbe18041f7127171e91973b9a0a7_180_135.jpg?1470391302" group-title="一起看" tvg-id="PLATFORM_38747ba64d7df873" tvg-name="二次元baby",二次元baby
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11601963
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1062/69/6cb628f7784cdc3baccbe0a14d8b51_180_135.jpg" group-title="一起看" tvg-id="PLATFORM_7d8bf65481fc3b17" tvg-name="二次元控",二次元控
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11352912
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1020/1d/b7ddcc2fc40ee32b6e35bfa4d7cd1d_180_135.jpg?1581171506" group-title="一起看" tvg-id="PLATFORM_cd3cb3c3ead33c11" tvg-name="云初",云初
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20969099
@@ -1143,6 +1164,9 @@ https://live.ottiptv.cc/huya/136154
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1042/6a/6763e0c3405d097b6f62e2220e3287_180_135.jpg?1720603446" group-title="一起看" tvg-id="PLATFORM_9f2d621ef4b81236" tvg-name="人类观察员love",人类观察员love
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/29982628
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1054/c2/7837a02ddcffb1daf5633c404a5588_180_135.jpg?1584958468" group-title="一起看" tvg-id="PLATFORM_4c55fc12bf4b9ddf" tvg-name="人间眩法师",人间眩法师
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/20985855
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1067/5d/8a1c3d3271316033738af2b97e2b36_180_135.jpg?1722567096" group-title="一起看" tvg-id="PLATFORM_12624c5d9056b746" tvg-name="今天不想梳头发",今天不想梳头发
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080233
@@ -1239,6 +1263,9 @@ https://live.ottiptv.cc/huya/20969111
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202102/410eda50ea9c4cc086770637bff09c6d_big.jpg" group-title="一起看" tvg-id="PLATFORM_580fa4fc446d0e7a" tvg-name="冥王星丶丶",冥王星丶丶
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/296575
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1067/6f/6090b09d49e3b52b49c34b557e327a_180_135.jpg?1721365569" group-title="一起看" tvg-id="PLATFORM_67f927ca1b15497b" tvg-name="冬日暖心猫",冬日暖心猫
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/29982669
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1076/cc/5884c5853ab4abc2bc02015e137302_180_135.jpg?1721206629" group-title="一起看" tvg-id="PLATFORM_133c12652093a34c" tvg-name="冬至小肉丸子圈圈",冬至小肉丸子圈圈
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080141
@@ -1314,6 +1341,9 @@ https://live.ottiptv.cc/huya/11342400
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1006/e9/c8c7e7e3fe872a8d5ac413a033a88b_180_135.jpg?1463660408" group-title="一起看" tvg-id="PLATFORM_b648cff43925e582" tvg-name="北岛南城",北岛南城
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11601962
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1090/29/b2a1ae3f536f70847a4479e32db6eb_180_135.jpg?1445854580" group-title="一起看" tvg-id="PLATFORM_11658821b44f4468" tvg-name="北岛的诗",北岛的诗
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11336591
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1087/04/766774e5a4ecf6f00dcc05df5ca14e_180_135.jpg?1722331164" group-title="一起看" tvg-id="PLATFORM_0815097cca3a1e56" tvg-name="匹马泪沾襟",匹马泪沾襟
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080137
@@ -1476,6 +1506,9 @@ https://live.ottiptv.cc/huya/21059635
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1076/7e/99584647e1ac02f3d7b6c76aefe48a_180_135.jpg?1586851499" group-title="一起看" tvg-id="PLATFORM_e2e2760b05ed87b6" tvg-name="唐唐科普",唐唐科普
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985846
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/10_big.jpg" group-title="一起看" tvg-id="PLATFORM_537f3ffea13e0f82" tvg-name="唯爱经典影视",唯爱经典影视
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/7582564
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1027/f5/bc80b986f964090fed6ed82e1ffa60_180_135.jpg?1718780195" group-title="一起看" tvg-id="PLATFORM_2a73308a96d34177" tvg-name="啵比小登西",啵比小登西
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/29982615
@@ -1488,6 +1521,9 @@ https://live.ottiptv.cc/huya/29982621
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_3538204d813ad355" tvg-name="喵喵即正义",喵喵即正义
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/21059528
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1046/19/3ee0ad4c36da5626f9c61387b2608c_180_135.jpg?1445851228" group-title="一起看" tvg-id="PLATFORM_a036760784b5f048" tvg-name="嘤嘤嘤",嘤嘤嘤
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11336579
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1057/76/c5f8987e1979df47a7716920337988_180_135.jpg?1598597631" group-title="一起看" tvg-id="PLATFORM_77e8004df5c86ca1" tvg-name="噜吖噜",噜吖噜
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/21241790
@@ -1899,6 +1935,9 @@ https://live.ottiptv.cc/douyu/7107176
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_ce61643c79e87228" tvg-name="徒步喜马拉雅",徒步喜马拉雅
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/24609811
+#EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_b8b277c7279b5420" tvg-name="御所田南通",御所田南通
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/26355773
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1080/8d/cc05082f5fb4785d4b4489a7206be3_180_135.jpg?1721898506" group-title="一起看" tvg-id="PLATFORM_0b75d7e3443081a5" tvg-name="微凉不小行",微凉不小行
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080215
@@ -2160,6 +2199,9 @@ https://live.ottiptv.cc/huya/21059615
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/face/201606/17/7ddff7b37e79dcffd9a99f95e9229c29_big.jpg" group-title="一起看" tvg-id="PLATFORM_341d3f6f18154a73" tvg-name="旧梦随人心",旧梦随人心
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/692533
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1043/eb/98cdb6c3cc433165914bd0649fc840_180_135.jpg?1457606900" group-title="一起看" tvg-id="PLATFORM_7819011c9355b8ba" tvg-name="时光小偷",时光小偷
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11352952
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1062/dc/d023e8f9d41fa4d749665d0088bee8_180_135.jpg?1583255540" group-title="一起看" tvg-id="PLATFORM_fddbb9524fbbeaca" tvg-name="旺财",旺财
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/21241762
@@ -2244,6 +2286,9 @@ https://live.ottiptv.cc/douyu/1816353
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1042/5c/095069e7b6f5425eac3cd94c599c9f_180_135.jpg?1721374994" group-title="一起看" tvg-id="PLATFORM_4c36083aa9a01012" tvg-name="望处不是筝",望处不是筝
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/29982668
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1090/88/9d8223e8aa5b3a10f6d726456dac5a_180_135.jpg?1704876148" group-title="一起看" tvg-id="PLATFORM_240fa56bef275e3e" tvg-name="朝服金子",朝服金子
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/29465865
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1050/20/8af820dbf14f0dd8c6be0aa3a0a8d1_180_135.jpg?1581171776" group-title="一起看" tvg-id="PLATFORM_419aea6ca0bceaa2" tvg-name="木槿花",木槿花
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20969100
@@ -2382,6 +2427,12 @@ https://live.ottiptv.cc/huya/29982610
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1095/63/4e9b3857197bafb4342d6751f5e09a_180_135.jpg?1606806769" group-title="一起看" tvg-id="PLATFORM_cd558a2857556036" tvg-name="油麻地糖水铺",油麻地糖水铺
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/23734223
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1048/3d/c60cc333be48c5955b95e7fdc519b3_180_135.jpg?1598522569" group-title="一起看" tvg-id="PLATFORM_480ec46bfdb14ec5" tvg-name="治愈之声",治愈之声
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/21241787
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1077/5e/99d75556e1474580a4cabb92a47ad4_180_135.jpg?1729851129" group-title="一起看" tvg-id="PLATFORM_7c2f31988167b333" tvg-name="泉上老见示",泉上老见示
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/29982664
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_0b41e7907fc77ffc" tvg-name="活泼如清泉",活泼如清泉
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30826141
@@ -2418,6 +2469,9 @@ https://live.ottiptv.cc/huya/26355767
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1047/9e/ca98f49b8ac4c72071e50b60cbfc57_180_135.jpg?1581170912" group-title="一起看" tvg-id="PLATFORM_4b1ee5bdbf344a2c" tvg-name="渡川",渡川
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20969095
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1009/fa/4be7d110899ca9b0a0a43a846da29e_180_135.jpg?1612406287" group-title="一起看" tvg-id="PLATFORM_c23aaa4b294ef259" tvg-name="港剧一家人",港剧一家人
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/23903152
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1039/28/fd3f3771902f4326973d5b9f37b6b5_180_135.jpg?1612405609" group-title="一起看" tvg-id="PLATFORM_52e541a60b0697da" tvg-name="港剧伴你行",港剧伴你行
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/23903183
@@ -2601,6 +2655,9 @@ https://live.ottiptv.cc/huya/20985833
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/20_big.jpg" group-title="一起看" tvg-id="PLATFORM_b2191b40f0c8de72" tvg-name="用户6827521003",用户6827521003
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/12878276
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1067/5f/253e3dfcfbc9a8c683a25877452819_180_135.jpg?1581152141" group-title="一起看" tvg-id="PLATFORM_a7dbb5558fb226a8" tvg-name="田园生活分享",田园生活分享
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/20969145
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1077/fb/716d9dae8f12f2b142ee18d2e24703_180_135.jpg?1679644579" group-title="一起看" tvg-id="PLATFORM_0f132074d8bcb168" tvg-name="电竞也要专用机",电竞也要专用机
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/26355816
@@ -2709,6 +2766,9 @@ https://live.ottiptv.cc/huya/11352967
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_07390e8b5efd64b3" tvg-name="笑笑",笑笑
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985764
+#EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1091/2d/7bb2f158c9d3f0896f6ed313afc638_180_135.jpg?1456304717" group-title="一起看" tvg-id="PLATFORM_c5e4acd9a70f3e57" tvg-name="笙歌",笙歌
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11352965
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/201908/10fe026c1c104a0c9900278e51a02ad9_big.jpg" group-title="一起看" tvg-id="PLATFORM_acd499e068c94a63" tvg-name="笨鸟最后飞",笨鸟最后飞
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/7360064
@@ -3021,6 +3081,9 @@ https://live.ottiptv.cc/huya/29465897
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1042/0e/356fe2b69229b3b6e59517597aaa75_180_135.jpg?1446129774" group-title="一起看" tvg-id="PLATFORM_0a19ace6313cf71b" tvg-name="裸奔的蜗牛╮",裸奔的蜗牛╮
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11342418
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1088/bd/85484a0eb2156309986fa8a5741629_180_135.jpg?1612508374" group-title="一起看" tvg-id="PLATFORM_55c308b5a39d85e9" tvg-name="西九龙冠希哥",西九龙冠希哥
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/21059579
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1022/e4/04582b06a90aa5a3adf7f99c4938d1_180_135.jpg?1712908856" group-title="一起看" tvg-id="PLATFORM_024fc10e8121c8d3" tvg-name="西双版纳旅游",西双版纳旅游
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/29465880
@@ -3078,6 +3141,9 @@ https://live.ottiptv.cc/huya/29982649
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_9a9f9b376d4d1025" tvg-name="赛文777",赛文777
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/21059607
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202004/56fd7f44af5e49ca890a915672ef90a0_big.jpg" group-title="一起看" tvg-id="PLATFORM_b471b7bfdefd9ef6" tvg-name="趁我们还年轻812",趁我们还年轻812
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/7805562
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1067/2b/78dfb36d77377464856ed5d474bf73_180_135.jpg" group-title="一起看" tvg-id="PLATFORM_b361fc729b456ecf" tvg-name="超能力是放pi",超能力是放pi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11352906
@@ -3309,6 +3375,9 @@ https://live.ottiptv.cc/huya/23865080
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1053/c0/70199c2cda947b9edf3e924d7d3d1d_180_135.jpg?1596715608" group-title="一起看" tvg-id="PLATFORM_20bf845822e1423f" tvg-name="马克婷日常",马克婷日常
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985774
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1028/a2/49b5cac802d4e17b52eeaab4985aeb_180_135.jpg?1612427205" group-title="一起看" tvg-id="PLATFORM_a5ced77771a4331f" tvg-name="马春夏秋冬梅",马春夏秋冬梅
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/21059564
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1065/67/908a568a79e5a8b32080477423de79_180_135.jpg?1586851807" group-title="一起看" tvg-id="PLATFORM_6545d777f34897b1" tvg-name="驯鹿的阶梯",驯鹿的阶梯
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985870
@@ -3348,6 +3417,9 @@ https://live.ottiptv.cc/huya/21059586
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1045/77/f8251ae3c15ca6384b77b5bb75ca00_180_135.jpg?1606803474" group-title="一起看" tvg-id="PLATFORM_19ea9c3ab536495a" tvg-name="鸡公碗",鸡公碗
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/23734211
+#EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1001/f7/f619d82184aaee854f1bd8912d7927_180_135.jpg?1542942334" group-title="一起看" tvg-id="PLATFORM_7355797428bcdcb8" tvg-name="鸽宝小改改",鸽宝小改改
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/huya/11601970
 #EXTINF:-1 tvg-logo="https://diy-assets.msstatic.com/cqhfolder/NewDefault.png" group-title="一起看" tvg-id="PLATFORM_bbf9971f8a446f53" tvg-name="黄金妖狐猫",黄金妖狐猫
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080157

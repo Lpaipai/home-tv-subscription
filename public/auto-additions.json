@@ -1183,8 +1183,8 @@
       "accepted_at": "2026-10-23T14:56:36+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-09T01:51:08+00:00",
-      "last_attempt_at": "2026-11-09T01:51:08+00:00",
+      "last_decoded_at": "2026-11-11T11:51:06+00:00",
+      "last_attempt_at": "2026-11-11T11:51:06+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2439,8 +2439,8 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-04T02:32:43+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2465,8 +2465,8 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-04T02:32:43+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2491,8 +2491,8 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-04T02:32:43+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2517,8 +2517,8 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-04T02:32:43+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2698,8 +2698,8 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-04T02:32:43+00:00",
-      "last_attempt_at": "2026-11-04T02:32:43+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -2994,8 +2994,8 @@
       "accepted_at": "2026-10-28T01:31:09+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-08T02:38:20+00:00",
-      "last_attempt_at": "2026-11-08T02:38:20+00:00",
+      "last_decoded_at": "2026-11-11T11:51:06+00:00",
+      "last_attempt_at": "2026-11-11T11:51:06+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3381,8 +3381,8 @@
       "accepted_at": "2026-11-04T02:32:17+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-04T02:32:17+00:00",
-      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3407,8 +3407,8 @@
       "accepted_at": "2026-11-04T02:32:17+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-04T02:32:17+00:00",
-      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -3433,8 +3433,8 @@
       "accepted_at": "2026-11-04T02:32:17+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-04T02:32:17+00:00",
-      "last_attempt_at": "2026-11-04T02:32:17+00:00",
+      "last_decoded_at": "2026-11-11T11:51:54+00:00",
+      "last_attempt_at": "2026-11-11T11:51:54+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
@@ -4366,6 +4366,84 @@
       "visual_status": "unknown",
       "last_decoded_at": "2026-11-11T02:03:40+00:00",
       "last_attempt_at": "2026-11-11T02:03:40+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "4248c1ef7ba5446c": {
+      "name": "四川卫视",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/scwshd.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "四川卫视",
+        "tvg-name": "四川卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/四川卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T11:51:07+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-11T11:51:07+00:00",
+      "last_attempt_at": "2026-11-11T11:51:07+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "43fa6cf97fea3775": {
+      "name": "江苏卫视",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/jswshd.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "江苏卫视",
+        "tvg-name": "江苏卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/江苏卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T11:51:07+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-11T11:51:07+00:00",
+      "last_attempt_at": "2026-11-11T11:51:07+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "05b628571b033b72": {
+      "name": "永昌综合",
+      "url": "https://play.kankanlive.com/live/1652755738635915.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "永昌综合",
+        "tvg-name": "永昌综合",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/永昌综合.png",
+        "group-title": "☘️甘肃频道"
+      },
+      "group": "☘️甘肃频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-11T11:51:07+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-11T11:51:07+00:00",
+      "last_attempt_at": "2026-11-11T11:51:07+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"

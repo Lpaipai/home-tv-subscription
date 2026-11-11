@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T19:44:36+08:00",
+  "generated_at": "2026-11-11T19:52:19+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1135,
+  "preview_lines": 1159,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -1402,6 +1402,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "杰森·斯坦森电影",
+      "line_id": "a15a2bd3d552fa90",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "林家栋电影",
       "line_id": "c9cb87ee86b785c6",
       "selection_mode": "platform_audio_video_decoded",
@@ -2362,6 +2370,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "海湾电影",
+      "line_id": "87f11e65dcea5e50",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "涛浪浪电影",
       "line_id": "c84326960cd7d299",
       "selection_mode": "platform_audio_video_decoded",
@@ -2810,6 +2826,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "-惟美",
+      "line_id": "8f7dcdfd47479b1c",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "-懒猪",
       "line_id": "f89ccd760e8141dc",
       "selection_mode": "platform_audio_video_decoded",
@@ -3060,6 +3084,14 @@
     {
       "name": "Poison丶冰冰",
       "line_id": "559cf2f4c78afe8d",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "RainyRabbits",
+      "line_id": "308649a75d5f8f14",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -3562,6 +3594,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "不能全鱼",
+      "line_id": "d4c8eed78560ad94",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "且听我说",
       "line_id": "14512c0c98817b3d",
       "selection_mode": "platform_audio_video_decoded",
@@ -3714,6 +3754,22 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "二次元baby",
+      "line_id": "38747ba64d7df873",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "二次元控",
+      "line_id": "7d8bf65481fc3b17",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "云初",
       "line_id": "cd3cb3c3ead33c11",
       "selection_mode": "platform_audio_video_decoded",
@@ -3748,6 +3804,14 @@
     {
       "name": "人类观察员love",
       "line_id": "9f2d621ef4b81236",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "人间眩法师",
+      "line_id": "4c55fc12bf4b9ddf",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -4010,6 +4074,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "冬日暖心猫",
+      "line_id": "67f927ca1b15497b",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "冬至小肉丸子圈圈",
       "line_id": "133c12652093a34c",
       "selection_mode": "platform_audio_video_decoded",
@@ -4204,6 +4276,14 @@
     {
       "name": "北岛南城",
       "line_id": "b648cff43925e582",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "北岛的诗",
+      "line_id": "11658821b44f4468",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -4642,6 +4722,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "唯爱经典影视",
+      "line_id": "537f3ffea13e0f82",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "啵比小登西",
       "line_id": "2a73308a96d34177",
       "selection_mode": "platform_audio_video_decoded",
@@ -4668,6 +4756,14 @@
     {
       "name": "喵喵即正义",
       "line_id": "3538204d813ad355",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "嘤嘤嘤",
+      "line_id": "a036760784b5f048",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -5770,6 +5866,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "御所田南通",
+      "line_id": "b8b277c7279b5420",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "微凉不小行",
       "line_id": "0b75d7e3443081a5",
       "selection_mode": "platform_audio_video_decoded",
@@ -6466,6 +6570,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "时光小偷",
+      "line_id": "7819011c9355b8ba",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "旺财",
       "line_id": "fddbb9524fbbeaca",
       "selection_mode": "platform_audio_video_decoded",
@@ -6684,6 +6796,14 @@
     {
       "name": "望处不是筝",
       "line_id": "4c36083aa9a01012",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "朝服金子",
+      "line_id": "240fa56bef275e3e",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -7058,6 +7178,22 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "治愈之声",
+      "line_id": "480ec46bfdb14ec5",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "泉上老见示",
+      "line_id": "7c2f31988167b333",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "活泼如清泉",
       "line_id": "0b41e7907fc77ffc",
       "selection_mode": "platform_audio_video_decoded",
@@ -7148,6 +7284,14 @@
     {
       "name": "渡川",
       "line_id": "4b1ee5bdbf344a2c",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "港剧一家人",
+      "line_id": "c23aaa4b294ef259",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -7642,6 +7786,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "田园生活分享",
+      "line_id": "a7dbb5558fb226a8",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "电竞也要专用机",
       "line_id": "0f132074d8bcb168",
       "selection_mode": "platform_audio_video_decoded",
@@ -7924,6 +8076,14 @@
     {
       "name": "笑笑",
       "line_id": "07390e8b5efd64b3",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "笙歌",
+      "line_id": "c5e4acd9a70f3e57",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -8762,6 +8922,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "西九龙冠希哥",
+      "line_id": "55c308b5a39d85e9",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "西双版纳旅游",
       "line_id": "024fc10e8121c8d3",
       "selection_mode": "platform_audio_video_decoded",
@@ -8908,6 +9076,14 @@
     {
       "name": "赛文777",
       "line_id": "9a9f9b376d4d1025",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "趁我们还年轻812",
+      "line_id": "b471b7bfdefd9ef6",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -9530,6 +9706,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "马春夏秋冬梅",
+      "line_id": "a5ced77771a4331f",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "驯鹿的阶梯",
       "line_id": "6545d777f34897b1",
       "selection_mode": "platform_audio_video_decoded",
@@ -9628,6 +9812,14 @@
     {
       "name": "鸡公碗",
       "line_id": "19ea9c3ab536495a",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "鸽宝小改改",
+      "line_id": "7355797428bcdcb8",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",

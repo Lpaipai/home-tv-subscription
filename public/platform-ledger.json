@@ -56925,6 +56925,750 @@
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
+    },
+    "11658821b44f4468": {
+      "entry": {
+        "id": "11658821b44f4468",
+        "name": "北岛的诗",
+        "url": "https://live.ottiptv.cc/huya/11336591",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1090/29/b2a1ae3f536f70847a4479e32db6eb_180_135.jpg?1445854580",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_11658821b44f4468",
+          "tvg-name": "北岛的诗"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "240fa56bef275e3e": {
+      "entry": {
+        "id": "240fa56bef275e3e",
+        "name": "朝服金子",
+        "url": "https://live.ottiptv.cc/huya/29465865",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1090/88/9d8223e8aa5b3a10f6d726456dac5a_180_135.jpg?1704876148",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_240fa56bef275e3e",
+          "tvg-name": "朝服金子"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "308649a75d5f8f14": {
+      "entry": {
+        "id": "308649a75d5f8f14",
+        "name": "RainyRabbits",
+        "url": "https://live.ottiptv.cc/huya/30080172",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1020/2f/b9c743197ec3e8c7a58785f81d066a_180_135.jpg?1721817356",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_308649a75d5f8f14",
+          "tvg-name": "RainyRabbits"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "38747ba64d7df873": {
+      "entry": {
+        "id": "38747ba64d7df873",
+        "name": "二次元baby",
+        "url": "https://live.ottiptv.cc/huya/11601963",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1042/31/acbbe18041f7127171e91973b9a0a7_180_135.jpg?1470391302",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_38747ba64d7df873",
+          "tvg-name": "二次元baby"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "480ec46bfdb14ec5": {
+      "entry": {
+        "id": "480ec46bfdb14ec5",
+        "name": "治愈之声",
+        "url": "https://live.ottiptv.cc/huya/21241787",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1048/3d/c60cc333be48c5955b95e7fdc519b3_180_135.jpg?1598522569",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_480ec46bfdb14ec5",
+          "tvg-name": "治愈之声"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "4c55fc12bf4b9ddf": {
+      "entry": {
+        "id": "4c55fc12bf4b9ddf",
+        "name": "人间眩法师",
+        "url": "https://live.ottiptv.cc/huya/20985855",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1054/c2/7837a02ddcffb1daf5633c404a5588_180_135.jpg?1584958468",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_4c55fc12bf4b9ddf",
+          "tvg-name": "人间眩法师"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "537f3ffea13e0f82": {
+      "entry": {
+        "id": "537f3ffea13e0f82",
+        "name": "唯爱经典影视",
+        "url": "https://live.ottiptv.cc/douyu/7582564",
+        "attrs": {
+          "tvg-logo": "https://apic.douyucdn.cn/upload/avatar/default/10_big.jpg",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_537f3ffea13e0f82",
+          "tvg-name": "唯爱经典影视"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "55c308b5a39d85e9": {
+      "entry": {
+        "id": "55c308b5a39d85e9",
+        "name": "西九龙冠希哥",
+        "url": "https://live.ottiptv.cc/huya/21059579",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1088/bd/85484a0eb2156309986fa8a5741629_180_135.jpg?1612508374",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_55c308b5a39d85e9",
+          "tvg-name": "西九龙冠希哥"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "67f927ca1b15497b": {
+      "entry": {
+        "id": "67f927ca1b15497b",
+        "name": "冬日暖心猫",
+        "url": "https://live.ottiptv.cc/huya/29982669",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1067/6f/6090b09d49e3b52b49c34b557e327a_180_135.jpg?1721365569",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_67f927ca1b15497b",
+          "tvg-name": "冬日暖心猫"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "7355797428bcdcb8": {
+      "entry": {
+        "id": "7355797428bcdcb8",
+        "name": "鸽宝小改改",
+        "url": "https://live.ottiptv.cc/huya/11601970",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1001/f7/f619d82184aaee854f1bd8912d7927_180_135.jpg?1542942334",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_7355797428bcdcb8",
+          "tvg-name": "鸽宝小改改"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "7819011c9355b8ba": {
+      "entry": {
+        "id": "7819011c9355b8ba",
+        "name": "时光小偷",
+        "url": "https://live.ottiptv.cc/huya/11352952",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1043/eb/98cdb6c3cc433165914bd0649fc840_180_135.jpg?1457606900",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_7819011c9355b8ba",
+          "tvg-name": "时光小偷"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "7c2f31988167b333": {
+      "entry": {
+        "id": "7c2f31988167b333",
+        "name": "泉上老见示",
+        "url": "https://live.ottiptv.cc/huya/29982664",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1077/5e/99d75556e1474580a4cabb92a47ad4_180_135.jpg?1729851129",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_7c2f31988167b333",
+          "tvg-name": "泉上老见示"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "7d8bf65481fc3b17": {
+      "entry": {
+        "id": "7d8bf65481fc3b17",
+        "name": "二次元控",
+        "url": "https://live.ottiptv.cc/huya/11352912",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1062/69/6cb628f7784cdc3baccbe0a14d8b51_180_135.jpg",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_7d8bf65481fc3b17",
+          "tvg-name": "二次元控"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "87f11e65dcea5e50": {
+      "entry": {
+        "id": "87f11e65dcea5e50",
+        "name": "海湾电影",
+        "url": "https://live.ottiptv.cc/huya/31371694",
+        "attrs": {
+          "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
+          "group-title": "综合影院",
+          "tvg-id": "PLATFORM_87f11e65dcea5e50",
+          "tvg-name": "海湾电影"
+        },
+        "original_group": "电影·综合",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "综合影院",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "8f7dcdfd47479b1c": {
+      "entry": {
+        "id": "8f7dcdfd47479b1c",
+        "name": "-惟美",
+        "url": "https://live.ottiptv.cc/huya/11352885",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1033/74/4e53152975413e83dc7ab387ee5230_180_135.jpg?1449121897",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_8f7dcdfd47479b1c",
+          "tvg-name": "-惟美"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "a036760784b5f048": {
+      "entry": {
+        "id": "a036760784b5f048",
+        "name": "嘤嘤嘤",
+        "url": "https://live.ottiptv.cc/huya/11336579",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1046/19/3ee0ad4c36da5626f9c61387b2608c_180_135.jpg?1445851228",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_a036760784b5f048",
+          "tvg-name": "嘤嘤嘤"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "a15a2bd3d552fa90": {
+      "entry": {
+        "id": "a15a2bd3d552fa90",
+        "name": "杰森·斯坦森电影",
+        "url": "https://live.ottiptv.cc/huya/21059588",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1095/88/30b87b0089d3fb73c3040ff5ea6a19_180_135.jpg?1618468236",
+          "group-title": "影人专场",
+          "tvg-id": "PLATFORM_a15a2bd3d552fa90",
+          "tvg-name": "杰森·斯坦森电影"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "影人专场",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "a5ced77771a4331f": {
+      "entry": {
+        "id": "a5ced77771a4331f",
+        "name": "马春夏秋冬梅",
+        "url": "https://live.ottiptv.cc/huya/21059564",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1028/a2/49b5cac802d4e17b52eeaab4985aeb_180_135.jpg?1612427205",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_a5ced77771a4331f",
+          "tvg-name": "马春夏秋冬梅"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "a7dbb5558fb226a8": {
+      "entry": {
+        "id": "a7dbb5558fb226a8",
+        "name": "田园生活分享",
+        "url": "https://live.ottiptv.cc/huya/20969145",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1067/5f/253e3dfcfbc9a8c683a25877452819_180_135.jpg?1581152141",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_a7dbb5558fb226a8",
+          "tvg-name": "田园生活分享"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "b471b7bfdefd9ef6": {
+      "entry": {
+        "id": "b471b7bfdefd9ef6",
+        "name": "趁我们还年轻812",
+        "url": "https://live.ottiptv.cc/douyu/7805562",
+        "attrs": {
+          "tvg-logo": "https://apic.douyucdn.cn/upload/avatar_v3/202004/56fd7f44af5e49ca890a915672ef90a0_big.jpg",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_b471b7bfdefd9ef6",
+          "tvg-name": "趁我们还年轻812"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "b8b277c7279b5420": {
+      "entry": {
+        "id": "b8b277c7279b5420",
+        "name": "御所田南通",
+        "url": "https://live.ottiptv.cc/huya/26355773",
+        "attrs": {
+          "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_b8b277c7279b5420",
+          "tvg-name": "御所田南通"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "c23aaa4b294ef259": {
+      "entry": {
+        "id": "c23aaa4b294ef259",
+        "name": "港剧一家人",
+        "url": "https://live.ottiptv.cc/huya/23903152",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1009/fa/4be7d110899ca9b0a0a43a846da29e_180_135.jpg?1612406287",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_c23aaa4b294ef259",
+          "tvg-name": "港剧一家人"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "c5e4acd9a70f3e57": {
+      "entry": {
+        "id": "c5e4acd9a70f3e57",
+        "name": "笙歌",
+        "url": "https://live.ottiptv.cc/huya/11352965",
+        "attrs": {
+          "tvg-logo": "http://huyaimg.msstatic.com/avatar/1091/2d/7bb2f158c9d3f0896f6ed313afc638_180_135.jpg?1456304717",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_c5e4acd9a70f3e57",
+          "tvg-name": "笙歌"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
+    },
+    "d4c8eed78560ad94": {
+      "entry": {
+        "id": "d4c8eed78560ad94",
+        "name": "不能全鱼",
+        "url": "https://live.ottiptv.cc/huya/26355771",
+        "attrs": {
+          "tvg-logo": "https://huyaimg.msstatic.com/avatar/1017/07/537196710105cd97eb36990c6da854_180_135.jpg?1717726056",
+          "group-title": "一起看",
+          "tvg-id": "PLATFORM_d4c8eed78560ad94",
+          "tvg-name": "不能全鱼"
+        },
+        "original_group": "一起看",
+        "directives": [
+          "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
+        ],
+        "group": "一起看",
+        "source_id": "jiandantv-platforms",
+        "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+        "source_mode": "decode_then_publish",
+        "region": "cn",
+        "ipv6_direct_publish": false,
+        "priority": "other",
+        "platform_room": true
+      },
+      "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
+      "last_success_at": "2026-11-11T11:52:19+00:00",
+      "last_attempt_at": "2026-11-11T11:52:19+00:00",
+      "last_status": "decoded",
+      "state": "active",
+      "failure_days": []
     }
   }
 }
