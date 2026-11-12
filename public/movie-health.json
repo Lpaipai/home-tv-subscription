@@ -1,98 +1,45 @@
 {
-  "checked_at": "2026-11-11T11:51:32+00:00",
+  "checked_at": "2026-11-12T03:13:07+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 405,
+  "catalog_entries": 416,
   "sampled": 12,
-  "attempts": 13,
+  "attempts": 14,
   "counts": {
-    "decoded": 10,
-    "blocked": 1,
-    "failed": 1
+    "failed": 2,
+    "decoded": 10
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "JG影视解说",
-    "MovieSphere（US）",
-    "Moviedome",
-    "Movies!",
-    "Movies! KPVM-LD",
-    "MyTime Movie Network East",
-    "NEW K.MOVIES",
-    "NewTV动作电影",
-    "Paramount Movie Channel",
-    "Pluto Classic Movie Westerns",
-    "Pluto TV Action Movies",
-    "Pluto TV Anime Movies"
+    "一代经典电影，我很快乐",
+    "一起看电影下饭~",
+    "三七电影V",
+    "东方奇幻电影",
+    "丽姐说电影",
+    "九叔说电影v",
+    "二哈讲电影",
+    "二胖影视",
+    "五分钟电影汇",
+    "享看电影",
+    "亮哥讲电影",
+    "亮哥讲电影2"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "508be4ee744e6485",
-      "name": "JG影视解说",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "a34b764790a8d332",
-      "name": "MovieSphere（US）",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "d86f4dfb1f4ab5de",
-      "name": "Moviedome",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1e73d580638afdf2",
-      "name": "Movies!",
-      "group": "美国",
-      "video_status": "blocked",
+      "id": "4616edc065901652",
+      "name": "一代经典电影，我很快乐",
+      "group": "综合影院",
+      "video_status": "failed",
       "audio_status": "not_checked",
-      "status": "blocked",
-      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "7efdd77fc2475ae9",
-      "name": "Movies! KPVM-LD",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "158e186b4cf12f16",
-      "name": "MyTime Movie Network East",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "ddbe9940d4471b4d",
-      "name": "NEW K.MOVIES",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "4b5c86c5453d06d2",
-      "name": "NewTV动作电影",
+      "id": "3a63b4386704ad77",
+      "name": "一起看电影下饭~",
       "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
@@ -102,36 +49,90 @@
       "initial_status": "failed"
     },
     {
-      "id": "8de7b766ffdfdbed",
-      "name": "Paramount Movie Channel",
-      "group": "美国",
+      "id": "4a5f31ce818c3b22",
+      "name": "三七电影V",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "ff2adbb57482c3e5",
-      "name": "Pluto Classic Movie Westerns",
-      "group": "美国",
+      "id": "eab06281e6e8cf53",
+      "name": "东方奇幻电影",
+      "group": "类型精选",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7e8efed02b04b0aa",
-      "name": "Pluto TV Action Movies",
-      "group": "美国",
+      "id": "6acea05281011f12",
+      "name": "丽姐说电影",
+      "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "341403a5c9cb0829",
-      "name": "Pluto TV Anime Movies",
-      "group": "美国",
+      "id": "4e1ab49472a3c7c0",
+      "name": "九叔说电影v",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "97efa1b6da0ffbbc",
+      "name": "二哈讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "544ac126279d0b3b",
+      "name": "二胖影视",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "d6e4d7a8d996a257",
+      "name": "五分钟电影汇",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "f274aeaf40e37f05",
+      "name": "享看电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "14e4b12fa5d8940f",
+      "name": "亮哥讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "5ecc16315c179146",
+      "name": "亮哥讲电影2",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",

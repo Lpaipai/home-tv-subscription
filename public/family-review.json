@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-11T19:52:19+08:00",
+  "generated_at": "2026-11-12T11:14:35+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1159,
+  "preview_lines": 1172,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -872,19 +872,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "重庆卫视",
-      "line_id": "67eb246ccb1458f2",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-05T02:38:49+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "北京卫视",
       "line_id": "317ac787af69ba6f",
       "network": "ipv4_literal",
@@ -1386,6 +1373,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "巨石强森电影",
+      "line_id": "ed1d175b5e32f60c",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "成龙电影",
       "line_id": "a34feedcb277d098",
       "selection_mode": "platform_audio_video_decoded",
@@ -1532,6 +1527,14 @@
     {
       "name": "华视-动作大片",
       "line_id": "6e79ef293b17e5ea",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "古装武侠电影",
+      "line_id": "d8939829751f495b",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -2490,6 +2493,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "甜甜影院",
+      "line_id": "58a56fd94a1f9173",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "电影七十二变",
       "line_id": "5fda33208ac041fc",
       "selection_mode": "platform_audio_video_decoded",
@@ -2988,6 +2999,14 @@
     {
       "name": "DuckDucks",
       "line_id": "bd94c43a9a963069",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "Edinburgh南空",
+      "line_id": "e8f2ad5ede7f1dcf",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -3820,6 +3839,14 @@
     {
       "name": "今天不想梳头发",
       "line_id": "12624c5d9056b746",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "今日说",
+      "line_id": "bea0a808fab3f50c",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -4730,6 +4757,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "問義劇場",
+      "line_id": "af443ba14804c018",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "啵比小登西",
       "line_id": "2a73308a96d34177",
       "selection_mode": "platform_audio_video_decoded",
@@ -4756,6 +4791,14 @@
     {
       "name": "喵喵即正义",
       "line_id": "3538204d813ad355",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "喵喵喵的猫酱酱",
+      "line_id": "d7eb47e6a1957c53",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -6530,6 +6573,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "斷桥斯氏杯",
+      "line_id": "fd1a837a741d7cc5",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "方显出英仍无骨",
       "line_id": "424b6ff9bc8a3344",
       "selection_mode": "platform_audio_video_decoded",
@@ -6564,6 +6615,14 @@
     {
       "name": "旧梦随人心",
       "line_id": "341d3f6f18154a73",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "早川秋you",
+      "line_id": "992ff6fb3bedc767",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -6740,6 +6799,14 @@
     {
       "name": "暴走君丶阿罪",
       "line_id": "e9ed0fc453643a53",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "最篮球",
+      "line_id": "283f55fee89c7182",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -7922,6 +7989,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "白马飞飞520",
+      "line_id": "e9923540c6b9d916",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "百年影视馆",
       "line_id": "dc17976d0ef4ab56",
       "selection_mode": "platform_audio_video_decoded",
@@ -8460,6 +8535,14 @@
     {
       "name": "脑壳不太好",
       "line_id": "85727d4c8ea2a7a6",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "脑袋大1937",
+      "line_id": "f4178cd1b1a3d5b3",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
@@ -9066,6 +9149,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "贾贵队长真男神",
+      "line_id": "f04f4facbe126709",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "赛博的朋克",
       "line_id": "8b71ed900007c935",
       "selection_mode": "platform_audio_video_decoded",
@@ -9276,6 +9367,14 @@
     {
       "name": "酒窝储存机",
       "line_id": "7f28e35db74d0849",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "里昂保护的玛蒂达",
+      "line_id": "f7665a8ec554cc45",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",

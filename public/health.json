@@ -1,221 +1,222 @@
 {
-  "checked_at": "2026-11-11T19:51:06+08:00",
+  "checked_at": "2026-11-12T11:12:26+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3837,
+  "catalog_entries": 3949,
   "sampled": 24,
   "counts": {
-    "decoded": 15,
-    "failed": 9
+    "decoded": 19,
+    "failed": 4,
+    "blocked": 1
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
   "attempts": 32,
-  "recovered_on_retry": 0,
+  "recovered_on_retry": 4,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "932976e1a0818ba2",
-      "name": "广西卫视",
+      "id": "7f59027fbf055955",
+      "name": "青海卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "8970b729925f0520",
-      "name": "康巴卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "ff24fbfa1f002a25",
-      "name": "延边卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6dccdf1aabf1adcd",
-      "name": "新疆卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "39a7513f36141b4b",
-      "name": "江苏卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "086d3227b5547ab6",
-      "name": "江西卫视",
+      "id": "2695f5cb39a4db61",
+      "name": "黑龙江卫视",
       "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f24929b08a2b152a",
-      "name": "河北卫视",
-      "group": "卫视",
+      "id": "3e335ab2e6e6a5bb",
+      "name": "CCTV+ 1",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "6e9f51aaf2a58c8a",
-      "name": "河南卫视",
-      "group": "卫视",
+      "id": "458a94732156c13e",
+      "name": "CCTV+ 2",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "0d80d1bf31b8e07c",
-      "name": "浙江卫视",
-      "group": "卫视",
+      "id": "5a8ee429edad0ff6",
+      "name": "CCTV-1 综合",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "e403490dda50fae4",
-      "name": "海南卫视",
-      "group": "卫视",
+      "id": "013fb99a5be8caee",
+      "name": "CCTV-10 科教",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "0fb2731184141d0b",
-      "name": "深圳卫视",
-      "group": "卫视",
+      "id": "01206afdd208aa02",
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "1ace420e520100d5",
-      "name": "湖北卫视",
-      "group": "卫视",
+      "id": "0461d5f991196780",
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "13d942187ca63cb6",
+      "name": "CCTV-13 新闻",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "3c9af39752dccdf6",
+      "name": "CCTV-14 少儿",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "2ec8b6f5f45993f2",
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "231bf410a7deb47d",
+      "name": "CCTV-16 奥林匹克",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "00542147d6077894",
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "9dbf14240904eb53",
-      "name": "湖南卫视",
-      "group": "卫视",
+      "id": "43939cc8f96534f2",
+      "name": "CCTV-2 财经",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3fb8352753cb3dc4",
-      "name": "甘肃卫视",
-      "group": "卫视",
+      "id": "052bb9770126422c",
+      "name": "CCTV-3 综艺",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3ed48b03eafe3174",
-      "name": "西藏卫视",
-      "group": "卫视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "id": "4a46b143c27d1cc5",
+      "name": "CCTV-4 America",
+      "group": "央视",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
     },
     {
-      "id": "7fe3b660829b8679",
-      "name": "贵州卫视",
-      "group": "卫视",
+      "id": "1bcf4e03452cee03",
+      "name": "CCTV-4 Asia",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "147b319ae3c4d885",
-      "name": "辽宁卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "87c936403fb062c3",
-      "name": "重庆卫视",
-      "group": "卫视",
+      "id": "c9b3e336079fe548",
+      "name": "CCTV-4 Europe",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8c89e6b73affa2e2",
-      "name": "Pluto TV Kids（BR）",
+      "id": "08b93ca5dd843794",
+      "name": "Pars TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b0fdde7ff8dde21e",
-      "name": "Pluto TV Kids（LatAm）",
+      "id": "6c1f648dda047985",
+      "name": "Pasco TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2f67af28e00fe7cf",
-      "name": "Pluto TV Lives",
+      "id": "8ca868076490d08b",
+      "name": "Pasiones Latin America",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8b53fafc28f84c1e",
-      "name": "Pluto TV Los nuevos detectives",
+      "id": "bdffe70aa837304f",
+      "name": "Payam Javan TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "0914f77fb5609728",
-      "name": "Pluto TV Melrose Place",
+      "id": "a78c11cb8ae8b8d9",
+      "name": "Payam-e-Afghan TV",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "d317040e469865ab",
-      "name": "Pluto TV Mi Obsesion Favorita",
+      "id": "5fd76399c70b0b2f",
+      "name": "Payame Aramesh TV",
       "group": "美国",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ]
 }
