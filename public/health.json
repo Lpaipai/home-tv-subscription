@@ -1,67 +1,32 @@
 {
-  "checked_at": "2026-11-12T11:12:26+08:00",
+  "checked_at": "2026-11-13T10:45:11+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3949,
+  "catalog_entries": 3859,
   "sampled": 24,
   "counts": {
-    "decoded": 19,
     "failed": 4,
-    "blocked": 1
+    "decoded": 20
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 32,
-  "recovered_on_retry": 4,
+  "attempts": 30,
+  "recovered_on_retry": 2,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "7f59027fbf055955",
-      "name": "青海卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "2695f5cb39a4db61",
-      "name": "黑龙江卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "3e335ab2e6e6a5bb",
-      "name": "CCTV+ 1",
+      "id": "fe24e362aa11e08b",
+      "name": "CCTV-4K",
       "group": "央视",
       "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "458a94732156c13e",
-      "name": "CCTV+ 2",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "5a8ee429edad0ff6",
-      "name": "CCTV-1 综合",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "013fb99a5be8caee",
-      "name": "CCTV-10 科教",
+      "id": "000bae2bc7cfbb9f",
+      "name": "CCTV-5 体育",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
@@ -70,25 +35,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "01206afdd208aa02",
-      "name": "CCTV-11 戏曲",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "0461d5f991196780",
-      "name": "CCTV-12 社会与法",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "13d942187ca63cb6",
-      "name": "CCTV-13 新闻",
+      "id": "0a29e10f42c72ef1",
+      "name": "CCTV-5+ 体育赛事",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
@@ -97,126 +45,178 @@
       "initial_status": "failed"
     },
     {
-      "id": "3c9af39752dccdf6",
-      "name": "CCTV-14 少儿",
+      "id": "05a1537e868c7e21",
+      "name": "CCTV-6 电影",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2ec8b6f5f45993f2",
-      "name": "CCTV-15 音乐",
+      "id": "100fa63d3cb93c9e",
+      "name": "CCTV-7 国防军事",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "231bf410a7deb47d",
-      "name": "CCTV-16 奥林匹克",
+      "id": "0b90ca1c881bfb6d",
+      "name": "CCTV-8 电视剧",
       "group": "央视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "attempts": 2,
-      "initial_status": "failed"
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "00542147d6077894",
-      "name": "CCTV-17 农业农村",
+      "id": "1bdcf09d06c66f40",
+      "name": "CCTV-8K",
       "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0b6d4be87077131e",
+      "name": "CCTV-9 纪录",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "28570e470e6a7304",
+      "name": "央视世界地理",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "36575d1f87e38356",
+      "name": "央视兵器科技",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a803576f0c9bfe39",
+      "name": "央视卫生健康",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "a29705b007736055",
+      "name": "央视台球",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "73487ea107c9c1ce",
+      "name": "央视女性时尚",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7b90e89bb22727ff",
+      "name": "央视怀旧剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "34c9250d762aff48",
+      "name": "央视文化精品",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "51a7ad04d1970cba",
+      "name": "央视第一剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3df5e41c22e9ff3b",
+      "name": "央视风云剧场",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "f84c7d990210c7c6",
+      "name": "央视风云足球",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "86e35edeeafda4b4",
+      "name": "Jornada nas Estrelas: Voyager",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "d67bc11b4ceba714",
+      "name": "Journy",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c1e37da6ded16a7b",
+      "name": "Judge Nosey",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e69e103478fea693",
+      "name": "Jus Hindi",
+      "group": "美国",
       "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "43939cc8f96534f2",
-      "name": "CCTV-2 财经",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "052bb9770126422c",
-      "name": "CCTV-3 综艺",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "4a46b143c27d1cc5",
-      "name": "CCTV-4 America",
-      "group": "央视",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
-    },
-    {
-      "id": "1bcf4e03452cee03",
-      "name": "CCTV-4 Asia",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c9b3e336079fe548",
-      "name": "CCTV-4 Europe",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "08b93ca5dd843794",
-      "name": "Pars TV",
+      "id": "31ea13bd218697bb",
+      "name": "Jus One",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "6c1f648dda047985",
-      "name": "Pasco TV",
+      "id": "111f644d4512cae8",
+      "name": "Jus Punjabi",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "8ca868076490d08b",
-      "name": "Pasiones Latin America",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "bdffe70aa837304f",
-      "name": "Payam Javan TV",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a78c11cb8ae8b8d9",
-      "name": "Payam-e-Afghan TV",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "5fd76399c70b0b2f",
-      "name": "Payame Aramesh TV",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     }
   ]
 }

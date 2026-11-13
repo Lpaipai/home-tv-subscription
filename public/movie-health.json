@@ -1,56 +1,72 @@
 {
-  "checked_at": "2026-11-12T03:13:07+00:00",
+  "checked_at": "2026-11-13T02:45:47+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 416,
+  "catalog_entries": 412,
   "sampled": 12,
-  "attempts": 14,
+  "attempts": 13,
   "counts": {
-    "failed": 2,
-    "decoded": 10
+    "decoded": 11,
+    "failed": 1
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "一代经典电影，我很快乐",
-    "一起看电影下饭~",
-    "三七电影V",
-    "东方奇幻电影",
-    "丽姐说电影",
-    "九叔说电影v",
-    "二哈讲电影",
-    "二胖影视",
-    "五分钟电影汇",
-    "享看电影",
-    "亮哥讲电影",
-    "亮哥讲电影2"
+    "珍珠港-电影",
+    "珞珞说电影",
+    "甄子丹电影",
+    "电影",
+    "电影七十二变",
+    "电影先锋V",
+    "电影冷知识",
+    "电影刘油果",
+    "电影吐槽汇",
+    "电影小班长",
+    "电影幕后喵",
+    "电影探长官方"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "4616edc065901652",
-      "name": "一代经典电影，我很快乐",
+      "id": "1e8b52a17cfca533",
+      "name": "珍珠港-电影",
       "group": "综合影院",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "3a63b4386704ad77",
-      "name": "一起看电影下饭~",
+      "id": "514c1a5ef3a6675d",
+      "name": "珞珞说电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "8a4d07992d6d3055",
+      "name": "甄子丹电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "fb9bb5edbe6bd0a8",
+      "name": "电影",
       "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "4a5f31ce818c3b22",
-      "name": "三七电影V",
+      "id": "5fda33208ac041fc",
+      "name": "电影七十二变",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -58,81 +74,63 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "eab06281e6e8cf53",
-      "name": "东方奇幻电影",
-      "group": "类型精选",
+      "id": "e21c1cf04f2e0c02",
+      "name": "电影先锋V",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "6acea05281011f12",
-      "name": "丽姐说电影",
+      "id": "3981142ab82a1247",
+      "name": "电影冷知识",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3dad1e91abdb529d",
+      "name": "电影刘油果",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "9a3fce2bbc35b154",
+      "name": "电影吐槽汇",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3e5a5a0e4d16dc1a",
+      "name": "电影小班长",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "1cb8b0dd710d2b54",
+      "name": "电影幕后喵",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "7aba2486273b79ae",
+      "name": "电影探长官方",
       "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "4e1ab49472a3c7c0",
-      "name": "九叔说电影v",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "97efa1b6da0ffbbc",
-      "name": "二哈讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "544ac126279d0b3b",
-      "name": "二胖影视",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "d6e4d7a8d996a257",
-      "name": "五分钟电影汇",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "f274aeaf40e37f05",
-      "name": "享看电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "14e4b12fa5d8940f",
-      "name": "亮哥讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "5ecc16315c179146",
-      "name": "亮哥讲电影2",
-      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",

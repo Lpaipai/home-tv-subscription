@@ -142,6 +142,8 @@ http://38.75.136.137:98/gslb/dsdqpub/gzwshd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",重庆卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=重庆卫视
+#EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/重庆卫视.png" group-title="卫视",重庆卫视
+http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",北京卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=北京卫视
@@ -181,8 +183,6 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd
 #EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" http-user-agent="iPhone" http-referer="https://www.ahtv.cn/" group-title="卫视",安徽卫视
 #EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=安徽卫视
-#EXTINF:-1 tvg-id="安徽卫视" tvg-name="安徽卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/安徽卫视.png" group-title="卫视",安徽卫视
-http://204.12.221.218:8181/3m1080p/ahws.m3u8
 #EXTINF:-1 tvg-id="山东卫视" tvg-name="山东卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",山东卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=山东卫视
@@ -892,6 +892,9 @@ https://live.ottiptv.cc/huya/21241798
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1035/51/6f463860fdf3570d03ad1cd57c2e6c_180_135.jpg?1609139358" group-title="一起看" tvg-id="PLATFORM_fdb7a1512564f529" tvg-name="KuKu鲨鲨",KuKu鲨鲨
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/23865086
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202505/5051a82e92bc482dbb296ffefd218f55_big.jpg" group-title="一起看" tvg-id="PLATFORM_28a0cea79ca5ea86" tvg-name="LR1245",LR1245
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/12534632
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1009/41/62b9177d3e1bbf1c4e87eded2c216a_180_135.jpg?1448362100" group-title="一起看" tvg-id="PLATFORM_fdf876a5f47e9966" tvg-name="Mr-傀儡",Mr-傀儡
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11352936
@@ -976,6 +979,9 @@ https://live.ottiptv.cc/huya/21241831
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1060/47/d10c8d74162696040d0bebe3952e7e_180_135.jpg?1557055318" group-title="一起看" tvg-id="PLATFORM_a2d267830bd93e5c" tvg-name="ddd",ddd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/22024989
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202301/67425f9bd40943a7ba23cc7020eb5a20_big.jpg" group-title="一起看" tvg-id="PLATFORM_cb1fbebaba7114aa" tvg-name="dlwIrmaiu",dlwIrmaiu
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/11418803
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar/default/16_big.jpg" group-title="一起看" tvg-id="PLATFORM_9a6f44ba369b678c" tvg-name="dw151295068",dw151295068
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/12655359

@@ -1,178 +1,178 @@
 {
-  "checked_at": "2026-11-12T03:14:35+00:00",
+  "checked_at": "2026-11-13T02:47:04+00:00",
   "environment": "GitHub 标准 Linux 云端",
   "sampled": 24,
   "counts": {
-    "decoded": 21,
-    "failed": 3
+    "decoded": 23,
+    "blocked": 1
   },
-  "active": 2513,
+  "active": 2515,
   "boundary": "短时音视频解码，不代表节目身份、持续开播或长期稳定；固定主线路不参与此流程。",
   "results": [
     {
-      "id": "283f55fee89c7182",
-      "name": "最篮球",
+      "id": "28a0cea79ca5ea86",
+      "name": "LR1245",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "3a63b4386704ad77",
-      "name": "一起看电影下饭~",
-      "video_status": "failed",
+      "id": "cb1fbebaba7114aa",
+      "name": "dlwIrmaiu",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "ce5ff719befeff9a",
+      "name": "TVB电视剧电影,主播陪看",
+      "video_status": "blocked",
       "audio_status": "not_checked",
-      "status": "failed"
+      "status": "blocked"
     },
     {
-      "id": "58a56fd94a1f9173",
-      "name": "甜甜影院",
+      "id": "e10583c6d4d8d018",
+      "name": "俗哥看电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "992ff6fb3bedc767",
-      "name": "早川秋you",
+      "id": "db2c35eaf8e09ee0",
+      "name": "发条张的电影最TOP",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "af443ba14804c018",
-      "name": "問義劇場",
+      "id": "e066d10a05ab537b",
+      "name": "成龙历险纪",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "bea0a808fab3f50c",
-      "name": "今日说",
+      "id": "28d479fc31baee2d",
+      "name": "刘哔电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "d7eb47e6a1957c53",
-      "name": "喵喵喵的猫酱酱",
+      "id": "4b312f61af94a923",
+      "name": "独立鱼电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "d8939829751f495b",
-      "name": "古装武侠电影",
+      "id": "72505fb3f4cfa434",
+      "name": "小超讲电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "e8e994c52c370e18",
-      "name": "过往1908",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed"
-    },
-    {
-      "id": "e8f2ad5ede7f1dcf",
-      "name": "Edinburgh南空",
+      "id": "17e393921e293a31",
+      "name": "熊猫电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "e9923540c6b9d916",
-      "name": "白马飞飞520",
+      "id": "272ddc153228f382",
+      "name": "大荒电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "ed1d175b5e32f60c",
-      "name": "巨石强森电影",
+      "id": "ac3b27693f63cc8e",
+      "name": "老王的夜电影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "f04f4facbe126709",
-      "name": "贾贵队长真男神",
+      "id": "d43e9e39b6a9e6fc",
+      "name": "特辑电影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "f4178cd1b1a3d5b3",
-      "name": "脑袋大1937",
+      "id": "22becfb3455e3149",
+      "name": "逐梦电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "f7665a8ec554cc45",
-      "name": "里昂保护的玛蒂达",
+      "id": "3dad1e91abdb529d",
+      "name": "电影刘油果",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "fb9bb5edbe6bd0a8",
-      "name": "电影",
-      "video_status": "decoded",
-      "audio_status": "failed",
-      "status": "failed"
-    },
-    {
-      "id": "fd1a837a741d7cc5",
-      "name": "斷桥斯氏杯",
+      "id": "a5970317ae4cda74",
+      "name": "胶片看电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "2c64dcfe54979e3a",
-      "name": "大笑影院",
+      "id": "e28863f61277ef84",
+      "name": "晓麦讲电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "6db0cf58b8cf9cfb",
-      "name": "同同电影",
+      "id": "3e5a5a0e4d16dc1a",
+      "name": "电影小班长",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "bc5a99a3745827f6",
-      "name": "喜剧电影笑不停",
+      "id": "4b5ba3e2ec2cc624",
+      "name": "米尼影院 · 剧集",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "c9adffd5c9973648",
-      "name": "喜人电影",
+      "id": "7f02aaa92eba1884",
+      "name": "西施撩电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "600e0db9f18b5122",
-      "name": "粤语电影丶",
+      "id": "ae431cc37b6a3e2e",
+      "name": "鸡哥聊电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "85bbfd96b877fef6",
-      "name": "宇哥讲电影",
+      "id": "c84326960cd7d299",
+      "name": "涛浪浪电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "94c1985fab88a665",
-      "name": "火龙果讲电影本人",
+      "id": "504036c8fb45d7ed",
+      "name": "周星驰的直播间",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "56ab9aff313db388",
+      "name": "崽崽撩电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"

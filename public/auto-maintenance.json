@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-12T03:13:27+00:00",
+  "checked_at": "2026-11-13T02:46:25+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,67 +10,63 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 10,
+  "attempts": 8,
   "counts": {
-    "decoded": 6,
-    "failed": 2
+    "decoded": 8
   },
   "state_changes": {
-    "active": 6,
-    "probation": 2
+    "active": 8
   },
   "suspended_total": 3,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "13ecf77b45106c86",
-      "name": "CCTV-12",
+      "id": "3a4df0615638abcd",
+      "name": "风云足球",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "16a250dcf37537d4",
-      "name": "CCTV-13",
+      "id": "41039382748238a6",
+      "name": "女性时尚",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "236a76b46de6baf2",
-      "name": "CCTV-5",
+      "id": "92bb289e8785ca44",
+      "name": "CCTV-7",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3dd65a32f83e0f21",
-      "name": "广东民生",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2
-    },
-    {
-      "id": "90f56986d19d37cc",
-      "name": "CCTV-16",
+      "id": "677b40648f553652",
+      "name": "黑龙江卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1442ba4b1509ed78",
-      "name": "广东卫视",
+      "id": "67eb246ccb1458f2",
+      "name": "重庆卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "211e977d779c5fac",
+      "id": "68440b30412bfb39",
+      "name": "CCTV-9",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "02cb3d9d6781b11c",
       "name": "大湾区卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "37704c682b0e4d9d",
-      "name": "CCTV-8",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2
+      "id": "0b2891c6eb833347",
+      "name": "安徽卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
   "renewed_by_formal_checks": 0

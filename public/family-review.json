@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T11:14:35+08:00",
+  "generated_at": "2026-11-13T10:47:05+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1172,
+  "preview_lines": 1174,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -872,6 +872,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "重庆卫视",
+      "line_id": "67eb246ccb1458f2",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-05T02:38:49+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "北京卫视",
       "line_id": "317ac787af69ba6f",
       "network": "ipv4_literal",
@@ -1062,19 +1075,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "安徽卫视",
-      "line_id": "fc6d8d1275cc4c88",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-05T15:14:17+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -3077,6 +3077,14 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "LR1245",
+      "line_id": "28a0cea79ca5ea86",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "Mr-傀儡",
       "line_id": "fdf876a5f47e9966",
       "selection_mode": "platform_audio_video_decoded",
@@ -3295,6 +3303,14 @@
     {
       "name": "ddd",
       "line_id": "a2d267830bd93e5c",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "dlwIrmaiu",
+      "line_id": "cb1fbebaba7114aa",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",
