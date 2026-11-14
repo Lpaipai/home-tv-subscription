@@ -1,34 +1,33 @@
 {
-  "checked_at": "2026-11-13T02:45:47+00:00",
+  "checked_at": "2026-11-14T02:35:19+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 412,
+  "catalog_entries": 413,
   "sampled": 12,
-  "attempts": 13,
+  "attempts": 12,
   "counts": {
-    "decoded": 11,
-    "failed": 1
+    "decoded": 12
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "珍珠港-电影",
-    "珞珞说电影",
-    "甄子丹电影",
-    "电影",
-    "电影七十二变",
-    "电影先锋V",
-    "电影冷知识",
-    "电影刘油果",
-    "电影吐槽汇",
-    "电影小班长",
-    "电影幕后喵",
-    "电影探长官方"
+    "撩电影8",
+    "无际电影",
+    "易说影视",
+    "星君说电影",
+    "晓晓说电影",
+    "晓麦讲电影",
+    "有部电影儿",
+    "末日系列-外国电影合集",
+    "末日说电影",
+    "李连杰电影",
+    "杰森·斯坦森电影",
+    "松轩说电影"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "1e8b52a17cfca533",
-      "name": "珍珠港-电影",
+      "id": "b0da2de6aac88663",
+      "name": "撩电影8",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -36,8 +35,26 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "514c1a5ef3a6675d",
-      "name": "珞珞说电影",
+      "id": "7d2fd3f6590a611c",
+      "name": "无际电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "37bd71d9e005304d",
+      "name": "易说影视",
+      "group": "一起看",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "58fac135da483644",
+      "name": "星君说电影",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -45,8 +62,53 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "8a4d07992d6d3055",
-      "name": "甄子丹电影",
+      "id": "893a89fe6719903f",
+      "name": "晓晓说电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "e28863f61277ef84",
+      "name": "晓麦讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "4f56984820ea13dc",
+      "name": "有部电影儿",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "93b49df0df2d4522",
+      "name": "末日系列-外国电影合集",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "ee98faad58fb0f3a",
+      "name": "末日说电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "96c415a3811ceb68",
+      "name": "李连杰电影",
       "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -54,82 +116,17 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "fb9bb5edbe6bd0a8",
-      "name": "电影",
-      "group": "其他",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "5fda33208ac041fc",
-      "name": "电影七十二变",
-      "group": "综合影院",
+      "id": "a15a2bd3d552fa90",
+      "name": "杰森·斯坦森电影",
+      "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "e21c1cf04f2e0c02",
-      "name": "电影先锋V",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3981142ab82a1247",
-      "name": "电影冷知识",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3dad1e91abdb529d",
-      "name": "电影刘油果",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "9a3fce2bbc35b154",
-      "name": "电影吐槽汇",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3e5a5a0e4d16dc1a",
-      "name": "电影小班长",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1cb8b0dd710d2b54",
-      "name": "电影幕后喵",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "7aba2486273b79ae",
-      "name": "电影探长官方",
+      "id": "571b35d2a8b3bbd1",
+      "name": "松轩说电影",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",

@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-13T02:46:25+00:00",
+  "checked_at": "2026-11-14T02:35:43+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,64 +10,67 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 8,
+  "attempts": 9,
   "counts": {
-    "decoded": 8
+    "decoded": 7,
+    "failed": 1
   },
   "state_changes": {
-    "active": 8
+    "active": 7,
+    "probation": 1
   },
   "suspended_total": 3,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "3a4df0615638abcd",
-      "name": "风云足球",
+      "id": "0eb45d3effb89cc7",
+      "name": "CCTV-15",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "41039382748238a6",
-      "name": "女性时尚",
+      "id": "529d8cd0b5fa7631",
+      "name": "浙江教科影视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "92bb289e8785ca44",
-      "name": "CCTV-7",
+      "id": "7d9e1b83f25adf12",
+      "name": "广东珠江",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "a2819a3d50ecbb7b",
+      "name": "浙江公共新闻",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "677b40648f553652",
-      "name": "黑龙江卫视",
+      "id": "a2b539dc9ce98849",
+      "name": "风云剧场",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "67eb246ccb1458f2",
-      "name": "重庆卫视",
+      "id": "fc58ecdd18d53753",
+      "name": "广西卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "68440b30412bfb39",
-      "name": "CCTV-9",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "02cb3d9d6781b11c",
-      "name": "大湾区卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0b2891c6eb833347",
+      "id": "fc6d8d1275cc4c88",
       "name": "安徽卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ff64b8fd1c541426",
+      "name": "天津卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 0
+  "renewed_by_formal_checks": 3
 }
