@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-14T10:32:36+08:00",
+  "fetched_at": "2026-11-15T10:00:56+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -85,7 +85,7 @@
     },
     {
       "id": "jiandantv-platforms",
-      "items": 2625,
+      "items": 2753,
       "cached": false,
       "rights": "unverified",
       "mode": "decode_then_publish",
@@ -93,10 +93,10 @@
     }
   ],
   "failures": [],
-  "total_unique": 4412,
-  "not_in_main": 3181,
+  "total_unique": 4540,
+  "not_in_main": 3279,
   "ipv6_literal": 115,
-  "priority_unlisted": 359,
+  "priority_unlisted": 354,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -1290,6 +1290,17 @@
       ]
     },
     {
+      "line_id": "f749d22c55d7ce07",
+      "name": "CCTV-11",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
       "line_id": "08f55755cd652ec7",
       "name": "CCTV-11 戏曲",
       "network": "hostname_unresolved",
@@ -1400,17 +1411,6 @@
       ]
     },
     {
-      "line_id": "6d4194986c96ef0c",
-      "name": "CCTV-14",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "f4635b10dd3c3972",
       "name": "CCTV-14",
       "network": "ipv4_literal",
@@ -1441,6 +1441,17 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "2b6287e0d1402833",
+      "name": "CCTV-15",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
       ]
     },
     {
@@ -1716,17 +1727,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
-      ]
-    },
-    {
-      "line_id": "071279b161b8cc2a",
-      "name": "CCTV-4",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {

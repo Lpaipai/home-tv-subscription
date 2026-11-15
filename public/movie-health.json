@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-14T02:35:19+00:00",
+  "checked_at": "2026-11-15T02:03:03+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 413,
+  "catalog_entries": 409,
   "sampled": 12,
   "attempts": 12,
   "counts": {
@@ -10,24 +10,24 @@
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "撩电影8",
-    "无际电影",
-    "易说影视",
-    "星君说电影",
-    "晓晓说电影",
-    "晓麦讲电影",
-    "有部电影儿",
-    "末日系列-外国电影合集",
-    "末日说电影",
-    "李连杰电影",
-    "杰森·斯坦森电影",
-    "松轩说电影"
+    "大壮撞电影",
+    "大江大河-高分影视推荐",
+    "大潘影视",
+    "大神影视",
+    "大米饭影视",
+    "大荒电影",
+    "大趴电影院",
+    "大进军全集：红色系列电影",
+    "天堂电影1895",
+    "奇幻电影放映厅",
+    "奇怪电影",
+    "女汉子说电影"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "b0da2de6aac88663",
-      "name": "撩电影8",
+      "id": "b20a8333269b8c06",
+      "name": "大壮撞电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -35,17 +35,35 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7d2fd3f6590a611c",
-      "name": "无际电影",
-      "group": "综合影院",
+      "id": "1aefdd7b5985f31f",
+      "name": "大江大河-高分影视推荐",
+      "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "37bd71d9e005304d",
-      "name": "易说影视",
+      "id": "decca3b3ab78a02c",
+      "name": "大潘影视",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "cb17b08de2582898",
+      "name": "大神影视",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "12db136ab827ff04",
+      "name": "大米饭影视",
       "group": "一起看",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -53,26 +71,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "58fac135da483644",
-      "name": "星君说电影",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "893a89fe6719903f",
-      "name": "晓晓说电影",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "e28863f61277ef84",
-      "name": "晓麦讲电影",
+      "id": "272ddc153228f382",
+      "name": "大荒电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -80,8 +80,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "4f56984820ea13dc",
-      "name": "有部电影儿",
+      "id": "7455c005abb5095f",
+      "name": "大趴电影院",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -89,8 +89,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "93b49df0df2d4522",
-      "name": "末日系列-外国电影合集",
+      "id": "1881c398c216c779",
+      "name": "大进军全集：红色系列电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -98,35 +98,35 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "ee98faad58fb0f3a",
-      "name": "末日说电影",
-      "group": "其他",
+      "id": "b71d47dae30b9ad3",
+      "name": "天堂电影1895",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "96c415a3811ceb68",
-      "name": "李连杰电影",
-      "group": "影人专场",
+      "id": "a1a845400c69f7a1",
+      "name": "奇幻电影放映厅",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "a15a2bd3d552fa90",
-      "name": "杰森·斯坦森电影",
-      "group": "影人专场",
+      "id": "ae934c928319302a",
+      "name": "奇怪电影",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "571b35d2a8b3bbd1",
-      "name": "松轩说电影",
+      "id": "6147699f40173fa7",
+      "name": "女汉子说电影",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",

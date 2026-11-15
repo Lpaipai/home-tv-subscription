@@ -1,48 +1,30 @@
 {
-  "checked_at": "2026-11-14T10:34:34+08:00",
+  "checked_at": "2026-11-15T10:02:37+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3883,
+  "catalog_entries": 3856,
   "sampled": 24,
   "counts": {
-    "decoded": 14,
-    "failed": 9,
-    "blocked": 1
+    "decoded": 16,
+    "failed": 8
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
   "attempts": 32,
-  "recovered_on_retry": 0,
+  "recovered_on_retry": 1,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "a4d7e5e5f29c7268",
-      "name": "央视高尔夫网球",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "111ace19358a8a04",
-      "name": "三沙卫视",
+      "id": "8970b729925f0520",
+      "name": "康巴卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1c17b08bc1d777f2",
-      "name": "东南卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "0e447703bb0c5b7f",
-      "name": "东方卫视",
+      "id": "26278cef03498a33",
+      "name": "延边卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -51,58 +33,26 @@
       "initial_status": "failed"
     },
     {
-      "id": "216e86dc379ce614",
-      "name": "云南卫视",
+      "id": "78a1d1b2eff5723b",
+      "name": "新疆卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2cd7cbfaf55fa124",
-      "name": "兵团卫视",
+      "id": "06b0e511ebdbd59f",
+      "name": "江苏卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "354b53f40e6f8efe",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "12a1f6e8481b17a6",
-      "name": "北京卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "d3bd9fd08facd4b3",
-      "name": "厦门卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "30aab87dde8e80c1",
-      "name": "吉林卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "618c2e64e687becd",
-      "name": "四川卫视",
+      "id": "086d3227b5547ab6",
+      "name": "江西卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -111,16 +61,24 @@
       "initial_status": "failed"
     },
     {
-      "id": "1dc13c3fcbddb0b0",
-      "name": "大湾区卫视",
+      "id": "040891a16b04b03f",
+      "name": "河北卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "20573fa9e47ab53c",
-      "name": "天津卫视",
+      "id": "6e9f51aaf2a58c8a",
+      "name": "河南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1d9706c32e78cdf4",
+      "name": "浙江卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -129,32 +87,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "7d6ab493542d4111",
-      "name": "宁夏卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "404d62cb000dc74c",
-      "name": "安徽卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0a3cdca37ba1e83e",
-      "name": "山东卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "05237bbbb42f2698",
-      "name": "山西卫视",
+      "id": "6537000fd55598b9",
+      "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
@@ -162,40 +96,43 @@
       "initial_status": "failed"
     },
     {
-      "id": "cb8b5a29404f08b0",
-      "name": "广东卫视",
+      "id": "0f03e311cd0c7fb5",
+      "name": "深圳卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "02da08676c219d66",
+      "name": "湖北卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "8959c82c7db18454",
+      "name": "湖南卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "136f32cea2717b9c",
-      "name": "Justice Central.TV",
-      "group": "美国",
+      "id": "d5a1048743a41f69",
+      "name": "甘肃卫视",
+      "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "47ecae41d0b72c03",
-      "name": "K-Content by CJ ENM",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6a1d67366345a74d",
-      "name": "KBEV",
-      "group": "美国",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
-    },
-    {
-      "id": "7a386a4ff39b12e3",
-      "name": "KBRI-8",
-      "group": "美国",
+      "id": "3797ad87bfbeeb1e",
+      "name": "西藏卫视",
+      "group": "卫视",
       "status": "failed",
       "frames": 0,
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
@@ -203,20 +140,83 @@
       "initial_status": "failed"
     },
     {
-      "id": "4a0f23cbf02f0b7e",
-      "name": "KBSV 23.1",
+      "id": "580bd2b62c2691c0",
+      "name": "贵州卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核"
+    },
+    {
+      "id": "15456ce108007ae5",
+      "name": "辽宁卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7de8cb9114da1ba6",
+      "name": "重庆卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "180db22a088a0cb2",
+      "name": "陕西卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "ab66fd3c6d172063",
+      "name": "MTV Biggest Pop（US）",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "9f2473ac240a3b8b",
-      "name": "KCAT",
+      "id": "96c14ee642901245",
+      "name": "MTV Catfish（BR）",
       "group": "美国",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3adab194c5c80a98",
+      "name": "MTV Catfish（CA）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "bb7a818afbc8d3f5",
+      "name": "MTV Catfish（LatAm）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "705b659657436dae",
+      "name": "MTV Classic（BR）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "801ce510a3412a3e",
+      "name": "MTV Classic（CA）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ]
 }

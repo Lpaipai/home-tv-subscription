@@ -28,8 +28,6 @@ http://101.35.240.114:88/live.php?id=CCTV6
 #EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" http-user-agent="AptvPlayer-UA" group-title="央视",CCTV-7 国防军事
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV7
-#EXTINF:-1 tvg-id="CCTV7" tvg-name="CCTV7" tvg-logo="https://www.xn--rgv465a.top/tvlogo/CCTV-7.png" group-title="央视",CCTV-7 国防军事
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
 #EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" http-user-agent="AptvPlayer-UA" group-title="央视",CCTV-8 电视剧
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV8
@@ -152,8 +150,6 @@ http://101.35.240.114:88/live.php?id=内蒙古卫视
 #EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",新疆卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=新疆卫视
-#EXTINF:-1 tvg-id="新疆卫视" tvg-name="新疆卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新疆卫视.png" group-title="卫视",新疆卫视
-http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xjws
 #EXTINF:-1 tvg-id="青海卫视" tvg-name="青海卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",青海卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=青海卫视
@@ -201,8 +197,6 @@ http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",辽宁卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=辽宁卫视
-#EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://www.xn--rgv465a.top/tvlogo/辽宁卫视.png" group-title="卫视",辽宁卫视
-http://198.204.228.26/live/lnwshd.m3u8
 #EXTINF:-1 tvg-id="黑龙江卫视" tvg-name="黑龙江卫视" http-user-agent="AptvPlayer-UA" group-title="卫视",黑龙江卫视
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=黑龙江卫视
@@ -1746,6 +1740,9 @@ https://live.ottiptv.cc/huya/11602044
 #EXTINF:-1 tvg-logo="http://huyaimg.msstatic.com/avatar/1081/9e/65115e9fb3108fcb101361c8ab9dd7_180_135.jpg" group-title="一起看" tvg-id="PLATFORM_8696a0703e330635" tvg-name="小木子先生丶",小木子先生丶
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/11342396
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202611/7a35ea7bb64d48279c5c222b94878e9a_big.jpg" group-title="一起看" tvg-id="PLATFORM_ceb897a483fd974e" tvg-name="小毅主播F",小毅主播F
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/12915885
 #EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202611/c5126f4b9bec4cdf84f17d1f926c5af5_big.jpg" group-title="一起看" tvg-id="PLATFORM_152139c1f529f56f" tvg-name="小毅主播K",小毅主播K
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/douyu/12851401
@@ -2976,6 +2973,9 @@ https://live.ottiptv.cc/huya/21059558
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1017/f9/ce6b560632119784a5759fa35c9c7b_180_135.jpg?1584441252" group-title="一起看" tvg-id="PLATFORM_fb6f810e2cb4c84b" tvg-name="花开又三年",花开又三年
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/20985852
+#EXTINF:-1 tvg-logo="https://apic.douyucdn.cn/upload/avatar_v3/202101/fc17344f570040628d981638d88293ed_big.jpg" group-title="一起看" tvg-id="PLATFORM_d24aa3c85bd59591" tvg-name="花空葬",花空葬
+#EXTVLCOPT:http-user-agent=Mozilla/5.0
+https://live.ottiptv.cc/douyu/11765315
 #EXTINF:-1 tvg-logo="https://huyaimg.msstatic.com/avatar/1042/93/98c6a7b0ff889bce8375c6865ba61e_180_135.jpg?1722421979" group-title="一起看" tvg-id="PLATFORM_eac79c4fa2bcee33" tvg-name="芳草细雨烟",芳草细雨烟
 #EXTVLCOPT:http-user-agent=Mozilla/5.0
 https://live.ottiptv.cc/huya/30080188
