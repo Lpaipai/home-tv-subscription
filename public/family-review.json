@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-15T02:56:19+00:00",
+  "generated_at": "2026-11-16T10:21:02+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1169,
+  "preview_lines": 1166,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -191,6 +191,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "CCTV-8 电视剧",
+      "line_id": "55bcd06fb9e5174f",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-07T02:06:31+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "CCTV-9 纪录",
       "line_id": "40ce0cfe18e88113",
       "network": "ipv4_literal",
@@ -349,19 +362,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "CCTV-15 音乐",
-      "line_id": "c6ffe8bba63b44bd",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "CCTV-16 奥林匹克",
       "line_id": "9c1ea41b0cbea239",
       "network": "ipv4_literal",
@@ -401,6 +401,19 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "test_card"
       },
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "CCTV-17 农业农村",
+      "line_id": "11ce20a3cd46751f",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-07T02:07:13+00:00",
+      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -546,19 +559,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "浙江卫视",
-      "line_id": "1d2b6e45373a5133",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "江苏卫视",
       "line_id": "3064516f49b7d700",
       "network": "ipv4_literal",
@@ -653,19 +653,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "江西卫视",
-      "line_id": "1ee513c8eaf645ab",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "广东卫视",
       "line_id": "6fda7263a2e0ce0e",
       "network": "ipv4_literal",
@@ -679,19 +666,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "广东卫视",
-      "line_id": "e3c684ab5debe8e7",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -743,19 +717,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "西藏卫视",
-      "line_id": "75b83efd6eac370c",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "天津卫视",
       "line_id": "abd5a479996765d8",
       "network": "ipv4_literal",
@@ -769,6 +730,19 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "天津卫视",
+      "line_id": "94e535c8ba80d8c7",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-07T02:07:13+00:00",
+      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -880,6 +854,19 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "内蒙古卫视",
+      "line_id": "95fdbee41eeb9d4a",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-07T02:07:13+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -1054,19 +1041,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "河北卫视",
-      "line_id": "9021bf31f7c955ad",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "河南卫视",
       "line_id": "cb80d5b73a30ebf3",
       "network": "ipv4_literal",
@@ -1075,19 +1049,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "河南卫视",
-      "line_id": "1ca24df0c9c27b22",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"

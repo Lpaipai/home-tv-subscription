@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-15T02:03:26+00:00",
+  "checked_at": "2026-11-16T02:19:58+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -23,54 +23,54 @@
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "0f79497cebb1a1e1",
-      "name": "缙云综合",
+      "id": "55bcd06fb9e5174f",
+      "name": "CCTV-8",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2629e345a80eb233",
-      "name": "广西卫视",
+      "id": "6537000fd55598b9",
+      "name": "海南卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2
     },
     {
-      "id": "4198afd648017ce3",
-      "name": "第一剧场",
+      "id": "b37bcaf8f478fe42",
+      "name": "余姚综合",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "640e6eaa9f8ae965",
-      "name": "山东卫视",
+      "id": "11ce20a3cd46751f",
+      "name": "CCTV-17",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "65d15d8ba5891121",
-      "name": "广西卫视",
+      "id": "931b1e46b3fc0db3",
+      "name": "江西卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "ba35645b3510da63",
-      "name": "昌黎综合",
+      "id": "94e535c8ba80d8c7",
+      "name": "天津卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "aad3d3606c6b8e45",
-      "name": "西峰综合",
+      "id": "95fdbee41eeb9d4a",
+      "name": "内蒙古卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c46f379f1dc73d18",
-      "name": "邯郸科技教育",
+      "id": "a3c8c5d0845412b8",
+      "name": "翡翠台",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 0
+  "renewed_by_formal_checks": 3
 }

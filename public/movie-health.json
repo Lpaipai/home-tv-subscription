@@ -1,33 +1,34 @@
 {
-  "checked_at": "2026-11-15T02:03:03+00:00",
+  "checked_at": "2026-11-16T02:19:28+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
   "catalog_entries": 409,
   "sampled": 12,
-  "attempts": 12,
+  "attempts": 13,
   "counts": {
-    "decoded": 12
+    "decoded": 11,
+    "blocked": 1
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "大壮撞电影",
-    "大江大河-高分影视推荐",
-    "大潘影视",
-    "大神影视",
-    "大米饭影视",
-    "大荒电影",
-    "大趴电影院",
-    "大进军全集：红色系列电影",
-    "天堂电影1895",
-    "奇幻电影放映厅",
-    "奇怪电影",
-    "女汉子说电影"
+    "宇哥讲电影",
+    "安小闫说电影x",
+    "安徽影视",
+    "小丑讲电影",
+    "小丽说电影",
+    "小乔讲电影",
+    "小儛电影嘚啵嘚",
+    "小岛讲电影",
+    "小川侃电影",
+    "小浅说电影",
+    "小涛讲电影V",
+    "小猫影视"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "b20a8333269b8c06",
-      "name": "大壮撞电影",
+      "id": "85bbfd96b877fef6",
+      "name": "宇哥讲电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -35,8 +36,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "1aefdd7b5985f31f",
-      "name": "大江大河-高分影视推荐",
+      "id": "5e4416d27cccdff1",
+      "name": "安小闫说电影x",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -44,8 +45,26 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "decca3b3ab78a02c",
-      "name": "大潘影视",
+      "id": "47399f073efc99d6",
+      "name": "安徽影视",
+      "group": "其他",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "1a9231eb78b43ea1",
+      "name": "小丑讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "28b96e679a64cdba",
+      "name": "小丽说电影",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -53,8 +72,44 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "cb17b08de2582898",
-      "name": "大神影视",
+      "id": "b747a32d7eb515ba",
+      "name": "小乔讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "753ae01fb2ed0c8d",
+      "name": "小儛电影嘚啵嘚",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "ff0bea0d0773bd9c",
+      "name": "小岛讲电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "893622adf33bc7bf",
+      "name": "小川侃电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "f7f6dc1908184ba9",
+      "name": "小浅说电影",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -62,71 +117,19 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "12db136ab827ff04",
-      "name": "大米饭影视",
-      "group": "一起看",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "272ddc153228f382",
-      "name": "大荒电影",
+      "id": "64b8976a2b61770f",
+      "name": "小涛讲电影V",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "7455c005abb5095f",
-      "name": "大趴电影院",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1881c398c216c779",
-      "name": "大进军全集：红色系列电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "b71d47dae30b9ad3",
-      "name": "天堂电影1895",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "a1a845400c69f7a1",
-      "name": "奇幻电影放映厅",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "ae934c928319302a",
-      "name": "奇怪电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "6147699f40173fa7",
-      "name": "女汉子说电影",
+      "id": "932532289ebaabe5",
+      "name": "小猫影视",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
