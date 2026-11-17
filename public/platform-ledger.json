@@ -3148,8 +3148,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:45+00:00",
-      "last_attempt_at": "2026-11-10T14:31:45+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3159,11 +3159,11 @@
         "name": "战争电影放映厅",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1086/66/92eea73419e298b87afa54a59b6dc0_180_135.jpg?1614062840",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_7739bc605e4b1076",
           "tvg-name": "战争电影放映厅"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/21059618",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3171,8 +3171,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:45+00:00",
-      "last_attempt_at": "2026-11-10T14:31:45+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3205,11 +3205,11 @@
         "name": "亮哥讲电影2",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1097/73/56ed99751b3bbf51f4baf82b4e21ec_180_135.jpg?1611543976",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_9ce5890a7d411eda",
           "tvg-name": "亮哥讲电影2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/21059622",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3217,8 +3217,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:46+00:00",
-      "last_attempt_at": "2026-11-10T14:31:46+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3228,11 +3228,11 @@
         "name": "青年电影馆",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1030/d5/8e38e286a378c453f8264d52dc96da_180_135.jpg?1718172484",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_7a5ee02ea4547faa",
           "tvg-name": "青年电影馆"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/21388479",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3240,8 +3240,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:46+00:00",
-      "last_attempt_at": "2026-11-10T14:31:46+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3251,11 +3251,11 @@
         "name": "华视-动作大片",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1072/e8/dd0188b4dd10f3d769092b33a2c471_180_135.jpg?1601279306",
-          "group-title": "电影·动作",
+          "group-title": "类型精选",
           "tvg-id": "PLATFORM_6e79ef293b17e5ea",
           "tvg-name": "华视-动作大片"
         },
-        "group": "电影·动作",
+        "group": "类型精选",
         "url": "https://live.ottiptv.cc/huya/23352535",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3263,8 +3263,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:48+00:00",
-      "last_attempt_at": "2026-11-10T14:31:48+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3286,8 +3286,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:47+00:00",
-      "last_attempt_at": "2026-11-10T14:31:47+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3309,8 +3309,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:48+00:00",
-      "last_attempt_at": "2026-11-10T14:31:48+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3320,11 +3320,11 @@
         "name": "大聪明和魏乐乐影院",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1024/c1/52e00a9af86d06d2a2a467f551ab6d_180_135.jpg?1649439695",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_a766c1d14f3a0247",
           "tvg-name": "大聪明和魏乐乐影院"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/23304691",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3332,8 +3332,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:46+00:00",
-      "last_attempt_at": "2026-11-10T14:31:46+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3355,8 +3355,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:48+00:00",
-      "last_attempt_at": "2026-11-10T14:31:48+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3366,11 +3366,11 @@
         "name": "扁豆看电影2",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1096/33/51158c5200086284ffda055be1197d_180_135.jpg?1611543884",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_de904cf84d85267d",
           "tvg-name": "扁豆看电影2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/21059623",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3378,8 +3378,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:46+00:00",
-      "last_attempt_at": "2026-11-10T14:31:46+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3389,11 +3389,11 @@
         "name": "奇幻电影放映厅",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1067/9c/0e74be1209e616b763007026fb84d3_180_135.jpg?1712904882",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_a1a845400c69f7a1",
           "tvg-name": "奇幻电影放映厅"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/26355847",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3401,8 +3401,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:49+00:00",
-      "last_attempt_at": "2026-11-10T14:31:49+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3412,11 +3412,11 @@
         "name": "惊悚电影放映厅",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1038/ed/2054a935c77f4f402d5b0a1afa2522_180_135.jpg?1646813273",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_9f51527feb1c9f0e",
           "tvg-name": "惊悚电影放映厅"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/26355795",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3424,8 +3424,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:49+00:00",
-      "last_attempt_at": "2026-11-10T14:31:49+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3435,11 +3435,11 @@
         "name": "大墨电影",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1067/c1/a64efaeeb398f1dceb115a76b7c31d_180_135.jpg?1699255661",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_c8c7d1b8d6bfbf5e",
           "tvg-name": "大墨电影"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/29458834",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3447,8 +3447,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:49+00:00",
-      "last_attempt_at": "2026-11-10T14:31:49+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3458,11 +3458,11 @@
         "name": "蒲公英电影",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1086/ce/3553ebf20627169b7fcba3414f4460_180_135.jpg?1694848155",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_2c60083c5d574fa9",
           "tvg-name": "蒲公英电影"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/28806637",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3470,8 +3470,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:49+00:00",
-      "last_attempt_at": "2026-11-10T14:31:49+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3481,11 +3481,11 @@
         "name": "酱婶儿电影",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1054/39/83a56a82c04461f15d918dc055d0b4_180_135.jpg?1620961449",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_532b37112a453801",
           "tvg-name": "酱婶儿电影"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/24396474",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3493,8 +3493,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:48+00:00",
-      "last_attempt_at": "2026-11-10T14:31:48+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3504,11 +3504,11 @@
         "name": "武侠电影放映厅",
         "attrs": {
           "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
-          "group-title": "电影·动作",
+          "group-title": "类型精选",
           "tvg-id": "PLATFORM_9b3dfcedda152a52",
           "tvg-name": "武侠电影放映厅"
         },
-        "group": "电影·动作",
+        "group": "类型精选",
         "url": "https://live.ottiptv.cc/huya/29982611",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3516,8 +3516,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:49+00:00",
-      "last_attempt_at": "2026-11-10T14:31:49+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3527,11 +3527,11 @@
         "name": "爱情电影放映厅",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1019/74/3e2eff112963c8f898e585168ba99b_180_135.jpg?1719996939",
-          "group-title": "电影·爱情",
+          "group-title": "类型精选",
           "tvg-id": "PLATFORM_2e518876a4016be1",
           "tvg-name": "爱情电影放映厅"
         },
-        "group": "电影·爱情",
+        "group": "类型精选",
         "url": "https://live.ottiptv.cc/huya/29982639",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3539,8 +3539,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:50+00:00",
-      "last_attempt_at": "2026-11-10T14:31:50+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3550,11 +3550,11 @@
         "name": "电影最TOP2",
         "attrs": {
           "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_8c559694df8d6298",
           "tvg-name": "电影最TOP2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/29982676",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3562,8 +3562,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:51+00:00",
-      "last_attempt_at": "2026-11-10T14:31:51+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3573,11 +3573,11 @@
         "name": "悬疑电影放映厅",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1090/91/f41be4ea8cc69d38bbe8971a814e7d_180_135.jpg?1719997052",
-          "group-title": "电影·悬疑犯罪",
+          "group-title": "类型精选",
           "tvg-id": "PLATFORM_7d8e8dd86f0ade8e",
           "tvg-name": "悬疑电影放映厅"
         },
-        "group": "电影·悬疑犯罪",
+        "group": "类型精选",
         "url": "https://live.ottiptv.cc/huya/29982641",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3585,8 +3585,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:50+00:00",
-      "last_attempt_at": "2026-11-10T14:31:50+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3619,11 +3619,11 @@
         "name": "吾聊电影2",
         "attrs": {
           "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_85ea3e9058f532f7",
           "tvg-name": "吾聊电影2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/29982684",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3631,8 +3631,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:51+00:00",
-      "last_attempt_at": "2026-11-10T14:31:51+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3642,11 +3642,11 @@
         "name": "悠悠爱电影",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1041/a5/10ded51e3ad604d7c12bee7e4da8aa_180_135.jpg?1744288855",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_6eeacdd5097440d1",
           "tvg-name": "悠悠爱电影"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/30611864",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3654,8 +3654,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:52+00:00",
-      "last_attempt_at": "2026-11-10T14:31:52+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3665,11 +3665,11 @@
         "name": "爆裂电影2",
         "attrs": {
           "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_3cced971122112cc",
           "tvg-name": "爆裂电影2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/29982678",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3677,8 +3677,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:51+00:00",
-      "last_attempt_at": "2026-11-10T14:31:51+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3688,11 +3688,11 @@
         "name": "亮哥讲电影2",
         "attrs": {
           "tvg-logo": "https://diy-assets.msstatic.com/cqhfolder/NewDefault.png",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_5ecc16315c179146",
           "tvg-name": "亮哥讲电影2"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/29982687",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3700,8 +3700,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:52+00:00",
-      "last_attempt_at": "2026-11-10T14:31:52+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -3711,11 +3711,11 @@
         "name": "奥斯曼影院",
         "attrs": {
           "tvg-logo": "https://huyaimg.msstatic.com/avatar/1000/9c/a18289e22eb3b750ed100475be1758_180_135.jpg?1743415979",
-          "group-title": "电影·综合",
+          "group-title": "综合影院",
           "tvg-id": "PLATFORM_852be7f72dd32f70",
           "tvg-name": "奥斯曼影院"
         },
-        "group": "电影·综合",
+        "group": "综合影院",
         "url": "https://live.ottiptv.cc/huya/30509122",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -3723,8 +3723,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:31:52+00:00",
-      "last_attempt_at": "2026-11-10T14:31:52+00:00",
+      "last_success_at": "2026-11-17T04:42:40+00:00",
+      "last_attempt_at": "2026-11-17T04:42:40+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []

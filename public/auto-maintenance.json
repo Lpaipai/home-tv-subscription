@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-16T02:19:58+00:00",
+  "checked_at": "2026-11-17T04:42:11+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,67 +10,64 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 9,
+  "attempts": 8,
   "counts": {
-    "decoded": 7,
-    "failed": 1
+    "decoded": 8
   },
   "state_changes": {
-    "active": 7,
-    "probation": 1
+    "active": 8
   },
   "suspended_total": 3,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "55bcd06fb9e5174f",
-      "name": "CCTV-8",
+      "id": "a6e6e9829ec77c74",
+      "name": "四川卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "6537000fd55598b9",
-      "name": "海南卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2
-    },
-    {
-      "id": "b37bcaf8f478fe42",
-      "name": "余姚综合",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "11ce20a3cd46751f",
-      "name": "CCTV-17",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "931b1e46b3fc0db3",
+      "id": "b1e3a6326442e0b7",
       "name": "江西卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "94e535c8ba80d8c7",
-      "name": "天津卫视",
+      "id": "ff57dc956209c7d5",
+      "name": "新疆卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "95fdbee41eeb9d4a",
-      "name": "内蒙古卫视",
+      "id": "11e5a3da543b91dc",
+      "name": "辽宁卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a3c8c5d0845412b8",
-      "name": "翡翠台",
+      "id": "155a48f6fc2a839c",
+      "name": "宁夏卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "24796150bcbc6611",
+      "name": "名山综合",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "350465a87984daec",
+      "name": "亚洲新闻",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "48da91e70714ecc0",
+      "name": "广东珠江",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 3
+  "renewed_by_formal_checks": 0
 }

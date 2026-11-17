@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-16T10:21:02+08:00",
+  "generated_at": "2026-11-17T12:42:40+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1166,
+  "preview_lines": 1163,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -106,19 +106,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-5 体育",
-      "line_id": "d7573ee5e2ad0f05",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:15:27+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -529,19 +516,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "湖南卫视",
-      "line_id": "349db923be058796",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:14:29+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "浙江卫视",
       "line_id": "01626e8d9376a95c",
       "network": "ipv4_literal",
@@ -687,19 +661,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "东方卫视",
-      "line_id": "e759f8f929760f59",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:15:27+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "西藏卫视",
       "line_id": "e2b01e46b3934cfe",
       "network": "ipv4_literal",
@@ -760,19 +721,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "贵州卫视",
-      "line_id": "006661c270de7f22",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:15:27+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -885,6 +833,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "新疆卫视",
+      "line_id": "ff57dc956209c7d5",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-08T01:38:47+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "青海卫视",
       "line_id": "0286910374c19121",
       "network": "ipv4_literal",
@@ -963,6 +924,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "四川卫视",
+      "line_id": "a6e6e9829ec77c74",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-07T02:07:13+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "安徽卫视",
       "line_id": "954db69adb74bc84",
       "network": "ipv4_literal",
@@ -997,19 +971,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "山东卫视",
-      "line_id": "d8e72ab03f3e15f8",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:15:27+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -1093,6 +1054,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "辽宁卫视",
+      "line_id": "11e5a3da543b91dc",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-08T01:39:51+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "黑龙江卫视",
       "line_id": "fbe6a0f68cae6b17",
       "network": "ipv4_literal",
@@ -1140,19 +1114,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "大湾区卫视",
-      "line_id": "1dd3893415a51757",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T04:14:29+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"

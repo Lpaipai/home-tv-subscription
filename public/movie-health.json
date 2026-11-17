@@ -1,43 +1,34 @@
 {
-  "checked_at": "2026-11-16T02:19:28+00:00",
+  "checked_at": "2026-11-17T04:41:33+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 409,
+  "catalog_entries": 408,
   "sampled": 12,
-  "attempts": 13,
+  "attempts": 14,
   "counts": {
-    "decoded": 11,
-    "blocked": 1
+    "decoded": 10,
+    "failed": 2
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "宇哥讲电影",
-    "安小闫说电影x",
-    "安徽影视",
-    "小丑讲电影",
-    "小丽说电影",
-    "小乔讲电影",
-    "小儛电影嘚啵嘚",
-    "小岛讲电影",
-    "小川侃电影",
-    "小浅说电影",
-    "小涛讲电影V",
-    "小猫影视"
+    "林九影视",
+    "林家栋电影",
+    "林正英-经典电影",
+    "林正英电影",
+    "林青霞电影",
+    "梁家辉电影",
+    "梓帆说电影",
+    "楚哥说电影",
+    "楚门聊电影",
+    "止戈电影",
+    "武侠电影放映厅",
+    "每日好电影V"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "85bbfd96b877fef6",
-      "name": "宇哥讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "5e4416d27cccdff1",
-      "name": "安小闫说电影x",
+      "id": "09ff2346d5243690",
+      "name": "林九影视",
       "group": "其他",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -45,92 +36,103 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "47399f073efc99d6",
-      "name": "安徽影视",
+      "id": "c9cb87ee86b785c6",
+      "name": "林家栋电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "48a23d0312d2ef45",
+      "name": "林正英-经典电影",
       "group": "其他",
-      "video_status": "blocked",
+      "video_status": "failed",
       "audio_status": "not_checked",
-      "status": "blocked",
-      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
-    },
-    {
-      "id": "1a9231eb78b43ea1",
-      "name": "小丑讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "28b96e679a64cdba",
-      "name": "小丽说电影",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "b747a32d7eb515ba",
-      "name": "小乔讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "753ae01fb2ed0c8d",
-      "name": "小儛电影嘚啵嘚",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "ff0bea0d0773bd9c",
-      "name": "小岛讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "893622adf33bc7bf",
-      "name": "小川侃电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "f7f6dc1908184ba9",
-      "name": "小浅说电影",
-      "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "64b8976a2b61770f",
-      "name": "小涛讲电影V",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性",
+      "status": "failed",
+      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "932532289ebaabe5",
-      "name": "小猫影视",
+      "id": "be290f471d71ae55",
+      "name": "林正英电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "c61e23c8c709e0ea",
+      "name": "林青霞电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "54564d4525d6bfc6",
+      "name": "梁家辉电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "4da6a84a1e25b292",
+      "name": "梓帆说电影",
       "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0d82be8259fcf362",
+      "name": "楚哥说电影",
+      "group": "其他",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "f2ca9b496d075996",
+      "name": "楚门聊电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "ae9fa5b0a2b87885",
+      "name": "止戈电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "9b3dfcedda152a52",
+      "name": "武侠电影放映厅",
+      "group": "类型精选",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "7152ab382770d1d1",
+      "name": "每日好电影V",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",

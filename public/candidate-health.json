@@ -1,49 +1,32 @@
 {
-  "checked_at": "2026-11-16T02:18:54+00:00",
+  "checked_at": "2026-11-17T04:41:06+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "failed": 7,
-    "blocked": 2,
-    "decoded": 3
+    "failed": 9,
+    "blocked": 1,
+    "decoded": 2
   },
   "visual_checked": 2,
   "visual_counts": {
-    "unknown": 2,
-    "unsupported": 1
+    "unknown": 2
   },
   "visual_holds_total": 0,
   "visual_note": "每轮最多3条候选做 OCR；疑似错台跨轮拦截，直到重新识别匹配。未知或未测不能解除旧拦截；截图不上传。",
-  "eligible_for_auto_publish": 3,
+  "eligible_for_auto_publish": 2,
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "8fe973236723dc45",
-      "name": "广东民生",
-      "group": "地方",
+      "id": "d381d3c9caa0b4ee",
+      "name": "大湾区卫视",
+      "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "940575f2e20ee64d",
-      "name": "深圳都市",
-      "group": "地方",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
-      "visual_blocked": false
-    },
-    {
-      "id": "942d05bf0133ae66",
-      "name": "深圳电视剧",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "9666c98af7cc19cf",
+      "id": "d503e10be9be010e",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -51,23 +34,39 @@
       "visual_blocked": false
     },
     {
-      "id": "982ad274ecbd53db",
-      "name": "广东珠江",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "9d829c70595f4d2f",
+      "id": "dc88e596269f3f1b",
       "name": "广东新闻",
       "group": "地方",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "visual_blocked": false
+    },
+    {
+      "id": "a296729e1729edb1",
+      "name": "广东民生",
+      "group": "地方",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "3ed48b03eafe3174",
+      "id": "a7ea4a7928689192",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "b0c16b53b82e37f9",
+      "name": "深圳少儿",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "3073d82d41742e41",
       "name": "西藏卫视",
       "group": "卫视",
       "status": "decoded",
@@ -77,16 +76,16 @@
       "frame_count": 2
     },
     {
-      "id": "4020c6d4b4ac6bc5",
-      "name": "香港卫视",
+      "id": "31e3c10dad2add0d",
+      "name": "东南卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "405259a3c5347304",
-      "name": "深圳卫视",
+      "id": "3262c30151b5d185",
+      "name": "辽宁卫视",
       "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
@@ -95,38 +94,36 @@
       "frame_count": 2
     },
     {
-      "id": "40b4d9bb8b3611cf",
-      "name": "星空卫视",
-      "group": "卫视",
+      "id": "337115eff59c6fd9",
+      "name": "CCTV-9 纪录",
+      "group": "央视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "3b9d0756267c5d73",
-      "name": "汶川新闻综合",
+      "id": "3c9d540e2aac7dfb",
+      "name": "金鹰卡通",
       "group": "其他",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unsupported",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "3c034d11c3d6164c",
-      "name": "三立新闻",
+      "id": "3cc4b66449218a59",
+      "name": "石家庄新闻综合",
       "group": "其他",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     }
   ],
-  "promoted": 3,
-  "promoted_decoded": 3,
+  "promoted": 2,
+  "promoted_decoded": 2,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "3ed48b03eafe3174",
-    "405259a3c5347304",
-    "3b9d0756267c5d73"
+    "3073d82d41742e41",
+    "3262c30151b5d185"
   ],
   "visual_mismatch_blocked": 0
 }
