@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-17T12:42:40+08:00",
+  "generated_at": "2026-11-18T11:48:59+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1163,
+  "preview_lines": 1159,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -161,6 +161,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "CCTV-7 国防军事",
+      "line_id": "dac15e492f1d34d5",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-08T01:39:51+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "CCTV-8 电视剧",
       "line_id": "b516d1cabb32e332",
       "network": "ipv4_literal",
@@ -204,19 +217,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-9 纪录",
-      "line_id": "9f4fefacd1a1f22a",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -567,19 +567,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "陕西卫视",
-      "line_id": "a176a2a47cafbe4d",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "湖北卫视",
       "line_id": "840d9bc7bebf1940",
       "network": "ipv4_literal",
@@ -593,19 +580,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "湖北卫视",
-      "line_id": "596a46bcac426eba",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:04:21+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -768,19 +742,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "北京卫视",
-      "line_id": "76b42d6d9e9a2514",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "深圳卫视",
       "line_id": "def02ac10e278fa6",
       "network": "ipv4_literal",
@@ -872,19 +833,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "东南卫视",
-      "line_id": "e9d07c68bbcd50e7",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "吉林卫视",
       "line_id": "a47004b24ec86695",
       "network": "ipv4_literal",
@@ -893,19 +841,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "吉林卫视",
-      "line_id": "c6f76fb9c32bf5d2",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -1015,6 +950,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "河南卫视",
+      "line_id": "1ca24df0c9c27b22",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "甘肃卫视",
       "line_id": "bfef1ab74b6591c3",
       "network": "ipv4_literal",
@@ -1075,19 +1023,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "黑龙江卫视",
-      "line_id": "21eb89f15fb38c41",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-10T09:04:21+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -1529,6 +1464,14 @@
     {
       "name": "粤语喜剧电影",
       "line_id": "8844680759f10363",
+      "selection_mode": "platform_audio_video_decoded",
+      "network": "hostname_unresolved",
+      "content_status": "not_manually_verified",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "精彩动作电影",
+      "line_id": "afa15e91ae9ab769",
       "selection_mode": "platform_audio_video_decoded",
       "network": "hostname_unresolved",
       "content_status": "not_manually_verified",

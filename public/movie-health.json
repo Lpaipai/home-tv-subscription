@@ -1,90 +1,53 @@
 {
-  "checked_at": "2026-11-17T04:41:33+00:00",
+  "checked_at": "2026-11-18T03:47:52+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 408,
+  "catalog_entries": 413,
   "sampled": 12,
-  "attempts": 14,
+  "attempts": 15,
   "counts": {
-    "decoded": 10,
+    "decoded": 6,
+    "blocked": 4,
     "failed": 2
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "林九影视",
-    "林家栋电影",
-    "林正英-经典电影",
-    "林正英电影",
-    "林青霞电影",
-    "梁家辉电影",
-    "梓帆说电影",
-    "楚哥说电影",
-    "楚门聊电影",
-    "止戈电影",
-    "武侠电影放映厅",
-    "每日好电影V"
+    "亮哥讲电影2",
+    "伦帝电影说",
+    "伯乐说电影V",
+    "佛曰影视",
+    "俗哥看电影",
+    "冒险电影放映厅",
+    "冯小刚电影",
+    "刘哔电影",
+    "刘德华电影",
+    "刘老师说电影",
+    "前任电影",
+    "动画电影放映厅"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "09ff2346d5243690",
-      "name": "林九影视",
-      "group": "其他",
+      "id": "9ce5890a7d411eda",
+      "name": "亮哥讲电影2",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "c9cb87ee86b785c6",
-      "name": "林家栋电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "48a23d0312d2ef45",
-      "name": "林正英-经典电影",
-      "group": "其他",
-      "video_status": "failed",
+      "id": "6b7163146e571766",
+      "name": "伦帝电影说",
+      "group": "综合影院",
+      "video_status": "blocked",
       "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
     },
     {
-      "id": "be290f471d71ae55",
-      "name": "林正英电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "c61e23c8c709e0ea",
-      "name": "林青霞电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "54564d4525d6bfc6",
-      "name": "梁家辉电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "4da6a84a1e25b292",
-      "name": "梓帆说电影",
+      "id": "6034d988a107a655",
+      "name": "伯乐说电影V",
       "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
@@ -94,17 +57,26 @@
       "initial_status": "failed"
     },
     {
-      "id": "0d82be8259fcf362",
-      "name": "楚哥说电影",
+      "id": "0565ebe2e9d77d04",
+      "name": "佛曰影视",
       "group": "其他",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
     },
     {
-      "id": "f2ca9b496d075996",
-      "name": "楚门聊电影",
+      "id": "e10583c6d4d8d018",
+      "name": "俗哥看电影",
+      "group": "综合影院",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "0cd29ebafeec70ea",
+      "name": "冒险电影放映厅",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -112,26 +84,57 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "ae9fa5b0a2b87885",
-      "name": "止戈电影",
+      "id": "e9a531ffdbde90c8",
+      "name": "冯小刚电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "28d479fc31baee2d",
+      "name": "刘哔电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "9b3dfcedda152a52",
-      "name": "武侠电影放映厅",
-      "group": "类型精选",
+      "id": "5d08eb3815751d80",
+      "name": "刘德华电影",
+      "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7152ab382770d1d1",
-      "name": "每日好电影V",
+      "id": "f6c39f68d5807e8d",
+      "name": "刘老师说电影",
+      "group": "其他",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "48b6333c4e5a3193",
+      "name": "前任电影",
+      "group": "综合影院",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked",
+      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+    },
+    {
+      "id": "cbb061f870180a22",
+      "name": "动画电影放映厅",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
