@@ -1,10 +1,11 @@
 {
-  "checked_at": "2026-11-18T03:47:17+00:00",
+  "checked_at": "2026-11-20T03:55:08+00:00",
   "mode": "candidate_decode_then_publish",
   "sampled": 12,
   "attempts": 16,
   "counts": {
-    "failed": 10,
+    "blocked": 2,
+    "failed": 8,
     "decoded": 2
   },
   "visual_checked": 2,
@@ -17,39 +18,15 @@
   "rule": "启用的候选本次最终解码通过后自动加入原订阅；排除名单优先；未核对节目身份，错台由用户反馈后排除。",
   "results": [
     {
-      "id": "c82ce25cb37eca7d",
-      "name": "广东珠江",
+      "id": "8bb3e9ba95bff6ae",
+      "name": "广东新闻",
       "group": "地方",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
       "visual_blocked": false
     },
     {
-      "id": "dc96936075ef1a4b",
-      "name": "广东少儿",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "de9347793e804bd5",
-      "name": "广东珠江",
-      "group": "地方",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "21b3ba0fd0cae9a0",
-      "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "84389090f5d26361",
+      "id": "f0c624145f07ddcf",
       "name": "海南卫视",
       "group": "卫视",
       "status": "failed",
@@ -57,43 +34,41 @@
       "visual_blocked": false
     },
     {
-      "id": "846700acf0ae8d4d",
-      "name": "海南卫视",
+      "id": "f587807d50945539",
+      "name": "广东珠江",
+      "group": "地方",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "6e79faaf4ec65edb",
+      "name": "宁夏卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "40d5c94f6a4de7e4",
-      "name": "河南卫视",
+      "id": "4f44dc8fb4fdfdd8",
+      "name": "兵团卫视",
       "group": "卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
-      "visual_status": "unknown",
-      "visual_blocked": false,
-      "frame_count": 2
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分",
+      "visual_blocked": false
     },
     {
-      "id": "40fee5ea14187ef6",
+      "id": "826c908134c70550",
+      "name": "云南卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "2f332ca77f11e313",
       "name": "深圳卫视",
       "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "423dec90da7ffb94",
-      "name": "北京卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "visual_blocked": false
-    },
-    {
-      "id": "457ecd67815bf4e4",
-      "name": "山西卫视",
-      "group": "卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "visual_status": "unknown",
@@ -101,16 +76,42 @@
       "frame_count": 2
     },
     {
-      "id": "49e66416f84b6b97",
-      "name": "长沙新闻综合",
+      "id": "350834cd033ed76a",
+      "name": "CCTV-3",
+      "group": "央视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "visual_status": "unknown",
+      "visual_blocked": false,
+      "frame_count": 2
+    },
+    {
+      "id": "36015695aca99c6d",
+      "name": "CCTV-15",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "36566592b6a50bb8",
+      "name": "甘肃卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "visual_blocked": false
+    },
+    {
+      "id": "4f6b67f0f6ac592b",
+      "name": "佛山综合",
       "group": "其他",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
       "visual_blocked": false
     },
     {
-      "id": "4a87f53cae1162bb",
-      "name": "风云音乐",
+      "id": "4fba992600d7bc0d",
+      "name": "海南自贸",
       "group": "其他",
       "status": "failed",
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
@@ -121,8 +122,8 @@
   "promoted_decoded": 2,
   "promoted_ipv6_unverified": 0,
   "promoted_ids": [
-    "40d5c94f6a4de7e4",
-    "457ecd67815bf4e4"
+    "2f332ca77f11e313",
+    "350834cd033ed76a"
   ],
   "visual_mismatch_blocked": 0
 }

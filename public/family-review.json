@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-19T11:43:34+08:00",
+  "generated_at": "2026-11-20T11:56:48+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1159,
+  "preview_lines": 1160,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -42,19 +42,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-2 财经",
-      "line_id": "8bb1548292a1c661",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-04T02:32:17+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -272,19 +259,6 @@
       "rights_status": "not_verified"
     },
     {
-      "name": "CCTV-12 社会与法",
-      "line_id": "13ecf77b45106c86",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-04T15:16:29+00:00",
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
       "name": "CCTV-13 新闻",
       "line_id": "e26e42a2ed4d6c5b",
       "network": "ipv4_literal",
@@ -298,19 +272,6 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-13 新闻",
-      "line_id": "16a250dcf37537d4",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-04T15:16:29+00:00",
-      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -349,6 +310,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "CCTV-15 音乐",
+      "line_id": "c6ffe8bba63b44bd",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "CCTV-16 奥林匹克",
       "line_id": "9c1ea41b0cbea239",
       "network": "ipv4_literal",
@@ -357,19 +331,6 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
-      "device_verification": null,
-      "content_status": "pending_manual_review",
-      "rights_status": "not_verified"
-    },
-    {
-      "name": "CCTV-16 奥林匹克",
-      "line_id": "90f56986d19d37cc",
-      "network": "ipv4_literal",
-      "cloud_decoded_recently": true,
-      "selection_mode": "fixed",
-      "line_role": "backup_trial",
-      "source_note": "candidate-guovin-gd",
-      "cloud_checked_at": "2026-11-04T15:16:29+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
@@ -533,6 +494,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "浙江卫视",
+      "line_id": "1d2b6e45373a5133",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "江苏卫视",
       "line_id": "3064516f49b7d700",
       "network": "ipv4_literal",
@@ -601,6 +575,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "江西卫视",
+      "line_id": "1ee513c8eaf645ab",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:49:59+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "广东卫视",
       "line_id": "6fda7263a2e0ce0e",
       "network": "ipv4_literal",
@@ -648,6 +635,19 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "西藏卫视",
+      "line_id": "75b83efd6eac370c",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
+      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
@@ -932,6 +932,19 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "河北卫视",
+      "line_id": "9021bf31f7c955ad",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-09T01:51:08+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"

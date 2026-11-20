@@ -1,103 +1,164 @@
 {
-  "checked_at": "2026-11-18T11:47:17+08:00",
+  "checked_at": "2026-11-20T11:55:08+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3953,
+  "catalog_entries": 3933,
   "sampled": 24,
   "counts": {
-    "decoded": 21,
-    "failed": 3
+    "failed": 6,
+    "decoded": 18
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 27,
+  "attempts": 30,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "2f31fe292ce6ab10",
-      "name": "三沙卫视",
-      "group": "卫视",
+      "id": "3e335ab2e6e6a5bb",
+      "name": "CCTV+ 1",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "458a94732156c13e",
+      "name": "CCTV+ 2",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1c17b08bc1d777f2",
-      "name": "东南卫视",
-      "group": "卫视",
+      "id": "2c4edf69f2620667",
+      "name": "CCTV-1 综合",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "263b42da49bfc9a8",
-      "name": "东方卫视",
-      "group": "卫视",
+      "id": "117e6134d5512b17",
+      "name": "CCTV-10 科教",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "216e86dc379ce614",
-      "name": "云南卫视",
-      "group": "卫视",
+      "id": "01206afdd208aa02",
+      "name": "CCTV-11 戏曲",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "a41fb18423f36351",
+      "name": "CCTV-12 社会与法",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2cd7cbfaf55fa124",
-      "name": "兵团卫视",
-      "group": "卫视",
+      "id": "91f3519c67a73e8f",
+      "name": "CCTV-13 新闻",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "61e2f1102fa04427",
+      "name": "CCTV-14 少儿",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "dbf9d06a02edb3b1",
-      "name": "内蒙古卫视",
-      "group": "卫视",
+      "id": "2ec8b6f5f45993f2",
+      "name": "CCTV-15 音乐",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "9749ac2d30f8b815",
+      "name": "CCTV-16 奥林匹克",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "12a1f6e8481b17a6",
-      "name": "北京卫视",
-      "group": "卫视",
+      "id": "00542147d6077894",
+      "name": "CCTV-17 农业农村",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c90b1aeeeeeeed72",
-      "name": "厦门卫视",
-      "group": "卫视",
+      "id": "0a12bb07fd01f1e4",
+      "name": "CCTV-2 财经",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "0b8c65ad3e4aded6",
-      "name": "吉林卫视",
-      "group": "卫视",
+      "id": "1ad8211684f411d9",
+      "name": "CCTV-3 综艺",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "92ad018b2360c810",
-      "name": "四川卫视",
-      "group": "卫视",
+      "id": "a55a059f3bc0ec0d",
+      "name": "CCTV-4 America",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "20c8dd9d42ddef98",
-      "name": "大湾区卫视",
-      "group": "卫视",
+      "id": "1bcf4e03452cee03",
+      "name": "CCTV-4 Asia",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "c9b3e336079fe548",
+      "name": "CCTV-4 Europe",
+      "group": "央视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "42d60d62608a0581",
+      "name": "CCTV-4 中文国际",
+      "group": "央视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "fe24e362aa11e08b",
+      "name": "CCTV-4K",
+      "group": "央视",
       "status": "failed",
       "frames": 0,
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
@@ -105,107 +166,49 @@
       "initial_status": "failed"
     },
     {
-      "id": "033a90bbe3260dca",
-      "name": "天津卫视",
-      "group": "卫视",
+      "id": "e856ccff06b7bfff",
+      "name": "EBS 教育1台",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "312fcf534f6dc405",
-      "name": "宁夏卫视",
-      "group": "卫视",
+      "id": "642a6ec0d8ea5628",
+      "name": "EBS 教育2台",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "200ce76a54c8e8f6",
-      "name": "安徽卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "0a3cdca37ba1e83e",
-      "name": "山东卫视",
-      "group": "卫视",
+      "id": "9851eb2f44dc7652",
+      "name": "EBS 英语",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "016099692223e79f",
-      "name": "山西卫视",
-      "group": "卫视",
+      "id": "b1fd51d1e846b4a4",
+      "name": "EBS 附加1台",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8c5e5e995c62b0a8",
-      "name": "广东卫视",
-      "group": "卫视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "008e9a3909d1669a",
-      "name": "广西卫视",
-      "group": "卫视",
+      "id": "7e24c47d2446db3a",
+      "name": "EBS 附加2台",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "be145a9db9db17fa",
-      "name": "Create",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1758421dea53284b",
-      "name": "Create WMPT",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "8f527f8c1df7aa9d",
-      "name": "Crime + Investigation",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0f44816530ab9960",
-      "name": "Crime 360",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c432f5759ca6f3c6",
-      "name": "Crimenes Imperfectos",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "7f213ca678fa9a6c",
-      "name": "Crunchyroll",
-      "group": "美国",
+      "id": "ad32cd2c3ac570cd",
+      "name": "FGTV (South Korea)",
+      "group": "韩国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"

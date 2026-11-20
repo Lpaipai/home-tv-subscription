@@ -1,177 +1,178 @@
 {
-  "checked_at": "2026-11-18T03:48:59+00:00",
+  "checked_at": "2026-11-20T03:56:48+00:00",
   "environment": "GitHub 标准 Linux 云端",
   "sampled": 24,
   "counts": {
-    "decoded": 24
+    "decoded": 22,
+    "failed": 2
   },
   "active": 2519,
   "boundary": "短时音视频解码，不代表节目身份、持续开播或长期稳定；固定主线路不参与此流程。",
   "results": [
     {
-      "id": "1b5fd7bd9cbcd84c",
-      "name": "短剧电影院",
+      "id": "3abb86d6bb291e95",
+      "name": "高分动作大片-热血出击",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "af64d11c8e45d744",
-      "name": "浅浅爱电影",
+      "id": "58c33b3cec6584c5",
+      "name": "精武英雄-李连杰主演经典动作片",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "ba2375c915ae24fa",
-      "name": "周星驰电影 · 喜剧之王",
+      "id": "1881c398c216c779",
+      "name": "大进军全集：红色系列电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "3322803c2d13feaf",
-      "name": "鹿鼎记-周星驰版",
+      "id": "6715c488b571ad4e",
+      "name": "超精彩！系列动作电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "44b5c670cdec073a",
-      "name": "动作大片",
+      "id": "606b1e675ad5a3d2",
+      "name": "8090.电影一哥",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "173aa14bc3fd5af9",
-      "name": "成龙系列",
+      "id": "e65577250f83de3e",
+      "name": "恐怖电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "93b49df0df2d4522",
-      "name": "末日系列-外国电影合集",
+      "id": "2458abeacc9fa33c",
+      "name": "周星驰喜剧武侠恐怖好看",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "8edf1632c28b3310",
+      "name": "单纯的顺才少爷",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "86c2ec602d1bef24",
-      "name": "岳云鹏宋小宝也来演电影了？",
+      "id": "e902ae1cb02c30cb",
+      "name": "JhZj丶天明",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "f353ed3f5cbf12e9",
-      "name": "国产大片电影",
+      "id": "1174abec019bb8b5",
+      "name": "天才大熊猫啊",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "9e6cdeb2d3d4e014",
-      "name": "科幻电影",
+      "id": "5d78ad51e1e3896b",
+      "name": "Acer丶宏正",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "2f8d9842382e3025",
-      "name": "国产电影-就是闹着玩的",
+      "id": "68d10c7a68602e82",
+      "name": "CmoStar",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "4616edc065901652",
-      "name": "一代经典电影，我很快乐",
+      "id": "f791c15082e0f37c",
+      "name": "荒野视界",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "ee85b1bb962f0592",
-      "name": "疯狂电影人2带你解锁无厘头拍戏",
+      "id": "37bd71d9e005304d",
+      "name": "易说影视",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "024fd0419c620d00",
-      "name": "夏洛特烦恼-国内电影-喜剧",
+      "id": "917cc6d583243d46",
+      "name": "羊小川",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "1e8b52a17cfca533",
-      "name": "珍珠港-电影",
+      "id": "982840e797494477",
+      "name": "安安601801",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "9e267e6b97a32d6d",
-      "name": "1930年代经典电影",
+      "id": "a09043c2d07ab5e0",
+      "name": "小兰酱177",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "25135cd58ce8162e",
-      "name": "爆笑电影！王牌大贱谍2-3",
+      "id": "33e069f8b5d4c2dc",
+      "name": "招财猫猫丶",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "1d647012efde767a",
+      "name": "静静给你糖",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "8e33b39ae2e8cb7a",
-      "name": "史诗级科幻电影-阿凡达",
+      "id": "6666a668137be173",
+      "name": "精彩短剧看不停",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "6ec2893e392168ae",
-      "name": "电影黑豹",
+      "id": "7f845bf26d302f00",
+      "name": "bestthings丶放假",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "afa15e91ae9ab769",
-      "name": "精彩动作电影",
+      "id": "d3f8aea7a7c1a011",
+      "name": "猫-咪",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "65d37f0f70482c2e",
-      "name": "国产动作电影",
+      "id": "f55d452fb0f60981",
+      "name": "苹果Zei甜",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "7e4c7d2581e8c57c",
-      "name": "碟中谍系列电影",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "3be85eddf7e066af",
-      "name": "电影百团大战",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "239b9e3442896783",
-      "name": "院线动作大片",
+      "id": "2def8da778771168",
+      "name": "小毅主播e",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"

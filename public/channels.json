@@ -14,8 +14,8 @@
       },
       {
         "name": "CCTV-3 综艺",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "CCTV-4 America",
@@ -39,8 +39,8 @@
       },
       {
         "name": "CCTV-5 体育",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "CCTV-5+ 体育赛事",
@@ -199,13 +199,13 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "北京卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "兵团卫视",
@@ -224,8 +224,8 @@
       },
       {
         "name": "东南卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "甘肃卫视",
@@ -254,18 +254,18 @@
       },
       {
         "name": "河北卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "河南卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "黑龙江卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "湖北卫视",
@@ -274,8 +274,8 @@
       },
       {
         "name": "湖南卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "吉林卫视",
@@ -299,8 +299,8 @@
       },
       {
         "name": "辽宁卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "内蒙古卫视",
@@ -319,13 +319,13 @@
       },
       {
         "name": "三沙卫视",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "山东卫视",
-        "lines": 16,
-        "txt_lines": 16
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "山西卫视",
@@ -339,8 +339,8 @@
       },
       {
         "name": "深圳卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 14,
+        "txt_lines": 14
       },
       {
         "name": "四川卫视",
@@ -364,8 +364,8 @@
       },
       {
         "name": "新疆卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "延边卫视",
@@ -374,8 +374,8 @@
       },
       {
         "name": "云南卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 14,
+        "txt_lines": 14
       },
       {
         "name": "浙江卫视",
@@ -384,8 +384,8 @@
       },
       {
         "name": "重庆卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 7,
+        "txt_lines": 7
       }
     ]
   },
@@ -644,8 +644,8 @@
       },
       {
         "name": "金鹰卡通",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "精品体育",
@@ -1453,6 +1453,11 @@
         "txt_lines": 1
       },
       {
+        "name": "3TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "5 Cops",
         "lines": 1,
         "txt_lines": 1
@@ -1608,9 +1613,14 @@
         "txt_lines": 1
       },
       {
+        "name": "ABC KATC",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ABC KERO-TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "ABC KGTV",
@@ -1624,6 +1634,11 @@
       },
       {
         "name": "ABC KITV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "ABC KIVI-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1703,6 +1718,11 @@
         "txt_lines": 1
       },
       {
+        "name": "ABC WBAY-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ABC WBBJ-TV",
         "lines": 1,
         "txt_lines": 1
@@ -1713,7 +1733,17 @@
         "txt_lines": 1
       },
       {
+        "name": "ABC WCPO-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ABC WDIO-DT",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "ABC WEWS-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1753,6 +1783,11 @@
         "txt_lines": 1
       },
       {
+        "name": "ABC WSB-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ABC WSOC-TV",
         "lines": 2,
         "txt_lines": 2
@@ -1779,6 +1814,11 @@
       },
       {
         "name": "ABC WWAY",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "ABC WWSB",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1929,8 +1969,8 @@
       },
       {
         "name": "AFV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "AFV Espanol",
@@ -2039,8 +2079,8 @@
       },
       {
         "name": "All Reality by WE tv",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "All Weddings WE tv",
@@ -2049,8 +2089,8 @@
       },
       {
         "name": "ALLBLK Gems",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Almagd TV Middle East",
@@ -2079,8 +2119,8 @@
       },
       {
         "name": "AMC en Espanol",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "AMC Latin America（Brazil）",
@@ -2101,6 +2141,11 @@
         "name": "AMC Series Latin America",
         "lines": 3,
         "txt_lines": 2
+      },
+      {
+        "name": "AMC Thrillers",
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "America's Next Top Model",
@@ -2513,6 +2558,11 @@
         "txt_lines": 7
       },
       {
+        "name": "BBC Drama US",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "BBC Earth US",
         "lines": 1,
         "txt_lines": 1
@@ -2599,8 +2649,8 @@
       },
       {
         "name": "Best of Dr Phil",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Best of The Drew Barrymore Show",
@@ -3058,6 +3108,11 @@
         "txt_lines": 1
       },
       {
+        "name": "CBS KBZK",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS KCCI",
         "lines": 1,
         "txt_lines": 1
@@ -3068,9 +3123,34 @@
         "txt_lines": 1
       },
       {
+        "name": "CBS KMOV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS KMTV-TV",
         "lines": 2,
         "txt_lines": 2
+      },
+      {
+        "name": "CBS KOLD-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "CBS KPAX-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "CBS KRTV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "CBS KTVQ",
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "CBS KUTV",
@@ -3163,12 +3243,27 @@
         "txt_lines": 2
       },
       {
+        "name": "CBS WANF",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS WCBI-TV",
         "lines": 1,
         "txt_lines": 1
       },
       {
+        "name": "CBS WDBJ",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS WDEF-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "CBS WFSB",
         "lines": 1,
         "txt_lines": 1
       },
@@ -3188,12 +3283,27 @@
         "txt_lines": 1
       },
       {
+        "name": "CBS WKYT-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS WPEC",
         "lines": 1,
         "txt_lines": 1
       },
       {
+        "name": "CBS WTKR",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CBS WTVR-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "CBS WVLT-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -3613,6 +3723,11 @@
         "txt_lines": 2
       },
       {
+        "name": "CNN Headlines",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "CNN Originals",
         "lines": 1,
         "txt_lines": 1
@@ -3804,8 +3919,8 @@
       },
       {
         "name": "Crime 360",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Crime + Investigation",
@@ -3939,8 +4054,8 @@
       },
       {
         "name": "Danger TV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Dare To Dream Network",
@@ -3954,8 +4069,8 @@
       },
       {
         "name": "Dark Matter TV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Dateline 24/7",
@@ -4794,11 +4909,16 @@
       },
       {
         "name": "Fox (United States) KDFW",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
+        "name": "Fox (United States) KMPH-TV",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Fox (United States) KMPH-TV",
+        "name": "Fox (United States) KMSP-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4818,17 +4938,42 @@
         "txt_lines": 1
       },
       {
+        "name": "Fox (United States) KSTU",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Fox (United States) KTBC",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "Fox (United States) KTTV",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
+        "name": "Fox (United States) KVVU-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WAGA-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WALA-TV",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "Fox (United States) WBFF",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WBRC",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4849,6 +4994,11 @@
       },
       {
         "name": "Fox (United States) WHBQ-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WHNS",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4879,6 +5029,21 @@
       },
       {
         "name": "Fox (United States) WTXF-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WVUE-DT",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WXIX-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox (United States) WXMI",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4931,6 +5096,21 @@
         "name": "Fox Weather",
         "lines": 5,
         "txt_lines": 5
+      },
+      {
+        "name": "Fox Weather KTVU",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox Weather WFLD",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Fox Weather WOFL",
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Frasier",
@@ -5029,8 +5209,8 @@
       },
       {
         "name": "Game Show Central",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Game Show Network",
@@ -5184,8 +5364,8 @@
       },
       {
         "name": "GoTraveler",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Government TV 16",
@@ -5383,6 +5563,11 @@
         "txt_lines": 8
       },
       {
+        "name": "HerSphere",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Hey Arnold!",
         "lines": 1,
         "txt_lines": 1
@@ -5504,8 +5689,8 @@
       },
       {
         "name": "Home.Made.Nation",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Homeful US",
@@ -5554,8 +5739,8 @@
       },
       {
         "name": "HSN",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "HSN2",
@@ -5718,14 +5903,19 @@
         "txt_lines": 1
       },
       {
+        "name": "ION Mystery",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ION Plus",
         "lines": 3,
         "txt_lines": 3
       },
       {
         "name": "ION TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Iran National Revolution TV",
@@ -5809,6 +5999,11 @@
       },
       {
         "name": "Journy",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Judge Faith",
         "lines": 1,
         "txt_lines": 1
       },
@@ -5964,8 +6159,8 @@
       },
       {
         "name": "KNXV-TV 61.1",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "KOCT Channel 18",
@@ -6041,6 +6236,11 @@
         "name": "Laff",
         "lines": 2,
         "txt_lines": 2
+      },
+      {
+        "name": "Laff More",
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Lake Havasu City 4",
@@ -6268,6 +6468,11 @@
         "txt_lines": 1
       },
       {
+        "name": "Local Now",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Localish",
         "lines": 2,
         "txt_lines": 2
@@ -6354,6 +6559,11 @@
       },
       {
         "name": "Love The Planet",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Love Thy Neighbor",
         "lines": 1,
         "txt_lines": 1
       },
@@ -6669,6 +6879,16 @@
       },
       {
         "name": "MMA TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "MNT KCTV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "MNT KPTV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7153,7 +7373,17 @@
         "txt_lines": 1
       },
       {
+        "name": "NBC KJRH-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "NBC KNTV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "NBC KOAA-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7179,6 +7409,11 @@
       },
       {
         "name": "NBC KSNV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "NBC KTVH-DT",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7253,6 +7488,11 @@
         "txt_lines": 1
       },
       {
+        "name": "NBC WMC-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "NBC WMGT-TV",
         "lines": 1,
         "txt_lines": 1
@@ -7279,6 +7519,11 @@
       },
       {
         "name": "NBC WRDE-LD",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "NBC WSMV-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7584,8 +7829,8 @@
       },
       {
         "name": "Ninja Kidz TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "NMBTV",
@@ -7734,8 +7979,8 @@
       },
       {
         "name": "On Patrol: Live",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "On The Case",
@@ -7993,6 +8238,11 @@
         "txt_lines": 4
       },
       {
+        "name": "PBS Retro",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "PBS Travel",
         "lines": 1,
         "txt_lines": 1
@@ -8074,6 +8324,11 @@
       },
       {
         "name": "PHXTV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Pickleball TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -8943,9 +9198,14 @@
         "txt_lines": 1
       },
       {
+        "name": "Popular Science",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Portlandia",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Positiv TV",
@@ -8983,6 +9243,11 @@
         "txt_lines": 1
       },
       {
+        "name": "Pure Flix TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Pursuit Channel",
         "lines": 1,
         "txt_lines": 1
@@ -9009,8 +9274,8 @@
       },
       {
         "name": "QVC (United States)",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Racer Network",
@@ -9244,6 +9509,11 @@
       },
       {
         "name": "Roar WSBT-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Roar WTVF",
         "lines": 1,
         "txt_lines": 1
       },
@@ -9703,6 +9973,21 @@
         "txt_lines": 1
       },
       {
+        "name": "Space Science Now",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Spark TV Light & Love",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "SPEEDVISION",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "Spike Outdoors",
         "lines": 1,
         "txt_lines": 1
@@ -9739,8 +10024,8 @@
       },
       {
         "name": "Stadium",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Star Action",
@@ -10234,8 +10519,8 @@
       },
       {
         "name": "The Bob Ross Channel",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "The Burbank Channel",
@@ -10244,8 +10529,8 @@
       },
       {
         "name": "The Carol Burnett Show",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "The Challenge",
@@ -10273,6 +10558,26 @@
         "txt_lines": 2
       },
       {
+        "name": "The CW KTNV-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "The CW KWCH-DT",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "The CW WAVE",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "The CW WWBT",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "The Design Network",
         "lines": 5,
         "txt_lines": 5
@@ -10294,8 +10599,8 @@
       },
       {
         "name": "The Hill TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "The Jamie Oliver Channel",
@@ -10424,8 +10729,8 @@
       },
       {
         "name": "The Walking Dead Universe",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "The Weather Channel",
@@ -10489,8 +10794,8 @@
       },
       {
         "name": "Tiny House Nation",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "TLC Latin America（Brazil）",
@@ -10684,8 +10989,8 @@
       },
       {
         "name": "Tribeca Channel",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "True Crime Network",
@@ -11354,6 +11659,11 @@
       },
       {
         "name": "Westerns 4U",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "WFTS-TV 32.1",
         "lines": 1,
         "txt_lines": 1
       },
