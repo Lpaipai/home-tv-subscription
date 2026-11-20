@@ -90,6 +90,24 @@ class LifecycleTests(unittest.TestCase):
         self.assertNotEqual(self.entry["state"], "suspended")
 
 
+    def test_recheck_merges_auto_origins_idempotently(self):
+        first = "https://example.com/first-list.m3u"
+        second = "https://example.com/second-list.txt"
+        third = "https://example.com/third-list.m3u"
+        self.entry["origins"] = [first, third]
+        saved = {self.key: {"url": self.entry["url"],
+                            "sources": [first, second, second]}}
+        auto_maintenance.restore_ledger_origins(self.ledger, saved)
+        self.assertEqual(self.entry["origins"], sorted({first, second, third}))
+        # 暂停/恢复后重建也不丢来源，且重复执行不会产生重复项。
+        self.entry["state"] = "suspended"
+        auto_maintenance.restore_ledger_origins(self.ledger, saved)
+        self.assertEqual(self.entry["origins"], sorted({first, second, third}))
+        self.entry["state"] = "active"
+        auto_maintenance.restore_ledger_origins(self.ledger, saved)
+        self.assertEqual(self.entry["origins"], sorted({first, second, third}))
+
+
     def test_atomic_rebuild_preserves_origins_and_handles_suspend_resume(self):
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)

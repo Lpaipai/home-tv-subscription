@@ -165,6 +165,15 @@ def recheck(ledger, ffmpeg, now=None, limit=MAX_RECHECK, retry_limit=MAX_RETRIES
     }
 
 
+def restore_ledger_origins(ledger, origins):
+    """合并自动收录记录与正式目录的来源，避免重建时丢失新增溯源。"""
+    for key, entry in ledger["entries"].items():
+        entry["origins"] = sorted(
+            set(entry.get("origins", []))
+            | set(origins.get(key, {}).get("sources", []))
+        )
+
+
 def publish_recheck(report, ledger, results):
     """在副本中同时更新来源记录、直播与健康数据；原子切换目录。"""
     import update
@@ -182,6 +191,8 @@ def publish_recheck(report, ledger, results):
     origins = json.loads((public / "line-origins.json").read_text(encoding="utf-8"))
     for entry in current:
         entry["origins"] = origins.get(line_id(entry), {}).get("sources", [])
+    # 自动收录列表可能早于正式目录，需保留后续发现的所有来源。
+    restore_ledger_origins(ledger, origins)
     ledger_ids = set(ledger["entries"])
     baseline = [entry for entry in current if line_id(entry) not in ledger_ids]
     auto = align_regions(active_additions(ledger, config), baseline, settings)
