@@ -282,8 +282,13 @@ def validate_upstream_health(entries, status, source_text, now=None):
 
 def validate_live_update(report, previous):
     """自动发布门槛：来源不能丢失，目录不能突然大幅缩水。"""
-    if any("entries" not in source for source in report["live"]):
-        raise RuntimeError("有直播来源失败且无缓存，停止自动发布")
+    failed_sources = [source for source in report["live"] if "entries" not in source]
+    if failed_sources:
+        details = "; ".join(
+            f"{source.get('id', 'unknown')}: {source.get('error', 'unknown error')}"
+            for source in failed_sources
+        )
+        raise RuntimeError(f"有直播来源失败且无缓存，停止自动发布（{details}）")
     if all(source.get("cached") for source in report["live"]):
         raise RuntimeError("全部来源使用旧缓存，停止自动发布")
     if report["live_entries"] < previous.get("live_entries", 0) * 0.8:
@@ -395,7 +400,11 @@ def main():
                 entries.extend(items)
                 report["live"].append(meta)
             except Exception as error:
-                report["live"].append({"id": source["id"], "error": str(error)})
+                detail = str(error)
+                for address in (source.get("url", ""), source.get("status_url", "")):
+                    if address:
+                        detail = detail.replace(address, "<source-url>")
+                report["live"].append({"id": source["id"], "error": detail[:240]})
     if not entries:
         raise RuntimeError("所有直播源失败，现有订阅保持不变")
     # 人工核验的补充线路独立维护，避免上游刷新重新引入错标地址。
