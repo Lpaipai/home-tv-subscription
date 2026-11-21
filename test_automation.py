@@ -53,15 +53,34 @@ class AutomationTests(unittest.TestCase):
             update.write_json(public / "status.json", status)
             sources = json.loads((root / "config.json").read_text(encoding="utf-8"))["live_sources"]
             allowed = {source["url"] for source in sources}
+            allowed.update(source["status_url"] for source in sources if source.get("status_url"))
+            stamp = datetime.now(timezone.utc).replace(tzinfo=None).strftime("%Y-%m-%d %H:%M:%S")
+            lightconer_text = (
+                f"更新时间,#genre#\\n{stamp},https://example.com/live\\n"
+                "央视,#genre#\\nTest,https://example.com/live\\n"
+            )
+            lightconer_status = {
+                "update_time": stamp, "crawled": 1, "dedup": 1,
+                "http_ok": 1, "passed": 1, "dead": 0, "channels": 1,
+            }
 
             def fetch(url, validator):
                 self.assertIn(url, allowed, "直播更新不能抓取点播配置")
+                if url.endswith("/output/status.json"):
+                    return validator(json.dumps(lightconer_status)), {"cached": False}
+                if url.endswith("/output/live.txt"):
+                    key = update.hashlib.sha256(update.canonical(url).encode()).hexdigest()
+                    cache_path = update.CACHE / (key + ".txt")
+                    cache_path.parent.mkdir(parents=True, exist_ok=True)
+                    cache_path.write_text(lightconer_text, encoding="utf-8")
+                    return validator(lightconer_text), {"cached": False}
                 if "dearbulut.github.io" in url:
                     return validator(json.dumps([{"id": "Test.us", "name": "Test", "streams": [
                         {"url": "https://example.com/live", "feed": "SD"}]}])), {"cached": False}
-                return validator("#EXTM3U\n#EXTINF:-1,Test\nhttps://example.com/live\n"), {"cached": False}
+                return validator("#EXTM3U\\n#EXTINF:-1,Test\\nhttps://example.com/live\\n"), {"cached": False}
 
-            with patch.object(update, "ROOT", root), patch.object(update, "STATE", root / "state"), \
+            with patch.object(update, "ROOT", root), patch.object(update, "CACHE", root / "cache"), \
+                    patch.object(update, "STATE", root / "state"), \
                     patch.object(update, "fetch", side_effect=fetch), \
                     patch.object(sys, "argv", ["update.py", "--live-only", "--guarded"]):
                 update.main()
