@@ -79,6 +79,59 @@ class SubscriptionTests(unittest.TestCase):
                 self.assertEqual(value["sites"][0]["key"], "test")
                 self.assertTrue(meta["cached"])
 
+    def test_upstream_health_attests_a_verified_source_shrink(self):
+        source_text = (
+            "🕘️更新时间,#genre#\\n"
+            "2026-11-20 23:28:36,https://example.com/live-1\\n"
+            "央视,#genre#\\n"
+            "CCTV-1,https://example.com/live-1\\n"
+            "CCTV-2,https://example.com/live-2\\n"
+        )
+        entries = update.parse_live(source_text)
+        status = {
+            "update_time": "2026-11-20 23:28:36",
+            "crawled": 629, "dedup": 567, "http_ok": 82,
+            "passed": 2, "dead": 485, "channels": 2,
+        }
+        # 测试夹具只保留两条实际输出，因此相应调整自报通过数与健康统计。
+        status["passed"] = len(entries)
+        status["http_ok"] = 82
+        status["dead"] = 485
+        status["dedup"] = status["http_ok"] + status["dead"]
+        result = update.validate_upstream_health(
+            entries, status, source_text,
+            now=datetime(2026, 11, 21, 3, 30, tzinfo=update.timezone.utc).replace(tzinfo=None))
+        self.assertTrue(result["upstream_health_verified"])
+        self.assertEqual(result["upstream_passed"], 2)
+
+    def test_upstream_health_rejects_mismatched_time_or_count(self):
+        source_text = (
+            "更新时间,#genre#\\n"
+            "2026-11-21 03:00:00,https://example.com/meta\\n"
+            "央视,#genre#\\n"
+            "CCTV-1,https://example.com/live-1\\n"
+        )
+        entries = update.parse_live(source_text)
+        status = {
+            "update_time": "2026-11-21 03:00:00",
+            "crawled": 10, "dedup": 8, "http_ok": 2,
+            "passed": 2, "dead": 6, "channels": 1,
+        }
+        with self.assertRaises(ValueError):
+            update.validate_upstream_health(entries, status, source_text)
+        status["passed"] = 1
+        with self.assertRaises(ValueError):
+            update.validate_upstream_health(entries, status, source_text)
+
+    def test_verified_source_shrink_passes_but_unverified_shrink_still_blocks(self):
+        previous = {"live_entries": 200, "live": [{"id": "lightconer", "entries": 235}]}
+        report = {"live_entries": 200, "live": [
+            {"id": "lightconer", "entries": 74, "upstream_health_verified": True}]}
+        update.validate_live_update(report, previous)
+        report["live"][0].pop("upstream_health_verified")
+        with self.assertRaises(RuntimeError):
+            update.validate_live_update(report, previous)
+
     def test_html_is_rejected(self):
         with self.assertRaises(ValueError):
             update.parse_live("<html>gateway error</html>")
