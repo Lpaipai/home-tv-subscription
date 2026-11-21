@@ -1,6 +1,7 @@
 # 2026/10/22 19:52:00 by liaoweipeng1
 """验证移动订阅时容易造成失效的格式、依赖路径和回退行为。"""
 import json
+from datetime import datetime, timedelta
 from pathlib import Path
 import tempfile
 import unittest
@@ -80,46 +81,43 @@ class SubscriptionTests(unittest.TestCase):
                 self.assertTrue(meta["cached"])
 
     def test_upstream_health_attests_a_verified_source_shrink(self):
-        source_text = """🕘️更新时间,#genre#
-2026-11-20 23:28:36,https://example.com/live-1
+        now = datetime.now(update.timezone.utc).replace(tzinfo=None)
+        stamp = (now - timedelta(hours=1)).strftime("%Y-%m-%d %H:%M:%S")
+        source_text = f"""🕘️更新时间,#genre#
+{stamp},https://example.com/live-1
 央视,#genre#
 CCTV-1,https://example.com/live-1
 CCTV-2,https://example.com/live-2
 """
         entries = update.parse_live(source_text)
         status = {
-            "update_time": "2026-11-20 23:28:36",
+            "update_time": stamp,
             "crawled": 629, "dedup": 567, "http_ok": 82,
-            "passed": 2, "dead": 485, "channels": 2,
+            "passed": len(entries), "dead": 485, "channels": 2,
         }
-        # 测试夹具只保留两条实际输出，因此相应调整自报通过数与健康统计。
-        status["passed"] = len(entries)
-        status["http_ok"] = 82
-        status["dead"] = 485
-        status["dedup"] = status["http_ok"] + status["dead"]
-        result = update.validate_upstream_health(
-            entries, status, source_text,
-            now=datetime(2026, 11, 21, 3, 30, tzinfo=update.timezone.utc).replace(tzinfo=None))
+        result = update.validate_upstream_health(entries, status, source_text, now=now)
         self.assertTrue(result["upstream_health_verified"])
         self.assertEqual(result["upstream_passed"], 2)
 
     def test_upstream_health_rejects_mismatched_time_or_count(self):
-        source_text = """更新时间,#genre#
-2026-11-21 03:00:00,https://example.com/meta
+        now = datetime.now(update.timezone.utc).replace(tzinfo=None)
+        stamp = (now - timedelta(minutes=5)).strftime("%Y-%m-%d %H:%M:%S")
+        source_text = f"""更新时间,#genre#
+{stamp},https://example.com/meta
 央视,#genre#
 CCTV-1,https://example.com/live-1
 """
         entries = update.parse_live(source_text)
         status = {
-            "update_time": "2026-11-21 03:00:00",
+            "update_time": stamp,
             "crawled": 10, "dedup": 8, "http_ok": 2,
             "passed": 2, "dead": 6, "channels": 1,
         }
         with self.assertRaises(ValueError):
-            update.validate_upstream_health(entries, status, source_text)
-        status["update_time"] = "2026-11-21 03:01:00"
+            update.validate_upstream_health(entries, status, source_text, now=now)
+        status["update_time"] = (now - timedelta(minutes=4)).strftime("%Y-%m-%d %H:%M:%S")
         with self.assertRaises(ValueError):
-            update.validate_upstream_health(entries, status, source_text)
+            update.validate_upstream_health(entries, status, source_text, now=now)
 
     def test_verified_source_shrink_passes_but_unverified_shrink_still_blocks(self):
         previous = {"live_entries": 200, "live": [{"id": "lightconer", "entries": 235}]}
