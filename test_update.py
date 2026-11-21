@@ -80,13 +80,12 @@ class SubscriptionTests(unittest.TestCase):
                 self.assertTrue(meta["cached"])
 
     def test_upstream_health_attests_a_verified_source_shrink(self):
-        source_text = (
-            "🕘️更新时间,#genre#\\n"
-            "2026-11-20 23:28:36,https://example.com/live-1\\n"
-            "央视,#genre#\\n"
-            "CCTV-1,https://example.com/live-1\\n"
-            "CCTV-2,https://example.com/live-2\\n"
-        )
+        source_text = """🕘️更新时间,#genre#
+2026-11-20 23:28:36,https://example.com/live-1
+央视,#genre#
+CCTV-1,https://example.com/live-1
+CCTV-2,https://example.com/live-2
+"""
         entries = update.parse_live(source_text)
         status = {
             "update_time": "2026-11-20 23:28:36",
@@ -105,12 +104,11 @@ class SubscriptionTests(unittest.TestCase):
         self.assertEqual(result["upstream_passed"], 2)
 
     def test_upstream_health_rejects_mismatched_time_or_count(self):
-        source_text = (
-            "更新时间,#genre#\\n"
-            "2026-11-21 03:00:00,https://example.com/meta\\n"
-            "央视,#genre#\\n"
-            "CCTV-1,https://example.com/live-1\\n"
-        )
+        source_text = """更新时间,#genre#
+2026-11-21 03:00:00,https://example.com/meta
+央视,#genre#
+CCTV-1,https://example.com/live-1
+"""
         entries = update.parse_live(source_text)
         status = {
             "update_time": "2026-11-21 03:00:00",
@@ -119,7 +117,7 @@ class SubscriptionTests(unittest.TestCase):
         }
         with self.assertRaises(ValueError):
             update.validate_upstream_health(entries, status, source_text)
-        status["passed"] = 1
+        status["update_time"] = "2026-11-21 03:01:00"
         with self.assertRaises(ValueError):
             update.validate_upstream_health(entries, status, source_text)
 
