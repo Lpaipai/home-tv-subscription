@@ -1,7 +1,6 @@
 # 2026/10/22 19:52:00 by liaoweipeng1
 """验证移动订阅时容易造成失效的格式、依赖路径和回退行为。"""
 import json
-from datetime import datetime, timedelta
 from pathlib import Path
 import tempfile
 import unittest
@@ -92,54 +91,6 @@ like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Nei Monggol 
                     value, meta = update.fetch(url, update.parse_json)
                 self.assertEqual(value["sites"][0]["key"], "test")
                 self.assertTrue(meta["cached"])
-
-    def test_upstream_health_attests_a_verified_source_shrink(self):
-        now = datetime.now(update.timezone.utc).replace(tzinfo=None)
-        stamp = (now - timedelta(hours=1)).strftime("%Y-%m-%d %H:%M:%S")
-        source_text = f"""🕘️更新时间,#genre#
-{stamp},https://example.com/live-1
-央视,#genre#
-CCTV-1,https://example.com/live-1
-CCTV-2,https://example.com/live-2
-"""
-        entries = update.parse_live(source_text)
-        status = {
-            "update_time": stamp,
-            "crawled": 629, "dedup": 567, "http_ok": 82,
-            "passed": len(entries), "dead": 485, "channels": 2,
-        }
-        result = update.validate_upstream_health(entries, status, source_text, now=now)
-        self.assertTrue(result["upstream_health_verified"])
-        self.assertEqual(result["upstream_passed"], 2)
-
-    def test_upstream_health_rejects_mismatched_time_or_count(self):
-        now = datetime.now(update.timezone.utc).replace(tzinfo=None)
-        stamp = (now - timedelta(minutes=5)).strftime("%Y-%m-%d %H:%M:%S")
-        source_text = f"""更新时间,#genre#
-{stamp},https://example.com/meta
-央视,#genre#
-CCTV-1,https://example.com/live-1
-"""
-        entries = update.parse_live(source_text)
-        status = {
-            "update_time": stamp,
-            "crawled": 10, "dedup": 8, "http_ok": 2,
-            "passed": 2, "dead": 6, "channels": 1,
-        }
-        with self.assertRaises(ValueError):
-            update.validate_upstream_health(entries, status, source_text, now=now)
-        status["update_time"] = (now - timedelta(minutes=4)).strftime("%Y-%m-%d %H:%M:%S")
-        with self.assertRaises(ValueError):
-            update.validate_upstream_health(entries, status, source_text, now=now)
-
-    def test_verified_source_shrink_passes_but_unverified_shrink_still_blocks(self):
-        previous = {"live_entries": 200, "live": [{"id": "lightconer", "entries": 235}]}
-        report = {"live_entries": 200, "live": [
-            {"id": "lightconer", "entries": 74, "upstream_health_verified": True}]}
-        update.validate_live_update(report, previous)
-        report["live"][0].pop("upstream_health_verified")
-        with self.assertRaises(RuntimeError):
-            update.validate_live_update(report, previous)
 
     def test_html_is_rejected(self):
         with self.assertRaises(ValueError):

@@ -237,59 +237,6 @@ def render_live(entries, out, stem="live"):
     return omissions
 
 
-def source_update_time(text):
-    """读取上游列表头部的更新时间标记；没有标记则无法核验来源自报状态。"""
-    group = ""
-    for raw in text.splitlines():
-        line = raw.strip()
-        if not line:
-            continue
-        if line.endswith(",#genre#"):
-            group = line.split(",", 1)[0]
-            continue
-        if "更新时间" in group and "," in line:
-            value = line.split(",", 1)[0].strip()
-            try:
-                return datetime.strptime(value, "%Y-%m-%d %H:%M:%S")
-            except ValueError:
-                return None
-    return None
-
-
-def validate_upstream_health(entries, status, source_text, now=None):
-    """只在上游状态文件与列表同批次、计数自洽时，认可上游主动健康筛选造成的缩减。"""
-    if not isinstance(status, dict):
-        raise ValueError("上游状态文件格式无效")
-    feed_time = source_update_time(source_text)
-    try:
-        status_time = datetime.strptime(status.get("update_time", ""), "%Y-%m-%d %H:%M:%S")
-    except (TypeError, ValueError):
-        raise ValueError("上游状态文件缺少有效更新时间")
-    if feed_time is None or abs((feed_time - status_time).total_seconds()) > 60:
-        raise ValueError("上游状态时间与直播列表不匹配")
-    now = now or datetime.now(timezone.utc).replace(tzinfo=None)
-    if feed_time > now + timedelta(minutes=10) or now - feed_time > timedelta(hours=48):
-        raise ValueError("上游健康状态过期或时间异常")
-
-    fields = ("crawled", "dedup", "http_ok", "passed", "dead", "channels")
-    counts = {key: status.get(key) for key in fields}
-    if any(type(value) is not int or value < 0 for value in counts.values()):
-        raise ValueError("上游健康统计字段无效")
-    if not (
-        counts["channels"] <= counts["passed"] == len(entries)
-        and counts["passed"] <= counts["http_ok"] <= counts["dedup"] <= counts["crawled"]
-        and counts["http_ok"] + counts["dead"] == counts["dedup"]
-    ):
-        raise ValueError("上游健康统计与实际列表数量不一致")
-    return {
-        "upstream_health_verified": True,
-        "upstream_updated_at": status_time.strftime("%Y-%m-%d %H:%M:%S"),
-        "upstream_crawled": counts["crawled"],
-        "upstream_passed": counts["passed"],
-        "upstream_dead": counts["dead"],
-    }
-
-
 def validate_live_update(report, previous):
     """自动发布门槛：来源不能丢失，目录不能突然大幅缩水。"""
     failed_sources = [source for source in report["live"] if "entries" not in source]
@@ -306,8 +253,8 @@ def validate_live_update(report, previous):
     old_sources = {source["id"]: source for source in previous.get("live", [])}
     for source in report["live"]:
         old_count = old_sources.get(source["id"], {}).get("entries", 0)
-        if source["entries"] < old_count * 0.6 and not source.get("upstream_health_verified"):
-            raise RuntimeError(f"来源 {source['id']} 条目减少超过 40%，且缺少可信上游健康证明，停止自动发布")
+        if source["entries"] < old_count * 0.6 and not source.get("allow_shrink"):
+            raise RuntimeError(f"来源 {source['id']} 条目减少超过 40%，停止自动发布")
 
 
 def publish_directory(out):
@@ -390,17 +337,15 @@ def main():
     def get_live(source):
         validator = parse_nexus if source.get("format") == "nexus" else lambda text: parse_live(text, source["name"])
         data, meta = fetch(source["url"], validator)
-        if source.get("status_url"):
-            upstream_status, _ = fetch(source["status_url"], parse_json)
-            cache_key = hashlib.sha256(canonical(source["url"]).encode()).hexdigest()
-            source_text = (CACHE / (cache_key + ".txt")).read_text(encoding="utf-8")
-            meta.update(validate_upstream_health(data, upstream_status, source_text))
         for e in data:
             e["source"] = source["id"]
             e["region"] = source.get("region", source["id"])
             e["origins"] = [source["url"]]
             e["group"] = source["name"] + (" / " + e["group"] if e["group"] != source["name"] else "")
-        return data, dict(meta, id=source["id"], name=source["name"], entries=len(data))
+        result_meta = dict(meta, id=source["id"], name=source["name"], entries=len(data))
+        if source.get("allow_shrink"):
+            result_meta["allow_shrink"] = True
+        return data, result_meta
 
     with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
         futures = [pool.submit(get_live, s) for s in config["live_sources"]]

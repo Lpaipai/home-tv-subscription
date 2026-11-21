@@ -34,6 +34,12 @@ class AutomationTests(unittest.TestCase):
             with self.subTest(report=report), self.assertRaises(RuntimeError):
                 update.validate_live_update(report, old)
 
+    def test_known_source_can_shrink_without_blocking_other_sources(self):
+        previous = {"live_entries": 100, "live": [{"id": "lightconer", "entries": 235}]}
+        report = {"live_entries": 100, "live": [
+            {"id": "lightconer", "entries": 74, "allow_shrink": True}]}
+        update.validate_live_update(report, previous)
+
     def test_live_only_preserves_vod_and_health_without_fetching_vod(self):
         with tempfile.TemporaryDirectory(dir=update.ROOT) as folder:
             root = Path(folder)
@@ -53,27 +59,13 @@ class AutomationTests(unittest.TestCase):
             update.write_json(public / "status.json", status)
             sources = json.loads((root / "config.json").read_text(encoding="utf-8"))["live_sources"]
             allowed = {source["url"] for source in sources}
-            allowed.update(source["status_url"] for source in sources if source.get("status_url"))
-            stamp = datetime.now(timezone.utc).replace(tzinfo=None).strftime("%Y-%m-%d %H:%M:%S")
-            lightconer_text = f"""更新时间,#genre#
-{stamp},https://example.com/live
-央视,#genre#
+            lightconer_text = """央视,#genre#
 Test,https://example.com/live
 """
-            lightconer_status = {
-                "update_time": stamp, "crawled": 1, "dedup": 1,
-                "http_ok": 1, "passed": 1, "dead": 0, "channels": 1,
-            }
 
             def fetch(url, validator):
                 self.assertIn(url, allowed, "直播更新不能抓取点播配置")
-                if url.endswith("/output/status.json"):
-                    return validator(json.dumps(lightconer_status)), {"cached": False}
                 if url.endswith("/output/live.txt"):
-                    key = update.hashlib.sha256(update.canonical(url).encode()).hexdigest()
-                    cache_path = update.CACHE / (key + ".txt")
-                    cache_path.parent.mkdir(parents=True, exist_ok=True)
-                    cache_path.write_text(lightconer_text, encoding="utf-8")
                     return validator(lightconer_text), {"cached": False}
                 if "dearbulut.github.io" in url:
                     return validator(json.dumps([{"id": "Test.us", "name": "Test", "streams": [
@@ -83,8 +75,7 @@ Test,https://example.com/live
 https://example.com/live
 """), {"cached": False}
 
-            with patch.object(update, "ROOT", root), patch.object(update, "CACHE", root / "cache"), \
-                    patch.object(update, "STATE", root / "state"), \
+            with patch.object(update, "ROOT", root), patch.object(update, "STATE", root / "state"), \
                     patch.object(update, "fetch", side_effect=fetch), \
                     patch.object(sys, "argv", ["update.py", "--live-only", "--guarded"]):
                 update.main()
