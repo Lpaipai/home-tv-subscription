@@ -55,10 +55,11 @@ class AutomationTests(unittest.TestCase):
             allowed = {source["url"] for source in sources}
             allowed.update(source["status_url"] for source in sources if source.get("status_url"))
             stamp = datetime.now(timezone.utc).replace(tzinfo=None).strftime("%Y-%m-%d %H:%M:%S")
-            lightconer_text = (
-                f"更新时间,#genre#\\n{stamp},https://example.com/live\\n"
-                "央视,#genre#\\nTest,https://example.com/live\\n"
-            )
+            lightconer_text = f"""更新时间,#genre#
+{stamp},https://example.com/live
+央视,#genre#
+Test,https://example.com/live
+"""
             lightconer_status = {
                 "update_time": stamp, "crawled": 1, "dedup": 1,
                 "http_ok": 1, "passed": 1, "dead": 0, "channels": 1,
@@ -77,7 +78,10 @@ class AutomationTests(unittest.TestCase):
                 if "dearbulut.github.io" in url:
                     return validator(json.dumps([{"id": "Test.us", "name": "Test", "streams": [
                         {"url": "https://example.com/live", "feed": "SD"}]}])), {"cached": False}
-                return validator("#EXTM3U\\n#EXTINF:-1,Test\\nhttps://example.com/live\\n"), {"cached": False}
+                return validator("""#EXTM3U
+#EXTINF:-1,Test
+https://example.com/live
+"""), {"cached": False}
 
             with patch.object(update, "ROOT", root), patch.object(update, "CACHE", root / "cache"), \
                     patch.object(update, "STATE", root / "state"), \
