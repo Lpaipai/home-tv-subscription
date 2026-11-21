@@ -153,10 +153,20 @@ def parse_live(text, label=""):
             if address == "#genre#":
                 group = name
                 continue
-            if "更新时间" in group or re.fullmatch(r"\d{4}-\d{2}-\d{2}.*", name):
+            protocols = ("http://", "https://", "rtsp://", "rtmp://", "udp://", "rtp://")
+            if not address.startswith(protocols):
+                # TXT 频道名可能含逗号；用紧邻播放协议的逗号定位 URL 起点，
+                # 同时保留 URL 查询参数中的逗号。
+                separator = re.search(r",(?=(?:https?|rtsp|rtmp|udp|rtp)://)", line, re.I)
+                if separator:
+                    name = line[:separator.start()].strip()
+                    address = line[separator.end():].strip()
+                    # 少数上游会把 M3U 属性残片写进 TXT 频道名，恢复真正频道名。
+                    if re.search(r"\\bgroup-title\\s*=", name, re.I):
+                        name = name.rsplit(",", 1)[-1].strip()
+            if "更新时间" in group or re.fullmatch(r"\\d{4}-\\d{2}-\\d{2}.*", name):
                 continue
-            # 不拆分 URL 中可能存在的 $ 参数。
-            if address.startswith(("http://", "https://", "rtsp://", "rtmp://", "udp://", "rtp://")):
+            if address.startswith(protocols):
                 entries.append({"name": name, "group": group, "url": address,
                                 "attrs": {}, "directives": []})
     if not entries:

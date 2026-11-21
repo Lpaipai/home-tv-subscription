@@ -53,6 +53,19 @@ class SubscriptionTests(unittest.TestCase):
         self.assertEqual(len(result), 1)
         self.assertEqual(result[0]["url"], "https://a/live?token=x$y")
 
+    def test_txt_names_with_commas_and_m3u_attribute_residue(self):
+        text = """央视,#genre#
+财经,资讯频道,https://example.com/live?ids=1,2
+内蒙古,#genre#
+like Gecko) Chrome/144.0.0.0 Safari/537.36" group-title="Undefined",Nei Monggol TV (960p),https://cdn.example.com/live.m3u8
+"""
+        entries = update.parse_live(text)
+        self.assertEqual(len(entries), 2)
+        self.assertEqual(entries[0]["name"], "财经,资讯频道")
+        self.assertEqual(entries[0]["url"], "https://example.com/live?ids=1,2")
+        self.assertEqual(entries[1]["name"], "Nei Monggol TV (960p)")
+        self.assertEqual(entries[1]["url"], "https://cdn.example.com/live.m3u8")
+
     def test_relative_dependencies_use_original_location(self):
         value = {"spider": "./fty.jar;md5;abc", "sites": [{"api": "csp_Test", "ext": "../rule.json", "jar": "libs/test.jar"}]}
         result = update.absolutize(value, "https://upstream.example/box/m.json")
