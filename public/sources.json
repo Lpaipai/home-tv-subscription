@@ -8,7 +8,8 @@
     {
       "id": "lightconer",
       "name": "国内备用",
-      "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
+      "url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt",
+      "status_url": "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/status.json"
     },
     {
       "id": "hk",

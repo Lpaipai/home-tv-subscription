@@ -4,18 +4,18 @@
     "channels": [
       {
         "name": "CCTV-1 综合",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-2 财经",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-3 综艺",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-4 America",
@@ -34,78 +34,78 @@
       },
       {
         "name": "CCTV-4 中文国际",
-        "lines": 11,
-        "txt_lines": 11
-      },
-      {
-        "name": "CCTV-5 体育",
-        "lines": 11,
-        "txt_lines": 11
-      },
-      {
-        "name": "CCTV-5+ 体育赛事",
-        "lines": 4,
-        "txt_lines": 4
-      },
-      {
-        "name": "CCTV-6 电影",
         "lines": 7,
         "txt_lines": 7
       },
       {
+        "name": "CCTV-5 体育",
+        "lines": 3,
+        "txt_lines": 3
+      },
+      {
+        "name": "CCTV-5+ 体育赛事",
+        "lines": 3,
+        "txt_lines": 3
+      },
+      {
+        "name": "CCTV-6 电影",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
         "name": "CCTV-7 国防军事",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-8 电视剧",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-9 纪录",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-10 科教",
-        "lines": 10,
-        "txt_lines": 9
+        "lines": 5,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-11 戏曲",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "CCTV-12 社会与法",
+        "lines": 4,
+        "txt_lines": 4
+      },
+      {
+        "name": "CCTV-13 新闻",
+        "lines": 6,
+        "txt_lines": 6
+      },
+      {
+        "name": "CCTV-14 少儿",
         "lines": 5,
         "txt_lines": 5
       },
       {
-        "name": "CCTV-13 新闻",
+        "name": "CCTV-15 音乐",
         "lines": 7,
         "txt_lines": 7
       },
       {
-        "name": "CCTV-14 少儿",
-        "lines": 11,
-        "txt_lines": 11
-      },
-      {
-        "name": "CCTV-15 音乐",
-        "lines": 11,
-        "txt_lines": 11
-      },
-      {
         "name": "CCTV-16 奥林匹克",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "CCTV-17 农业农村",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "CCTV+ 1",
@@ -199,18 +199,18 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "北京卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "兵团卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "大湾区卫视",
@@ -219,13 +219,13 @@
       },
       {
         "name": "东方卫视",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "东南卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "甘肃卫视",
@@ -244,8 +244,8 @@
       },
       {
         "name": "贵州卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "海南卫视",
@@ -254,18 +254,18 @@
       },
       {
         "name": "河北卫视",
-        "lines": 11,
-        "txt_lines": 11
-      },
-      {
-        "name": "河南卫视",
         "lines": 8,
         "txt_lines": 8
       },
       {
+        "name": "河南卫视",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
         "name": "黑龙江卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "湖北卫视",
@@ -274,23 +274,23 @@
       },
       {
         "name": "湖南卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "吉林卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "江苏卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "江西卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "康巴卫视",
@@ -299,13 +299,13 @@
       },
       {
         "name": "辽宁卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "内蒙古卫视",
-        "lines": 7,
-        "txt_lines": 6
+        "lines": 8,
+        "txt_lines": 7
       },
       {
         "name": "宁夏卫视",
@@ -314,18 +314,18 @@
       },
       {
         "name": "青海卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "三沙卫视",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "山东卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "山西卫视",
@@ -334,13 +334,13 @@
       },
       {
         "name": "陕西卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "深圳卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "四川卫视",
@@ -349,13 +349,13 @@
       },
       {
         "name": "天津卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "西藏卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "厦门卫视",
@@ -364,28 +364,28 @@
       },
       {
         "name": "新疆卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "延边卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "云南卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "浙江卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "重庆卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 2,
+        "txt_lines": 2
       }
     ]
   },
@@ -488,11 +488,6 @@
         "txt_lines": 2
       },
       {
-        "name": "凤凰资讯",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "福建综合",
         "lines": 1,
         "txt_lines": 1
@@ -506,11 +501,6 @@
         "name": "广东新闻",
         "lines": 2,
         "txt_lines": 2
-      },
-      {
-        "name": "广东影视",
-        "lines": 1,
-        "txt_lines": 1
       },
       {
         "name": "广东珠江",
@@ -644,8 +634,8 @@
       },
       {
         "name": "金鹰卡通",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "精品体育",
@@ -863,11 +853,6 @@
         "txt_lines": 1
       },
       {
-        "name": "浙江教科",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "浙江教科影视",
         "lines": 1,
         "txt_lines": 1
@@ -879,31 +864,11 @@
       },
       {
         "name": "浙江民生",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "浙江钱江",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "浙江少儿",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "浙江新闻",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "浙江休闲台",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "之江纪录",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1114,8 +1079,8 @@
       },
       {
         "name": "浙江国际",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       }
     ]
   },
@@ -1554,8 +1519,8 @@
       },
       {
         "name": "50 Cent Action",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "70s Cinema",
@@ -1879,8 +1844,8 @@
       },
       {
         "name": "ACC Digital Network",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Access 4 PAC",
@@ -1924,8 +1889,8 @@
       },
       {
         "name": "AccuWeather NOW",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "ACE Country Radio KPVM-LD",
@@ -2104,8 +2069,8 @@
       },
       {
         "name": "Always Funny Videos",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Amazing Facts TV",
@@ -2154,8 +2119,8 @@
       },
       {
         "name": "America's Test Kitchen",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "America's Voice",
@@ -2239,8 +2204,8 @@
       },
       {
         "name": "Anger Management Channel",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "Animal Planet (United States)",
@@ -2274,8 +2239,8 @@
       },
       {
         "name": "Antiques Roadshow UK",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Archivos Forenses",
@@ -2284,8 +2249,8 @@
       },
       {
         "name": "Are We There Yet?",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Armenia 1 America",
@@ -2319,8 +2284,8 @@
       },
       {
         "name": "At Home with Family Handyman",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "ATL 26",
@@ -2509,8 +2474,8 @@
       },
       {
         "name": "Backstage",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Bar Rescue",
@@ -2554,8 +2519,8 @@
       },
       {
         "name": "Baywatch",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "BBC Drama US",
@@ -2799,8 +2764,8 @@
       },
       {
         "name": "Bloomberg Originals（US）",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Bloomberg TV Live Event",
@@ -2874,8 +2839,8 @@
       },
       {
         "name": "Bounce XL",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "BPTV",
@@ -2904,8 +2869,8 @@
       },
       {
         "name": "BritBox Mysteries",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "British Comedy",
@@ -2929,8 +2894,8 @@
       },
       {
         "name": "Buzzr",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "BX Arts",
@@ -2959,8 +2924,8 @@
       },
       {
         "name": "BYU TV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Cafe Trade TV",
@@ -3023,7 +2988,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Car Chase (United States)",
+        "name": "Car Chase",
         "lines": 1,
         "txt_lines": 1
       },
@@ -3119,8 +3084,8 @@
       },
       {
         "name": "CBS KIRO-TV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "CBS KMOV",
@@ -3529,8 +3494,8 @@
       },
       {
         "name": "Circle",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "City of Fairfield Channel 26",
@@ -3734,8 +3699,8 @@
       },
       {
         "name": "CNN 国际台（Europe）",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "CNN 国际台（LatinAmerica）",
@@ -3759,8 +3724,8 @@
       },
       {
         "name": "Cold Case Files",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Collier TV",
@@ -3814,8 +3779,8 @@
       },
       {
         "name": "Comedy Dynamics",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Comedy.TV",
@@ -3884,8 +3849,8 @@
       },
       {
         "name": "Court TV",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Create",
@@ -3948,7 +3913,7 @@
         "txt_lines": 3
       },
       {
-        "name": "CSI (United States)",
+        "name": "CSI",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4134,8 +4099,8 @@
       },
       {
         "name": "Degrassi",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Denver 8 TV",
@@ -4269,8 +4234,8 @@
       },
       {
         "name": "Discovery Turbo (United States)",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Discovery Turbo Latin America",
@@ -4324,8 +4289,8 @@
       },
       {
         "name": "Doctor Who Classic",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Documentary+（International）",
@@ -4354,8 +4319,8 @@
       },
       {
         "name": "Dog Whisperer",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Don't Tell The Bride",
@@ -4379,8 +4344,8 @@
       },
       {
         "name": "Dove Channel",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Dr. Gene Scott",
@@ -4479,8 +4444,8 @@
       },
       {
         "name": "Ebony TV by Lionsgate",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "EBS",
@@ -4519,8 +4484,8 @@
       },
       {
         "name": "Electric Now",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Elevation Church Network",
@@ -4659,8 +4624,8 @@
       },
       {
         "name": "Estrella Games",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Estrella News",
@@ -4743,7 +4708,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Family Ties (United States)",
+        "name": "Family Ties",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4779,8 +4744,8 @@
       },
       {
         "name": "Fear Factor",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Feel Good Drama",
@@ -4909,8 +4874,8 @@
       },
       {
         "name": "Fox (United States) KDFW",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Fox (United States) KMPH-TV",
@@ -4949,8 +4914,8 @@
       },
       {
         "name": "Fox (United States) KTTV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Fox (United States) KVVU-TV",
@@ -5139,8 +5104,8 @@
       },
       {
         "name": "Fubo Sports Network",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Fun Roads",
@@ -5264,8 +5229,8 @@
       },
       {
         "name": "Ghost Hunters",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "Giggle Mug",
@@ -5394,8 +5359,8 @@
       },
       {
         "name": "Grit Xtra",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Grjngo Western Movies",
@@ -5429,13 +5394,8 @@
       },
       {
         "name": "Happy Days",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Happy Days (United States)",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "HappyKids",
@@ -5514,8 +5474,8 @@
       },
       {
         "name": "HBO Xtreme Latin America",
-        "lines": 2,
-        "txt_lines": 1
+        "lines": 3,
+        "txt_lines": 2
       },
       {
         "name": "HBO+ Latin America",
@@ -5544,8 +5504,8 @@
       },
       {
         "name": "Heartland",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Heartland Web",
@@ -5783,17 +5743,17 @@
         "txt_lines": 2
       },
       {
-        "name": "iCarly (United States)",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "iCarly（BR）",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "iCarly（LatAm）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "iCarly（SD）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -5909,8 +5869,8 @@
       },
       {
         "name": "ION Plus",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "ION TV",
@@ -5953,7 +5913,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Jersey Shore (United States)",
+        "name": "Jersey Shore",
         "lines": 1,
         "txt_lines": 1
       },
@@ -5974,8 +5934,8 @@
       },
       {
         "name": "Joel Osteen Network",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Johnny Carson TV",
@@ -6109,8 +6069,8 @@
       },
       {
         "name": "Kevin Hart's LOL! Network",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "KFON TV",
@@ -6284,8 +6244,8 @@
       },
       {
         "name": "Law & Crime",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "LBC International",
@@ -6549,8 +6509,8 @@
       },
       {
         "name": "Love Nature en Espanol",
-        "lines": 1,
-        "txt_lines": 0
+        "lines": 2,
+        "txt_lines": 1
       },
       {
         "name": "Love Pets",
@@ -6649,18 +6609,13 @@
       },
       {
         "name": "Matlock",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Matlock (United States)",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Maverick Black Cinema",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Maxcine",
@@ -6834,8 +6789,8 @@
       },
       {
         "name": "Midsomer Murders",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "Military History",
@@ -6849,13 +6804,8 @@
       },
       {
         "name": "Mission Impossible",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Mission Impossible (United States)",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Mission TV",
@@ -6904,8 +6854,8 @@
       },
       {
         "name": "MNT WOIO",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Mohabat TV",
@@ -6934,8 +6884,8 @@
       },
       {
         "name": "Monster Jam",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "Montgomery Channel",
@@ -7299,8 +7249,8 @@
       },
       {
         "name": "Nash Bridges",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Nashua ETV",
@@ -7639,8 +7589,8 @@
       },
       {
         "name": "News12 New York",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "News12 Westchester",
@@ -8049,8 +7999,8 @@
       },
       {
         "name": "OuterSphere",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Outlaw WGGS-TV",
@@ -8069,8 +8019,8 @@
       },
       {
         "name": "Overtime",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "OWN",
@@ -8159,8 +8109,8 @@
       },
       {
         "name": "PBR RidePass",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "PBS",
@@ -8169,8 +8119,8 @@
       },
       {
         "name": "PBS Antiques Roadshow",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "PBS KETS",
@@ -8353,7 +8303,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Action (United States)",
+        "name": "Pluto TV Action",
         "lines": 1,
         "txt_lines": 1
       },
@@ -8723,12 +8673,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Horror",
+        "name": "Pluto TV Horror（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Horror (United States)",
+        "name": "Pluto TV Horror（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -8898,12 +8848,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Paranormal",
+        "name": "Pluto TV Paranormal（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Paranormal (United States)",
+        "name": "Pluto TV Paranormal（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -8978,17 +8928,17 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Sci-Fi (United States)",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Pluto TV Sci-Fi（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "Pluto TV Sci-Fi（LatAm）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Pluto TV Sci-Fi（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -9123,12 +9073,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV True Crime",
+        "name": "Pluto TV True Crime（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV True Crime (United States)",
+        "name": "Pluto TV True Crime（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -9158,12 +9108,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Westerns",
+        "name": "Pluto TV Westerns（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Pluto TV Westerns (United States)",
+        "name": "Pluto TV Westerns（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -9219,8 +9169,8 @@
       },
       {
         "name": "PowerNation TV",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Pronto-socorro: Historias De Emergencia",
@@ -9284,8 +9234,8 @@
       },
       {
         "name": "Racer Select",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "RadiantTV",
@@ -9349,13 +9299,8 @@
       },
       {
         "name": "Rawhide",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Rawhide (United States)",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "RCTV3",
@@ -9369,8 +9314,8 @@
       },
       {
         "name": "Real America's Voice",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Real America's Voice KPVM-LD",
@@ -9409,8 +9354,8 @@
       },
       {
         "name": "Reelz Famous & Infamous",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Retro TV",
@@ -9419,13 +9364,13 @@
       },
       {
         "name": "RetroCrush",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Reuters TV",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Rev and Roll",
@@ -9444,8 +9389,8 @@
       },
       {
         "name": "Revry",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Revry LatinX",
@@ -9468,7 +9413,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Ridiculousness (United States)",
+        "name": "Ridiculousness",
         "lines": 1,
         "txt_lines": 1
       },
@@ -9599,8 +9544,8 @@
       },
       {
         "name": "Ryan and Friends",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Salem News Channel",
@@ -9674,8 +9619,8 @@
       },
       {
         "name": "Scripps News",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "SCVTV",
@@ -9843,7 +9788,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Smithsonian Channel Selects (United States)",
+        "name": "Smithsonian Channel Selects",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10009,8 +9954,8 @@
       },
       {
         "name": "SportsGrid",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "SPTV",
@@ -10058,12 +10003,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Star Trek: The Next Generation (United States)",
+        "name": "Star Trek: The Next Generation",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Star Trek: Voyager (United States)",
+        "name": "Star Trek: Voyager",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10279,8 +10224,8 @@
       },
       {
         "name": "Tastemade（US）",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "TBCN",
@@ -10358,7 +10303,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Teen Mom (United States)",
+        "name": "Teen Mom",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10464,8 +10409,8 @@
       },
       {
         "name": "Tennis Channel 2",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Tennis Channel +2",
@@ -10529,8 +10474,8 @@
       },
       {
         "name": "The Carol Burnett Show",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "The Challenge",
@@ -10604,8 +10549,8 @@
       },
       {
         "name": "The Jamie Oliver Channel",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "The Judge Judy Channel",
@@ -10638,17 +10583,17 @@
         "txt_lines": 1
       },
       {
-        "name": "The New Detectives (United States)",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "The New Detectives（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "The New Detectives（LatAm）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "The New Detectives（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10699,8 +10644,8 @@
       },
       {
         "name": "The Price Is Right",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "The Price Is Right: The Barker Era",
@@ -10738,7 +10683,7 @@
         "txt_lines": 2
       },
       {
-        "name": "The Wild Wild West (United States)",
+        "name": "The Wild Wild West",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10769,8 +10714,8 @@
       },
       {
         "name": "This Old House",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Thornton 8",
@@ -10918,11 +10863,6 @@
         "txt_lines": 1
       },
       {
-        "name": "Tom Sings TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Toonami Aftermath",
         "lines": 1,
         "txt_lines": 1
@@ -10934,6 +10874,11 @@
       },
       {
         "name": "Tooncast（Argentina）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Tooncast（Brazil）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10963,17 +10908,17 @@
         "txt_lines": 1
       },
       {
-        "name": "Tosh.0 (United States)",
+        "name": "Tosh.0",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Totally Turtles",
+        "name": "Totally Turtles（CA）",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Totally Turtles (United States)",
+        "name": "Totally Turtles（US）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -11394,8 +11339,8 @@
       },
       {
         "name": "USA TODAY",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Vallenato Internacional",
@@ -11444,23 +11389,23 @@
       },
       {
         "name": "Vevo '80s",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Vevo '90s",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Vevo Country",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "Vevo Hip Hop",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Vevo Latino",
@@ -11474,8 +11419,8 @@
       },
       {
         "name": "Vevo R&B",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "Vevo Retro Rock",
@@ -11604,13 +11549,13 @@
       },
       {
         "name": "Waypoint TV",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "WBTV 64.1",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "WCETV Digital Channel 31.8",
@@ -11629,8 +11574,8 @@
       },
       {
         "name": "WeatherNation",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "WeatherSpy",
@@ -11644,8 +11589,8 @@
       },
       {
         "name": "Weeds & Nurse Jackie",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "WeHoTV",
@@ -11759,8 +11704,8 @@
       },
       {
         "name": "Women's Sports Network",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "World Channel",
@@ -11859,8 +11804,8 @@
       },
       {
         "name": "XITE Nuevo Latino",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "XITE Reggae Vibes",

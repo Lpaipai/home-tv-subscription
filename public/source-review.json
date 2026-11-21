@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-20T11:53:14+08:00",
+  "fetched_at": "2026-11-21T15:09:49+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -85,7 +85,7 @@
     },
     {
       "id": "jiandantv-platforms",
-      "items": 2603,
+      "items": 2646,
       "cached": false,
       "rights": "unverified",
       "mode": "decode_then_publish",
@@ -94,9 +94,9 @@
   ],
   "failures": [],
   "total_unique": 1790,
-  "not_in_main": 1534,
+  "not_in_main": 1539,
   "ipv6_literal": 115,
-  "priority_unlisted": 351,
+  "priority_unlisted": 348,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -1290,17 +1290,6 @@
       ]
     },
     {
-      "line_id": "f749d22c55d7ce07",
-      "name": "CCTV-11",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "08f55755cd652ec7",
       "name": "CCTV-11 戏曲",
       "network": "hostname_unresolved",
@@ -1452,17 +1441,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
-      ]
-    },
-    {
-      "line_id": "2b6287e0d1402833",
-      "name": "CCTV-15",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {
@@ -1675,17 +1653,6 @@
       ]
     },
     {
-      "line_id": "350834cd033ed76a",
-      "name": "CCTV-3",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "4e3aa14c5b5d6f55",
       "name": "CCTV-3",
       "network": "ipv4_literal",
@@ -1859,6 +1826,39 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "235d870f8844f206",
+      "name": "CCTV-5+",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "36da561ac5fc1228",
+      "name": "CCTV-5+",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "df5530eec087cad5",
+      "name": "CCTV-5+",
+      "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
       ]
     }
   ]

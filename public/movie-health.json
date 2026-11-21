@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-20T03:55:32+00:00",
+  "checked_at": "2026-11-21T07:11:30+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 330,
+  "catalog_entries": 327,
   "sampled": 12,
   "attempts": 12,
   "counts": {
@@ -10,42 +10,24 @@
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "博然讲电影",
-    "发条张的电影最TOP",
-    "古天乐电影",
-    "古装武侠电影",
-    "史泰龙电影",
-    "史诗级科幻电影-阿凡达",
-    "同同电影",
-    "吴京电影",
-    "吴彦祖电影",
-    "吾聊电影",
-    "吾聊电影2",
-    "周墨看电影"
+    "周星驰电影 · 周星星",
+    "周星驰电影 · 喜剧之王",
+    "周润发电影",
+    "唯爱经典影视",
+    "喜人电影",
+    "喜剧电影放映厅",
+    "喜剧电影笑不停",
+    "国产动作电影",
+    "国产大片电影",
+    "国产电影-就是闹着玩的",
+    "国产科幻电影",
+    "夏洛特烦恼-国内电影-喜剧"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "19d1d2c426d4e973",
-      "name": "博然讲电影",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "db2c35eaf8e09ee0",
-      "name": "发条张的电影最TOP",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "afd4cd6d902474ab",
-      "name": "古天乐电影",
+      "id": "4402e404effe2def",
+      "name": "周星驰电影 · 周星星",
       "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -53,8 +35,44 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "d8939829751f495b",
-      "name": "古装武侠电影",
+      "id": "ba2375c915ae24fa",
+      "name": "周星驰电影 · 喜剧之王",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "f2f322d74eb25ca9",
+      "name": "周润发电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "537f3ffea13e0f82",
+      "name": "唯爱经典影视",
+      "group": "一起看",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "c9adffd5c9973648",
+      "name": "喜人电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "a8cf8fba79d57d73",
+      "name": "喜剧电影放映厅",
       "group": "类型精选",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -62,17 +80,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "28277d6dffb5c2bc",
-      "name": "史泰龙电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "8e33b39ae2e8cb7a",
-      "name": "史诗级科幻电影-阿凡达",
+      "id": "bc5a99a3745827f6",
+      "name": "喜剧电影笑不停",
       "group": "类型精选",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -80,8 +89,17 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "6db0cf58b8cf9cfb",
-      "name": "同同电影",
+      "id": "65d37f0f70482c2e",
+      "name": "国产动作电影",
+      "group": "类型精选",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "f353ed3f5cbf12e9",
+      "name": "国产大片电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -89,26 +107,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "83211865846d5ce0",
-      "name": "吴京电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "4dea91213d77d083",
-      "name": "吴彦祖电影",
-      "group": "影人专场",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "76d1de5be327a1e6",
-      "name": "吾聊电影",
+      "id": "2f8d9842382e3025",
+      "name": "国产电影-就是闹着玩的",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -116,17 +116,17 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "85ea3e9058f532f7",
-      "name": "吾聊电影2",
-      "group": "综合影院",
+      "id": "2880ddda51ef4738",
+      "name": "国产科幻电影",
+      "group": "类型精选",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "f10a3e7fa0cdc5c3",
-      "name": "周墨看电影",
+      "id": "024fd0419c620d00",
+      "name": "夏洛特烦恼-国内电影-喜剧",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
