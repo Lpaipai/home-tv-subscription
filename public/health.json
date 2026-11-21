@@ -1,28 +1,26 @@
 {
-  "checked_at": "2026-11-21T15:10:55+08:00",
+  "checked_at": "2026-11-21T15:22:10+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3853,
+  "catalog_entries": 3856,
   "sampled": 24,
   "counts": {
-    "failed": 3,
-    "decoded": 21
+    "blocked": 1,
+    "failed": 4,
+    "decoded": 19
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 27,
+  "attempts": 28,
   "recovered_on_retry": 0,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "1e09bb0c48dfb174",
+      "id": "e14e8abedc5f80b6",
       "name": "CCTV-5+ 体育赛事",
       "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "blocked",
+      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
     },
     {
       "id": "82632b9b06c20719",
@@ -34,7 +32,7 @@
       "initial_status": "failed"
     },
     {
-      "id": "60359d1e793be494",
+      "id": "92bb289e8785ca44",
       "name": "CCTV-7 国防军事",
       "group": "央视",
       "status": "decoded",
@@ -42,15 +40,17 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4919ba1e497b7fcb",
+      "id": "37704c682b0e4d9d",
       "name": "CCTV-8 电视剧",
       "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "6191f45534a09b39",
+      "id": "1bdcf09d06c66f40",
       "name": "CCTV-8K",
       "group": "央视",
       "status": "decoded",
@@ -58,12 +58,13 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "ff72d5534cd013be",
+      "id": "4ca7c4394673083c",
       "name": "CCTV-9 纪录",
       "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
       "id": "28570e470e6a7304",
@@ -98,14 +99,12 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "0c01ef55eb528f13",
+      "id": "73487ea107c9c1ce",
       "name": "央视女性时尚",
       "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
       "id": "7b90e89bb22727ff",
@@ -164,7 +163,7 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "51a65a010a8ea103",
+      "id": "c080944117ad5999",
       "name": "Bar Rescue",
       "group": "美国",
       "status": "decoded",
@@ -188,15 +187,17 @@
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4704f5bbf5879e88",
+      "id": "6786bb41207743e7",
       "name": "Baywatch",
       "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "a6ad21ddb309df9b",
+      "id": "f382b01ebc33d3f4",
       "name": "Beach TV Florida & Alabama",
       "group": "美国",
       "status": "decoded",

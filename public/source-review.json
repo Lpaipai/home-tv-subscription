@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-21T15:09:49+08:00",
+  "fetched_at": "2026-11-21T15:20:49+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -94,9 +94,9 @@
   ],
   "failures": [],
   "total_unique": 1790,
-  "not_in_main": 1539,
+  "not_in_main": 1537,
   "ipv6_literal": 115,
-  "priority_unlisted": 348,
+  "priority_unlisted": 347,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -173,17 +173,6 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "guangxi-provincial-list"
-      ]
-    },
-    {
-      "line_id": "ade9d9dfbd9b8cb1",
-      "name": "广西卫视",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "regional_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
       ]
     },
     {
@@ -627,6 +616,17 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "htv-guangdong-loong"
+      ]
+    },
+    {
+      "line_id": "2fecc4a11b14e089",
+      "name": "广东影视",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-yuhong"
       ]
     },
     {
@@ -1609,17 +1609,6 @@
       ]
     },
     {
-      "line_id": "ae7e80a3c935e9ca",
-      "name": "CCTV-2",
-      "network": "ipv4_literal",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "c3590c8de7c0a63c",
       "name": "CCTV-2",
       "network": "hostname_unresolved",
@@ -1854,6 +1843,17 @@
       "line_id": "df5530eec087cad5",
       "name": "CCTV-5+",
       "network": "hostname_unresolved",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "e323052a9bd63931",
+      "name": "CCTV-5+",
+      "network": "ipv4_literal",
       "already_in_main": false,
       "priority": "domestic_channel_candidate",
       "review": "pending_video_decode_content_unverified",

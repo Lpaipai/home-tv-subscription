@@ -356,11 +356,11 @@
       "accepted_at": "2026-10-23T09:23:16+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-13T02:46:25+00:00",
-      "last_attempt_at": "2026-11-13T02:46:25+00:00",
+      "last_decoded_at": "2026-11-21T07:22:10+00:00",
+      "last_attempt_at": "2026-11-21T07:22:10+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "931b1e46b3fc0db3": {
       "name": "江西卫视",
@@ -741,11 +741,11 @@
       "accepted_at": "2026-10-23T09:41:31+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-10T04:15:27+00:00",
-      "last_attempt_at": "2026-11-10T04:15:27+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "1442ba4b1509ed78": {
       "name": "广东卫视",
@@ -847,11 +847,11 @@
       "accepted_at": "2026-10-23T09:55:32+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-10T09:03:33+00:00",
-      "last_attempt_at": "2026-11-10T09:03:33+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "28c407e2c5529a4a": {
       "name": "云南卫视",
@@ -3165,11 +3165,11 @@
       "accepted_at": "2026-10-30T02:04:41+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-10T04:15:27+00:00",
-      "last_attempt_at": "2026-11-10T04:15:27+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "b1e3a6326442e0b7": {
       "name": "江西卫视",
@@ -3295,11 +3295,11 @@
       "accepted_at": "2026-11-02T01:38:56+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-10T04:15:27+00:00",
-      "last_attempt_at": "2026-11-10T04:15:27+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "d8e72ab03f3e15f8": {
       "name": "山东卫视",
@@ -3321,11 +3321,11 @@
       "accepted_at": "2026-11-02T01:38:56+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-10T04:15:27+00:00",
-      "last_attempt_at": "2026-11-10T04:15:27+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "f1f99c31c9bd23bc": {
       "name": "广东新闻",
@@ -4017,11 +4017,11 @@
       "accepted_at": "2026-11-10T09:03:33+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-10T09:03:33+00:00",
-      "last_attempt_at": "2026-11-10T09:03:33+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "790d9e209a7f0bd0": {
       "name": "吉林卫视",
@@ -4043,11 +4043,11 @@
       "accepted_at": "2026-11-10T09:03:33+00:00",
       "content_verified": false,
       "visual_status": "not_checked_budget",
-      "last_decoded_at": "2026-11-10T09:03:33+00:00",
-      "last_attempt_at": "2026-11-10T09:03:33+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "9f4fefacd1a1f22a": {
       "name": "CCTV-9",
@@ -4069,11 +4069,11 @@
       "accepted_at": "2026-11-10T09:03:33+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-10T09:03:33+00:00",
-      "last_attempt_at": "2026-11-10T09:03:33+00:00",
+      "last_decoded_at": "2026-11-21T07:22:46+00:00",
+      "last_attempt_at": "2026-11-21T07:22:46+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "a150a65fb87e955b": {
       "name": "CCTV-9",
@@ -5034,6 +5034,32 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-21T07:10:55+00:00",
       "last_attempt_at": "2026-11-21T07:10:55+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "3deac71191ef8912": {
+      "name": "广州综合",
+      "url": "http://tencentplay.gztv.com/live/zonghes.m3u8?txSecret=c8dbe86d6f86eb1a21999ab479fd5667&txTime=18d3c4690e8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "广州综合",
+        "tvg-name": "广州综合",
+        "tvg-logo": "https://live.fanmingming.cn/tv/广州综合.png",
+        "group-title": "☘️广东频道"
+      },
+      "group": "☘️广东频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-21T07:22:10+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-21T07:22:10+00:00",
+      "last_attempt_at": "2026-11-21T07:22:10+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"

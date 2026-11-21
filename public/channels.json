@@ -509,8 +509,8 @@
       },
       {
         "name": "广州综合",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "哈尔滨新闻综合",
@@ -3834,8 +3834,8 @@
       },
       {
         "name": "Cops",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "Cornerstone TV",

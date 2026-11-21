@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T07:11:55+00:00",
+  "checked_at": "2026-11-21T07:22:46+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,67 +10,64 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 9,
+  "attempts": 8,
   "counts": {
-    "decoded": 7,
-    "failed": 1
+    "decoded": 8
   },
   "state_changes": {
-    "active": 7,
-    "suspended": 1
+    "active": 8
   },
   "suspended_total": 4,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "e3c684ab5debe8e7",
-      "name": "广东卫视",
+      "id": "816a2d994a0e428e",
+      "name": "广东民生",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f5b42558013319db",
-      "name": "广西新闻",
+      "id": "d7573ee5e2ad0f05",
+      "name": "CCTV-5",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "1dd3893415a51757",
-      "name": "大湾区卫视",
+      "id": "d8e72ab03f3e15f8",
+      "name": "山东卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "349db923be058796",
-      "name": "湖南卫视",
+      "id": "e759f8f929760f59",
+      "name": "东方卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "2fecc4a11b14e089",
-      "name": "广东影视",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2
-    },
-    {
-      "id": "006661c270de7f22",
-      "name": "贵州卫视",
+      "id": "281da65d89453770",
+      "name": "厦门卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "28c407e2c5529a4a",
-      "name": "云南卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "57df8b3d3fe18f63",
+      "id": "76b42d6d9e9a2514",
       "name": "北京卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "790d9e209a7f0bd0",
+      "name": "吉林卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "9f4fefacd1a1f22a",
+      "name": "CCTV-9",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 0
+  "renewed_by_formal_checks": 1
 }

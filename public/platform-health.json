@@ -1,177 +1,178 @@
 {
-  "checked_at": "2026-11-21T07:12:34+00:00",
+  "checked_at": "2026-11-21T07:23:31+00:00",
   "environment": "GitHub 标准 Linux 云端",
   "sampled": 24,
   "counts": {
-    "decoded": 24
+    "decoded": 22,
+    "failed": 2
   },
   "active": 2519,
   "boundary": "短时音视频解码，不代表节目身份、持续开播或长期稳定；固定主线路不参与此流程。",
   "results": [
     {
-      "id": "3e66a7af1cf517a2",
-      "name": "奇光主播e",
+      "id": "cccf257f199b528b",
+      "name": "有趣视频分享",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "794e769a6785f20b",
-      "name": "蕃薯粥粥煮好了",
+      "id": "cda68ff649c17cf1",
+      "name": "ljgdy",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "7d57027688d65106",
-      "name": "一样二职",
+      "id": "63221f3817808b97",
+      "name": "xiaoxiao1004",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "ef2eb52a63554341",
-      "name": "剧能下饭鹰",
+      "id": "93aec2ae11b5f899",
+      "name": "苹果Zei妖",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "56854ffa14982339",
-      "name": "Hi欣欣",
+      "id": "faf30f5bb5290ee9",
+      "name": "懒猫是只喵",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "ca2ca28a9670afa6",
-      "name": "illit礼",
+      "id": "580fa4fc446d0e7a",
+      "name": "冥王星丶丶",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "764320c39ef0e577",
+      "name": "白燥No1",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "0040d52becf1bfd6",
-      "name": "三国颜老师",
+      "id": "cd3b3d77ecd4b544",
+      "name": "往事vs随风1",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "56c54da991bf5248",
-      "name": "狄胖胖与李乖乖",
+      "id": "1a81dffcdba9018d",
+      "name": "十七岁的道姑",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "61ddd7a1e6af9762",
-      "name": "菠萝屋SpongeBob",
+      "id": "a5579a1a70decbaf",
+      "name": "白了个痴",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "bc81376c05437cec",
-      "name": "我砸晕了牛顿奥",
+      "id": "49b3044a614c886f",
+      "name": "菠萝屋的海绵宝宝",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "019c8299f97fa765",
-      "name": "创艺微视觉",
+      "id": "4e84fb20814ddd14",
+      "name": "当燕双鹰遇见李元芳",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "369bd31be6599dc9",
-      "name": "伊西wind",
+      "id": "adf1bfaa35e62297",
+      "name": "要不要请你吃元宝蜡烛",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "611b131991fc3534",
-      "name": "奇光主播q",
+      "id": "b83d7375d15332bc",
+      "name": "聚聚聚一个月",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "6240ff9ffe44d449",
-      "name": "98博博",
+      "id": "1142cba4adb4a861",
+      "name": "你是我的真爱吗m",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "9a6f44ba369b678c",
-      "name": "dw151295068",
+      "id": "0986ffa43f25ffb3",
+      "name": "血腥丶妖瞳",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "40f20c9411c729a5",
+      "name": "Only丶邵氏",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "fe61cbbe25907035",
-      "name": "奇光主播Blaze",
+      "id": "695644c8ba6915c8",
+      "name": "狂拽酷炫",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "152139c1f529f56f",
-      "name": "小毅主播K",
+      "id": "8418f80959ce2247",
+      "name": "baby丶贝贝",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "510dc17147d8758c",
-      "name": "三国演义-top1",
+      "id": "3f4ba56c7ce4ffe9",
+      "name": "怡宝妹妹丶",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "b2191b40f0c8de72",
-      "name": "用户6827521003",
+      "id": "7280b86b5edc9d30",
+      "name": "傲娇的超级赛亚人",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "c6c52f59719079f6",
-      "name": "小毅主播L",
+      "id": "cafb03c13690f76c",
+      "name": "橙記Orange丶",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "dcb20ff975016621",
-      "name": "警察局从头看",
+      "id": "dfefdf5a34c952ab",
+      "name": "kk6506",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "4177a92d4eec1bfc",
-      "name": "龍組队长天昊",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "567249ea537fc61a",
-      "name": "甜漫妮666",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "fc5da0e3762c488b",
-      "name": "芒果酱Mangoo",
+      "id": "08c3e3bc5980d25a",
+      "name": "sweet夏有甜",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
