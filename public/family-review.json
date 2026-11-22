@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-21T15:23:31+08:00",
+  "generated_at": "2026-11-22T10:29:20+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1168,
+  "preview_lines": 1171,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -580,6 +580,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "陕西卫视",
+      "line_id": "a176a2a47cafbe4d",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "湖北卫视",
       "line_id": "840d9bc7bebf1940",
       "network": "ipv4_literal",
@@ -924,6 +937,19 @@
       "rights_status": "not_verified"
     },
     {
+      "name": "东南卫视",
+      "line_id": "e9d07c68bbcd50e7",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
       "name": "吉林卫视",
       "line_id": "a47004b24ec86695",
       "network": "ipv4_literal",
@@ -932,6 +958,19 @@
       "line_role": "same_source_trial",
       "source_note": "APTV 101.35.240.114:88 同源候选",
       "cloud_checked_at": null,
+      "device_verification": null,
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "吉林卫视",
+      "line_id": "c6f76fb9c32bf5d2",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-10T09:03:33+00:00",
       "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"

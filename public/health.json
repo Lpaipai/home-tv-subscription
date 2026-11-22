@@ -1,195 +1,89 @@
 {
-  "checked_at": "2026-11-21T15:22:10+08:00",
+  "checked_at": "2026-11-22T10:26:59+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 3856,
+  "catalog_entries": 4040,
   "sampled": 24,
   "counts": {
-    "blocked": 1,
-    "failed": 4,
-    "decoded": 19
+    "decoded": 18,
+    "failed": 6
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 28,
-  "recovered_on_retry": 0,
+  "attempts": 31,
+  "recovered_on_retry": 1,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "e14e8abedc5f80b6",
-      "name": "CCTV-5+ 体育赛事",
-      "group": "央视",
-      "status": "blocked",
-      "reason": "云端遇到授权、地区限制或限流；不扣健康分"
+      "id": "37522cd6c9c8d01d",
+      "name": "东南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "82632b9b06c20719",
-      "name": "CCTV-6 电影",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "id": "0e447703bb0c5b7f",
+      "name": "东方卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "216e86dc379ce614",
+      "name": "云南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "2cd7cbfaf55fa124",
+      "name": "兵团卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "354b53f40e6f8efe",
+      "name": "内蒙古卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
       "attempts": 2,
       "initial_status": "failed"
     },
     {
-      "id": "92bb289e8785ca44",
-      "name": "CCTV-7 国防军事",
-      "group": "央视",
+      "id": "4d113329dea67eff",
+      "name": "北京卫视",
+      "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "37704c682b0e4d9d",
-      "name": "CCTV-8 电视剧",
-      "group": "央视",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "1bdcf09d06c66f40",
-      "name": "CCTV-8K",
-      "group": "央视",
+      "id": "965947dcf85b156b",
+      "name": "厦门卫视",
+      "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "4ca7c4394673083c",
-      "name": "CCTV-9 纪录",
-      "group": "央视",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "28570e470e6a7304",
-      "name": "央视世界地理",
-      "group": "央视",
+      "id": "1996db8adac85998",
+      "name": "吉林卫视",
+      "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "36575d1f87e38356",
-      "name": "央视兵器科技",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a803576f0c9bfe39",
-      "name": "央视卫生健康",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a29705b007736055",
-      "name": "央视台球",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "73487ea107c9c1ce",
-      "name": "央视女性时尚",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "7b90e89bb22727ff",
-      "name": "央视怀旧剧场",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "34c9250d762aff48",
-      "name": "央视文化精品",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "51a7ad04d1970cba",
-      "name": "央视第一剧场",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "3df5e41c22e9ff3b",
-      "name": "央视风云剧场",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "f84c7d990210c7c6",
-      "name": "央视风云足球",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "94254fb8a1a692b8",
-      "name": "央视风云音乐",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "a4d7e5e5f29c7268",
-      "name": "央视高尔夫网球",
-      "group": "央视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c080944117ad5999",
-      "name": "Bar Rescue",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "b4a988ab4a069d3b",
-      "name": "Bark TV",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "7c26092f3da1d4af",
-      "name": "Battlestar Galactica",
-      "group": "美国",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6786bb41207743e7",
-      "name": "Baywatch",
-      "group": "美国",
+      "id": "0e9604240ecad3e6",
+      "name": "四川卫视",
+      "group": "卫视",
       "status": "failed",
       "frames": 0,
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
@@ -197,20 +91,130 @@
       "initial_status": "failed"
     },
     {
-      "id": "f382b01ebc33d3f4",
-      "name": "Beach TV Florida & Alabama",
+      "id": "cb3217a3e1d1c0b0",
+      "name": "大湾区卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "1698556cc4d4aca9",
+      "name": "天津卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "9e79e703ae820f23",
+      "name": "宁夏卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "404d62cb000dc74c",
+      "name": "安徽卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "4a010b71f711a8bf",
+      "name": "山东卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "016099692223e79f",
+      "name": "山西卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "5c7f9dd2885c6068",
+      "name": "广东卫视",
+      "group": "卫视",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "3d5c20fcbc8bb51a",
+      "name": "广西卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8970b729925f0520",
+      "name": "康巴卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "09e9771a50bb45b1",
+      "name": "TVS Classic Sports",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "ff6a5907b15c8550",
-      "name": "Beach TV Key West & Florida Keys",
+      "id": "7b03f3e1c2afff1e",
+      "name": "TVS Comedy Network",
       "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "7568acc70d8a3b4c",
+      "name": "TVS Consumer Direct",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0079eaf36a1a1ac7",
+      "name": "TVS Drive In Movie",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "17bc1fa26e27d50b",
+      "name": "TVS Family Channel",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "daef403a16a3e4ef",
+      "name": "TVS Film Noir Network",
+      "group": "美国",
+      "status": "failed",
+      "frames": 0,
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     }
   ]
 }

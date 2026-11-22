@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-21T07:22:46+00:00",
+  "checked_at": "2026-11-22T02:28:11+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,64 +10,69 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 8,
+  "attempts": 10,
   "counts": {
-    "decoded": 8
+    "decoded": 4,
+    "failed": 4
   },
   "state_changes": {
-    "active": 8
+    "active": 4,
+    "probation": 2,
+    "suspended": 2
   },
-  "suspended_total": 4,
+  "suspended_total": 6,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "816a2d994a0e428e",
-      "name": "广东民生",
+      "id": "a150a65fb87e955b",
+      "name": "CCTV-9",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "d7573ee5e2ad0f05",
-      "name": "CCTV-5",
+      "id": "a176a2a47cafbe4d",
+      "name": "陕西卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "d8e72ab03f3e15f8",
-      "name": "山东卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "e759f8f929760f59",
-      "name": "东方卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "281da65d89453770",
-      "name": "厦门卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "76b42d6d9e9a2514",
-      "name": "北京卫视",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "790d9e209a7f0bd0",
+      "id": "c6f76fb9c32bf5d2",
       "name": "吉林卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "9f4fefacd1a1f22a",
-      "name": "CCTV-9",
+      "id": "e18948a1b0ad4abb",
+      "name": "山东教育",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "e9d07c68bbcd50e7",
+      "name": "东南卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "e53e706808fdd4dd",
+      "name": "天龙八部",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "f1f99c31c9bd23bc",
+      "name": "广东新闻",
+      "status": "failed",
+      "reason": "云端 16 秒内未完成采样，需家庭网络复核"
+    },
+    {
+      "id": "05d21895aecfe44e",
+      "name": "风云足球",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
     }
   ],
-  "renewed_by_formal_checks": 1
+  "renewed_by_formal_checks": 2
 }
