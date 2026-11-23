@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-22T02:28:11+00:00",
+  "checked_at": "2026-11-23T02:59:15+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,68 +10,63 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 10,
+  "attempts": 8,
   "counts": {
-    "decoded": 4,
-    "failed": 4
+    "decoded": 8
   },
   "state_changes": {
-    "active": 4,
-    "probation": 2,
-    "suspended": 2
+    "active": 8
   },
   "suspended_total": 6,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "a150a65fb87e955b",
-      "name": "CCTV-9",
+      "id": "21eb89f15fb38c41",
+      "name": "黑龙江卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a176a2a47cafbe4d",
-      "name": "陕西卫视",
+      "id": "596a46bcac426eba",
+      "name": "湖北卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c6f76fb9c32bf5d2",
-      "name": "吉林卫视",
+      "id": "a6f9853ab1b24087",
+      "name": "湖南卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e18948a1b0ad4abb",
-      "name": "山东教育",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2
-    },
-    {
-      "id": "e9d07c68bbcd50e7",
-      "name": "东南卫视",
+      "id": "e4158540127e8d71",
+      "name": "黑龙江卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e53e706808fdd4dd",
-      "name": "天龙八部",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2
+      "id": "f48c95b316e89d26",
+      "name": "浙江休闲台",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f1f99c31c9bd23bc",
-      "name": "广东新闻",
-      "status": "failed",
-      "reason": "云端 16 秒内未完成采样，需家庭网络复核"
+      "id": "45fad1a5d2bc20e4",
+      "name": "CCTV-1",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "05d21895aecfe44e",
-      "name": "风云足球",
-      "status": "failed",
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核"
+      "id": "48e7368c9e088a12",
+      "name": "CCTV-13",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "6bf2f92c87634634",
+      "name": "云南卫视",
+      "status": "decoded",
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
   "renewed_by_formal_checks": 2
