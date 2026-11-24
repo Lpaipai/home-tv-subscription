@@ -1,178 +1,179 @@
 {
-  "checked_at": "2026-11-23T02:59:59+00:00",
+  "checked_at": "2026-11-24T06:14:59+00:00",
   "environment": "GitHub 标准 Linux 云端",
   "sampled": 24,
   "counts": {
-    "decoded": 23,
-    "failed": 1
+    "blocked": 5,
+    "failed": 5,
+    "decoded": 14
   },
   "active": 2519,
   "boundary": "短时音视频解码，不代表节目身份、持续开播或长期稳定；固定主线路不参与此流程。",
   "results": [
     {
-      "id": "8e130c02105ccaf7",
-      "name": "一只兔叽呀丶",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
+      "id": "1fb2f07d0dd77125",
+      "name": "主播拍个肚皮",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked"
     },
     {
-      "id": "911ccc010cc1f8d1",
-      "name": "徐大sao",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
+      "id": "5b4c15e56eddbd13",
+      "name": "若轻云之蔽月兮",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked"
     },
     {
-      "id": "36ba556418d2dbef",
-      "name": "卿离倾心",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "44def51e5c105904",
-      "name": "一把钢刀镇斗虞",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "acd499e068c94a63",
-      "name": "笨鸟最后飞",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "319482ce1ee94002",
-      "name": "伊太刀刀",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "559cf2f4c78afe8d",
-      "name": "Poison丶冰冰",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "8853b02d09f301da",
-      "name": "半打星冰乐",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "dd6bafd527304b25",
-      "name": "蓝翔老三国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "c191d2994814a8f3",
-      "name": "大大大橙子u",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "d2fa519289ffa99f",
-      "name": "籮卜君",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "77f5fc38f906024c",
-      "name": "a萌小翘臀",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "c3b5f6ff0547f83c",
-      "name": "陈瀚Siri",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "0317ac49235a46ee",
-      "name": "万事通熊猫",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded"
-    },
-    {
-      "id": "56f0e718fc935e6a",
-      "name": "昆特牌之大哥食正野",
+      "id": "242544c88972e3ef",
+      "name": "傲娇一喵喵",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed"
     },
     {
-      "id": "acfd005b6de92d48",
-      "name": "鯋鱼辰辰",
+      "id": "31bd62a9899f675d",
+      "name": "大庆在农村",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "5a487996fc9a56a1",
+      "name": "科幻梦工场",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked"
+    },
+    {
+      "id": "5e006069fd7e71e7",
+      "name": "奇兮兮悄陌",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "12db136ab827ff04",
+      "name": "大米饭影视",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked"
+    },
+    {
+      "id": "6467212da1cd4156",
+      "name": "百晓生说剧",
+      "video_status": "blocked",
+      "audio_status": "not_checked",
+      "status": "blocked"
+    },
+    {
+      "id": "f2a5166d19e9dc13",
+      "name": "Angela小兔",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "0dae790c9e35ee5d",
+      "name": "南跃-俊轩",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "06108b626dbdc929",
-      "name": "Biu餐厅主管",
+      "id": "625539d694cfb9b8",
+      "name": "草帽丶海贼团",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed"
+    },
+    {
+      "id": "28377a6c4ecd399b",
+      "name": "陈翔六点半",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "802d04c68c3363f1",
-      "name": "BetterMan北北",
+      "id": "4dd6d8db6f1e8854",
+      "name": "快乐",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "f26a900dcd5f0823",
-      "name": "奇光主播",
+      "id": "7462e39503b9105c",
+      "name": "77宠物队长",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "abebe3bf803350da",
-      "name": "愁思相粘连",
+      "id": "06d2f20eeab55b6e",
+      "name": "樹袋熊小九九",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "bf834805259f8b91",
-      "name": "这个打野我上过丶",
+      "id": "1c9cda5f58eabe1f",
+      "name": "洪金宝电影",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "fe5130a219938413",
-      "name": "钟意嚼完唔松弟弟邊爐",
+      "id": "2e0e9a2fc4b1b358",
+      "name": "昔日女神柳清茶-",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "9b803f47eb0bf633",
-      "name": "红灯亮时丶右转",
+      "id": "07faff109671dfb6",
+      "name": "Yummy",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"
     },
     {
-      "id": "b49e05e02d2c1d4b",
-      "name": "小小甜的骑士",
+      "id": "0bdcdae281601c29",
+      "name": "持枪者-土豆哥",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "dab574c6d698de90",
+      "name": "美少女咸儿",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "fb21d458223cf245",
+      "name": "槽老师",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "476ecf3ecd1d0acd",
+      "name": "蓶1淳爷",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "4f6fa61ec7f17df8",
+      "name": "羞涩的茄子",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded"
+    },
+    {
+      "id": "663771548df3f23f",
+      "name": "红茶妹妹",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded"

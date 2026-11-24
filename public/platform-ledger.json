@@ -7529,8 +7529,8 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:22+00:00",
-      "last_attempt_at": "2026-11-10T14:33:22+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "blocked",
       "state": "active",
       "failure_days": []
     },
@@ -7575,8 +7575,8 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:22+00:00",
-      "last_attempt_at": "2026-11-10T14:33:22+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "blocked",
       "state": "active",
       "failure_days": []
     },
@@ -7598,10 +7598,12 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:23+00:00",
-      "last_attempt_at": "2026-11-10T14:33:23+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "failed",
       "state": "active",
-      "failure_days": []
+      "failure_days": [
+        "2026-11-24"
+      ]
     },
     "31bd62a9899f675d": {
       "entry": {
@@ -7621,10 +7623,12 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:23+00:00",
-      "last_attempt_at": "2026-11-10T14:33:23+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "failed",
       "state": "active",
-      "failure_days": []
+      "failure_days": [
+        "2026-11-24"
+      ]
     },
     "abebe3bf803350da": {
       "entry": {
@@ -7667,10 +7671,12 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:24+00:00",
-      "last_attempt_at": "2026-11-10T14:33:24+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "failed",
       "state": "active",
-      "failure_days": []
+      "failure_days": [
+        "2026-11-24"
+      ]
     },
     "5a487996fc9a56a1": {
       "entry": {
@@ -7690,8 +7696,8 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:24+00:00",
-      "last_attempt_at": "2026-11-10T14:33:24+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "blocked",
       "state": "active",
       "failure_days": []
     },
@@ -7713,10 +7719,12 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:25+00:00",
-      "last_attempt_at": "2026-11-10T14:33:25+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "failed",
       "state": "active",
-      "failure_days": []
+      "failure_days": [
+        "2026-11-24"
+      ]
     },
     "12db136ab827ff04": {
       "entry": {
@@ -7736,8 +7744,8 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:25+00:00",
-      "last_attempt_at": "2026-11-10T14:33:25+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "blocked",
       "state": "active",
       "failure_days": []
     },
@@ -7759,8 +7767,8 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:25+00:00",
-      "last_attempt_at": "2026-11-10T14:33:25+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "blocked",
       "state": "active",
       "failure_days": []
     },
@@ -7782,10 +7790,12 @@
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
       "last_success_at": "2026-11-10T14:33:26+00:00",
-      "last_attempt_at": "2026-11-10T14:33:26+00:00",
-      "last_status": "decoded",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
+      "last_status": "failed",
       "state": "active",
-      "failure_days": []
+      "failure_days": [
+        "2026-11-24"
+      ]
     },
     "0dae790c9e35ee5d": {
       "entry": {
@@ -7804,8 +7814,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:26+00:00",
-      "last_attempt_at": "2026-11-10T14:33:26+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7827,8 +7837,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:27+00:00",
-      "last_attempt_at": "2026-11-10T14:33:27+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7850,8 +7860,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:27+00:00",
-      "last_attempt_at": "2026-11-10T14:33:27+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7861,11 +7871,11 @@
         "name": "洪金宝电影",
         "attrs": {
           "tvg-logo": "http://huyaimg.msstatic.com/avatar/1049/6d/cd3d96918d66017ae9eaa9e1eaa322_180_135.jpg?1445837265",
-          "group-title": "电影·演员专场",
+          "group-title": "影人专场",
           "tvg-id": "PLATFORM_1c9cda5f58eabe1f",
           "tvg-name": "洪金宝电影"
         },
-        "group": "电影·演员专场",
+        "group": "影人专场",
         "url": "https://live.ottiptv.cc/huya/11279251",
         "directives": [
           "#EXTVLCOPT:http-user-agent=Mozilla/5.0"
@@ -7873,8 +7883,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:28+00:00",
-      "last_attempt_at": "2026-11-10T14:33:28+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7896,8 +7906,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:28+00:00",
-      "last_attempt_at": "2026-11-10T14:33:28+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7919,8 +7929,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:28+00:00",
-      "last_attempt_at": "2026-11-10T14:33:28+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7942,8 +7952,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:29+00:00",
-      "last_attempt_at": "2026-11-10T14:33:29+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7965,8 +7975,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:29+00:00",
-      "last_attempt_at": "2026-11-10T14:33:29+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -7988,8 +7998,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:29+00:00",
-      "last_attempt_at": "2026-11-10T14:33:29+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -8011,8 +8021,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:29+00:00",
-      "last_attempt_at": "2026-11-10T14:33:29+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -8034,8 +8044,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:30+00:00",
-      "last_attempt_at": "2026-11-10T14:33:30+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -8057,8 +8067,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:30+00:00",
-      "last_attempt_at": "2026-11-10T14:33:30+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -8149,8 +8159,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:30+00:00",
-      "last_attempt_at": "2026-11-10T14:33:30+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []
@@ -8264,8 +8274,8 @@
         "platform_room": true
       },
       "source_url": "https://raw.githubusercontent.com/jiandantv/IPTV2026/main/live_platforms.m3u",
-      "last_success_at": "2026-11-10T14:33:27+00:00",
-      "last_attempt_at": "2026-11-10T14:33:27+00:00",
+      "last_success_at": "2026-11-24T06:14:59+00:00",
+      "last_attempt_at": "2026-11-24T06:14:59+00:00",
       "last_status": "decoded",
       "state": "active",
       "failure_days": []

@@ -1,83 +1,42 @@
 {
-  "checked_at": "2026-11-23T02:58:42+00:00",
+  "checked_at": "2026-11-24T06:14:11+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
   "catalog_entries": 331,
   "sampled": 12,
-  "attempts": 14,
+  "attempts": 15,
   "counts": {
-    "failed": 2,
     "decoded": 9,
-    "blocked": 1
+    "failed": 3
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "8090.电影一哥",
     "CCTV-6 电影",
-    "FMH Movies",
-    "Maverick Black Cinema",
-    "MovieSphere（US）",
     "MyTime Movie Network East",
     "NewTV动作电影",
-    "Pluto TV Comedy Movies",
-    "Pluto TV Crime Movies",
-    "Pluto TV Cult Films (United States)",
-    "Pluto TV Drama Movies",
-    "Pluto TV Filmes Acao"
+    "Pluto TV Filmes Aventura",
+    "Pluto TV Filmes Nacionais",
+    "Pluto TV Filmes de Luta",
+    "Pluto TV Netmovies",
+    "Pluto TV Retro Action Movies",
+    "Sony Movies (United States)",
+    "Sony Movies Latin America",
+    "Starz Cinema",
+    "Summer of Movies"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "606b1e675ad5a3d2",
-      "name": "8090.电影一哥",
-      "group": "综合影院",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端 16 秒内未完成采样，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "3ba952e6cee3aecc",
+      "id": "51f3531d35e71116",
       "name": "CCTV-6 电影",
       "group": "央视",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
-    },
-    {
-      "id": "419e122040c3c92f",
-      "name": "FMH Movies",
-      "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "3c89beea4bc1148f",
-      "name": "Maverick Black Cinema",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "48d47170159a97bd",
-      "name": "MovieSphere（US）",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1e024ab1e5bcc26f",
+      "id": "e4bf54948ea4a4a7",
       "name": "MyTime Movie Network East",
       "group": "美国",
       "video_status": "decoded",
@@ -86,17 +45,19 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "59a8f1bacdc75b8c",
+      "id": "7789cef482b9e63b",
       "name": "NewTV动作电影",
       "group": "其他",
-      "video_status": "blocked",
+      "video_status": "failed",
       "audio_status": "not_checked",
-      "status": "blocked",
-      "reason": "视频未通过：云端遇到授权、地区限制或限流；不扣健康分"
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     },
     {
-      "id": "d3ed47de7f06996c",
-      "name": "Pluto TV Comedy Movies",
+      "id": "f2c4cb8fe6ee7f00",
+      "name": "Pluto TV Filmes Aventura",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -104,8 +65,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "824d615a06816d3e",
-      "name": "Pluto TV Crime Movies",
+      "id": "9c01dc8053696b57",
+      "name": "Pluto TV Filmes Nacionais",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -113,8 +74,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7e4f6e1c0501ec0c",
-      "name": "Pluto TV Cult Films (United States)",
+      "id": "b70a5d9fa20450bf",
+      "name": "Pluto TV Filmes de Luta",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -122,8 +83,8 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "4fe0a812681125d3",
-      "name": "Pluto TV Drama Movies",
+      "id": "999d240a66c03e67",
+      "name": "Pluto TV Netmovies",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -131,13 +92,53 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "759f2bbc0f72df54",
-      "name": "Pluto TV Filmes Acao",
+      "id": "17b4645c0b61190c",
+      "name": "Pluto TV Retro Action Movies",
       "group": "美国",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "729308b2137b699d",
+      "name": "Sony Movies (United States)",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "0eaf6839c92cd581",
+      "name": "Sony Movies Latin America",
+      "group": "美国",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "3f781c1fb30a0a31",
+      "name": "Starz Cinema",
+      "group": "美国",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "a9c080938d690d9f",
+      "name": "Summer of Movies",
+      "group": "美国",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     }
   ]
 }

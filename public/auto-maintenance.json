@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-23T02:59:15+00:00",
+  "checked_at": "2026-11-24T06:14:32+00:00",
   "policy": {
     "recheck_days": 7,
     "suspend_days": 14,
@@ -10,64 +10,67 @@
     "selection": "live_and_suspended_split_budget_oldest_attempt_first"
   },
   "sampled": 8,
-  "attempts": 8,
+  "attempts": 9,
   "counts": {
-    "decoded": 8
+    "decoded": 7,
+    "failed": 1
   },
   "state_changes": {
-    "active": 8
+    "active": 7,
+    "suspended": 1
   },
-  "suspended_total": 6,
+  "suspended_total": 7,
   "rule": "两不同日期失败、距最近成功超过14天才停用；未抽到的源不因过期直接删除；受限或跳过不计失败；停用源可自动恢复。",
   "results": [
     {
-      "id": "21eb89f15fb38c41",
-      "name": "黑龙江卫视",
+      "id": "b64b518a2ca393d0",
+      "name": "东南卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "596a46bcac426eba",
-      "name": "湖北卫视",
+      "id": "c17c748e421b2b4b",
+      "name": "宁夏卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "a6f9853ab1b24087",
-      "name": "湖南卫视",
+      "id": "ea50b0666f29e011",
+      "name": "兴隆综合",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e4158540127e8d71",
-      "name": "黑龙江卫视",
+      "id": "eaadec92f9fafb2e",
+      "name": "精品体育",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "f48c95b316e89d26",
-      "name": "浙江休闲台",
+      "id": "d8e6de3e8f7776a7",
+      "name": "广东民生",
+      "status": "failed",
+      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2
+    },
+    {
+      "id": "2228ed2520a70783",
+      "name": "CCTV-10",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "45fad1a5d2bc20e4",
-      "name": "CCTV-1",
+      "id": "3e98ccce1b6a5125",
+      "name": "CCTV-3",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "48e7368c9e088a12",
-      "name": "CCTV-13",
-      "status": "decoded",
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "6bf2f92c87634634",
-      "name": "云南卫视",
+      "id": "aa15d2f93f975073",
+      "name": "西藏卫视",
       "status": "decoded",
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     }
   ],
-  "renewed_by_formal_checks": 2
+  "renewed_by_formal_checks": 0
 }
