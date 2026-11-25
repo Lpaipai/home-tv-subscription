@@ -1,52 +1,110 @@
 {
-  "checked_at": "2026-11-24T06:14:11+00:00",
+  "checked_at": "2026-11-25T04:59:57+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 331,
+  "catalog_entries": 329,
   "sampled": 12,
-  "attempts": 15,
+  "attempts": 16,
   "counts": {
-    "decoded": 9,
-    "failed": 3
+    "failed": 4,
+    "decoded": 8
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "CCTV-6 电影",
-    "MyTime Movie Network East",
-    "NewTV动作电影",
-    "Pluto TV Filmes Aventura",
-    "Pluto TV Filmes Nacionais",
-    "Pluto TV Filmes de Luta",
-    "Pluto TV Netmovies",
-    "Pluto TV Retro Action Movies",
-    "Sony Movies (United States)",
-    "Sony Movies Latin America",
-    "Starz Cinema",
-    "Summer of Movies"
+    "江苏影视",
+    "沈腾电影 · 虎牙影院",
+    "洛克电影",
+    "洪金宝电影",
+    "浅浅爱电影",
+    "海湾电影",
+    "涛浪浪电影",
+    "涵哥评电影",
+    "淘电影",
+    "港剧影视汇",
+    "火龙果讲电影本人",
+    "热血警匪电影"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "51f3531d35e71116",
-      "name": "CCTV-6 电影",
-      "group": "央视",
+      "id": "a70ead4436cb359b",
+      "name": "江苏影视",
+      "group": "地方",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "0bba4cb681f80340",
+      "name": "沈腾电影 · 虎牙影院",
+      "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "e4bf54948ea4a4a7",
-      "name": "MyTime Movie Network East",
-      "group": "美国",
+      "id": "03f1f5c5a27e9924",
+      "name": "洛克电影",
+      "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "7789cef482b9e63b",
-      "name": "NewTV动作电影",
+      "id": "1c9cda5f58eabe1f",
+      "name": "洪金宝电影",
+      "group": "影人专场",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "af64d11c8e45d744",
+      "name": "浅浅爱电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "87f11e65dcea5e50",
+      "name": "海湾电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "c84326960cd7d299",
+      "name": "涛浪浪电影",
+      "group": "综合影院",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "c2162820c2a62f60",
+      "name": "涵哥评电影",
+      "group": "综合影院",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "d41ef3a3ce804799",
+      "name": "淘电影",
       "group": "其他",
       "video_status": "failed",
       "audio_status": "not_checked",
@@ -56,72 +114,18 @@
       "initial_status": "failed"
     },
     {
-      "id": "f2c4cb8fe6ee7f00",
-      "name": "Pluto TV Filmes Aventura",
-      "group": "美国",
+      "id": "95774c8cdcef11f8",
+      "name": "港剧影视汇",
+      "group": "一起看",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "9c01dc8053696b57",
-      "name": "Pluto TV Filmes Nacionais",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "b70a5d9fa20450bf",
-      "name": "Pluto TV Filmes de Luta",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "999d240a66c03e67",
-      "name": "Pluto TV Netmovies",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "17b4645c0b61190c",
-      "name": "Pluto TV Retro Action Movies",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "729308b2137b699d",
-      "name": "Sony Movies (United States)",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "0eaf6839c92cd581",
-      "name": "Sony Movies Latin America",
-      "group": "美国",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3f781c1fb30a0a31",
-      "name": "Starz Cinema",
-      "group": "美国",
+      "id": "94c1985fab88a665",
+      "name": "火龙果讲电影本人",
+      "group": "综合影院",
       "video_status": "failed",
       "audio_status": "not_checked",
       "status": "failed",
@@ -130,15 +134,13 @@
       "initial_status": "failed"
     },
     {
-      "id": "a9c080938d690d9f",
-      "name": "Summer of Movies",
-      "group": "美国",
-      "video_status": "failed",
-      "audio_status": "not_checked",
-      "status": "failed",
-      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "id": "f2319ab0987c312a",
+      "name": "热血警匪电影",
+      "group": "类型精选",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     }
   ]
 }

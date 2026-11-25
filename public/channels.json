@@ -64,8 +64,8 @@
       },
       {
         "name": "CCTV-9 纪录",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 14,
+        "txt_lines": 14
       },
       {
         "name": "CCTV-10 科教",
@@ -79,8 +79,8 @@
       },
       {
         "name": "CCTV-12 社会与法",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "CCTV-13 新闻",
@@ -104,8 +104,8 @@
       },
       {
         "name": "CCTV-17 农业农村",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "CCTV+ 1",
@@ -219,13 +219,13 @@
       },
       {
         "name": "东方卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "东南卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "甘肃卫视",
@@ -234,8 +234,8 @@
       },
       {
         "name": "广东卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "广西卫视",
@@ -244,8 +244,8 @@
       },
       {
         "name": "贵州卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "海南卫视",
@@ -254,8 +254,8 @@
       },
       {
         "name": "河北卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "河南卫视",
@@ -264,13 +264,13 @@
       },
       {
         "name": "黑龙江卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "湖北卫视",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "湖南卫视",
@@ -279,8 +279,8 @@
       },
       {
         "name": "吉林卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "江苏卫视",
@@ -289,8 +289,8 @@
       },
       {
         "name": "江西卫视",
-        "lines": 17,
-        "txt_lines": 17
+        "lines": 16,
+        "txt_lines": 16
       },
       {
         "name": "康巴卫视",
@@ -314,8 +314,8 @@
       },
       {
         "name": "青海卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "三沙卫视",
@@ -324,28 +324,28 @@
       },
       {
         "name": "山东卫视",
-        "lines": 18,
-        "txt_lines": 18
+        "lines": 17,
+        "txt_lines": 17
       },
       {
         "name": "山西卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 8,
+        "txt_lines": 8
       },
       {
         "name": "陕西卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "深圳卫视",
-        "lines": 16,
-        "txt_lines": 16
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "四川卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "天津卫视",
@@ -379,13 +379,13 @@
       },
       {
         "name": "浙江卫视",
-        "lines": 19,
-        "txt_lines": 19
+        "lines": 18,
+        "txt_lines": 18
       },
       {
         "name": "重庆卫视",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       }
     ]
   },
@@ -488,11 +488,6 @@
         "txt_lines": 2
       },
       {
-        "name": "凤凰中文",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "凤凰资讯",
         "lines": 1,
         "txt_lines": 1
@@ -504,8 +499,8 @@
       },
       {
         "name": "广东民生",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "广东新闻",
@@ -644,8 +639,8 @@
       },
       {
         "name": "金鹰卡通",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "精品体育",
@@ -3694,8 +3689,8 @@
       },
       {
         "name": "CNN 国际台（Europe）",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "CNN 国际台（LatinAmerica）",
@@ -4254,8 +4249,8 @@
       },
       {
         "name": "Disney Junior (United States)",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "Disney XD (United States)",
@@ -4379,8 +4374,8 @@
       },
       {
         "name": "DSports 2",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Duck Dynasty（UK）",
@@ -4588,11 +4583,6 @@
         "txt_lines": 1
       },
       {
-        "name": "ESPN Extra Latin America",
-        "lines": 1,
-        "txt_lines": 0
-      },
-      {
         "name": "ESPN Latin America（Argentina）",
         "lines": 1,
         "txt_lines": 0
@@ -4604,7 +4594,7 @@
       },
       {
         "name": "ESPN Latin America（Mexico）",
-        "lines": 1,
+        "lines": 2,
         "txt_lines": 1
       },
       {
@@ -5024,8 +5014,8 @@
       },
       {
         "name": "Fox Deportes",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "Fox News Channel",
@@ -6334,11 +6324,6 @@
       },
       {
         "name": "Lifetime Latin America（Panregional）",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "Lifetime Movies",
         "lines": 1,
         "txt_lines": 1
       },
@@ -6813,11 +6798,6 @@
         "txt_lines": 3
       },
       {
-        "name": "MLB Strike Zone",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "MMA TV",
         "lines": 1,
         "txt_lines": 1
@@ -6963,11 +6943,6 @@
         "txt_lines": 1
       },
       {
-        "name": "MSG",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "MST3K",
         "lines": 4,
         "txt_lines": 4
@@ -6983,14 +6958,9 @@
         "txt_lines": 1
       },
       {
-        "name": "MTV2",
+        "name": "MTV (United States)",
         "lines": 1,
         "txt_lines": 1
-      },
-      {
-        "name": "MTV (United States)",
-        "lines": 2,
-        "txt_lines": 2
       },
       {
         "name": "MTV Are you the One?",
@@ -7268,11 +7238,6 @@
         "txt_lines": 1
       },
       {
-        "name": "National Geographic",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "National Geographic (United States)",
         "lines": 1,
         "txt_lines": 1
@@ -7283,19 +7248,14 @@
         "txt_lines": 6
       },
       {
-        "name": "National Geographic Wild",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "National Iranian Congress TV",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "NBA TV",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "NBC",
@@ -7659,8 +7619,8 @@
       },
       {
         "name": "NFL Network",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "NHL Network",
@@ -7724,8 +7684,8 @@
       },
       {
         "name": "Nickelodeon Latin America",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "Nickelodeon Pluto TV",
@@ -9328,11 +9288,6 @@
         "txt_lines": 1
       },
       {
-        "name": "Reelz",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Reelz Famous & Infamous",
         "lines": 4,
         "txt_lines": 4
@@ -10004,11 +9959,6 @@
       },
       {
         "name": "Star Trek（LatAm）",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Starz Cinema",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10844,8 +10794,8 @@
       },
       {
         "name": "Tooncast（SouthAmerica）",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ToonGoggles",
@@ -10914,8 +10864,8 @@
       },
       {
         "name": "truTV",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "truTV West",
@@ -11464,6 +11414,11 @@
       },
       {
         "name": "Warner Channel（Mexico）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Warner Channel（Panregional）",
         "lines": 1,
         "txt_lines": 1
       },

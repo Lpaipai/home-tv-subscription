@@ -1,6 +1,5 @@
 央视,#genre#
 CCTV-5 体育,http://107.150.60.122/live/cctv5hd.m3u8
-CCTV-7 国防军事,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd
 CCTV-9 纪录,http://107.150.60.122/live/cctv9hd.m3u8
 CCTV-15 音乐,http://198.204.228.26/live/cctv15hd.m3u8
 CGTN英语,https://english-livebkali.cgtn.com/live/encgtn_0.m3u8
@@ -24,6 +23,5 @@ CGTN俄语,https://0472.org/hls/cgtne.m3u8
 吉林卫视,http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub
 山东卫视,http://198.204.228.26/live/sdwshd.m3u8
 河北卫视,http://120.76.248.139/live/bfgd/4200000108.m3u8
-河南卫视,http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hawshd
 黑龙江卫视,http://107.150.60.122/live/hljwshd.m3u8
 大湾区卫视,http://107.150.60.122/live/nfws.m3u8
