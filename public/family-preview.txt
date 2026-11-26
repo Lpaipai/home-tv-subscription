@@ -1,4 +1,5 @@
 央视,#genre#
+CCTV-2 财经,http://204.12.221.218:8181/3m1080p/cctv2.m3u8
 CCTV-5 体育,http://107.150.60.122/live/cctv5hd.m3u8
 CCTV-9 纪录,http://107.150.60.122/live/cctv9hd.m3u8
 CCTV-15 音乐,http://198.204.228.26/live/cctv15hd.m3u8

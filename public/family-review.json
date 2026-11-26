@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-25T13:01:02+08:00",
+  "generated_at": "2026-11-26T12:18:26+08:00",
   "disclaimer": "试用列表未逐条核对节目；人工画面核对不代表播放许可、家庭网络可用或长期稳定。",
-  "preview_lines": 1162,
+  "preview_lines": 1163,
   "manual_content_checked_lines": 0,
   "missing_channels": [],
   "auto_missing_channels": [
@@ -42,6 +42,19 @@
         "audio_video_output": "passed_short_sample",
         "content_observation": "not_fully_verified"
       },
+      "content_status": "pending_manual_review",
+      "rights_status": "not_verified"
+    },
+    {
+      "name": "CCTV-2 财经",
+      "line_id": "8bb1548292a1c661",
+      "network": "ipv4_literal",
+      "cloud_decoded_recently": true,
+      "selection_mode": "fixed",
+      "line_role": "backup_trial",
+      "source_note": "candidate-guovin-gd",
+      "cloud_checked_at": "2026-11-04T02:32:17+00:00",
+      "device_verification": null,
       "content_status": "pending_manual_review",
       "rights_status": "not_verified"
     },
