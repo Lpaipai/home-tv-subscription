@@ -1,22 +1,22 @@
 {
-  "checked_at": "2026-11-26T12:17:09+08:00",
+  "checked_at": "2026-11-27T12:24:32+08:00",
   "mode": "daily",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 4092,
+  "catalog_entries": 4036,
   "sampled": 24,
   "counts": {
-    "failed": 5,
-    "decoded": 19
+    "failed": 4,
+    "decoded": 20
   },
   "ipv6_literal_deferred": 55,
   "network_policy": "IPv6 字面量跳过云端检测，家庭测试前不作失败判定；主机名地址仍按云端实际结果记录。",
-  "attempts": 29,
-  "recovered_on_retry": 0,
+  "attempts": 31,
+  "recovered_on_retry": 3,
   "boundary": "轮换抽检；IPv6 待家庭复核；失败不等于家庭网络不可用；不识别广告或错误频道；不自动删源",
   "results": [
     {
-      "id": "4f26ba330165fdc4",
-      "name": "东方卫视",
+      "id": "39a7513f36141b4b",
+      "name": "江苏卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -25,72 +25,8 @@
       "initial_status": "failed"
     },
     {
-      "id": "69ac77a0d130c2a5",
-      "name": "云南卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "2cd7cbfaf55fa124",
-      "name": "兵团卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "782d8266d270b936",
-      "name": "内蒙古卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0525def011b9b268",
-      "name": "北京卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "c90b1aeeeeeeed72",
-      "name": "厦门卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "35fc95c99c9fa0a9",
-      "name": "吉林卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "1ac8d1f73c2c3386",
-      "name": "四川卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "02cb3d9d6781b11c",
-      "name": "大湾区卫视",
-      "group": "卫视",
-      "status": "decoded",
-      "frames": 4,
-      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
-    },
-    {
-      "id": "0ca45d22edca9996",
-      "name": "天津卫视",
+      "id": "0de649c099c6b5a8",
+      "name": "江西卫视",
       "group": "卫视",
       "status": "failed",
       "frames": 0,
@@ -99,24 +35,94 @@
       "initial_status": "failed"
     },
     {
-      "id": "19a1c2050ddc48f2",
-      "name": "宁夏卫视",
+      "id": "477f3f6e4632244f",
+      "name": "河北卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "02d4d59b70d8af03",
-      "name": "安徽卫视",
+      "id": "30a66f8fc53f336c",
+      "name": "河南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "06ba956c7d62452f",
+      "name": "浙江卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "343b5b1b42092deb",
-      "name": "山东卫视",
+      "id": "4eef58cd16e7ff69",
+      "name": "海南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "0427b34ebb508db2",
+      "name": "深圳卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "2a1d41e873fb0421",
+      "name": "湖北卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3c69ca3e7400dd77",
+      "name": "湖南卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "3089916ad23432b5",
+      "name": "甘肃卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "620da85f03cfc134",
+      "name": "西藏卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "b8bab1c0e0b6a583",
+      "name": "贵州卫视",
+      "group": "卫视",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
+    },
+    {
+      "id": "8d3d17cfa1c10966",
+      "name": "辽宁卫视",
       "group": "卫视",
       "status": "failed",
       "reason": "云端 16 秒内未完成采样，需家庭网络复核",
@@ -124,91 +130,89 @@
       "initial_status": "failed"
     },
     {
-      "id": "016099692223e79f",
-      "name": "山西卫视",
+      "id": "1dfbe20765ccf945",
+      "name": "重庆卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "379e433e1fa76f9b",
-      "name": "广东卫视",
+      "id": "90be4ba7217f32be",
+      "name": "陕西卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "008e9a3909d1669a",
-      "name": "广西卫视",
+      "id": "628d5b758a9c17e8",
+      "name": "青海卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "8970b729925f0520",
-      "name": "康巴卫视",
+      "id": "2695f5cb39a4db61",
+      "name": "黑龙江卫视",
       "group": "卫视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "b16590480a4a9969",
-      "name": "延边卫视",
-      "group": "卫视",
+      "id": "3e335ab2e6e6a5bb",
+      "name": "CCTV+ 1",
+      "group": "央视",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "e2b26cb1d858245f",
-      "name": "浙江新闻",
-      "group": "地方",
+      "id": "631e4febf3a77a4a",
+      "name": "AXN Latin America（South）",
+      "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "06ddb22bc6bfdd8a",
-      "name": "浙江民生",
-      "group": "地方",
+      "id": "eaca0c4709ddce8b",
+      "name": "AXN White（Bulgaria）",
+      "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "5675ce929b984a1b",
-      "name": "浙江经济",
-      "group": "地方",
+      "id": "58c7727d5d7a3d08",
+      "name": "AXN White（CzechRepublic）",
+      "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "c6e357c38fe99eea",
-      "name": "浙江钱江",
-      "group": "地方",
+      "id": "6d55253f9e780636",
+      "name": "AXN White（Poland）",
+      "group": "美国",
       "status": "decoded",
       "frames": 4,
       "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3e827d9555c99336",
-      "name": "湖南女性",
-      "group": "地方",
-      "status": "failed",
-      "frames": 0,
-      "reason": "云端未完成至少 3 帧解码，需家庭网络复核",
-      "attempts": 2,
-      "initial_status": "failed"
+      "id": "fc197749db90185b",
+      "name": "AXN White（Portugal）",
+      "group": "美国",
+      "status": "decoded",
+      "frames": 4,
+      "reason": "仅本次短时视频解码通过；未验证声音、台标、节目及广告"
     },
     {
-      "id": "3bc709e7781ffe23",
-      "name": "湖南政法",
-      "group": "地方",
+      "id": "f54df5328a0c66e8",
+      "name": "AXS TV",
+      "group": "美国",
       "status": "failed",
       "frames": 0,
       "reason": "云端未完成至少 3 帧解码，需家庭网络复核",

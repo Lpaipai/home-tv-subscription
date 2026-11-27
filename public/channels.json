@@ -4,8 +4,8 @@
     "channels": [
       {
         "name": "CCTV-1 综合",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "CCTV-2 财经",
@@ -14,8 +14,8 @@
       },
       {
         "name": "CCTV-3 综艺",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "CCTV-4 America",
@@ -44,23 +44,23 @@
       },
       {
         "name": "CCTV-5+ 体育赛事",
+        "lines": 10,
+        "txt_lines": 10
+      },
+      {
+        "name": "CCTV-6 电影",
         "lines": 7,
         "txt_lines": 7
       },
       {
-        "name": "CCTV-6 电影",
-        "lines": 8,
-        "txt_lines": 8
-      },
-      {
         "name": "CCTV-7 国防军事",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "CCTV-8 电视剧",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "CCTV-9 纪录",
@@ -69,13 +69,13 @@
       },
       {
         "name": "CCTV-10 科教",
-        "lines": 7,
-        "txt_lines": 6
+        "lines": 5,
+        "txt_lines": 4
       },
       {
         "name": "CCTV-11 戏曲",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "CCTV-12 社会与法",
@@ -89,8 +89,8 @@
       },
       {
         "name": "CCTV-14 少儿",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 10,
+        "txt_lines": 10
       },
       {
         "name": "CCTV-15 音乐",
@@ -104,8 +104,8 @@
       },
       {
         "name": "CCTV-17 农业农村",
-        "lines": 8,
-        "txt_lines": 8
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "CCTV+ 1",
@@ -199,18 +199,18 @@
     "channels": [
       {
         "name": "安徽卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "北京卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "兵团卫视",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 9,
+        "txt_lines": 9
       },
       {
         "name": "大湾区卫视",
@@ -219,13 +219,13 @@
       },
       {
         "name": "东方卫视",
-        "lines": 6,
-        "txt_lines": 6
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "东南卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "甘肃卫视",
@@ -234,23 +234,23 @@
       },
       {
         "name": "广东卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "广西卫视",
-        "lines": 14,
-        "txt_lines": 14
-      },
-      {
-        "name": "贵州卫视",
         "lines": 11,
         "txt_lines": 11
       },
       {
+        "name": "贵州卫视",
+        "lines": 9,
+        "txt_lines": 9
+      },
+      {
         "name": "海南卫视",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 6,
+        "txt_lines": 6
       },
       {
         "name": "河北卫视",
@@ -264,28 +264,28 @@
       },
       {
         "name": "黑龙江卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "湖北卫视",
-        "lines": 5,
-        "txt_lines": 5
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "湖南卫视",
-        "lines": 9,
-        "txt_lines": 9
+        "lines": 11,
+        "txt_lines": 11
       },
       {
         "name": "吉林卫视",
-        "lines": 12,
-        "txt_lines": 12
+        "lines": 7,
+        "txt_lines": 7
       },
       {
         "name": "江苏卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 13,
+        "txt_lines": 13
       },
       {
         "name": "江西卫视",
@@ -299,13 +299,13 @@
       },
       {
         "name": "辽宁卫视",
-        "lines": 19,
-        "txt_lines": 19
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "内蒙古卫视",
-        "lines": 13,
-        "txt_lines": 12
+        "lines": 15,
+        "txt_lines": 14
       },
       {
         "name": "宁夏卫视",
@@ -314,28 +314,28 @@
       },
       {
         "name": "青海卫视",
-        "lines": 14,
-        "txt_lines": 14
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "三沙卫视",
-        "lines": 3,
-        "txt_lines": 3
+        "lines": 1,
+        "txt_lines": 1
       },
       {
         "name": "山东卫视",
-        "lines": 17,
-        "txt_lines": 17
+        "lines": 15,
+        "txt_lines": 15
       },
       {
         "name": "山西卫视",
-        "lines": 11,
-        "txt_lines": 11
+        "lines": 4,
+        "txt_lines": 4
       },
       {
         "name": "陕西卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "深圳卫视",
@@ -344,18 +344,18 @@
       },
       {
         "name": "四川卫视",
-        "lines": 15,
-        "txt_lines": 15
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "天津卫视",
-        "lines": 19,
-        "txt_lines": 19
+        "lines": 17,
+        "txt_lines": 17
       },
       {
         "name": "西藏卫视",
-        "lines": 13,
-        "txt_lines": 13
+        "lines": 12,
+        "txt_lines": 12
       },
       {
         "name": "厦门卫视",
@@ -374,18 +374,18 @@
       },
       {
         "name": "云南卫视",
-        "lines": 18,
-        "txt_lines": 18
+        "lines": 17,
+        "txt_lines": 17
       },
       {
         "name": "浙江卫视",
-        "lines": 18,
-        "txt_lines": 18
+        "lines": 16,
+        "txt_lines": 16
       },
       {
         "name": "重庆卫视",
-        "lines": 10,
-        "txt_lines": 10
+        "lines": 8,
+        "txt_lines": 8
       }
     ]
   },
@@ -488,19 +488,14 @@
         "txt_lines": 2
       },
       {
-        "name": "凤凰资讯",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "福建综合",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "广东民生",
-        "lines": 4,
-        "txt_lines": 4
+        "lines": 3,
+        "txt_lines": 3
       },
       {
         "name": "广东新闻",
@@ -639,8 +634,8 @@
       },
       {
         "name": "金鹰卡通",
-        "lines": 7,
-        "txt_lines": 7
+        "lines": 5,
+        "txt_lines": 5
       },
       {
         "name": "精品体育",
@@ -833,6 +828,11 @@
         "txt_lines": 1
       },
       {
+        "name": "邢台综合",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "徐州经济生活",
         "lines": 1,
         "txt_lines": 1
@@ -974,6 +974,11 @@
       },
       {
         "name": "Qianjiang Channel",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "Shuozhou News Comprehensive Channel",
         "lines": 1,
         "txt_lines": 1
       },
@@ -1163,6 +1168,11 @@
         "txt_lines": 2
       },
       {
+        "name": "凤凰香港",
+        "lines": 2,
+        "txt_lines": 2
+      },
+      {
         "name": "凤凰中文台",
         "lines": 4,
         "txt_lines": 4
@@ -1224,8 +1234,8 @@
       },
       {
         "name": "翡翠台",
-        "lines": 2,
-        "txt_lines": 2
+        "lines": 3,
+        "txt_lines": 3
       }
     ]
   },
@@ -1658,14 +1668,19 @@
         "txt_lines": 1
       },
       {
+        "name": "ABC KTRK-TV",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "ABC KXXV",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "ABC News Live 1",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC News Live 2",
@@ -1689,28 +1704,28 @@
       },
       {
         "name": "ABC News Live 6",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC News Live 7",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC News Live 8",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC News Live 9",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC News Live 10",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "ABC WBAY-TV",
@@ -3078,11 +3093,6 @@
         "txt_lines": 1
       },
       {
-        "name": "CBS KCCI",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "CBS KIRO-TV",
         "lines": 2,
         "txt_lines": 2
@@ -3114,11 +3124,6 @@
       },
       {
         "name": "CBS KTVQ",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "CBS KUTV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -3248,11 +3253,6 @@
         "txt_lines": 1
       },
       {
-        "name": "CBS WPEC",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "CBS WTKR",
         "lines": 1,
         "txt_lines": 1
@@ -3264,11 +3264,6 @@
       },
       {
         "name": "CBS WVLT-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "CBS WWMT",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4873,17 +4868,7 @@
         "txt_lines": 1
       },
       {
-        "name": "Fox (United States) KMPH-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "Fox (United States) KMSP-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "Fox (United States) KOKH-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -4928,12 +4913,12 @@
         "txt_lines": 1
       },
       {
-        "name": "Fox (United States) WBFF",
+        "name": "Fox (United States) WBRC",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "Fox (United States) WBRC",
+        "name": "Fox (United States) WDRB",
         "lines": 1,
         "txt_lines": 1
       },
@@ -5144,8 +5129,8 @@
       },
       {
         "name": "Gagsnetwork",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "Galavision East",
@@ -6808,17 +6793,17 @@
         "txt_lines": 1
       },
       {
+        "name": "MNT",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
         "name": "MNT KCTV",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "MNT KPTV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "MNT WCIV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7293,22 +7278,12 @@
         "txt_lines": 1
       },
       {
-        "name": "NBC KSBW",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "NBC KSBY",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "NBC KSHB-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "NBC KSNV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7333,22 +7308,12 @@
         "txt_lines": 4
       },
       {
-        "name": "NBC WBAL-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "NBC WBTS-CD",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "NBC West",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "NBC WGAL",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7363,22 +7328,12 @@
         "txt_lines": 1
       },
       {
-        "name": "NBC WJAC-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "NBC WJAR",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "NBC WKYC",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "NBC WLIO",
         "lines": 1,
         "txt_lines": 1
       },
@@ -7403,11 +7358,6 @@
         "txt_lines": 1
       },
       {
-        "name": "NBC WOAI-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "NBC WPTV-TV",
         "lines": 1,
         "txt_lines": 1
@@ -7418,22 +7368,12 @@
         "txt_lines": 1
       },
       {
-        "name": "NBC WRDE-LD",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "NBC WSMV-TV",
         "lines": 1,
         "txt_lines": 1
       },
       {
         "name": "NBC WTMJ-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "NBC WTOV-TV",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10413,22 +10353,22 @@
         "txt_lines": 2
       },
       {
-        "name": "The CW KTNV-TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
         "name": "The CW KWCH-DT",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "The CW WAVE",
+        "name": "The CW WWBT",
         "lines": 1,
         "txt_lines": 1
       },
       {
-        "name": "The CW WWBT",
+        "name": "The CW（KTNVTV）",
+        "lines": 1,
+        "txt_lines": 1
+      },
+      {
+        "name": "The CW（WAVE）",
         "lines": 1,
         "txt_lines": 1
       },
@@ -10849,13 +10789,8 @@
       },
       {
         "name": "True Crime Network",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "True Crime Network WCVB-TV",
-        "lines": 1,
-        "txt_lines": 1
+        "lines": 2,
+        "txt_lines": 2
       },
       {
         "name": "True Crime Now",
@@ -11694,21 +11629,6 @@
       },
       {
         "name": "XFC TV",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "XITE 90's Throwback",
-        "lines": 1,
-        "txt_lines": 1
-      },
-      {
-        "name": "XITE Nuevo Latino",
-        "lines": 2,
-        "txt_lines": 2
-      },
-      {
-        "name": "XITE Siempre Latino",
         "lines": 1,
         "txt_lines": 1
       },

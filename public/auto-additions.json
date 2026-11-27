@@ -66,7 +66,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T06:24:30+00:00",
@@ -169,7 +170,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T09:17:58+00:00",
@@ -326,7 +328,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T09:23:16+00:00",
@@ -352,7 +355,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T09:23:16+00:00",
@@ -378,7 +382,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T09:23:16+00:00",
@@ -493,7 +498,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "c46f379f1dc73d18": {
       "name": "邯郸科技教育",
@@ -697,7 +702,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "24796150bcbc6611": {
       "name": "名山综合",
@@ -961,12 +966,13 @@
       "content_verified": false,
       "visual_status": "no_frames",
       "last_decoded_at": "2026-11-04T15:17:19+00:00",
-      "last_attempt_at": "2026-11-12T03:13:27+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "failed",
       "failure_days": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-27"
       ],
-      "state": "probation"
+      "state": "suspended"
     },
     "f48c95b316e89d26": {
       "name": "浙江休闲台",
@@ -2426,7 +2432,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-23T15:05:43+00:00",
@@ -2436,7 +2443,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "cd6b80aac9b60e63": {
       "name": "广东珠江",
@@ -2458,11 +2465,11 @@
       "accepted_at": "2026-10-23T18:27:14+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-11T11:51:54+00:00",
-      "last_attempt_at": "2026-11-11T11:51:54+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "18bd680b1e8ac72d": {
       "name": "贵州卫视",
@@ -2536,11 +2543,11 @@
       "accepted_at": "2026-10-24T00:46:51+00:00",
       "content_verified": false,
       "visual_status": "unsupported",
-      "last_decoded_at": "2026-11-11T11:51:54+00:00",
-      "last_attempt_at": "2026-11-11T11:51:54+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "015617a254d6664c": {
       "name": "广东珠江",
@@ -2645,7 +2652,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "c90b1aeeeeeeed72": {
       "name": "厦门卫视",
@@ -2697,7 +2704,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "2b5083e02f6a39eb": {
       "name": "中国蓝新闻",
@@ -3192,7 +3199,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-10-31T01:43:29+00:00",
@@ -3450,17 +3458,18 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-04T02:32:17+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-11T11:51:54+00:00",
-      "last_attempt_at": "2026-11-11T11:51:54+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "3dd65a32f83e0f21": {
       "name": "广东民生",
@@ -3478,12 +3487,13 @@
       "content_verified": false,
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-04T15:16:29+00:00",
-      "last_attempt_at": "2026-11-12T03:13:27+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "failed",
       "failure_days": [
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-27"
       ],
-      "state": "probation"
+      "state": "suspended"
     },
     "13ecf77b45106c86": {
       "name": "CCTV-12",
@@ -3505,11 +3515,11 @@
       "accepted_at": "2026-11-04T15:16:29+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-12T03:13:27+00:00",
-      "last_attempt_at": "2026-11-12T03:13:27+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "16a250dcf37537d4": {
       "name": "CCTV-13",
@@ -3682,7 +3692,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-05T15:14:17+00:00",
@@ -3926,7 +3937,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "1ee513c8eaf645ab": {
       "name": "江西卫视",
@@ -3953,7 +3964,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "2005e92c21793e83": {
       "name": "东方卫视",
@@ -3980,7 +3991,7 @@
       "last_attempt_at": "2026-11-20T03:55:48+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "349db923be058796": {
       "name": "湖南卫视",
@@ -4048,7 +4059,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-10T09:03:33+00:00",
@@ -4207,7 +4219,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-10T09:45:36+00:00",
@@ -4501,11 +4514,11 @@
       "accepted_at": "2026-11-12T03:12:26+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-12T03:12:26+00:00",
-      "last_attempt_at": "2026-11-12T03:12:26+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "6aec4ec7a6fa9f54": {
       "name": "安徽卫视",
@@ -4527,11 +4540,11 @@
       "accepted_at": "2026-11-12T03:12:26+00:00",
       "content_verified": false,
       "visual_status": "unknown",
-      "last_decoded_at": "2026-11-12T03:12:26+00:00",
-      "last_attempt_at": "2026-11-12T03:12:26+00:00",
+      "last_decoded_at": "2026-11-27T04:25:26+00:00",
+      "last_attempt_at": "2026-11-27T04:25:26+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "due"
+      "state": "active"
     },
     "97f561424c7c61a6": {
       "name": "CCTV-5+",
@@ -4627,7 +4640,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-14T02:34:34+00:00",
@@ -4953,7 +4967,7 @@
       "last_attempt_at": "2026-11-20T03:55:08+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "350834cd033ed76a": {
       "name": "CCTV-3",
@@ -4979,7 +4993,7 @@
       "last_attempt_at": "2026-11-20T03:55:08+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
-      "state": "active"
+      "state": "due"
     },
     "ade9d9dfbd9b8cb1": {
       "name": "广西卫视",
@@ -5354,7 +5368,8 @@
       "source": "candidate-guovin-gd",
       "region": "cn",
       "origins": [
-        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+        "https://raw.githubusercontent.com/Lightconer/TVBox-Sources/main/output/live.txt"
       ],
       "admission": "video_decoded",
       "accepted_at": "2026-11-26T04:17:10+00:00",
@@ -5388,6 +5403,110 @@
       "visual_status": "unsupported",
       "last_decoded_at": "2026-11-26T04:17:10+00:00",
       "last_attempt_at": "2026-11-26T04:17:10+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "bd6bb3e8a7dbb0bc": {
+      "name": "辽宁卫视",
+      "url": "http://107.150.60.122/live/lnwshd.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "辽宁卫视",
+        "tvg-name": "辽宁卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/辽宁卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-27T04:24:32+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "bde900dd6a500ca7": {
+      "name": "山东卫视",
+      "url": "http://38.75.136.137:98/gslb/dsdqpub/sdwshd.m3u8?auth=testpub",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "山东卫视",
+        "tvg-name": "山东卫视",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/山东卫视.png",
+        "group-title": "📡卫视频道"
+      },
+      "group": "📡卫视频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-27T04:24:32+00:00",
+      "content_verified": false,
+      "visual_status": "unknown",
+      "last_decoded_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "ab4efdf0bad150c7": {
+      "name": "翡翠台",
+      "url": "http://r.jdshipin.com/qClQf",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "翡翠台",
+        "tvg-name": "翡翠台",
+        "tvg-logo": "https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png",
+        "group-title": "🌊港·澳·台"
+      },
+      "group": "🌊港·澳·台",
+      "source": "candidate-guovin-gd",
+      "region": "hk",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-27T04:24:32+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_status": "decoded",
+      "failure_days": [],
+      "state": "active"
+    },
+    "ab518d6cdd4e50d5": {
+      "name": "邢台综合",
+      "url": "https://jwplay.hebyun.com.cn:443/live/xtsrmtzs/1500k/tzwj_video.m3u8",
+      "directives": [],
+      "attrs": {
+        "tvg-id": "邢台新闻综合",
+        "tvg-name": "邢台综合",
+        "tvg-logo": "https://www.xn--rgv465a.top/tvlogo/邢台综合.png",
+        "group-title": "☘️河北频道"
+      },
+      "group": "☘️河北频道",
+      "source": "candidate-guovin-gd",
+      "region": "cn",
+      "origins": [
+        "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+      ],
+      "admission": "video_decoded",
+      "accepted_at": "2026-11-27T04:24:32+00:00",
+      "content_verified": false,
+      "visual_status": "unsupported",
+      "last_decoded_at": "2026-11-27T04:24:32+00:00",
+      "last_attempt_at": "2026-11-27T04:24:32+00:00",
       "last_attempt_status": "decoded",
       "failure_days": [],
       "state": "active"
