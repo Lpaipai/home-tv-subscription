@@ -1,33 +1,43 @@
 {
-  "checked_at": "2026-11-27T04:25:03+00:00",
+  "checked_at": "2026-11-28T04:05:18+00:00",
   "mode": "daily_movie_targeted",
   "environment": "GitHub 标准 Linux 云端",
-  "catalog_entries": 331,
+  "catalog_entries": 369,
   "sampled": 12,
-  "attempts": 12,
+  "attempts": 16,
   "counts": {
-    "decoded": 12
+    "decoded": 8,
+    "failed": 4
   },
   "family_channels_tested": [],
   "candidate_channels_tested": [
-    "王宝强电影",
-    "王晶电影",
-    "电影旅者",
-    "电影最TOP",
-    "电影最TOP2",
-    "电影漩涡",
-    "电影狂人A",
-    "电影百团大战",
-    "电影笔记",
-    "电影迷小雅",
-    "电影黑匣子",
-    "电影黑豹"
+    "警匪电影",
+    "许氏三杰电影",
+    "谍战电影",
+    "贰哥电影",
+    "贺岁电影",
+    "超精彩！系列动作电影",
+    "逐梦电影",
+    "酱婶儿电影",
+    "阿苏电影",
+    "青年电影馆",
+    "香港喜剧电影",
+    "鸡哥聊电影"
   ],
   "boundary": "视频与音频分别进行短时解码；不识别电影片名或节目身份，不证明家庭网络可用、版权许可或长期稳定。",
   "results": [
     {
-      "id": "e68766ff1724fa37",
-      "name": "王宝强电影",
+      "id": "324ee1afe2ce42f3",
+      "name": "警匪电影",
+      "group": "类型精选",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "56b10410449170ad",
+      "name": "许氏三杰电影",
       "group": "影人专场",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -35,17 +45,57 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "755591c5ce2dac41",
-      "name": "王晶电影",
-      "group": "影人专场",
+      "id": "7cf9968d9fe0496f",
+      "name": "谍战电影",
+      "group": "地方",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "8d2453b872a593ce",
-      "name": "电影旅者",
+      "id": "fe9b9d58f6740c36",
+      "name": "贰哥电影",
+      "group": "综合影院",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "df99a804fd90648c",
+      "name": "贺岁电影",
+      "group": "地方",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "6715c488b571ad4e",
+      "name": "超精彩！系列动作电影",
+      "group": "类型精选",
+      "video_status": "decoded",
+      "audio_status": "decoded",
+      "status": "decoded",
+      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+    },
+    {
+      "id": "22becfb3455e3149",
+      "name": "逐梦电影",
+      "group": "综合影院",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "532b37112a453801",
+      "name": "酱婶儿电影",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -53,8 +103,19 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "6c19665339adbbcd",
-      "name": "电影最TOP",
+      "id": "2f7d0d231df23286",
+      "name": "阿苏电影",
+      "group": "综合影院",
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
+    },
+    {
+      "id": "7a5ee02ea4547faa",
+      "name": "青年电影馆",
       "group": "综合影院",
       "video_status": "decoded",
       "audio_status": "decoded",
@@ -62,76 +123,24 @@
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "8c559694df8d6298",
-      "name": "电影最TOP2",
-      "group": "综合影院",
+      "id": "de8b246606e3ab8c",
+      "name": "香港喜剧电影",
+      "group": "类型精选",
       "video_status": "decoded",
       "audio_status": "decoded",
       "status": "decoded",
       "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
     },
     {
-      "id": "9e0e5a6e9f12098d",
-      "name": "电影漩涡",
+      "id": "ae431cc37b6a3e2e",
+      "name": "鸡哥聊电影",
       "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "0e315bafd0f92b90",
-      "name": "电影狂人A",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "3be85eddf7e066af",
-      "name": "电影百团大战",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "54defad1b3a15be9",
-      "name": "电影笔记",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "1e0c4ffaccb3cc91",
-      "name": "电影迷小雅",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "cf4332699eb04433",
-      "name": "电影黑匣子",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
-    },
-    {
-      "id": "6ec2893e392168ae",
-      "name": "电影黑豹",
-      "group": "综合影院",
-      "video_status": "decoded",
-      "audio_status": "decoded",
-      "status": "decoded",
-      "reason": "视频与音频均完成短时解码；未核验实际节目身份和长期稳定性"
+      "video_status": "failed",
+      "audio_status": "not_checked",
+      "status": "failed",
+      "reason": "视频未通过：云端未完成至少 3 帧解码，需家庭网络复核",
+      "attempts": 2,
+      "initial_status": "failed"
     }
   ]
 }

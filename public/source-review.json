@@ -1,5 +1,5 @@
 {
-  "fetched_at": "2026-11-27T12:22:57+08:00",
+  "fetched_at": "2026-11-28T12:03:07+08:00",
   "mode": "discovery_before_decode",
   "disclaimer": "未测候选仅公开指纹；启用自动收录的地址解码通过后加入原订阅，不代表节目身份已核对。",
   "source_summaries": [
@@ -85,7 +85,7 @@
     },
     {
       "id": "jiandantv-platforms",
-      "items": 2638,
+      "items": 3295,
       "cached": false,
       "rights": "unverified",
       "mode": "decode_then_publish",
@@ -94,9 +94,9 @@
   ],
   "failures": [],
   "total_unique": 1790,
-  "not_in_main": 1513,
+  "not_in_main": 1414,
   "ipv6_literal": 115,
-  "priority_unlisted": 335,
+  "priority_unlisted": 315,
   "preview": [
     {
       "line_id": "47e4e9fbd5f8b767",
@@ -542,39 +542,6 @@
       ]
     },
     {
-      "line_id": "6e79faaf4ec65edb",
-      "name": "宁夏卫视",
-      "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "8ea992b7d71e2908",
-      "name": "宁夏卫视",
-      "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "b2786cf828c481f4",
-      "name": "宁夏卫视",
-      "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "target_missing_channel",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "12a5d177f70fab51",
       "name": "广东少儿",
       "network": "ipv4_literal",
@@ -726,6 +693,17 @@
       "review": "pending_video_decode_content_unverified",
       "sources": [
         "htv-guangdong-yuhong"
+      ]
+    },
+    {
+      "line_id": "3dd65a32f83e0f21",
+      "name": "广东民生",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "target_missing_channel",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "htv-guangdong-loong"
       ]
     },
     {
@@ -1565,28 +1543,6 @@
       ]
     },
     {
-      "line_id": "6b39b1492500554f",
-      "name": "CCTV-17",
-      "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
-      "line_id": "a3ff49295f7909f6",
-      "name": "CCTV-17",
-      "network": "hostname_unresolved",
-      "already_in_main": false,
-      "priority": "domestic_channel_candidate",
-      "review": "pending_video_decode_content_unverified",
-      "sources": [
-        "guovin-gd"
-      ]
-    },
-    {
       "line_id": "9c3c46cc3f29fd9b",
       "name": "CCTV-17 农业农村",
       "network": "ipv4_literal",
@@ -1854,6 +1810,50 @@
       "line_id": "4ce71daca94f99f6",
       "name": "CCTV-5+ 体育赛事",
       "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "0a3e7eabe7fc5849",
+      "name": "CCTV-6",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "ddd01976c3b0b813",
+      "name": "CCTV-6",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "guovin-gd"
+      ]
+    },
+    {
+      "line_id": "3ba952e6cee3aecc",
+      "name": "CCTV-6 电影",
+      "network": "ipv4_literal",
+      "already_in_main": false,
+      "priority": "domestic_channel_candidate",
+      "review": "pending_video_decode_content_unverified",
+      "sources": [
+        "fanmingming-index"
+      ]
+    },
+    {
+      "line_id": "e9c94e7b80cb2f04",
+      "name": "CCTV-6 电影",
+      "network": "hostname_unresolved",
       "already_in_main": false,
       "priority": "domestic_channel_candidate",
       "review": "pending_video_decode_content_unverified",
